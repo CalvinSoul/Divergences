@@ -2,9 +2,6 @@
 state={
 	id=364
 	name="STATE_364"
-	manpower = 1738764
-	
-	state_category = city
 
 	history={
 		owner = PLA
@@ -16,6 +13,7 @@ state={
 				naval_base = 2
 
 			}
+
 		}
 		victory_points = {
 			7202 1 
@@ -24,6 +22,9 @@ state={
 	}
 
 	provinces={
-		1485 1547 3994 4491 4653 7012 7134 7202 7527 10029 10047 11927 
+		638 1485 1547 3994 4491 4653 7012 7118 7134 7138 7202 7527 7612 9949 10029 10047 10096 10394 10437 10465 10495 11975 
 	}
+	manpower=1738764
+	buildings_max_level_factor=1.000
+	state_category=city
 }

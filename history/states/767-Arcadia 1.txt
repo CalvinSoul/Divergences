@@ -1,16 +1,21 @@
+
 state={
 	id=767
 	name="STATE_767"
-	provinces={
-		850 1740 1793 7818 7821 10573 11814 12699 12765 
-	}
-	manpower=0
-	buildings_max_level_factor=1.000
+
 	history={
 		owner = QIN
 		add_core_of = QIN
 		buildings = {
 			infrastructure = 1
+
 		}
+
 	}
+
+	provinces={
+		1793 7818 7821 10573 11814 12765 
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
 }

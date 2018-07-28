@@ -1,16 +1,21 @@
+
 state={
 	id=771
 	name="STATE_771"
-	provinces={
-		1809 1827 3869 4723 4760 4830 4871 7780 10588 10640 11772 12570 12642 
-	}
-	manpower=0
-	buildings_max_level_factor=1.000
+
 	history={
 		owner = PLA
 		add_core_of = PLA
 		buildings = {
 			infrastructure = 1
+
 		}
+
 	}
+
+	provinces={
+		1809 1827 3869 4723 4723 4760 4814 4830 4871 7780 10588 10640 10640 11772 12570 12642 
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
 }

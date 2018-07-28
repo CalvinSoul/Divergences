@@ -2,20 +2,21 @@
 state={
 	id=482
 	name="STATE_482"
-	manpower = 520751
-	
-	state_category = rural
 
 	history={
 		owner = LUS
 		add_core_of = LUS
 		buildings = {
 			infrastructure = 3
+
 		}
+
 	}
 
 	provinces={
-		2037 4898 7935 8097 10809 10830 10916 12745 12827 12850 12897 
+		2037 2069 3834 4908 5044 5071 7920 8012 8097 10765 10783 10809 10830 10848 12745 12827 12833 
 	}
-	
+	manpower=520751
+	buildings_max_level_factor=1.000
+	state_category=rural
 }

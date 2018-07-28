@@ -1,0 +1,21 @@
+
+state={
+	id=819
+	name="STATE_819"
+
+	history={
+		owner = QIN
+		buildings = {
+			infrastructure = 5
+
+		}
+		add_core_of = QIN
+
+	}
+
+	provinces={
+		941 986 1651 3784 3840 4518 6861 6881 7667 9637 9911 11763 11876 12425 
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+}
