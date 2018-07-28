@@ -1,0 +1,31 @@
+
+state={
+	id=363
+	name="STATE_363"
+
+	history={
+		owner = PLA
+		add_core_of = PLA
+		buildings = {
+			infrastructure = 6
+			industrial_complex = 3
+			air_base = 3
+			1132 = {
+				naval_base = 1
+
+			}
+
+		}
+		victory_points = {
+			7138 3 
+		}
+
+	}
+
+	provinces={
+		1019 1077 1132 1163 4168 7045 7083 7138 7558 7643 9931 9967 10051 10081 10096 10439 10468 10495 11783 12054 12445 
+	}
+	manpower=3170274
+	buildings_max_level_factor=1.000
+	state_category=city
+}

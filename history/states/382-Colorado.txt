@@ -1,0 +1,29 @@
+
+state={
+	id=382
+	name="STATE_382"
+	resources={
+		oil=14.000
+	}
+
+	history={
+		owner = QIN
+		add_core_of = QIN
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 1
+
+		}
+		victory_points = {
+			1827 5 
+		}
+
+	}
+
+	provinces={
+		868 1658 6887 7684 7999 9792 10535 12627 
+	}
+	manpower=1035790
+	buildings_max_level_factor=1.000
+	state_category=town
+}

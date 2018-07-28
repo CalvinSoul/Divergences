@@ -1,0 +1,27 @@
+
+state={
+	id=36
+	name="STATE_36"
+
+	history={
+		owner = BRG
+		add_core_of = BRG
+		buildings = {
+			infrastructure = 6
+			industrial_complex = 2
+			6336 = {
+				naval_base = 3
+
+			}
+
+		}
+
+	}
+
+	provinces={
+		6241 6286 6336 9335 
+	}
+	manpower=2364000
+	buildings_max_level_factor=1.000
+	state_category=city
+}

@@ -1,0 +1,32 @@
+
+state={
+	id=20
+	name="STATE_20"
+	resources={
+		steel=60.000
+		aluminium=35.000
+	}
+
+	history={
+		owner = ANG
+		add_core_of = ANG
+		victory_points = {
+			6613 10 
+		}
+		buildings = {
+			infrastructure = 7
+			arms_factory = 1
+			industrial_complex = 2
+			air_base = 4
+
+		}
+
+	}
+
+	provinces={
+		641 3650 6613 6639 9590 11593 11794 
+	}
+	manpower=2973200
+	buildings_max_level_factor=1.000
+	state_category=city
+}

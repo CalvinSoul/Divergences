@@ -1,0 +1,29 @@
+
+state={
+	id=192
+	name="STATE_192"
+	manpower = 1469986
+	
+	state_category = city
+
+	history={
+		owner = RUT
+		add_core_of = RUT
+		victory_points = {
+			11670 10 
+		}
+		buildings = {
+			infrastructure = 5
+			industrial_complex = 2
+			air_base = 6
+			11670 ={
+				naval_base = 3
+				coastal_bunker = 1
+			}
+		}
+	}
+
+	provinces={
+		741 754 3575 3738 3757 9698 9714 11670 11703 
+	}
+}

@@ -1,0 +1,21 @@
+
+state={
+	id=775
+	name="STATE_775"
+
+	history={
+		owner = VIN
+		add_core_of = SEP 
+		buildings = {
+			infrastructure = 1
+
+		}
+
+	}
+
+	provinces={
+		598 734 3602 3687 3733 3747 6707 6778 6795 6916 9754 11654 11662 13157 
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+}

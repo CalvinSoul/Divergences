@@ -1,0 +1,27 @@
+
+state={
+	id=724
+	name="STATE_724"
+	resources={
+		rubber=40.000
+	}
+
+	history={
+		owner = SPA
+		buildings = {
+			infrastructure = 3
+
+		}
+		victory_points = {
+			7236 1 
+		}
+
+	}
+
+	provinces={
+		1281 1308 1337 1366 1394 4312 4388 4392 7587 10158 12122 12201 12220 12230 
+	}
+	manpower=2041700
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

@@ -1,0 +1,33 @@
+
+state={
+	id=423
+	name="STATE_423"
+	resources={
+		rubber=19.000
+	}
+
+	history={
+		owner = ANG
+		buildings = {
+			infrastructure = 5
+			industrial_complex = 1
+			air_base = 1
+			10278 = {
+				naval_base = 4
+
+			}
+
+		}
+		victory_points = {
+			10278 1 
+		}
+
+	}
+
+	provinces={
+		1238 1268 1321 1344 1381 1409 1412 4315 4327 4344 4416 4420 7244 7265 7288 7363 7391 7402 7436 7447 8011 8067 8100 10130 10190 10246 10274 10278 10808 12146 12164 12247 12275 12734 
+	}
+	manpower=29147500
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

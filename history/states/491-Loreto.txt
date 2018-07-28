@@ -1,0 +1,20 @@
+
+state={
+	id=491
+	name="STATE_491"
+
+	history={
+		owner = QUI
+		add_core_of = QUI
+		buildings = {
+			infrastructure = 5
+		}
+	}
+
+	provinces={
+		2212 2226 8213 10970 
+	}
+	manpower=253084
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+}

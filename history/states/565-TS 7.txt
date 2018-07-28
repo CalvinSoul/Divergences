@@ -1,0 +1,26 @@
+
+state={
+	id=565
+	name="STATE_565"
+	resources={
+		steel=10.000
+		chromium=5.000
+	}
+
+	history={
+		owner = RUS
+		add_core_of = RUS
+		buildings = {
+			infrastructure = 1
+
+		}
+
+	}
+
+	provinces={
+		1666 1761 4675 4762 4795 4868 7759 10583 10654 12506 12538 12575 
+	}
+	manpower=195325
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

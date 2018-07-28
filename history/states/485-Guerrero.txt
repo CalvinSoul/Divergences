@@ -1,0 +1,25 @@
+
+state={
+	id=485
+	name="STATE_485"
+	manpower = 1598311
+	
+	state_category = rural
+
+	history={
+		owner = GCO
+		add_core_of = GCO
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+			8032 = {
+				naval_base = 3
+			}
+		}
+	}
+
+	provinces={
+		4887 5066 8032 10730 10832 
+	}
+	
+}

@@ -1,0 +1,20 @@
+
+state={
+	id=495
+	name="STATE_495"
+
+	history={
+		owner = AMA
+		add_core_of = AMA
+		buildings = {
+			infrastructure = 5
+		}
+	}
+
+	provinces={
+		1979 2035 2214 5083 5232 8172 10874 10956 12919 13083 
+	}
+	manpower=63665
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+}

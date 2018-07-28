@@ -1,0 +1,25 @@
+
+state={
+	id=419
+	name="STATE_419"
+
+	history={
+		owner = IRQ
+		add_core_of = IRQ
+		buildings = {
+			infrastructure = 3
+
+		}
+		victory_points = {
+			1896 3 
+		}
+
+	}
+
+	provinces={
+		1822 1896 2071 7604 12793 12861 13120 
+	}
+	manpower=1431714
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

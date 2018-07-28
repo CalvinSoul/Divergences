@@ -1,0 +1,33 @@
+
+state={
+	id=288
+	name="STATE_288"
+	resources={
+		rubber=3.000
+	}
+
+	history={
+		owner = SPA
+		victory_points = {
+			1330 5 
+		}
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 1
+			air_base = 1
+			1330 = {
+				naval_base = 4
+
+			}
+
+		}
+
+	}
+
+	provinces={
+		997 1014 1142 1296 1315 1330 1333 1385 1403 1417 1650 3651 3999 4019 4059 4147 4202 4275 4293 4319 4336 4348 4408 4454 4541 4566 4626 7034 7122 7163 7179 7190 7254 7295 7382 7441 7534 9991 10033 10090 10154 10182 10193 10217 10223 10267 10283 10344 11966 12010 12090 12125 12127 12197 12238 12256 12267 12284 12292 12449 
+	}
+	manpower=10722500
+	buildings_max_level_factor=1.000
+	state_category=town
+}

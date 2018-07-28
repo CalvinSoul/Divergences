@@ -1,0 +1,191 @@
+propaganda_efforts = {
+	icon = generic_propaganda
+
+	visible = {
+		
+	}
+}
+
+
+
+operations = {
+	icon = GFX_decision_category_military_operation
+
+	visible = { 
+		NOT = { original_tag = ENG } 
+	}
+}
+
+foreign_support = {
+	icon = generic_political_actions
+
+	visible = {
+		NOT = { original_tag = ENG }
+	}
+}
+
+prestigious_projects = {
+	
+}
+
+foreign_politics = {
+	icon = generic_political_actions
+	
+	visible = {
+		#NOT = { original_tag = ENG }
+	}
+}
+
+political_actions = {
+	icon = generic_political_actions
+
+	visible = {
+		NOT = { original_tag = ENG }
+	}
+	
+	allowed = {
+		always = yes
+	}
+}
+political_actions_right = {
+	icon = military_operation
+	
+	visible = {
+		NOT = { original_tag = ENG }
+	}
+	
+	allowed = {
+		always = yes
+	}
+}
+political_actions_dem = {
+	icon = generic_democracy
+	
+	visible = {
+		NOT = { original_tag = ENG }
+	}
+
+	allowed = {
+		always = yes
+	}
+}
+political_actions_left = {
+	icon = generic_collectivism
+	
+	visible = {
+		NOT = { original_tag = ENG }
+	}
+
+	allowed = {
+		always = yes
+	}
+}
+fascism_on_the_rise = {
+	icon = generic_fascism
+	
+	visible = {
+		NOT = { original_tag = ENG }
+	}
+
+	allowed = {
+		always = yes
+	}
+	
+	#visible = {
+	#	has_idea_with_trait = fascist_demagogue
+	#}
+}
+
+democratic_on_the_rise = {
+	icon = generic_democracy
+	
+	visible = {
+		NOT = { original_tag = ENG }
+	}
+
+	allowed = {
+		always = yes
+	}
+	
+	#visible = {
+	#	has_idea_with_trait = democratic_reformer
+	#}
+}
+
+communism_on_the_rise = {
+	icon = generic_communism
+	
+	visible = {
+		NOT = { original_tag = ENG }
+	}
+
+	allowed = {
+		always = yes
+	}
+	
+	#visible = {
+	#	has_idea_with_trait = communist_revolutionary
+	#}
+}
+
+crisis = {
+	icon = generic_crisis
+	priority = 100
+
+	visible = {
+		has_country_flag = crisis_in_progress
+		NOT = { original_tag = ENG }
+	}
+}
+
+demobilization = {
+	icon = generic_crisis
+	priority = 100
+	
+	visible = {
+		has_war = no
+		NOT = { original_tag = ENG }
+	}
+}
+
+economy_decisions = {
+	icon = generic_economy
+	
+	visible = {
+		NOT = { original_tag = ENG }
+	}
+
+}
+
+prospect_for_resources = {
+	icon = generic_prospect_for_resources
+
+	allowed = {
+		has_dlc = "Waking the Tiger"
+	}
+	
+	visible = {
+		NOT = { original_tag = ENG }
+	}
+}
+
+special_projects = {
+	
+	icon = generic_prospect_for_resources
+
+	allowed = {
+		has_dlc = "Waking the Tiger"
+	}
+	
+	visible = {
+		NOT = { original_tag = ENG }
+	}
+}
+
+liberate_nations = {
+	icon = generic_political_actions
+	
+	allowed = {
+		always = yes
+	}
+}

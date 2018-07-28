@@ -1,0 +1,20 @@
+bookmarks = {
+	bookmark = {
+		name = "DIVERGENCES_NAME"
+		desc = "DIVERGENCES_DESC"
+		date = 1936.1.1.1
+		picture = "GFX_select_date_1936"
+		default_country = "PAP"
+		default = yes
+		"PAP"={
+			history = "GER_DIVERGENCES_DESC"
+			ideology = democracy
+			focuses = {
+			}
+		}
+		effect = {
+			randomize_weather = 12345 # <- Obligatory in every bookmark !
+			#123 = { rain_light = yes }
+		}
+	}
+}

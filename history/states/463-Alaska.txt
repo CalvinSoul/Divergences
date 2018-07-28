@@ -1,0 +1,33 @@
+
+state={
+	id=463
+	name="STATE_463"
+
+	history={
+		owner = JAP
+		add_core_of = JAP
+		buildings = {
+			infrastructure = 2
+			air_base = 1
+			13091 = {
+				naval_base = 1
+
+			}
+
+		}
+		victory_points = {
+			13090 1 
+		}
+		victory_points = {
+			13091 3 
+		}
+
+	}
+
+	provinces={
+		1135 1830 1872 3606 4833 4848 7855 7869 7884 7891 10679 10694 10703 10707 12661 13069 13090 13091 13202 13203 
+	}
+	manpower=67500
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

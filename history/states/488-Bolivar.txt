@@ -1,0 +1,20 @@
+
+state={
+	id=488
+	name="STATE_488"
+
+	history={
+		owner = GRA
+		add_core_of = GRA
+		buildings = {
+			infrastructure = 5
+		}
+	}
+
+	provinces={
+		1981 5317 7915 10736 10849 10879 12716 
+	}
+	manpower= 181270
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+}

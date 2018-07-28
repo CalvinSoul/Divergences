@@ -1,0 +1,23 @@
+
+state={
+	id=496
+	name="STATE_496" # Minas Gerais
+	manpower = 1704395
+	
+	state_category = rural
+
+	history={
+		owner = AMA
+		buildings = {
+			infrastructure = 5
+		}
+		add_core_of = AMA
+		victory_points = {
+			10946 5
+		}
+	}
+	
+	provinces={
+	 5223 8196 8233 10419 10931 11002 12422 12903 12909
+	}
+}

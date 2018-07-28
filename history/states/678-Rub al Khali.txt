@@ -1,0 +1,18 @@
+
+state={
+	id=678
+	name="STATE_678"
+	manpower=42
+	state_category = wasteland
+
+	history={
+		owner = ARB
+		add_core_of = ARB
+		buildings = {
+			infrastructure = 0
+		}
+	}
+	provinces={
+		4932 5081 8030 8118 10870 12740 12768 
+	}
+}

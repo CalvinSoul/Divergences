@@ -1,0 +1,22 @@
+
+state={
+	id=509
+	name="STATE_509"
+	history={
+		owner = BEO
+		add_core_of = BEO
+		buildings = {
+			infrastructure = 5
+		}
+		victory_points = {
+			2172 10
+		}
+	}
+
+	provinces={
+		2106 2172 2208 5213 8169 10986 12922 12943 
+	}
+	manpower=1671016
+	buildings_max_level_factor=1.000
+	state_category=town
+}

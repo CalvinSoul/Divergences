@@ -1,0 +1,21 @@
+
+state={
+	id=504
+	name="STATE_504"
+
+	history={
+		owner = LOT
+		buildings = {
+			infrastructure = 5
+		}
+		add_core_of = LOT
+
+	}
+
+	provinces={
+		2181 8189 10959 
+	}
+	manpower=7074
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

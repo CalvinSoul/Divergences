@@ -1,0 +1,16 @@
+state={
+	id=788
+	name="STATE_788"
+	provinces={
+		884 3887 3902 6903 11852 
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+	history={
+		owner = NAV
+		add_core_of = NAV
+		buildings = {
+			infrastructure = 3
+		}
+	}
+}

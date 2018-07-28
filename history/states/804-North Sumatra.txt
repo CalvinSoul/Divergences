@@ -1,0 +1,15 @@
+state={
+	id=804
+	name="STATE_804"
+	provinces={
+		1428 1648 4446 4652 7658 7673 8360 10509 10522 12126 12488 
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+	history={
+		owner = SPA
+		buildings = {
+			infrastructure = 1
+		}
+	}
+}

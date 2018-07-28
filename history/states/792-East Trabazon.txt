@@ -1,0 +1,16 @@
+state={
+	id=792
+	name="STATE_792"
+	provinces={
+		789 6976 6991 7454 10403 10472 
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+	history={
+		owner = TCA
+		add_core_of = TCA
+		buildings = {
+			infrastructure = 3
+		}
+	}
+}

@@ -1,0 +1,21 @@
+
+state={
+	id=808
+	name="STATE_808"
+
+	history={
+		owner = ZHO
+		add_core_of = ZHO
+		buildings = {
+			infrastructure = 1
+
+		}
+
+	}
+
+	provinces={
+		2205 2219 2221 5211 5225 7567 8186 8206 8220 10336 10925 10936 10991 
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+}

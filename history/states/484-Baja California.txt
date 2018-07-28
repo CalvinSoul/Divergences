@@ -1,0 +1,31 @@
+
+state={
+	id=484
+	name="STATE_484"
+
+	history={
+		owner = LUS
+		add_core_of = LUS
+		buildings = {
+			infrastructure = 3
+			air_base = 3
+			1892 = {
+				naval_base = 2
+
+			}
+			12736 = {
+				naval_base = 1
+
+			}
+
+		}
+
+	}
+
+	provinces={
+		1562 1892 1904 7964 7986 8119 12374 12461 12736 12859 
+	}
+	manpower=108841
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

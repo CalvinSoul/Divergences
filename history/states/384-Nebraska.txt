@@ -1,0 +1,26 @@
+
+state={
+	id=384
+	name="STATE_384"
+
+	history={
+		owner = PLA
+		add_core_of = PLA
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 1
+
+		}
+		victory_points = {
+			12586 1 
+		}
+
+	}
+
+	provinces={
+		1683 3613 3708 3855 4749 7840 7852 10606 10676 12516 12586 
+	}
+	manpower=1377962
+	buildings_max_level_factor=1.000
+	state_category=large_town
+}

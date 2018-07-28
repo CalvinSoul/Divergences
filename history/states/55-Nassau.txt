@@ -1,0 +1,27 @@
+
+state={
+	id=55
+	name="STATE_55"
+
+	history={
+		owner = RHE
+		add_core_of = RHE
+		buildings = {
+			infrastructure = 7
+			arms_factory = 1
+			industrial_complex = 2
+
+		}
+		victory_points = {
+			6488 20.0 
+		}
+
+	}
+
+	provinces={
+		529 564 3397 3524 6444 6488 6549 9486 9524 9547 11445 11533 
+	}
+	manpower=3798235
+	buildings_max_level_factor=1.000
+	state_category=large_city
+}

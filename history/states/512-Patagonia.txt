@@ -1,0 +1,20 @@
+
+state={
+	id=512
+	name="STATE_512"
+
+	history={
+		owner = BEO
+		buildings = {
+			infrastructure = 5
+		}
+		add_core_of = BEO
+	}
+
+	provinces={
+		2169 5173 5201 5209 8161 8176 8913 10953 10981 11005 11009 12321 12349 12946 12952 12982 
+	}
+	manpower= 88017
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

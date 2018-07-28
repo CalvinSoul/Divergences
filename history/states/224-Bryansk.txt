@@ -1,0 +1,26 @@
+
+state={
+	id=224
+	name="STATE_224"
+
+	history={
+		owner = RUT
+		add_core_of = RUT
+		victory_points = {
+			3335 10 
+		}
+		buildings = {
+			infrastructure = 5
+			air_base = 2
+
+		}
+
+	}
+
+	provinces={
+		288 315 343 3306 3364 6330 6344 6386 9288 9342 11229 11298 11355 
+	}
+	manpower=1707567
+	buildings_max_level_factor=1.000
+	state_category=town
+}

@@ -1,0 +1,22 @@
+
+state={
+	id=204
+	name="STATE_204"
+
+	history={
+		owner = RUT
+		add_core_of = RUT
+		buildings = {
+			infrastructure = 5
+
+		}
+
+	}
+
+	provinces={
+		304 331 360 386 3350 3759 6373 11216 11313 
+	}
+	manpower=1041084
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

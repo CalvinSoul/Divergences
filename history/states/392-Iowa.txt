@@ -1,0 +1,33 @@
+
+state={
+	id=392
+	name="STATE_392"
+
+	history={
+		owner = VIN
+		add_core_of = VIN
+		buildings = {
+			infrastructure = 6
+			industrial_complex = 4
+
+		}
+		victory_points = {
+			1770 3 
+		}
+		1939.1.1 = {
+			buildings = {
+				industrial_complex = 5
+
+			}
+
+		}
+
+	}
+
+	provinces={
+		1831 4691 7306 7458 7539 9910 10478 11971 12418 
+	}
+	manpower=2470938
+	buildings_max_level_factor=1.000
+	state_category=city
+}

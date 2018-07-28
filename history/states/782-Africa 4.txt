@@ -1,0 +1,15 @@
+state={
+	id=782
+	name="STATE_782"
+	provinces={
+		3165 6008 11012 11108 12830 
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+	history={
+		owner = GER
+		buildings = {
+			infrastructure = 1
+		}
+	}
+}

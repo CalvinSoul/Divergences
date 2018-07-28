@@ -1,0 +1,16 @@
+state={
+	id=773
+	name="STATE_773"
+	provinces={
+		1586 1678 1770 1867 9892 10666 11788 12577 12646 
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+	history={
+		owner = PLA
+		add_core_of = PLA
+		buildings = {
+			infrastructure = 1
+		}
+	}
+}

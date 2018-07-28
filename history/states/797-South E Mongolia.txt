@@ -1,0 +1,18 @@
+state={
+	id=797
+	name="STATE_797"
+	provinces={
+		1723 1743 1787 1853 1868 4856 4873 7749 10575 10578 10632 10647 12539 12557 12612 12629 
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+	history={
+		owner = QNG
+		add_core_of = QNG
+		buildings = {
+			infrastructure = 4
+
+		}
+
+	}
+}

@@ -1,0 +1,16 @@
+state={
+	id=809
+	name="STATE_809"
+	provinces={
+		2167 10945 12977 
+	}
+	manpower=155342
+	buildings_max_level_factor=1.000
+	history={
+		owner = LOT
+		add_core_of = LOT
+		buildings = {
+			infrastructure = 5
+		}
+	}
+}

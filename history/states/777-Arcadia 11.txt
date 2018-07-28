@@ -1,0 +1,16 @@
+state={
+	id=777
+	name="STATE_777"
+	provinces={
+		866 1843 1913 7388 9834 10489 12752 
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+	history={
+		owner = ITA
+		add_core_of = ITA
+		buildings = {
+			infrastructure = 1
+		}
+	}
+}

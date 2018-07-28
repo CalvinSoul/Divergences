@@ -1,0 +1,22 @@
+
+state={
+	id=225
+	name="STATE_225"
+
+	history={
+		owner = RUT
+		add_core_of = RUT
+		buildings = {
+			infrastructure = 5
+
+		}
+
+	}
+
+	provinces={
+		463 501 522 580 3225 3455 3492 3520 6254 6481 6543 6565 9449 9477 9542 9566 11462 11526 11553 
+	}
+	manpower=1338280
+	buildings_max_level_factor=1.000
+	state_category=town
+}

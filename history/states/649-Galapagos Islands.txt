@@ -1,0 +1,16 @@
+state=
+{
+	id=649
+	name="STATE_649"
+	state_category = tiny_island
+	manpower= 2883
+	history=
+	{
+		owner = QUI
+		add_core_of = QUI
+		buildings = {
+			infrastructure = 5
+		}
+	}
+	provinces= { 5023 }
+}

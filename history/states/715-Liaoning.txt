@@ -1,0 +1,24 @@
+
+state={
+	id=715
+	name="STATE_715"
+
+	history={
+		owner = QNG
+		add_core_of = QNG
+		buildings = {
+			infrastructure = 3
+			arms_factory = 1
+			industrial_complex = 1
+
+		}
+
+	}
+
+	provinces={
+		846 930 1499 1508 1558 1627 1638 3877 3978 4503 4561 4633 6893 6951 7812 9831 10429 11836 11903 12337 12469 12478 
+	}
+	manpower=3643373
+	buildings_max_level_factor=1.000
+	state_category=town
+}

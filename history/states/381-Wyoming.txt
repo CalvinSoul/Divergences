@@ -1,0 +1,22 @@
+
+state={
+	id=381
+	name="STATE_381"
+
+	history={
+		owner = QIN
+		add_core_of = QIN
+		buildings = {
+			infrastructure = 3
+
+		}
+
+	}
+
+	provinces={
+		7688 7888 12633 12651 
+	}
+	manpower=225564
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

@@ -1,0 +1,26 @@
+
+state={
+	id=479
+	name="STATE_479"
+
+	history={
+		owner = GCO
+		add_core_of = GCO
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+
+		}
+		victory_points = {
+			4956 1 
+		}
+
+	}
+
+	provinces={
+		1952 2083 4956 5015 5021 7973 10738 10769 12721 12835 13088 
+	}
+	manpower=1032988
+	buildings_max_level_factor=1.000
+	state_category=town
+}

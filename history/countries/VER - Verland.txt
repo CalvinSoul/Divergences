@@ -1,0 +1,66 @@
+﻿capital = 1
+
+oob = "Z_1936"
+
+# Starting tech
+set_technology = {
+	
+
+}
+
+set_convoys = 50
+
+
+set_politics = {
+
+	parties = {
+		cornelian_communard = { 
+			popularity = 10
+		}
+		egalitarian_collectivist = {
+			popularity = 10
+		}
+		libertarian_socialist = {
+			popularity = 10
+		}
+		social_democrat = { 
+			popularity = 10
+		}
+		classical_liberal = { 
+			popularity = 10
+		}
+		social_conservative = { 
+			popularity = 10
+		}
+		authoritarian_democrat = { 
+			popularity = 10
+		}
+		paternal_autocrat = { 
+			popularity = 10
+		}
+		national_autocracy = { 
+			popularity = 10
+		}
+		imperial_irredentist = { 
+			popularity = 10
+		}
+	}
+	
+	ruling_party = social_democrat
+	last_election = "1936.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+create_country_leader = {
+	
+	name = "Hendrik Geels"
+	picture = "Portrait_VER_Hendrik_Geels.dds"
+	expire = "1965.1.1"
+	ideology = social_democrat_subtype
+	traits = {
+		#
+	}
+}
+
+}

@@ -1,0 +1,16 @@
+state={
+	id=785
+	name="STATE_785"
+	provinces={
+		1155 4073 9947 12049 
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+	history={
+		owner = ICZ
+		buildings = {
+			infrastructure = 3
+
+		}
+	}
+}

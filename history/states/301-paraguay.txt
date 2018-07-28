@@ -1,0 +1,23 @@
+
+state={
+	id=301
+	name="STATE_301"
+
+	history={
+		owner = LOT
+		buildings = {
+			infrastructure = 5
+		}
+		add_core_of = LOT
+		victory_points = {
+			2152 10
+		}
+	}
+
+	provinces={
+		2152 2173 2194 5200 8224 11023 12901 12951 
+	}
+	manpower=1318093
+	buildings_max_level_factor=1.000
+	state_category=town
+}

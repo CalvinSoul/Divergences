@@ -1,0 +1,18 @@
+state={
+	id=691
+	name="STATE_691"
+	manpower = 102335
+	
+	state_category = rural
+
+
+	history={
+		owner = GRA 
+		add_core_of = GRA 
+		buildings = {
+			infrastructure = 5
+		}
+	}
+	
+	provinces={ 3284 }
+}

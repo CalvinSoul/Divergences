@@ -1,0 +1,16 @@
+state={
+	id=811
+	name="STATE_811"
+	provinces={
+		5083 12919 13083 
+	}
+	manpower=28767
+	buildings_max_level_factor=1.000
+	history={
+		owner = AMA
+		add_core_of = AMA
+		buildings = {
+			infrastructure = 5
+		}
+	}
+}

@@ -1,0 +1,26 @@
+
+state={
+	id=510
+	name="STATE_510"
+	resources={
+		oil=8.000
+	}
+
+	history={
+		owner = BEO
+		add_core_of = BEO
+		buildings = {
+			infrastructure = 5
+		}
+		victory_points = {
+			5163 5
+		}
+	}
+
+	provinces={
+		5143 5163 7500 8208 8255 10975 10985 13000 
+	}
+	manpower=825524
+	buildings_max_level_factor=1.000
+	state_category=large_town
+}

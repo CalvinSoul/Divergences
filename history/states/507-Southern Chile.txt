@@ -1,0 +1,21 @@
+
+state={
+	id=507
+	name="STATE_507"
+
+	history={
+		owner = BEO
+		add_core_of = BEO
+		buildings = {
+			infrastructure = 5
+		}
+	}
+
+	provinces={
+		2161 5118 5121 5159 5169 5215 8198 8218 8251 10961 12920 12954 
+	}
+	
+	manpower=69175
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+}

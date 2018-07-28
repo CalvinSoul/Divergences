@@ -1,0 +1,30 @@
+
+state={
+	id=305
+	name="STATE_305"
+	manpower =1687720
+	
+	state_category = city
+
+	history={
+		owner = QUI
+		add_core_of = QUI
+		buildings = {
+			infrastructure = 5
+		}
+		
+		victory_points = {
+			12798 10
+		}
+		victory_points = {
+			8252 5
+		}
+		victory_points = {
+			11020 5
+		}
+	}
+
+	provinces={
+		5051 5120 8047 8075 8252 10888 11020 12798 10942 
+	}
+}

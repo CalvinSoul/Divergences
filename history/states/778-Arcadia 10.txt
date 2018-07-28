@@ -1,0 +1,16 @@
+state={
+	id=778
+	name="STATE_778"
+	provinces={
+		1282 1338 1619 4287 7462 10247 10318 12202 12221 12459 13012
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+	history={
+		owner = VIN
+		add_core_of = VIN
+		buildings = {
+			infrastructure = 1
+		}
+	}
+}

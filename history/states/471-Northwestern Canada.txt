@@ -1,0 +1,26 @@
+
+state={
+	id=471
+	name="STATE_471"
+
+	history={
+		owner = QIN
+		add_core_of = QIN
+		buildings = {
+			infrastructure = 1
+			10548 = {
+				naval_base = 1
+
+			}
+
+		}
+
+	}
+
+	provinces={
+		917 1411 1763 1799 4678 5403 7830 7858 10548 12508 12571 
+	}
+	manpower=27681
+	buildings_max_level_factor=1.000
+	state_category=wasteland
+}

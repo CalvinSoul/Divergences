@@ -1,0 +1,18 @@
+state={
+	id=796
+	name="STATE_796"
+	provinces={
+		1749 1818 1864 4823 4849 7693 7737 12427 
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+	history={
+		owner = MON
+		add_core_of = MON
+		buildings = {
+			infrastructure = 4
+
+		}
+
+	}
+}

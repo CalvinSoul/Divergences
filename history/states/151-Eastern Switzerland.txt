@@ -1,0 +1,29 @@
+
+state={
+	id=151
+	name="STATE_151"
+	resources={
+		aluminium=15.000
+	}
+
+	history={
+		owner = DAN
+		add_core_of = DAN
+		buildings = {
+			infrastructure = 6
+			industrial_complex = 3
+
+		}
+		victory_points = {
+			663 10 
+		}
+
+	}
+
+	provinces={
+		636 661 663 9638 11601 11604 11623 
+	}
+	manpower=1854711
+	buildings_max_level_factor=1.000
+	state_category=city
+}

@@ -1,0 +1,25 @@
+
+state={
+	id=307
+	name="STATE_307" # Miranda
+	
+	state_category = city
+	
+	manpower = 1200856
+	
+	history={
+		owner = GRA 
+		add_core_of = GRA 
+		buildings = {
+			infrastructure = 5
+		}
+		victory_points = {
+			10767 5 
+		}
+
+	}
+
+	provinces={
+		4942 7968 8024 8080 8113 10767 10823 10912 5056 4892 5000
+	}
+}

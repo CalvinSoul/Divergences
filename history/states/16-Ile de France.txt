@@ -1,0 +1,28 @@
+
+state={
+	id=16
+	name="STATE_16"
+	manpower = 7038500
+	
+	state_category = metropolis
+	
+
+	history={
+		owner = ANG
+		add_core_of = ANG
+		victory_points = {
+			11506 50 
+		}
+		buildings = {
+			infrastructure = 8
+			arms_factory = 3
+			industrial_complex = 4
+			anti_air_building = 3
+			air_base = 5
+		}
+	}
+
+	provinces={
+		6547 6949 9507 9523 9534 9725 11491 11506 11518 
+	}
+}

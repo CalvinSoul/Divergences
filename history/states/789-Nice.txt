@@ -1,0 +1,16 @@
+state={
+	id=789
+	name="STATE_789"
+	provinces={
+		3959 3961 6975 9909 
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+	history={
+		owner = OCC
+		add_core_of = OCC
+		buildings = {
+			infrastructure = 3
+		}
+	}
+}

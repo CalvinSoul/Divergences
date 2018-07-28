@@ -1,0 +1,25 @@
+
+state={
+	id=309
+	name="STATE_309"
+
+	history={
+		owner = AMA
+		add_core_of = AMA
+		buildings = {
+			infrastructure = 5
+		}
+		victory_points = {
+		12828 5
+		}
+	}
+
+	provinces={
+		1928 4934 4982 8107 10906 12828 12885 
+	}
+	
+
+	manpower=618480
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

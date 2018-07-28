@@ -1,0 +1,17 @@
+state={
+	id=786
+	name="STATE_786"
+	provinces={
+		6621 9737 11565 
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+	history={
+		owner = ANG
+		add_core_of = ANG
+		add_core_of = OCC
+		buildings = {
+			infrastructure = 3
+		}
+	}
+}

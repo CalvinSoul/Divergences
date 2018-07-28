@@ -1,0 +1,32 @@
+
+state={
+	id=56
+	name="STATE_56"
+
+	history={
+		owner = RHE
+		add_core_of = RHE
+		victory_points = {
+			241 5 
+		}
+		buildings = {
+			infrastructure = 6
+			industrial_complex = 2
+			dockyard = 2
+			241 = {
+				naval_base = 8
+
+			}
+			air_base = 3
+
+		}
+
+	}
+
+	provinces={
+		241 247 309 336 3234 9281 9309 9403 11233 11264 11318 11360 11388 
+	}
+	manpower=2058467
+	buildings_max_level_factor=1.000
+	state_category=city
+}

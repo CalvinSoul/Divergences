@@ -1,0 +1,21 @@
+
+state={
+	id=475
+	name="STATE_475"
+	manpower = 805874
+	
+	state_category = rural
+
+	history={
+		owner = GCO
+		add_core_of = GCO
+		buildings = {
+			infrastructure = 3
+		}
+	}
+
+	provinces={
+		1900 12753 12867 
+	}
+	
+}

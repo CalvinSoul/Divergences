@@ -1,0 +1,26 @@
+
+state={
+	id=728
+	name="STATE_728"
+
+	history={
+		owner = CHI
+		add_core_of = CHI
+		buildings = {
+			infrastructure = 3
+			11981 = {
+				naval_base = 1
+
+			}
+
+		}
+
+	}
+
+	provinces={
+		4160 7135 11981 
+	}
+	manpower=200000
+	buildings_max_level_factor=1.000
+	state_category=enclave
+}

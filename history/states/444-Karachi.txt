@@ -1,0 +1,22 @@
+
+state={
+	id=444
+	name="STATE_444"
+
+	history={
+		owner = AFG
+		add_core_of = AFG
+		buildings = {
+			infrastructure = 2
+
+		}
+
+	}
+
+	provinces={
+		1179 3456 4891 5043 5075 7049 7917 8013 8066 10108 12761 12774 
+	}
+	manpower=463500
+	buildings_max_level_factor=1.000
+	state_category=wasteland
+}

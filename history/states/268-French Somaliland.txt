@@ -1,0 +1,26 @@
+
+state={
+	id=268
+	name="STATE_268"
+
+	history={
+		owner = ANG
+		buildings = {
+			infrastructure = 3
+			air_base = 2
+			8124 = {
+				naval_base = 2
+
+			}
+
+		}
+
+	}
+
+	provinces={
+		1984 2040 2072 4985 5041 7944 8124 
+	}
+	manpower=85232
+	buildings_max_level_factor=1.000
+	state_category=enclave
+}

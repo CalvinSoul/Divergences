@@ -1,0 +1,27 @@
+
+state={
+	id=477
+	name="STATE_477"
+	manpower = 1951460
+	
+	state_category = town
+
+	history={
+		owner = GCO
+		add_core_of = GCO
+		buildings = {
+			infrastructure = 4
+			12810 = {
+				naval_base = 3
+			}
+		}
+		victory_points = {
+			12810 1
+		}
+	}
+
+	provinces={
+		8079 8089 10732 12810 
+	}
+	
+}

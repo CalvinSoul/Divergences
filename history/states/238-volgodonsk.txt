@@ -1,0 +1,22 @@
+
+state={
+	id=238
+	name="STATE_238"
+
+	history={
+		owner = TAR
+		add_core_of = TAR
+		buildings = {
+			infrastructure = 4
+
+		}
+
+	}
+
+	provinces={
+		775 3587 3777 3779 6468 6765 6796 9415 9442 9459 9581 11400 11416 
+	}
+	manpower=556677
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

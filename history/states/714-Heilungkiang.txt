@@ -1,0 +1,22 @@
+
+state={
+	id=714
+	name="STATE_714"
+
+	history={
+		owner = QNG
+		add_core_of = QNG
+		buildings = {
+			infrastructure = 4
+
+		}
+
+	}
+
+	provinces={
+		1502 1588 1645 1847 4506 4592 4809 4876 7526 7582 7613 7832 7848 7873 7894 7897 10675 12485 12548 12618 
+	}
+	manpower=3694191
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+}

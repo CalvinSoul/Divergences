@@ -1,0 +1,26 @@
+
+state={
+	id=455
+	name="STATE_455"
+
+	history={
+		owner = PAL
+		add_core_of = PAL
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+
+		}
+		victory_points = {
+			7151 1 
+		}
+
+	}
+
+	provinces={
+		4017 4115 7151 7170 10089 
+	}
+	manpower=932000
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

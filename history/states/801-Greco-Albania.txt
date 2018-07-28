@@ -1,0 +1,17 @@
+state={
+	id=801
+	name="STATE_801"
+	provinces={
+		914 3914 9805 9916 
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+	history={
+		owner = ALB
+		add_core_of = ALB
+		add_core_of = GRE
+		buildings = {
+			infrastructure = 1
+		}
+	}
+}

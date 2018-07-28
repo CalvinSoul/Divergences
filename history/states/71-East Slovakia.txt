@@ -1,0 +1,23 @@
+
+state={
+	id=71
+	name="STATE_71"
+
+	history={
+		owner = SLV
+		add_core_of = SLV
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 2
+
+		}
+
+	}
+
+	provinces={
+		417 466 555 581 3410 3434 3550 3581 6431 6586 6604 11554 
+	}
+	manpower=1197800
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

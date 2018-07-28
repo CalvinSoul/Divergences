@@ -1,0 +1,21 @@
+
+state={
+	id=280
+	name="STATE_280"
+
+	history={
+		owner = AMA
+		buildings = {
+			infrastructure = 5
+		}
+		add_core_of = AMA
+
+	}
+
+	provinces={
+		2111 2142 2147 2204 5148 8175 10982 11010 12939 12973 
+	}
+	manpower=62486
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+}

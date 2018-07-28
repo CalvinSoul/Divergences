@@ -1,0 +1,15 @@
+state={
+	id=803
+	name="STATE_803"
+	provinces={
+		4371 7236 10156 12131 12144 12286 
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+	history={
+		owner = ITA
+		buildings = {
+			infrastructure = 1
+		}
+	}
+}

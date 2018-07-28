@@ -1,0 +1,16 @@
+state={
+	id=787
+	name="STATE_787"
+	provinces={
+		9833 11829 
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+	history={
+		owner = ITA
+		add_core_of = TUR
+		buildings = {
+			infrastructure = 3
+		}
+	}
+}

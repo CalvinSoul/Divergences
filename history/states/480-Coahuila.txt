@@ -1,0 +1,29 @@
+
+state={
+	id=480
+	name="STATE_480"
+	resources={
+		oil=37.000
+	}
+
+	history={
+		owner = LUS
+		add_core_of = LUS
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+
+		}
+		victory_points = {
+			12835 1 
+		}
+
+	}
+
+	provinces={
+		2060 2104 10746 10800 12811 
+	}
+	manpower=827826
+	buildings_max_level_factor=1.000
+	state_category=town
+}

@@ -1,0 +1,16 @@
+state={
+	id=776
+	name="STATE_776"
+	provinces={
+		4155 11106 11350 13084 379
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+	history={
+		owner = ANG
+		add_core_of = ANG
+		buildings = {
+			infrastructure = 1
+		}
+	}
+}

@@ -1,0 +1,33 @@
+
+state={
+	id=119
+	name="STATE_119"
+
+	history={
+		owner = IRA
+		add_core_of = IRA
+		victory_points = {
+			3379 5 
+		}
+		buildings = {
+			infrastructure = 6
+			arms_factory = 1
+			industrial_complex = 2
+			air_base = 1
+			dockyard = 2
+			3379 = {
+				naval_base = 4
+
+			}
+
+		}
+
+	}
+
+	provinces={
+		276 385 3217 3242 3329 3359 3379 11303 
+	}
+	manpower=1198537
+	buildings_max_level_factor=1.000
+	state_category=city
+}

@@ -1,0 +1,16 @@
+state={
+	id=816
+	name="STATE_816"
+	provinces={
+		2007 8050 10792 12729 12770 12825 
+	}
+	manpower= 112790
+	buildings_max_level_factor=1.000
+        history={
+		owner = GRA
+		add_core_of = GRA
+		buildings = {
+			infrastructure = 5
+		}
+	}
+}

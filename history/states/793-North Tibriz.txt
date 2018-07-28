@@ -1,0 +1,16 @@
+state={
+	id=793
+	name="STATE_793"
+	provinces={
+		1636 4473 4755 4825 10454 12434 
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+	history={
+		owner = TCA
+		add_core_of = TCA
+		buildings = {
+			infrastructure = 3
+		}
+	}
+}

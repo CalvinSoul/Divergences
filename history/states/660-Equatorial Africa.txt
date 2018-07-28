@@ -1,0 +1,24 @@
+
+state={
+	id=660
+	name="STATE_660"
+	resources={
+		rubber=3.000
+	}
+
+	history={
+		owner = ANG
+		buildings = {
+			infrastructure = 2
+
+		}
+
+	}
+
+	provinces={
+		1473 1883 1974 2081 3123 3181 4897 4978 5084 7919 8078 9152 12719 
+	}
+	manpower=2572456
+	buildings_max_level_factor=1.000
+	state_category=wasteland
+}

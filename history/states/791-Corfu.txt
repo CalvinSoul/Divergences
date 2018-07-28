@@ -1,0 +1,16 @@
+state={
+	id=791
+	name="STATE_791"
+	provinces={
+		1106 10203 
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+	history={
+		owner = ITA
+		add_core_of = GRE
+		buildings = {
+			infrastructure = 3
+		}
+	}
+}

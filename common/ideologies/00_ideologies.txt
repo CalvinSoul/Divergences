@@ -1,0 +1,286 @@
+#Dskod1 (Dylan) now claims this file in the name of the AI... may the AI empire forever expan
+#All ideologies have been clumped into 3 groups for the AI. No one will ever see these, so we are hijacking them for our own purposes. The three AI groups are Democracy, Facist, and Communist
+#there is a 4th ai group called neutral, but that works differently.
+
+#Note: Because of hard coded features, democracies now use the fascist AI and the ol fascists use the neutral AI
+#Note: AI changed back to all neutral ai. This is because the other AI doesn't want to be apart of things if the tension is so low (IE at game start)
+
+ideologies = {
+
+	cornelian_communard = {
+		types = {
+		cornelian_communard_subtype = {}
+		}
+		dynamic_faction_names = {
+			"FACTION_NAME_VANGUARDIST_1"
+			"FACTION_NAME_VANGUARDIST_2"
+			"FACTION_NAME_VANGUARDIST_3"
+			"FACTION_NAME_VANGUARDIST_4"
+			"FACTION_NAME_VANGUARDIST_5"
+			"FACTION_NAME_VANGUARDIST_6"
+		}
+		color = { 155 0 0 }
+		rules = {
+			can_force_government = no
+			can_puppet = no
+			can_join_factions = no
+			can_send_volunteers = yes
+		}
+		modifiers = {
+			join_faction_tension = 0.80
+			generate_wargoal_tension = 0.25
+		}
+		ai_neutral = yes			
+		can_be_boosted = no
+	}
+	
+	egalitarian_collectivist = {
+		types = {
+			egalitarian_collectivist_subtype = {}
+			}
+		dynamic_faction_names = {
+			"FACTION_NAME_collectivist_1"
+			"FACTION_NAME_collectivist_2"
+			"FACTION_NAME_collectivist_3"
+			"FACTION_NAME_collectivist_4"
+			"FACTION_NAME_collectivist_5"
+			"FACTION_NAME_collectivist_6"
+		}
+		color = { 225 0 0 } #205 0 0 works good as an alternative, too similar to Vanguardist though.
+		rules = {
+			can_force_government = no
+			can_puppet = no
+			can_join_factions = no
+			can_send_volunteers = yes
+		}		
+		modifiers = {
+			join_faction_tension = 0.80
+			generate_wargoal_tension = 0.25
+		}
+		ai_neutral = yes	
+		can_be_boosted = no
+
+	}
+
+	libertarian_socialist = {
+		types = {
+			libertarian_socialist_subtype = {}
+		}
+		dynamic_faction_names = {
+			"FACTION_NAME_LIBERTARIAN_SOCIALIST_1"
+			"FACTION_NAME_LIBERTARIAN_SOCIALIST_2"
+			"FACTION_NAME_LIBERTARIAN_SOCIALIST_3"
+			"FACTION_NAME_LIBERTARIAN_SOCIALIST_4"
+			"FACTION_NAME_LIBERTARIAN_SOCIALIST_5"
+			"FACTION_NAME_LIBERTARIAN_SOCIALIST_6"
+		}
+		color = { 233 58 58 } #old one was 255 65 65
+		rules = {
+			can_force_government = no
+			can_puppet = no
+			can_join_factions = no
+			can_send_volunteers = yes
+		}
+		modifiers = {
+			join_faction_tension = 0.80
+			generate_wargoal_tension = 0.25
+		}
+		ai_neutral = yes		
+		can_be_boosted = no
+
+	}
+	
+	social_democrat = {
+		types = {
+			social_democrat_subtype = {}
+		}
+		dynamic_faction_names = {
+			"FACTION_NAME_SOCIAL_DEMOCRAT_1"
+			"FACTION_NAME_SOCIAL_DEMOCRAT_2"
+			"FACTION_NAME_SOCIAL_DEMOCRAT_3"
+			"FACTION_NAME_SOCIAL_DEMOCRAT_4"
+			"FACTION_NAME_SOCIAL_DEMOCRAT_5"
+			"FACTION_NAME_SOCIAL_DEMOCRAT_6"
+		}
+		color = { 194 30 86 }
+		rules = {
+			can_force_government = no
+			can_puppet = no
+			can_join_factions = no
+			can_send_volunteers = yes
+		}
+		modifiers = {
+			join_faction_tension = 0.80
+			generate_wargoal_tension = 0.25
+		}
+		ai_neutral = yes	
+		can_be_boosted = no
+
+	}
+	
+	classical_liberal = {
+		types = {
+		classical_liberal_subtype = {}
+		}
+		dynamic_faction_names = {
+			"FACTION_NAME_SOCIAL_LIBERAL_1"
+			"FACTION_NAME_SOCIAL_LIBERAL_2"
+			"FACTION_NAME_SOCIAL_LIBERAL_3"
+			"FACTION_NAME_SOCIAL_LIBERAL_4"
+			"FACTION_NAME_SOCIAL_LIBERAL_5"
+			"FACTION_NAME_SOCIAL_LIBERAL_6"
+		}
+		color = { 245 160 0 } #Originally 255 170 0. Changed the tint so it's now noticeably different from Market Liberal's colour.
+		rules = {
+			can_force_government = no
+			can_puppet = no
+			can_join_factions = no
+			can_send_volunteers = yes
+		}
+		modifiers = {
+			join_faction_tension = 0.80
+			generate_wargoal_tension = 0.25
+		}
+		ai_neutral = yes		
+		can_be_boosted = no
+	}
+
+	social_conservative = {
+		types = {
+		social_conservative_subtype = {}
+		}
+		dynamic_faction_names = {
+			"FACTION_NAME_SOCIAL_CONSERVATIVE_1"
+			"FACTION_NAME_SOCIAL_CONSERVATIVE_2"
+			"FACTION_NAME_SOCIAL_CONSERVATIVE_3"
+			"FACTION_NAME_SOCIAL_CONSERVATIVE_4"
+			"FACTION_NAME_SOCIAL_CONSERVATIVE_5"
+			"FACTION_NAME_SOCIAL_CONSERVATIVE_6"
+		}
+		color = { 0 60 180 } #0 0 255 is the original one
+		rules = {
+			can_force_government = no
+			can_puppet = no
+			can_join_factions = no
+			can_send_volunteers = yes
+		}
+		modifiers = {
+			join_faction_tension = 0.80
+			generate_wargoal_tension = 0.25
+		}
+		ai_neutral = yes		
+		can_be_boosted = no
+	}
+	
+	authoritarian_democrat = {
+		types = {
+		authoritarian_democrat_subtype = {}
+		presidential_dictatorship_subtype = {}
+		}
+		dynamic_faction_names = {
+			"FACTION_NAME_AUTHORITARIAN_DEMOCRAT_1"
+			"FACTION_NAME_AUTHORITARIAN_DEMOCRAT_2"
+			"FACTION_NAME_AUTHORITARIAN_DEMOCRAT_3"
+			"FACTION_NAME_AUTHORITARIAN_DEMOCRAT_4"
+			"FACTION_NAME_AUTHORITARIAN_DEMOCRAT_5"
+			"FACTION_NAME_AUTHORITARIAN_DEMOCRAT_6"
+		}
+		color = { 95 95 95 } #110 110 110 is original
+		rules = {
+			can_force_government = no
+			can_puppet = no
+			can_join_factions = no
+			can_send_volunteers = yes
+		}
+		modifiers = {
+			join_faction_tension = 0.80
+			generate_wargoal_tension = 0.25
+		}
+		ai_neutral = yes		
+		can_be_boosted = no
+	}
+	
+	paternal_autocrat = {
+		types = {
+		paternal_autocrat_subtype = {}
+		absolute_monarchy_subtype = {}
+		military_junta_subtype = {}
+		}
+		dynamic_faction_names = {
+			"FACTION_NAME_PATERNAL_AUTOCRAT_1"
+			"FACTION_NAME_PATERNAL_AUTOCRAT_2"
+			"FACTION_NAME_PATERNAL_AUTOCRAT_3"
+			"FACTION_NAME_PATERNAL_AUTOCRAT_4"
+			"FACTION_NAME_PATERNAL_AUTOCRAT_5"
+			"FACTION_NAME_PATERNAL_AUTOCRAT_6"
+		}
+		color = { 40 40 40 } #45 45 45
+		rules = {
+			can_force_government = no
+			can_puppet = no
+			can_join_factions = no
+			can_send_volunteers = yes
+		}
+		modifiers = {
+			join_faction_tension = 0.80
+			generate_wargoal_tension = 0.25
+		}
+		ai_neutral = yes			
+		can_be_boosted = no
+	}
+	
+	national_autocracy = {
+		types = {
+		national_corporatist_subtype = {}
+		national_communard_subtype = {}
+		}
+		dynamic_faction_names = {
+			"FACTION_NAME_NATIONAL_POPULIST_1"
+			"FACTION_NAME_NATIONAL_POPULIST_2"
+			"FACTION_NAME_NATIONAL_POPULIST_3"
+			"FACTION_NAME_NATIONAL_POPULIST_4"
+			"FACTION_NAME_NATIONAL_POPULIST_5"
+			"FACTION_NAME_NATIONAL_POPULIST_6"
+		}
+		color = { 112 53 0 } #142 57 0 is original
+		rules = {
+			can_force_government = no
+			can_puppet = no
+			can_join_factions = no
+			can_send_volunteers = yes
+		}
+		modifiers = {
+			join_faction_tension = 0.80
+			generate_wargoal_tension = 0.25
+		}
+		ai_neutral = yes	
+		can_be_boosted = no
+	}
+
+	imperial_irredentist = {
+		types = {
+		imperial_irredentist_subtype = {}
+		}
+		dynamic_faction_names = {
+			"FACTION_NAME_IRREDENTIST_1"
+			"FACTION_NAME_IRREDENTIST_2"
+			"FACTION_NAME_IRREDENTIST_3"
+			"FACTION_NAME_IRREDENTIST_4"
+			"FACTION_NAME_IRREDENTIST_5"
+			"FACTION_NAME_IRREDENTIST_6"
+		}
+		color = { 102 0 255 }
+		rules = {
+			can_force_government = no
+			can_puppet = no
+			can_join_factions = no
+			can_send_volunteers = yes
+		}
+		modifiers = {
+			join_faction_tension = 0.80
+			generate_wargoal_tension = 0.25
+		}
+		ai_neutral = yes	
+		can_be_boosted = no
+	}
+}

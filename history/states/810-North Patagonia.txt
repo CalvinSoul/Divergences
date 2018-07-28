@@ -1,0 +1,16 @@
+state={
+	id=810
+	name="STATE_810"
+	provinces={
+		2149 2199 2215 8192 8215 10992 11021 12306 
+	}
+	manpower=110817
+	buildings_max_level_factor=1.000
+	history={
+		owner = BEO
+		add_core_of = BEO 
+		buildings = {
+			infrastructure = 5
+		}
+	}
+}

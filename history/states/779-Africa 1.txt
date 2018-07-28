@@ -1,0 +1,20 @@
+
+state={
+	id=779
+	name="STATE_779"
+
+	history={
+		owner = SHA
+		buildings = {
+			infrastructure = 1
+
+		}
+
+	}
+
+	provinces={
+		2123 2159 2180 2202 2217 5164 10972 12908 12908 12971 
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+}

@@ -1,0 +1,24 @@
+
+state={
+	id=511
+	name="STATE_511"
+
+	history={
+		owner = BEO
+		buildings = {
+			infrastructure = 5
+		}
+		add_core_of = BEO
+		victory_points = {
+			12942 5
+		}
+
+	}
+
+	provinces={
+		2158 5152 5184 11022 12942 12970 
+	}
+	manpower= 568628
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

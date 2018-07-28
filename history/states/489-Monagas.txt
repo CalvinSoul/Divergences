@@ -1,0 +1,20 @@
+
+state={
+	id=489
+	name="STATE_489" # Zulia
+	manpower = 987508
+	
+	state_category = town
+	
+	history={
+		owner = GRA 
+		add_core_of = GRA 
+		buildings = {
+			infrastructure = 5
+		}
+	}
+
+	provinces={
+		1944 1997 2052 4526 5088 10855 12772 
+	}
+}
