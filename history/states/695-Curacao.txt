@@ -1,13 +1,18 @@
 state={
 	id=695
 	name="STATE_695"
-	manpower = 4423
+	manpower = 44235
 	
 	state_category = small_island
 
 	history = {
-	buildings = {
+		owner = GRA
+		add_core_of = GRA
+		buildings = {
 			infrastructure = 5
+		}
+		victory_points = {
+			153 5 
 		}
 	}
 

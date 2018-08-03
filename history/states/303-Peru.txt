@@ -16,6 +16,18 @@ state={
 		victory_points = {
 			5162 5 
 		}
+		victory_points = {
+			2156 5
+		}
+		victory_points = {
+			8199 5
+		}
+		victory_points = {
+			5190 5
+		}
+		victory_points = {
+			12983 5
+		}
 	}
 
 	provinces={
