@@ -1,0 +1,32 @@
+﻿l_english:
+ rename_your_nation:0 "Rename Your Nation"
+ rename_nation_catagory:0 "Rename Your Nation"
+ rename_nation:0 "National Localization"
+ rename_nation_options:0 "Renaming Options"
+ ###
+ native_names:0 "Native National Names"
+ english_names:0 "English National Names"
+ ###
+
+######################################################################Cosmetic Tags#################################################################
+
+##Ameriga##
+ AMA_NATIVE_classical_liberal:0 "Fédération Amazonienne"
+ AMA_NATIVE_classical_liberal_DEF:0 "The Fédération Amazonienne"
+
+ BEO_NATIVE_imperial_irredentist:0 "Kingdom of Beornia"
+ BEO_NATIVE_imperial_irredentist_DEF:0 "The Kingdom of Beornia"
+
+ GRA_NATIVE_classical_liberal:0 "República de Granada"
+ GRA_NATIVE_classical_liberal_DEF:0 "The República de Granada"
+
+ LOT_NATIVE_paternal_autocrat:0 "Lotharingien République"
+ LOT_NATIVE_paternal_autocrat_DEF:0 "The Lotharingien République"
+
+ QUI_NATIVE_authoritarian_democrat:0 "República de Quito"
+ QUI_NATIVE_authoritarian_democrat_DEF:0 "The República de Quito"
+
+ TAW_NATIVE_national_autocracy:0 "Tawantinsuyu"
+ TAW_NATIVE_national_autocracy_DEF:0 "The Tawantinsuyu"
+ ###
+

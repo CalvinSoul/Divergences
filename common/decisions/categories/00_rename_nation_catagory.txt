@@ -1,0 +1,3 @@
+rename_nation_catagory = {
+	icon = decision_unknown
+}

@@ -18,7 +18,24 @@ state={
 			}
 
 		}
-
+		victory_points = {
+			12873 5
+		}
+		victory_points = {
+			10895 5
+		}
+		victory_points = {
+			8057 5
+		}
+		victory_points = {
+			7921 5
+		}
+		victory_points = {
+			10853 5
+		}
+		victory_points = {
+			10172 5
+		}
 	}
 
 	provinces={

@@ -2,24 +2,10 @@
 state={
 	id=379
 	name="STATE_379"
-	resources={
-		steel=70.000
-		tungsten=32.000
-		aluminium=25.000
-	}
 
-	history={
-		owner = QIN
-		add_core_of = QIN
-		buildings = {
-			infrastructure = 4
-
-		}
-
-	}
 
 	provinces={
-		4799 12425 
+		
 	}
 	manpower=91057
 	buildings_max_level_factor=1.000

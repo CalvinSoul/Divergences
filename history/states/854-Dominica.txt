@@ -1,0 +1,17 @@
+state={
+	id=854
+	name="STATE_854"
+	provinces={
+		7123 
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+	history={
+		owner = SPA
+		add_core_of = SPA
+		buildings = {
+			infrastructure = 5
+
+		}
+	}
+}

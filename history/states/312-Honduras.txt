@@ -25,7 +25,19 @@ state={
 		}
 		add_core_of = GCO
 		victory_points = {
-			12865 3 
+			12823 5
+		}
+		victory_points = {
+			13093 5
+		}
+		victory_points = {
+			12865 5
+		}
+		victory_points = {
+			8017 5
+		}
+		victory_points = {
+			2031 5
 		}
 
 	}

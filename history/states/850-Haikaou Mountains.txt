@@ -1,0 +1,17 @@
+state={
+	id=850
+	name="STATE_850"
+	provinces={
+		1736 1789 1854 3781 4838 6742 7779 7845 9616 10556 10602 10672 12676 
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+	history={
+		owner = QIN
+		add_core_of = QIN
+		buildings = {
+			infrastructure = 5
+
+		}
+	}
+}

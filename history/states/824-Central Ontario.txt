@@ -1,0 +1,18 @@
+state={
+	id=824
+	name="STATE_824"
+	provinces={
+		602 777 1299 1782 4784 4869 6510 7366 9467 9480 9740 10621 10718 11682 11902 12278 12582 12701 
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+	history={
+		owner = VIN
+		add_core_of = VIN
+		buildings = {
+			infrastructure = 5
+
+		}
+
+	}
+}

@@ -1,0 +1,17 @@
+state={
+	id=841
+	name="STATE_841"
+	provinces={
+		3824 3917 6845 6892 9758 9786 
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+	history={
+		owner = SEP
+		add_core_of = SEP
+		buildings = {
+			infrastructure = 5
+
+		}
+	}
+}

@@ -1,0 +1,18 @@
+state={
+	id=830
+	name="STATE_830"
+	provinces={
+		4741 4857 4860 12572 12585 
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+	history={
+		owner = QIN
+		add_core_of = QIN
+		buildings = {
+			infrastructure = 5
+
+		}
+
+	}
+}

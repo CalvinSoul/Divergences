@@ -1,0 +1,23 @@
+state={
+	id=851
+	name="STATE_851"
+	provinces={
+		1550 4476 7546 7590 12347 
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+	history={
+		owner = CUB
+		add_core_of = CUB
+		buildings = {
+			infrastructure = 5
+
+		}
+		victory_points = {
+			4476 5
+		}
+		victory_points = {
+			1550 5
+		}
+	}
+}

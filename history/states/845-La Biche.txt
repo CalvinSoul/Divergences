@@ -1,0 +1,17 @@
+state={
+	id=845
+	name="STATE_845"
+	provinces={
+		971 3829 7528 9760 
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+	history={
+		owner = VIN
+		add_core_of = PLA
+		buildings = {
+			infrastructure = 5
+
+		}
+	}
+}

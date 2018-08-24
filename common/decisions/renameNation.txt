@@ -1,0 +1,41 @@
+rename_nation_catagory = {
+		native_names = {
+			
+			cost = 0
+			days_re_enable = 0
+			days_remove = 1
+			visible = { 
+					
+			}
+			available = {
+			}
+			remove_effect = {
+
+				AMA = {set_cosmetic_tag = AMA_NATIVE}
+				BEO = {set_cosmetic_tag = BEO_NATIVE}
+				GRA = {set_cosmetic_tag = GRA_NATIVE}
+				LOT = {set_cosmetic_tag = LOT_NATIVE}
+				QUI = {set_cosmetic_tag = QUI_NATIVE}
+				TAW = {set_cosmetic_tag = TAW_NATIVE}
+			}
+		}
+		english_names = {
+			
+			cost = 0
+			days_re_enable = 0
+			days_remove = 1
+			visible = { 
+					
+			}
+			available = {
+			}
+			remove_effect = {
+				AMA = {drop_cosmetic_tag = AMA_NATIVE}
+				BEO = {drop_cosmetic_tag = BEO_NATIVE}
+				GRA = {drop_cosmetic_tag = GRA_NATIVE}
+				LOT = {drop_cosmetic_tag = LOT_NATIVE}
+				QUI = {drop_cosmetic_tag = QUI_NATIVE}
+				TAW = {drop_cosmetic_tag = TAW_NATIVE}
+			}
+		}
+}

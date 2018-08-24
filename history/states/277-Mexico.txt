@@ -2,10 +2,7 @@
 state={
 	id=277
 	name="STATE_277"
-	manpower = 3424403
-	
-	state_category = city
-	
+
 	history={
 		owner = GCO
 		add_core_of = GCO
@@ -14,14 +11,30 @@ state={
 			arms_factory = 2
 			industrial_complex = 4
 			air_base = 3
+
 		}
 		victory_points = {
-			1965 10 
+			8089 5
 		}
+		victory_points = {
+			1965 25
+		}
+		victory_points = {
+			10832 5
+		}
+		victory_points = {
+			12755 5
+		}
+		victory_points = {
+			4887 5
+		}
+
 	}
 
 	provinces={
-		1965 2008 2011 7913 12755 
+		1965 4887 8089 10832 12755 
 	}
-	
+	manpower=3424403
+	buildings_max_level_factor=1.000
+	state_category=city
 }

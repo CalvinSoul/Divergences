@@ -1,0 +1,17 @@
+state={
+	id=859
+	name="STATE_859"
+	provinces={
+		610 768 781 3588 6681 6745 6757 6772 9697 9730 
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+	history={
+		owner = QIN
+		add_core_of = QIN
+		buildings = {
+			infrastructure = 5
+
+		}
+	}
+}

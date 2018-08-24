@@ -2,9 +2,6 @@
 state={
 	id=485
 	name="STATE_485"
-	manpower = 1598311
-	
-	state_category = rural
 
 	history={
 		owner = GCO
@@ -14,12 +11,23 @@ state={
 			industrial_complex = 1
 			8032 = {
 				naval_base = 3
+
 			}
+
 		}
+		victory_points = {
+			5066 5
+		}
+		victory_points = {
+			10730 5
+		}
+
 	}
 
 	provinces={
-		4887 5066 8032 10730 10832 
+		5066 10730 
 	}
-	
+	manpower=1598311
+	buildings_max_level_factor=1.000
+	state_category=rural
 }

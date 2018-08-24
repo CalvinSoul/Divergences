@@ -54,7 +54,7 @@ set_politics = {
 
 create_country_leader = {
 	
-	name = "Karel_de_Grote"
+	name = "Karel de Grote"
 	picture = "Portrait_BRG_Karel_de_Grote.dds"
 	expire = "1965.1.1"
 	ideology = imperial_irredentist_subtype

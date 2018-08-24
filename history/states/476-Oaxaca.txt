@@ -15,11 +15,23 @@ state={
 			}
 
 		}
+		victory_points = {
+			10889 5
+		}
+		victory_points = {
+			10773 5
+		}
+		victory_points = {
+			12712 5
+		}
+		victory_points = {
+			12753 5
+		}
 
 	}
 
 	provinces={
-		2021 8236 10773 10889 12712 12753 
+		2021 8236 10773 10889 12712 12753 12753 
 	}
 	manpower=1663331
 	buildings_max_level_factor=1.000

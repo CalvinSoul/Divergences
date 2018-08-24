@@ -1,4 +1,4 @@
-﻿capital = 1
+﻿capital = 502
 
 oob = "Z_1936"
 

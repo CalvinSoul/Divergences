@@ -1,0 +1,29 @@
+state={
+	id=846
+	name="STATE_846"
+	provinces={
+		2008 2011 5052 7913 
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+	history={
+		owner = GCO
+		add_core_of = GCO
+		buildings = {
+			infrastructure = 5
+
+		}
+		victory_points = {
+			5052 5
+		}
+		victory_points = {
+			2008 5
+		}
+		victory_points = {
+			2011 5
+		}
+		victory_points = {
+			7913 5
+		}
+	}
+}
