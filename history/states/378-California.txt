@@ -2,64 +2,23 @@
 state={
 	id=378
 	name="STATE_378"
-	resources={
-		oil=180.000
-		aluminium=8.000
-	}
 
 	history={
 		owner = QIN
 		add_core_of = QIN
+		add_core_of = QSA
 		buildings = {
-			infrastructure = 6
-			arms_factory = 2
-			industrial_complex = 6
-			dockyard = 2
-			air_base = 10
-			1562 = {
-				naval_base = 10
-
-			}
-			9671 = {
-				naval_base = 4
-
-			}
-			9814 = {
-				naval_base = 5
-
-			}
-			610 = {
-				naval_base = 1
-
-			}
-
-		}
-		victory_points = {
-			9814 30 
-		}
-		victory_points = {
-			1562 15 
+			infrastructure = 5
 		}
 		victory_points = {
 			9671 25 
 		}
-		victory_points = {
-			9713 1 
-		}
-		1939.1.1 = {
-			buildings = {
-				industrial_complex = 7
-
-			}
-
-		}
-
 	}
 
 	provinces={
 		677 3677 3678 6694 6699 6876 9671 9713 11658 
 	}
-	manpower=5677248
+	manpower=7508224
 	buildings_max_level_factor=1.000
 	state_category=metropolis
 }

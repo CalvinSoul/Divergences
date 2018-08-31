@@ -15,38 +15,38 @@ set_politics = {
 
 	parties = {
 		cornelian_communard = { 
-			popularity = 10
+			popularity = 5
 		}
 		egalitarian_collectivist = {
-			popularity = 10
+			popularity = 3
 		}
 		libertarian_socialist = {
-			popularity = 10
+			popularity = 12
 		}
 		social_democrat = { 
-			popularity = 10
+			popularity = 22
 		}
 		classical_liberal = { 
 			popularity = 10
 		}
 		social_conservative = { 
-			popularity = 10
+			popularity = 15
 		}
 		authoritarian_democrat = { 
-			popularity = 10
+			popularity = 32
 		}
 		paternal_autocrat = { 
-			popularity = 10
+			popularity = 8
 		}
 		national_autocracy = { 
-			popularity = 10
+			popularity = 15
 		}
 		imperial_irredentist = { 
-			popularity = 10
+			popularity = 0
 		}
 	}
 	
-	ruling_party = classical_liberal
+	ruling_party = authoritarian_democrat
 	last_election = "1936.1.1"
 	election_frequency = 48
 	elections_allowed = no
@@ -57,7 +57,7 @@ create_country_leader = {
 	name = "Lee Rong-Shi"
 	picture = "Portrait_QIN_Lee_Rong-Shi.dds"
 	expire = "1965.1.1"
-	ideology = classical_liberal_subtype
+	ideology = authoritarian_democrat_subtype
 	traits = {
 		#
 	}

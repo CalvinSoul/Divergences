@@ -7,7 +7,7 @@ state={
 		owner = LUS
 		add_core_of = LUS
 		buildings = {
-			infrastructure = 3
+			infrastructure = 5
 
 		}
 		victory_points = {
@@ -25,7 +25,7 @@ state={
 	provinces={
 		2069 3834 4908 7920 8012 10765 10783 10848 12833 
 	}
-	manpower=520751
+	manpower=643154
 	buildings_max_level_factor=1.000
 	state_category=rural
 }

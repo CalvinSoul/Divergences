@@ -2,25 +2,11 @@
 state={
 	id=313
 	name="STATE_313"
-	resources={
-		chromium=4.000
-	}
 
 	history={
 		owner = GCO
 		buildings = {
-			infrastructure = 4
-			arms_factory = 1
-			industrial_complex = 2
-			air_base = 1
-			10886 = {
-				naval_base = 1
-
-			}
-			13085 = {
-				naval_base = 1
-
-			}
+			infrastructure = 5
 
 		}
 		add_core_of = GCO
@@ -39,7 +25,7 @@ state={
 	provinces={
 		10842 10886 13085 
 	}
-	manpower=1771000
+	manpower=839712
 	buildings_max_level_factor=1.000
 	state_category=town
 }

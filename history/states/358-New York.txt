@@ -5,7 +5,7 @@ state={
 	resources={
 		steel=13.000
 	}
-
+	
 	history={
 		owner = SEP
 		add_core_of = SEP
@@ -31,7 +31,7 @@ state={
 	}
 
 	provinces={
-		706 1436 3702 6717 9673 9693 9708 9721 9774 11650 11660 11680 11722 
+		1436 3702 6717 9708 9721 11650 11680 11722 
 	}
 	manpower=12588061
 	buildings_max_level_factor=1.000

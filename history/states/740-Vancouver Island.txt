@@ -2,17 +2,20 @@
 state={
 	id=740
 	name="STATE_740"
-	manpower = 259612
+	manpower = 657141
 	
 	state_category = rural
 
 	history={
 		owner = QIN
 		add_core_of = QIN
+		add_core_of = QDO
 		buildings = {
-			infrastructure = 2
+			infrastructure = 5
 		}
-
+		victory_points = {
+			7259 5
+		}
 	}
 
 	provinces={

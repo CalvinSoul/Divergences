@@ -4,15 +4,18 @@ state={
 	provinces={
 		4741 4857 4860 12572 12585 
 	}
-	manpower=0
+	manpower=74506
 	buildings_max_level_factor=1.000
 	history={
 		owner = QIN
 		add_core_of = QIN
+		add_core_of = QHA
 		buildings = {
 			infrastructure = 5
 
 		}
-
+		victory_points = {
+			4860 5
+		}
 	}
 }

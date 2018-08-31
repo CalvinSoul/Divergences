@@ -6,16 +6,18 @@ state={
 	history={
 		owner = QIN
 		add_core_of = QIN
+		add_core_of = QHE
 		buildings = {
-			infrastructure = 1
-
+			infrastructure = 5
 		}
-
+		victory_points = {
+			9792 5
+		}
 	}
 
 	provinces={
 		7999 9792 9792 10645 10645 12552 
 	}
-	manpower=0
+	manpower=111759
 	buildings_max_level_factor=1.000
 }

@@ -1,0 +1,46 @@
+spriteTypes = {	
+	spriteType = {
+		name = "GFX_idea_very_small_military_budget"
+		texturefile = "gfx/interface/ideas/idea_military_funding_5.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_small_military_budget"
+		texturefile = "gfx/interface/ideas/idea_military_funding_4.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_moderate_military_budget"
+		texturefile = "gfx/interface/ideas/idea_military_funding_3.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_large_military_budget"
+		texturefile = "gfx/interface/ideas/idea_military_funding_2.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_very_large_military_budget"
+		texturefile = "gfx/interface/ideas/idea_military_funding_1.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_very_small_research_budget"
+		texturefile = "gfx/interface/ideas/idea_research_funding_5.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_small_research_budget"
+		texturefile = "gfx/interface/ideas/idea_research_funding_4.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_moderate_research_budget"
+		texturefile = "gfx/interface/ideas/idea_research_funding_3.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_large_research_budget"
+		texturefile = "gfx/interface/ideas/idea_research_funding_2.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_very_large_research_budget"
+		texturefile = "gfx/interface/ideas/idea_research_funding_1.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_slot_special_projects"
+		texturefile = "gfx/interface/ideas/idea_slot_special_projects.dds"
+	}
+}

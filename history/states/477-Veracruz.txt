@@ -7,12 +7,7 @@ state={
 		owner = GCO
 		add_core_of = GCO
 		buildings = {
-			infrastructure = 4
-			12810 = {
-				naval_base = 3
-
-			}
-
+			infrastructure = 5
 		}
 		victory_points = {
 			12810 5
@@ -26,7 +21,7 @@ state={
 	provinces={
 		8079 10732 12810 
 	}
-	manpower=1951460
+	manpower=644852
 	buildings_max_level_factor=1.000
 	state_category=town
 }

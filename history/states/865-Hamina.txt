@@ -1,0 +1,17 @@
+state={
+	id=865
+	name="STATE_865"
+	provinces={
+		3732 6719 7462 10318 12202 12459 
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+	history={
+		owner = VIN
+		add_core_of = VIN
+		buildings = {
+			infrastructure = 5
+
+		}
+	}
+}

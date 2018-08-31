@@ -7,34 +7,22 @@ state={
 		owner = LUS
 		add_core_of = LUS
 		buildings = {
-			infrastructure = 3
-			air_base = 3
-			1892 = {
-				naval_base = 2
-
-			}
-			12736 = {
-				naval_base = 1
-
-			}
+			infrastructure = 5
 
 		}
 		victory_points = {
-			1562 5
+			1904 5 
 		}
 		victory_points = {
-			1904 5
-		}
-		victory_points = {
-			12736 5
+			12736 5 
 		}
 
 	}
 
 	provinces={
-		823 1562 1892 1904 4727 7517 7964 7986 8119 12374 12461 12736 12859 
+		1892 1904 7964 8119 12736 12859 
 	}
-	manpower=108841
+	manpower=394343
 	buildings_max_level_factor=1.000
 	state_category=rural
 }

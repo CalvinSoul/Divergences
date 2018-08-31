@@ -2,17 +2,12 @@
 state={
 	id=480
 	name="STATE_480"
-	resources={
-		oil=37.000
-	}
 
 	history={
 		owner = LUS
 		add_core_of = LUS
 		buildings = {
-			infrastructure = 3
-			industrial_complex = 1
-
+			infrastructure = 5
 		}
 		victory_points = {
 			12897 5
@@ -29,7 +24,7 @@ state={
 	provinces={
 		2060 2104 8003 10746 10800 12811 12850 12897 
 	}
-	manpower=827826
+	manpower=804060
 	buildings_max_level_factor=1.000
 	state_category=town
 }

@@ -15,34 +15,34 @@ set_politics = {
 
 	parties = {
 		cornelian_communard = { 
-			popularity = 10
+			popularity = 3
 		}
 		egalitarian_collectivist = {
-			popularity = 10
+			popularity = 5
 		}
 		libertarian_socialist = {
-			popularity = 10
+			popularity = 15
 		}
 		social_democrat = { 
-			popularity = 10
+			popularity = 25
 		}
 		classical_liberal = { 
-			popularity = 10
+			popularity = 9
 		}
 		social_conservative = { 
-			popularity = 10
+			popularity = 11
 		}
 		authoritarian_democrat = { 
-			popularity = 10
+			popularity = 32
 		}
 		paternal_autocrat = { 
-			popularity = 10
+			popularity = 0
 		}
 		national_autocracy = { 
-			popularity = 10
+			popularity = 0
 		}
 		imperial_irredentist = { 
-			popularity = 10
+			popularity = 0
 		}
 	}
 	

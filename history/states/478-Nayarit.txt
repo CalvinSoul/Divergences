@@ -2,16 +2,12 @@
 state={
 	id=478
 	name="STATE_478"
-	resources={
-		tungsten=8.000
-	}
 
 	history={
 		owner = GCO
 		add_core_of = GCO
 		buildings = {
-			infrastructure = 3
-
+			infrastructure = 5
 		}
 		victory_points = {
 			2051 5
@@ -28,7 +24,7 @@ state={
 	provinces={
 		2051 8032 12746 13089 
 	}
-	manpower=2470875
+	manpower=1087108
 	buildings_max_level_factor=1.000
 	state_category=town
 }

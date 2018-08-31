@@ -1,13 +1,10 @@
+
 state={
 	id=719
-	name="STATE_719" # Natal
-	manpower = 3962157
+	name="STATE_719"
 	resources={
-		chromium=60 # was: 116
+		chromium=60.000
 	}
-	
-	state_category = city
-
 
 	history={
 		owner = ZUL
@@ -17,10 +14,13 @@ state={
 			air_base = 1
 			1468 = {
 				naval_base = 2
+
 			}
 			4696 = {
 				naval_base = 2
+
 			}
+
 		}
 		victory_points = {
 			1468 3 
@@ -29,9 +29,13 @@ state={
 			4696 1 
 		}
 		add_core_of = ZUL
+
 	}
 
 	provinces={
-		1468 1494 1833 4556 4584 4696 7576 7900 8178 
+		1468 1494 1833 4556 4584 4696 4822 7576 7900 8178 10697 12419 12547 
 	}
+	manpower=3962157
+	buildings_max_level_factor=1.000
+	state_category=city
 }

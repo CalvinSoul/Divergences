@@ -2,28 +2,23 @@
 state={
 	id=382
 	name="STATE_382"
-	resources={
-		oil=14.000
-	}
 
 	history={
 		owner = QIN
 		add_core_of = QIN
+		add_core_of = QHE
 		buildings = {
-			infrastructure = 4
-			industrial_complex = 1
-
+			infrastructure = 5
 		}
 		victory_points = {
-			1827 5 
+			6887 5
 		}
-
 	}
 
 	provinces={
 		868 1658 1756 6887 7684 7764 7999 10535 
 	}
-	manpower=1035790
+	manpower=149012
 	buildings_max_level_factor=1.000
 	state_category=town
 }

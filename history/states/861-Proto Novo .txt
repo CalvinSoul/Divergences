@@ -1,0 +1,20 @@
+state={
+	id=861
+	name="STATE_861"
+	provinces={
+		823 1562 4727 7517 7986 12374 12461 
+	}
+	manpower=572604
+	buildings_max_level_factor=1.000
+	history={
+		owner = LUS
+		add_core_of = LUS
+		buildings = {
+			infrastructure = 5
+
+		}
+		victory_points = {
+			1562 5 
+		}
+	}
+}

@@ -1,0 +1,17 @@
+state={
+	id=867
+	name="STATE_867"
+	provinces={
+		706 9673 9693 9774 11660 
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+	history={
+		owner = SEP
+		add_core_of = SEP
+		buildings = {
+			infrastructure = 5
+
+		}
+	}
+}

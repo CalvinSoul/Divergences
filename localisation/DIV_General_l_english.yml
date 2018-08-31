@@ -94,5 +94,20 @@ imperial_irredentist_desc:0 "Monarchy"
  #POLITICS_NOELECTIONS:0 "§$PARTY|H$ ($GROUP|H$)!"
  CAPITAL:0 "Capital"
  CAPITAL_NAME:0 "[Root.Capital.GetName]"
- POLITICS_NOELECTIONS:0 "Any elections by event."
- 
+ #POLITICS_NOELECTIONS:0 "Any elections by event."
+ POLITICS_NOELECTIONS:0 " "
+
+ ### Ministers ###
+ military_budget:0 "Military Budget"
+ very_small_military_budget:0 "Miniscule Military Funding"
+ small_military_budget:0 "Small Military Funding"
+ moderate_military_budget:0 "Moderate Military Funding"
+ large_military_budget:0 "Large Military Funding"
+ very_large_military_budget:0 "Massive Military Funding"
+
+ research_budget:0 "Research Budget"
+ very_small_research_budget:0 "Miniscule Research Funding"
+ small_research_budget:0 "Small Research Funding"
+ moderate_research_budget:0 "Moderate Research Funding"
+ large_research_budget:0 "Large Research Funding"
+ very_large_research_budget:0 "Massive Research Funding"

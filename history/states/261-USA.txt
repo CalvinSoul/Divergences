@@ -10,6 +10,7 @@ state={
 	history={
 		owner = VIN
 		add_core_of = VIN
+		add_core_of = IRI
 		buildings = {
 			infrastructure = 7
 			arms_factory = 1
@@ -26,7 +27,7 @@ state={
 	}
 
 	provinces={
-		659 827 882 3685 3853 3872 4442 6855 6874 6890 9808 9825 11791 13154 
+		659 827 882 3685 3853 3872 4442 6855 6874 6890 9808 9825 11791 
 	}
 	manpower=6646694
 	buildings_max_level_factor=1.000

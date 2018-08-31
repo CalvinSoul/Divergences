@@ -6,7 +6,7 @@ state={
 	history={
 		owner = ANG
 		buildings = {
-			infrastructure = 1
+			infrastructure = 0
 
 		}
 
@@ -16,6 +16,6 @@ state={
 		1115 1897 1956 1994 2068 4902 4913 5004 5095 5136 7041 7939 8028 8128 10725 10749 10758 10780 10805 10868 10893 10917 12022 12849 13138 
 	}
 	manpower=1482744
-	buildings_max_level_factor=1.000
-	state_category=wasteland
+	state_category= state_category_0
+	impassable = yes
 }

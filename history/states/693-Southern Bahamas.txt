@@ -1,7 +1,7 @@
 state={
 	id=693
 	name="STATE_693"
-	manpower = 15000
+	manpower = 84992
 	
 	state_category = tiny_island
 
@@ -9,13 +9,7 @@ state={
 		owner = ITA
 		add_core_of = ITA
 		buildings = {
-			infrastructure = 4
-			10440 = {
-				naval_base = 1
-			}
-			1513 = {
-				naval_base = 1
-			}
+			infrastructure = 5
 		}
 	}
 	

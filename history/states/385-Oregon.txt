@@ -6,26 +6,19 @@ state={
 	history={
 		owner = QIN
 		add_core_of = QIN
+		add_core_of = QDO
 		buildings = {
 			infrastructure = 5
-			industrial_complex = 1
-			air_base = 6
-			12211 = {
-				naval_base = 3
-
-			}
-
 		}
 		victory_points = {
-			3513 1 
+			3513 5
 		}
-
 	}
 
 	provinces={
 		528 3513 4274 4328 4380 7398 10183 12211 12281 
 	}
-	manpower=953785
+	manpower=905097
 	buildings_max_level_factor=1.000
 	state_category=town
 }

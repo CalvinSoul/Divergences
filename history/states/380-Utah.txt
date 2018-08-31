@@ -2,20 +2,25 @@
 state={
 	id=380
 	name="STATE_380"
-	resources={
-		tungsten=76.000
-	}
 
 	history={
 		owner = QIN
 		add_core_of = QIN
+		add_core_of = QHE
 		buildings = {
-			infrastructure = 4
-			industrial_complex = 1
-
+			infrastructure = 5
 		}
 		victory_points = {
-			4865 1 
+			12699 5
+		}
+		victory_points = {
+			4865 5
+		}
+		victory_points = {
+			1663 5
+		}
+		victory_points = {
+			12535 5
 		}
 
 	}
@@ -23,7 +28,7 @@ state={
 	provinces={
 		850 1663 1740 4668 4742 4816 4865 7756 7879 7888 9695 10582 10591 10651 10662 12535 12573 12699 13153 
 	}
-	manpower=507846
+	manpower=2234062
 	buildings_max_level_factor=1.000
 	state_category=rural
 }
