@@ -43,4 +43,9 @@ spriteTypes = {
 		name = "GFX_idea_slot_special_projects"
 		texturefile = "gfx/interface/ideas/idea_slot_special_projects.dds"
 	}
+	spriteType = {
+		name = "stateview_growth_tab"
+		texturefile = "gfx/interface/stateview_growth_tab.dds"
+	}
+	
 }

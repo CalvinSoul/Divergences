@@ -1,0 +1,20 @@
+ideas = {
+	chief_of_staff = { 
+		law = yes
+	}
+	chief_of_army = { 
+		law = yes
+	}
+	chief_of_navy = { 
+		law = yes
+	}
+	chief_of_air_force = { 
+		law = yes
+	}
+	military_theorist = { 
+		law = yes
+	}
+	military_theorist = { 
+		law = yes
+	}
+}

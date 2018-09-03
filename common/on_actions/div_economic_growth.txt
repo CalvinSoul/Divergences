@@ -1,0 +1,53 @@
+on_actions = {
+  on_startup = {
+   effect = {
+    every_state = {
+     set_variable = {
+      var = economic_growth_level
+      value = 0
+    }
+    set_variable = {
+      var = economic_growth_rate
+      value = 0
+    }
+
+  }
+  every_country = {
+   country_event = { hours = 1 id = economic_tick.0 }
+   set_variable = {
+    var = privitization_level
+    value = 1
+  }
+}
+}    
+}
+on_daily = {
+ effect = {
+  every_state = {
+    			#(civfactories*privitization_level*(construction_speed/10+1)*(infrastructure_level/10+1))
+    			set_variable = {
+    				var = economic_growth_rate
+    				value = industrial_complex_level
+          }
+          set_temp_variable = { temp1 = Root.modifier@production_speed_buildings_factor }
+          divide_temp_variable = { temp1 = 10 }
+          add_to_temp_variable = { temp1 = 1}
+          multiply_variable = {
+           var = economic_growth_rate
+           value = temp1
+         }
+         set_temp_variable = { temp2 = infrastructure_level }
+         divide_temp_variable = { temp2 = 10 }
+         add_to_temp_variable = { temp2 = 1}
+         multiply_variable = {
+           var = economic_growth_rate
+           value = temp2
+         }
+         multiply_variable = {
+          var = economic_growth_rate
+          value = Root.privitization_level
+        }
+      }
+    }
+  }
+}

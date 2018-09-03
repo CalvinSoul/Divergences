@@ -1,0 +1,20 @@
+ideas = {
+	weapons_manufacturer = { 
+		law = yes
+	}
+	tank_manufacturer = { 
+		law = yes
+	}
+	tank_manufacturer = { 
+		law = yes
+	}
+	air_naval_manufacturer = { 
+		law = yes
+	}
+	air_naval_manufacturer = { 
+		law = yes
+	}
+	industrial_concern = { 
+		law = yes
+	}
+}

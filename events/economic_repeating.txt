@@ -1,0 +1,36 @@
+add_namespace = economic_tick
+
+country_event = {
+	id = economic_tick.0
+	is_triggered_only = yes 
+	fire_only_once = no
+	hidden = yes
+	immediate = { 
+		country_event = { days = 30 id = economic_tick.0 }
+		every_owned_state = {
+			add_to_variable = {
+				var = economic_growth_level
+				value = economic_growth_rate
+			}
+		}
+
+		every_state = {
+			if ={
+				limit = { 
+					check_variable = { economic_growth_level > 100 }
+				}
+				subtract_from_variable = {
+					var = economic_growth_level
+					value = 100
+				}
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+				add_extra_state_shared_building_slots = 1
+			}
+		}
+	}
+	#option = {}
+}

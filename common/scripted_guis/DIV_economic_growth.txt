@@ -1,0 +1,10 @@
+scripted_gui = {
+ DIV_economic_growth = {
+    context_type = selected_state_context
+    parent_window_token = countrystateview
+    window_name = "DIV_economic_growth_container"
+    visible = { always = yes }
+    effects = {}
+    triggers = {}
+  }
+} 

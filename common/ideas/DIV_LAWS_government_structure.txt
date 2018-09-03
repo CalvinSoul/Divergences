@@ -1,0 +1,20 @@
+ideas = {
+	prime_minister = { 
+		law = yes
+	}
+	deputy_minister = { 
+		law = yes
+	}
+	government_type = { 
+		law = yes
+	}
+	voting_laws = { 
+		law = yes
+	}
+	party_laws = { 
+		law = yes
+	}
+	press_laws = { 
+		law = yes
+	}
+}

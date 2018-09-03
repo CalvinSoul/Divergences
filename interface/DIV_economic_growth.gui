@@ -1,0 +1,43 @@
+guiTypes = {
+	containerWindowType = {
+		name = "DIV_economic_growth_container"
+		position = { x = 0 y =500  } 
+		size = { width= 1000 height= 1000 }
+
+		show_position = { x =  0 y =500  } 
+		hide_position = { x =  -100 y =500  } 
+		animation_time = 100
+		show_animation_type = decelerated
+		hide_animation_type = accelerated
+	
+		moveable = no
+
+		background = {
+			name = "Background"		
+			quadTextureSprite = "stateview_growth_tab"
+		}
+		instantTextBoxType = {
+			name ="Div_Economic_Text"
+			position = { x = -165  y = 13 }
+			font = "Arial12"
+			text = "TEST_ONE"
+			format = center
+			maxWidth = 500
+			maxHeight = 24
+			fixedsize = yes
+
+			pdx_tooltip = "TEST_ONE"
+          	pdx_tooltip_delayed = "TEST_ONE"
+
+		}
+		iconType ={
+				name ="population_icon"
+				spriteType = "GFX_decision_generic_construction"
+				position = { x = 5 y = 5 }
+				Orientation = "LEFT"
+
+				pdx_tooltip = "TEST_ONE"
+          	    pdx_tooltip_delayed = "TEST_ONE"
+		}	
+	}
+}
