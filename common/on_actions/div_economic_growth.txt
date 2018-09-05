@@ -16,7 +16,7 @@ on_actions = {
    country_event = { hours = 1 id = economic_tick.0 }
    set_variable = {
     var = privitization_level
-    value = 1
+    value = 0.5
   }
 }
 }    
