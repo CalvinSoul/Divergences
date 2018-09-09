@@ -4,15 +4,16 @@ state={
 	provinces={
 		983 1341 1356 1764 4345 4419 7291 7435 7875 9601 10249 10700 12149 12205 12223 12276 13160 
 	}
-	manpower=0
+	manpower=3522105
 	buildings_max_level_factor=1.000
 	history={
 		owner = VIN
 		add_core_of = VIN
 		buildings = {
 			infrastructure = 5
-
 		}
-
+		victory_points = { 12149 25 }
+		victory_points = { 4345 5 }
+		victory_points = { 12205 5 }
 	}
 }

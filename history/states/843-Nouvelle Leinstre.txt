@@ -8,7 +8,12 @@ state={
 		add_core_of = PLA
 		buildings = {
 			infrastructure = 5
-
+		}
+		victory_points = {
+			9727 5
+		}
+		victory_points = {
+			10657 5
 		}
 
 	}
@@ -16,6 +21,6 @@ state={
 	provinces={
 		913 1445 1582 4452 7547 8014 9727 9779 10657 12568 12637 
 	}
-	manpower=0
+	manpower=808971
 	buildings_max_level_factor=1.000
 }

@@ -1,0 +1,67 @@
+﻿capital = 363
+
+oob = "ANG_1936"
+
+# Starting tech
+set_technology = {
+	
+
+}
+
+set_convoys = 50
+
+
+set_politics = {
+
+	parties = {
+		cornelian_communard = { 
+			popularity = 38
+		}
+		egalitarian_collectivist = {
+			popularity = 22
+		}
+		libertarian_socialist = {
+			popularity = 24
+		}
+		social_democrat = { 
+			popularity = 16
+		}
+		classical_liberal = { 
+			popularity = 0
+		}
+		social_conservative = { 
+			popularity = 0
+		}
+		authoritarian_democrat = { 
+			popularity = 0
+		}
+		paternal_autocrat = { 
+			popularity = 0
+		}
+		national_autocracy = { 
+			popularity = 0
+		}
+		imperial_irredentist = { 
+			popularity = 0
+		}
+	}
+	
+	ruling_party = cornelian_communard
+	last_election = "1936.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+create_country_leader = {
+	
+	name = "André Inconnu"
+	picture = "André_Inconnu.tga"
+	expire = "1965.1.1"
+	ideology = cornelian_communard_subtype
+	traits = {
+		#
+	}
+}
+
+}
+

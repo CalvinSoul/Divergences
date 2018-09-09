@@ -8,15 +8,16 @@ state={
 		add_core_of = SEP
 		add_core_of = IRI
 		buildings = {
-			infrastructure = 1
-
+			infrastructure = 5
 		}
-
+		victory_points = { 598 5 }
+		victory_points = { 3733 5 }
+		victory_points = { 11654 5 }
 	}
 
 	provinces={
 		598 734 3602 3733 3747 6778 6795 6916 7345 9664 9754 11654 11662 13157 
 	}
-	manpower=0
+	manpower=1707472
 	buildings_max_level_factor=1.000
 }

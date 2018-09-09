@@ -68,4 +68,56 @@
  PLA_imperial_irredentist_party:0 "Anglois Legitimists"
  PLA_imperial_irredentist_party_long:0 "Anglois Legitimists \nLégitimistes Anglois"
 
- 
+ ATH_classical_liberal_party:0 "Athesian National Party"
+ ATH_classical_liberal_party_long:0 "Athesian National Party \nPartito Nazionale Athesiano"
+
+ PRA_cornelian_communard_party:0 "Rev. Liberation Front"
+ PRA_cornelian_communard_party_long:0 "Revolutionary Liberation Front \nFront de Libération Révolutionnaire"
+
+ AAR_classical_liberal_party:0 "Democratic Liberty"
+ AAR_classical_liberal_party_long:0 "Democratic Liberty Party \nParti Démocratique de la Liberté
+
+
+VIN_cornelian_communard_party:0 "Communard Party"
+VIN_egalitarian_collectivist_party:0 "Communard Party"
+VIN_libertarian_socialist_party:0 "National Worker's Union"
+VIN_social_democrat_party:0 "Social Democrat Party"
+VIN_classical_liberal_party:0 "Left Liberal Party" 
+VIN_social_conservative_party:0 "Konservativt Parti"
+VIN_authoritarian_democrat_party:0 "Pureblood Party"
+VIN_paternal_autocrat_party:0 "Stuart Legitimists"
+VIN_national_autocracy_party:0 "National People's Party"
+VIN_imperial_irredentist_party:0 "National Reclamation"
+VIN_cornelian_communard_party_long:0 "Revolutionary Liberation Front \nVinlandiske Kommunard Parti" 
+VIN_egalitarian_collectivist_party_long:0 "Revolutionary Liberation Front \nVinlandiske Kommunard Parti" 
+VIN_libertarian_socialist_party_long:0 "National Worker's Union \nNationale Arbejdstagerunion" 
+VIN_social_democrat_party_long:0 "Social Democrat Party \nSocialdemokraterne Parti" 
+VIN_classical_liberal_party_long:0 "Left Liberal Party \nVenstre Liberale Parti" 
+VIN_social_conservative_party_long:0 "Konservativt Parti \nKonservativt Parti" 
+VIN_authoritarian_democrat_party_long:0 "National Strengthening Movement \nNational Styrkelse Bevægelse" 
+VIN_paternal_autocrat_party_long:0 "Stuart Legitimists \nStuart Legitimister" 
+VIN_national_autocracy_party_long:0 "National People's Party \nNationale Folkeslagparti" 
+VIN_imperial_irredentist_party_long:0 "National Reclamation Party \nNationale Genvindingsparti"
+
+SEP_cornelian_communard_party:0 "Revolutionary Liberation"
+SEP_egalitarian_collectivist_party:0 "Revolutionary Liberation"
+SEP_libertarian_socialist_party:0  "Industrial Union"
+SEP_social_democrat_party:0 "Social Liberty Party"
+SEP_classical_liberal_party:0 "National Liberal Party" 
+SEP_social_conservative_party:0 "Democratic Party"
+SEP_authoritarian_democrat_party:0 "Pureblood Party"
+SEP_paternal_autocrat_party:0 "Military Union"
+SEP_national_autocracy_party:0 "National Corporatist"
+SEP_imperial_irredentist_party:0 "Belgica Party"
+SEP_cornelian_communard_party_long:0 "Revolutionary Liberation Front \nFront de Libération Révolutionnaire"
+SEP_egalitarian_collectivist_party_long:0 "Revolutionary Liberation Front \nFront de Libération Révolutionnaire"
+SEP_libertarian_socialist_party_long:0 "Industrial Worker's Union \nSyndicat des Travailleurs Industriels"
+SEP_social_democrat_party_long:0 "Social Liberty Party \nParti de la Liberté Sociale"
+SEP_classical_liberal_party_long:0  "National Liberal Party \nParti Libéral National"
+SEP_social_conservative_party_long:0  "Democratic Party \nParti Démocrate"
+SEP_authoritarian_democrat_party_long:0 "Pureblood Party \nPartie Sangpur"
+SEP_paternal_autocrat_party_long:0 " "Military Union \nUnion Militaire"
+SEP_national_autocracy_party_long:0 "National Corporatist Party \nParti Corporatiste National"
+SEP_imperial_irredentist_party_long:0 "Belgica Party \nParti  Belgica"
+
+

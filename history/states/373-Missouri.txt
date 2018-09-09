@@ -11,17 +11,24 @@ state={
 		add_core_of = PLA
 		buildings = {
 			infrastructure = 5
-			industrial_complex = 5
-
 		}
 		victory_points = {
-			4569 10 
+			1646 5
 		}
 		victory_points = {
-			10717 10 
+			4597 5
 		}
 		victory_points = {
-			10370 1 
+			4540 5
+		}
+		victory_points = {
+			7586 5
+		}
+		victory_points = {
+			4569 5
+		}
+		victory_points = {
+			1441 5
 		}
 
 	}
@@ -29,7 +36,7 @@ state={
 	provinces={
 		1441 1621 1646 4444 4449 4540 4569 4597 4625 7586 10370 10477 12346 12463 
 	}
-	manpower=3629365
+	manpower=543442
 	buildings_max_level_factor=1.000
 	state_category=large_city
 }

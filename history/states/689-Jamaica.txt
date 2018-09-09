@@ -1,7 +1,7 @@
 state={
 	id=689
 	name="STATE_689"
-	manpower = 915921
+	manpower = 878571
 	
 	state_category = town
 
@@ -9,6 +9,9 @@ state={
 		owner = PLA
 		buildings = {
 			infrastructure = 5
+		}
+		victory_points = {
+			12304 5
 		}
 	}
 	

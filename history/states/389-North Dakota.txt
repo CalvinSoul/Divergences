@@ -2,29 +2,19 @@
 state={
 	id=389
 	name="STATE_389"
-	resources={
-		steel=17.000
-		oil=7.000
-	}
 
 	history={
 		owner = VIN
 		add_core_of = VIN
 		buildings = {
-			infrastructure = 4
-			industrial_complex = 1
-
+			infrastructure = 5
 		}
-		victory_points = {
-			1836 1 
-		}
-
 	}
 
 	provinces={
-		1788 1848 1870 3719 3769 4759 4790 4863 7880 7883 10611 10706 10709 12145 12603 12685 
+		1788 1848 1870 3719 3769 4759 4790 4863 7883 10611 10709 12145 12603 12685 
 	}
-	manpower=680844
+	manpower=93145
 	buildings_max_level_factor=1.000
 	state_category=rural
 }

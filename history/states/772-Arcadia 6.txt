@@ -6,16 +6,18 @@ state={
 	history={
 		owner = PLA
 		add_core_of = PLA
+		add_core_of = AAR
 		buildings = {
-			infrastructure = 1
-
+			infrastructure = 5
 		}
-
+		victory_points = {
+			1747 5
+		}
 	}
 
 	provinces={
 		1747 3750 4610 4794 4820 4839 7760 10587 
 	}
-	manpower=0
+	manpower=87947
 	buildings_max_level_factor=1.000
 }

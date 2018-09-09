@@ -5,15 +5,8 @@ state={
 	state_category = tiny_island
 
 	history={
-		owner = VIN
-		add_core_of = VIN
-		buildings = {
-			infrastructure = 3
-			373 = {
-				naval_base = 1
-			}
-		}
+
 	}
 	
-	provinces={ 373 }
+	provinces={  }
 }

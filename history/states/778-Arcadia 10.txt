@@ -7,15 +7,15 @@ state={
 		owner = VIN
 		add_core_of = VIN
 		buildings = {
-			infrastructure = 1
-
+			infrastructure = 5
 		}
-
+		victory_points = { 4287 5 }
+		victory_points = { 1619 5 }
 	}
 
 	provinces={
 		1282 1338 1619 4287 4342 10247 12221 
 	}
-	manpower=0
+	manpower=755269
 	buildings_max_level_factor=1.000
 }

@@ -2,26 +2,29 @@
 state={
 	id=383
 	name="STATE_383"
-	resources={
-		oil=30.000
-	}
 
 	history={
 		owner = PLA
 		add_core_of = PLA
+		add_core_of = AAR
 		buildings = {
-			infrastructure = 4
-			arms_factory = 1
-			industrial_complex = 1
-
+			infrastructure = 5
 		}
-
+		victory_points = {
+			12024 5
+		}
+		victory_points = {
+			10606 5
+		}
+		victory_points = {
+			10676 5
+		}
 	}
 
 	provinces={
 		1753 3708 4757 10532 10606 10676 12024 12513 
 	}
-	manpower=1880998
+	manpower=175894
 	buildings_max_level_factor=1.000
 	state_category=city
 }

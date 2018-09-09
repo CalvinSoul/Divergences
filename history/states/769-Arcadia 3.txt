@@ -7,15 +7,19 @@ state={
 		owner = PLA
 		add_core_of = PLA
 		buildings = {
-			infrastructure = 1
-
+			infrastructure = 5
 		}
-
+		victory_points = {
+			4586 5
+		}
+		victory_points = {
+			9908 5
+		}
 	}
 
 	provinces={
 		1738 2055 2102 3972 4586 9908 12624 
 	}
-	manpower=0
+	manpower=211073
 	buildings_max_level_factor=1.000
 }

@@ -2,37 +2,22 @@
 state={
 	id=360
 	name="STATE_360"
-	resources={
-		steel=44.000
-	}
 
 	history={
 		owner = SEP
 		add_core_of = SEP
 		buildings = {
-			infrastructure = 8
-			industrial_complex = 5
-			dockyard = 7
-			air_base = 2
-			6845 = {
-				naval_base = 8
-
-			}
-
+			infrastructure = 5
 		}
 		victory_points = {
-			6845 20 
+			6872 5 
 		}
-		victory_points = {
-			11800 15 
-		}
-
 	}
 
 	provinces={
 		702 847 862 880 3697 3850 3880 6872 6885 6899 9804 9836 11817 12405 
 	}
-	manpower=9631346
+	manpower=586151
 	buildings_max_level_factor=1.000
 	state_category=megalopolis
 }

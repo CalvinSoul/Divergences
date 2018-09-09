@@ -1,4 +1,4 @@
-﻿capital = 1
+﻿capital = 839
 
 oob = "Z_1936"
 
@@ -15,34 +15,34 @@ set_politics = {
 
 	parties = {
 		cornelian_communard = { 
-			popularity = 10
+			popularity = 0
 		}
 		egalitarian_collectivist = {
-			popularity = 10
+			popularity = 0
 		}
 		libertarian_socialist = {
-			popularity = 10
+			popularity = 14
 		}
 		social_democrat = { 
-			popularity = 10
+			popularity = 4
 		}
 		classical_liberal = { 
-			popularity = 10
+			popularity = 21
 		}
 		social_conservative = { 
-			popularity = 10
+			popularity = 8
 		}
 		authoritarian_democrat = { 
-			popularity = 10
+			popularity = 18
 		}
 		paternal_autocrat = { 
-			popularity = 10
+			popularity = 0
 		}
 		national_autocracy = { 
-			popularity = 10
+			popularity = 29
 		}
 		imperial_irredentist = { 
-			popularity = 10
+			popularity = 6
 		}
 	}
 	

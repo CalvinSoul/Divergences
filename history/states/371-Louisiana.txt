@@ -2,25 +2,16 @@
 state={
 	id=371
 	name="STATE_371"
-	resources={
-		oil=44.000
-	}
-
+	
 	history={
 		owner = PLA
 		add_core_of = PLA
 		buildings = {
 			infrastructure = 5
-			industrial_complex = 2
-			air_base = 5
-			7552 = {
-				naval_base = 5
-
-			}
 
 		}
 		victory_points = {
-			7552 10 
+			4507 5
 		}
 
 	}
@@ -28,7 +19,7 @@ state={
 	provinces={
 		1528 1643 4507 12313 12401 
 	}
-	manpower=2101592
+	manpower=780828
 	buildings_max_level_factor=1.000
 	state_category=city
 }

@@ -4,7 +4,7 @@ state={
 	provinces={
 		10642 12627 
 	}
-	manpower=0
+	manpower=52768
 	buildings_max_level_factor=1.000
 history={
 		owner = PLA

@@ -7,24 +7,13 @@ state={
 		owner = PLA
 		add_core_of = PLA
 		buildings = {
-			infrastructure = 6
-			industrial_complex = 3
-			air_base = 2
-			11975 = {
-				naval_base = 1
-
-			}
-
+			infrastructure = 5
 		}
 		victory_points = {
-			12384 10 
+			12384 5
 		}
-		1939.1.1 = {
-			buildings = {
-				industrial_complex = 4
-
-			}
-
+		victory_points = {
+			12470 5
 		}
 
 	}
@@ -32,7 +21,7 @@ state={
 	provinces={
 		1433 1480 7583 10407 10492 12325 12384 12470 12498 
 	}
-	manpower=2908504
+	manpower=619428
 	buildings_max_level_factor=1.000
 	state_category=city
 }

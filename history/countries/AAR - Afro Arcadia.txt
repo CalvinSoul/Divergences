@@ -1,0 +1,67 @@
+﻿capital = 771
+
+oob = "ANG_1936"
+
+# Starting tech
+set_technology = {
+	
+
+}
+
+set_convoys = 50
+
+
+set_politics = {
+
+	parties = {
+		cornelian_communard = { 
+			popularity = 8
+		}
+		egalitarian_collectivist = {
+			popularity = 8
+		}
+		libertarian_socialist = {
+			popularity = 14
+		}
+		social_democrat = { 
+			popularity = 25
+		}
+		classical_liberal = { 
+			popularity = 45
+		}
+		social_conservative = { 
+			popularity = 0
+		}
+		authoritarian_democrat = { 
+			popularity = 0
+		}
+		paternal_autocrat = { 
+			popularity = 0
+		}
+		national_autocracy = { 
+			popularity = 5
+		}
+		imperial_irredentist = { 
+			popularity = 0
+		}
+	}
+	
+	ruling_party = classical_liberal
+	last_election = "1936.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+create_country_leader = {
+	
+	name = "Severiano Désir"
+	picture = "Severiano_Désir.tga"
+	expire = "1965.1.1"
+	ideology = classical_liberal_subtype
+	traits = {
+		#
+	}
+}
+
+}
+

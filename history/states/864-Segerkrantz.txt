@@ -4,7 +4,7 @@ state={
 	provinces={
 		722 749 774 779 3763 3775 6607 6610 6797 9583 9585 9667 9711 9743 11695 11725 13154 
 	}
-	manpower=0
+	manpower=2028244
 	buildings_max_level_factor=1.000
 	history={
 		owner = VIN
@@ -12,7 +12,10 @@ state={
 		add_core_of = IRI
 		buildings = {
 			infrastructure = 5
-
 		}
+		victory_points = { 3775 5 }
+		victory_points = { 779 5 }
+		victory_points = { 11695 5 }
+		victory_points = { 9667 5 }
 	}
 }

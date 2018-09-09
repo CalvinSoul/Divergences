@@ -2,10 +2,6 @@
 state={
 	id=682
 	name="STATE_682"
-	resources={
-		steel=8.000
-		aluminium=9.000
-	}
 
 	history={
 		owner = VIN
@@ -21,7 +17,7 @@ state={
 	provinces={
 		1769 1873 4426 4775 4875 7794 7899 11571 13094 13159 13161 
 	}
-	manpower=149059
+	manpower=67862
 	buildings_max_level_factor=1.000
 	state_category=rural
 }

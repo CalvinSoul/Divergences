@@ -6,9 +6,18 @@ state={
 	history={
 		owner = PLA
 		add_core_of = PLA
+		add_core_of = PRA
 		buildings = {
 			infrastructure = 5
-
+		}
+		victory_points = {
+			1132 5
+		}
+		victory_points = {
+			1077 5
+		}
+		victory_points = {
+			7045 5
 		}
 
 	}
@@ -16,6 +25,6 @@ state={
 	provinces={
 		1077 1132 1163 4168 7045 11783 12054 
 	}
-	manpower=0
+	manpower=1726714
 	buildings_max_level_factor=1.000
 }

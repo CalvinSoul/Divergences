@@ -2,37 +2,24 @@
 state={
 	id=357
 	name="STATE_357"
-	resources={
-		steel=12.000
-	}
 
 	history={
 		owner = SEP
 		add_core_of = SEP
 		buildings = {
-			infrastructure = 7
-			arms_factory = 1
-			industrial_complex = 5
-			dockyard = 4
-			air_base = 10
-			6732 = {
-				naval_base = 8
-
-			}
-			9832 = {
-				naval_base = 3
-
-			}
-
+			infrastructure = 5
 		}
 		victory_points = {
-			6732 20 
+			905 5 
 		}
 		victory_points = {
-			12459 1 
+			6732 5 
 		}
 		victory_points = {
-			9832 1 
+			3710 5 
+		}
+		victory_points = {
+			733 5 
 		}
 
 	}
@@ -40,7 +27,7 @@ state={
 	provinces={
 		715 733 905 3710 3712 3715 3906 6732 10481 
 	}
-	manpower=8404713
+	manpower=4368889
 	buildings_max_level_factor=1.000
 	state_category=metropolis
 }

@@ -2,34 +2,25 @@
 state={
 	id=261
 	name="STATE_261"
-	resources={
-		steel=28.000
-		aluminium=9.000
-	}
 
 	history={
 		owner = VIN
 		add_core_of = VIN
 		add_core_of = IRI
 		buildings = {
-			infrastructure = 7
-			arms_factory = 1
-			industrial_complex = 6
-
+			infrastructure = 5
 		}
-		victory_points = {
-			6855 5 
-		}
-		victory_points = {
-			6890 10 
-		}
+		victory_points = { 827 5 }
+		victory_points = { 11760 5 }
+		victory_points = { 3685 5 }
+		victory_points = { 6890 5 }
 
 	}
 
 	provinces={
-		659 827 882 3685 3853 3872 4442 6855 6874 6890 9808 9825 11791 
+		659 827 882 3685 3853 3872 4442 6855 6874 6890 9808 9825 11760 11776 11791 
 	}
-	manpower=6646694
+	manpower=533273
 	buildings_max_level_factor=1.000
 	state_category=metropolis
 }

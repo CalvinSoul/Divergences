@@ -10,29 +10,17 @@ state={
 		owner = VIN
 		add_core_of = VIN
 		buildings = {
-			infrastructure = 6
-			arms_factory = 2
-			industrial_complex = 1
-			air_base = 3
-			12149 = {
-				naval_base = 6
-
-			}
-
+			infrastructure = 5
 		}
 		victory_points = {
-			4345 20 
+			7433 5
 		}
-		victory_points = {
-			12149 3 
-		}
-
 	}
 
 	provinces={
 		1284 4417 7289 7433 10174 10230 10320 
 	}
-	manpower=2432754
+	manpower=745689
 	buildings_max_level_factor=1.000
 	state_category=city
 }

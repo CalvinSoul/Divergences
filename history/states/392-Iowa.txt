@@ -8,27 +8,15 @@ state={
 		add_core_of = VIN
 		add_core_of = IRI
 		buildings = {
-			infrastructure = 6
-			industrial_complex = 4
-
+			infrastructure = 5
 		}
-		victory_points = {
-			1770 3 
-		}
-		1939.1.1 = {
-			buildings = {
-				industrial_complex = 5
-
-			}
-
-		}
-
+		victory_points = { 7306 5 }
 	}
 
 	provinces={
 		1831 4664 4691 4807 7306 7458 7536 7539 9910 10478 11971 12418 
 	}
-	manpower=2470938
+	manpower=199595
 	buildings_max_level_factor=1.000
 	state_category=city
 }

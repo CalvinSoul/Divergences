@@ -4,11 +4,12 @@ state={
 	provinces={
 		1827 3869 10588 10640 
 	}
-	manpower=0
+	manpower=35179
 	buildings_max_level_factor=1.000
 history={
 		owner = PLA
 		add_core_of = PLA
+		add_core_of = AAR
 		buildings = {
 			infrastructure = 5
 

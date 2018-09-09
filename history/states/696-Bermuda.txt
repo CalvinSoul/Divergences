@@ -1,20 +1,19 @@
 state={
 	id=696
 	name="STATE_696"
-	manpower=37516
+	manpower=79510
 	state_category = small_island
 
 	history={
 		owner = PLA
 		add_core_of = PLA
 		buildings = {
-			infrastructure = 4
-			13010 = {
-				naval_base = 1
-			}
+			infrastructure = 5
+		}
+		victory_points = {
+			13010 5 
 		}
 	}
-	
 	provinces={
 		13010 
 	}

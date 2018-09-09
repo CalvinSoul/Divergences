@@ -1,6 +1,8 @@
 #############
 #Divergences#
 #############
+AAR = "countries/Afro Arcadia.txt"
+ATH = "countries/Athesia.txt"
 ADS = "countries/Afrique du Sud.txt"	
 AFG = "countries/Afganistan.txt"	
 ALB = "countries/Albania.txt"	
@@ -56,7 +58,8 @@ PAL = "countries/Palestine.txt"
 PAP = "countries/Papal States.txt"	
 PER = "countries/Persia.txt"	
 PLA = "countries/Plantagenia.txt"	
-POL = "countries/Poland.txt"		
+POL = "countries/Poland.txt"
+PRA = "countries/People's Republic Arcadia.txt"		
 QIN = "countries/Qingqiu.txt"	
 QHE = "countries/Lord of Heaven.txt"	
 QHA = "countries/Haikou.txt"	

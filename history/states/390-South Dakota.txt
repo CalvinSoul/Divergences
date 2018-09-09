@@ -6,21 +6,19 @@ state={
 	history={
 		owner = PLA
 		add_core_of = PLA
+		add_core_of = AAR
 		buildings = {
-			infrastructure = 4
-			industrial_complex = 1
-
+			infrastructure = 5
 		}
 		victory_points = {
-			1747 1 
+			12620 5
 		}
-
 	}
 
 	provinces={
 		4880 7862 10569 10595 12620 12667 
 	}
-	manpower=692849
+	manpower=70358
 	buildings_max_level_factor=1.000
 	state_category=rural
 }

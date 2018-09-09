@@ -1,4 +1,6 @@
 ﻿l_english:
+ AAR_classical_liberal:0 "Afro-Arcadian Republic"
+ ATH_classical_liberal:0 "Athesian Republic"
  ADS_authoritarian_democrat:0 "Département of Afrique du Sud"
  AFG_authoritarian_democrat:0 "Kingdom of Afgano-Pakistan"
  ALB_authoritarian_democrat:0 "Kingdom of Albania"
@@ -55,6 +57,7 @@
  PER_authoritarian_democrat:0 "Iran"
  PLA_social_conservative:0 "Kingdom of Plantagenia"
  POL_authoritarian_democrat:0 "Polish Peoples State"
+ PRA_cornelian_communard:0 "People's Republic of Arcadia"
  QIN_authoritarian_democrat:0 "Federation of Qingqiu"
  QHE_paternal_autocrat:0 "State of the Lord of Heaven"
  QHA_social_conservative:0 "Haikou Clique"
@@ -73,6 +76,7 @@
  SCO_classical_liberal:0 "Republic of Scotland"
  SDR_social_conservative:0 "Sudurhafeyjar Confederation"
  SEP_national_autocracy:0 "Septiman Directorate"
+ SEP_classical_liberal:0 "Septiman Republic"
  SER_authoritarian_democrat:0 "Kingdom of Serbia"
  SHA_national_autocracy:0 "Sydlige Halvkugle Afrika Stat"
  SIK_authoritarian_democrat:0 "Sikh Empire"

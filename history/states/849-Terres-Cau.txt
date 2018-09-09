@@ -4,14 +4,22 @@ state={
 	provinces={
 		1352 1534 1564 1806 2043 4567 4811 7834 7892 9802 10717 12361 
 	}
-	manpower=0
+	manpower=299019
 	buildings_max_level_factor=1.000
 	history={
 		owner = PLA
 		add_core_of = PLA
 		buildings = {
 			infrastructure = 5
-
+		}
+		victory_points = {
+			1806 5
+		}
+		victory_points = {
+			1352 5
+		}
+		victory_points = {
+			10717 5
 		}
 	}
 }

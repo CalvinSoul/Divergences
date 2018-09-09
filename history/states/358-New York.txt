@@ -2,30 +2,16 @@
 state={
 	id=358
 	name="STATE_358"
-	resources={
-		steel=13.000
-	}
 	
 	history={
 		owner = SEP
 		add_core_of = SEP
 		buildings = {
-			infrastructure = 8
-			arms_factory = 2
-			industrial_complex = 7
-			dockyard = 3
-			air_base = 10
-			3878 = {
-				naval_base = 6
-
-			}
+			infrastructure = 5
 
 		}
 		victory_points = {
-			3878 30.0 
-		}
-		victory_points = {
-			11654 3 
+			9708 5 
 		}
 
 	}
@@ -33,7 +19,7 @@ state={
 	provinces={
 		1436 3702 6717 9708 9721 11650 11680 11722 
 	}
-	manpower=12588061
+	manpower=1115132
 	buildings_max_level_factor=1.000
 	state_category=megalopolis
 }
