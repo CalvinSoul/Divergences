@@ -46,23 +46,22 @@ set_politics = {
 		}
 	}
 	
-	ruling_party = social_conservative
+	ruling_party = authoritarian_democrat
 	last_election = "1936.1.1"
 	election_frequency = 48
 	elections_allowed = no
 }
-#Diplomacy
-set_autonomy = {
-		target = SCO
-		autonomous_state = autonomy_2
-}
 
 create_country_leader = {
-	name = "Henri XII"
-	picture = "Portrait_ANG_Henri_XII.dds" 
+	
+	name = "The Invisible Man"
+	picture = "gfx//leaders//Invisible_Man.tga" ""
 	expire = "1965.1.1"
-	ideology = social_conservative_subtype
-	traits = { }
+	ideology = authoritarian_democrat_subtype
+	traits = {
+		#
+	}
 }
 
 }
+

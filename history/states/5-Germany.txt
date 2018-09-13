@@ -6,8 +6,8 @@ state={
 	state_category = large_city
 
 	history={
-		owner = GER
-		add_core_of = GER
+		owner = PRU
+		add_core_of = PRU
 		victory_points = {
 			6332 10 
 		}

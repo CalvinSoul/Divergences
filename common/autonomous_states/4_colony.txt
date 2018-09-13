@@ -1,23 +1,23 @@
 autonomy_state = {
-	id = autonomy_puppet
+	id =  autonomy_4
 	
-	default = yes
 	is_puppet = yes
 	
-	min_freedom_level = 0.25
-	
+	min_freedom_level = 0.4
 	rule = {
 		can_not_declare_war = yes
 		can_decline_call_to_war = no
 	}
 	
 	modifier = {
-		autonomy_manpower_share = 0.9
-		can_master_build_for_us = 1
-		extra_trade_to_overlord_factor = 1.0
-		overlord_trade_cost_factor = -0.9
+		autonomy_manpower_share = 0.7
 		
+		extra_trade_to_overlord_factor = 0.5
+		overlord_trade_cost_factor = -0.5
+		can_master_build_for_us = 1
 		research_sharing_per_country_bonus_factor = -0.5
+		cic_to_overlord_factor = 0.2
+		mic_to_overlord_factor = 0.1
 	}
 	
 	ai_subject_wants_higher = {
@@ -33,16 +33,14 @@ autonomy_state = {
 	}
 
 	allowed = {
-		if = {
-			limit = { has_dlc = "Death or Dishonor" }
-		}
-	}
 
+	}
+	
 	can_take_level = {
-		#trigger here
+
 	}
 
 	can_lose_level = {
-		#trigger here
+
 	}
 }

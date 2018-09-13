@@ -1,15 +1,11 @@
-state=
-{
+
+state={
 	id=78
 	name="STATE_78"
-	manpower = 2863400
-	
-	state_category = town
-	
-	history=
-	{
-		owner = ROM
-		add_core_of = ROM
+
+	history={
+		owner = MOL
+		add_core_of = MOL
 		buildings = {
 			infrastructure = 4
 			industrial_complex = 2
@@ -17,11 +13,17 @@ state=
 			dockyard = 1
 			6727 = {
 				naval_base = 3
+
 			}
+
 		}
 
 	}
-	provinces=
-	{
-414 565 3407 3577 3701 3704 3707 3724 6600 6727 6743 9683 11686 11705 	}
+
+	provinces={
+		414 565 3577 3701 3704 3707 3724 6600 6727 6743 9683 11686 11705 
+	}
+	manpower=2863400
+	buildings_max_level_factor=1.000
+	state_category=town
 }

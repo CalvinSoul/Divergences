@@ -4,8 +4,8 @@ state={
 	name="STATE_45"
 
 	history={
-		owner = SER
-		add_core_of = SER
+		owner = SLA
+		add_core_of = SLA
 		buildings = {
 			infrastructure = 6
 
@@ -14,7 +14,7 @@ state={
 	}
 
 	provinces={
-		614 619 3614 3617 3623 6643 6647 9621 11577 11580 11787 
+		614 619 3614 3617 3623 6643 9621 11577 11580 11787 
 	}
 	manpower=1026200
 	buildings_max_level_factor=1.000

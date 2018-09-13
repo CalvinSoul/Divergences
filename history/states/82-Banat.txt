@@ -7,8 +7,8 @@ state={
 	}
 
 	history={
-		owner = SER
-		add_core_of = SER
+		owner = SLA
+		add_core_of = SLA
 		buildings = {
 			infrastructure = 5
 			industrial_complex = 2
@@ -18,7 +18,7 @@ state={
 	}
 
 	provinces={
-		646 3649 9606 11592 
+		646 662 3649 9606 11592 11608 
 	}
 	manpower=941500
 	buildings_max_level_factor=1.000

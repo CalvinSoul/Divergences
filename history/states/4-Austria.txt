@@ -2,13 +2,10 @@
 state={
 	id=4
 	name="STATE_4"
-	manpower = 2595983
 	resources={
-		oil=1 # was: 2
+		oil=1.000
 	}
-	
-	state_category = large_city
-	
+
 	history={
 		owner = DAN
 		add_core_of = DAN
@@ -23,10 +20,15 @@ state={
 			arms_factory = 3
 			industrial_complex = 5
 			air_base = 6
+
 		}
+
 	}
 
 	provinces={
-		653 704 3700 3718 6690 6739 9527 9646 9648 9661 9679 11630 11666 
+		653 686 704 3700 3718 6690 6739 9527 9646 9648 9661 9679 11627 11630 11666 
 	}
+	manpower=2595983
+	buildings_max_level_factor=1.000
+	state_category=large_city
 }
