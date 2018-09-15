@@ -14,9 +14,17 @@ on_actions = {
   }
   every_country = {
    country_event = { hours = 1 id = economic_tick.0 }
-   set_variable = {
+}
+GER = {
+  set_variable = {
     var = privitization_level
     value = 0.5
+  }
+}
+PAP = {
+  set_variable = {
+    var = privitization_level
+    value = 0.8
   }
 }
 }    

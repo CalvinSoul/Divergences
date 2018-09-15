@@ -2,12 +2,8 @@
 state={
 	id=542
 	name="STATE_542"
-	manpower = 234000
-	
-	state_category = wasteland
-	
 	resources={
-		chromium=90 # was: 168
+		chromium=90.000
 	}
 
 	history={
@@ -15,10 +11,15 @@ state={
 		add_core_of = SAF
 		buildings = {
 			infrastructure = 1
+
 		}
+
 	}
 
 	provinces={
-		1580 8214 10525 12940 12963 
+		1509 1580 8214 10525 10668 12940 12963 
 	}
+	manpower=234000
+	buildings_max_level_factor=1.000
+	state_category=wasteland
 }
