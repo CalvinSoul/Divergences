@@ -7,8 +7,8 @@ state={
 	}
 
 	history={
-		owner = ANG
-		add_core_of = ARB
+		owner = SPA
+		add_core_of = ENG
 		buildings = {
 			infrastructure = 3
 			arms_factory = 1
@@ -26,7 +26,7 @@ state={
 	}
 
 	provinces={
-		1973 5074 10752 10840 
+		1973 5074 8000 10752 10840 
 	}
 	manpower=2489500
 	buildings_max_level_factor=1.000

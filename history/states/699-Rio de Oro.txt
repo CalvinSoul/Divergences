@@ -4,7 +4,7 @@ state={
 	name="STATE_699"
 
 	history={
-		owner = SPA
+		owner = ANG
 		buildings = {
 			infrastructure = 1
 			8038 = {
@@ -21,7 +21,7 @@ state={
 	}
 
 	provinces={
-		1958 4920 5012 7979 8038 8111 10779 10838 12857 
+		1958 4920 5012 7979 8038 8111 10779 10838 
 	}
 	manpower=32000
 	buildings_max_level_factor=1.000

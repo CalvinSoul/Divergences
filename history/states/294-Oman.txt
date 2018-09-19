@@ -7,7 +7,7 @@ state={
 	}
 
 	history={
-		owner = SPA
+		owner = ARB
 		add_core_of = ARB
 		buildings = {
 			infrastructure = 2

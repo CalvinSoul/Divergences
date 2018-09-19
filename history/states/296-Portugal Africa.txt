@@ -1,24 +1,28 @@
 
 state={
 	id=296
-	name="STATE_296" # Guinea-Bissau
-	manpower = 364900
-	
-	state_category = enclave
+	name="STATE_296"
 	resources={
-		rubber=1 # was: 1
+		rubber=1.000
 	}
+
 	history={
-		owner = ANG
+		owner = ITA
 		buildings = {
 			infrastructure = 2
-			12891 ={
+			12891 = {
 				naval_base = 1
+
 			}
+
 		}
+
 	}
 
 	provinces={
-		12747 12891 
+		12747 12802 12858 12891 
 	}
+	manpower=364900
+	buildings_max_level_factor=1.000
+	state_category=enclave
 }

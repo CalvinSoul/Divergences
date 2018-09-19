@@ -7,8 +7,8 @@ state={
 	}
 
 	history={
-		owner = SAF
-		add_core_of = SAF
+		owner = VRY
+		add_core_of = VRY
 		buildings = {
 			infrastructure = 1
 

@@ -7,7 +7,7 @@ state={
 	}
 
 	history={
-		owner = ZUL
+		owner = SAF
 		buildings = {
 			infrastructure = 5
 			industrial_complex = 2

@@ -7,7 +7,7 @@ state=
 	state_category = enclave
 	
 	history= {
-		owner = ETH
+		owner = SPA
 		add_core_of = ETH
 		buildings = {
 			infrastructure = 3

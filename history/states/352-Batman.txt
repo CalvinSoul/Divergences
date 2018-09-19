@@ -1,20 +1,22 @@
 
 state={
 	id=352
-	name="STATE_352" # Van
-	manpower = 365490
-
-	state_category = rural
+	name="STATE_352"
 
 	history={
 		owner = KUR
 		add_core_of = KUR
 		buildings = {
 			infrastructure = 3
+
 		}
+
 	}
 
 	provinces={
-		864 1463 6935 7530 10497 12318 12476 
+		864 1463 6935 7530 7604 10497 12318 12476 
 	}
+	manpower=365490
+	buildings_max_level_factor=1.000
+	state_category=rural
 }

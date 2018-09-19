@@ -7,7 +7,7 @@ state={
 	}
 
 	history={
-		owner = HIN
+		owner = SPA
 		add_core_of = HIN
 		buildings = {
 			infrastructure = 3
@@ -17,7 +17,7 @@ state={
 	}
 
 	provinces={
-		1497 1525 1553 7455 10514 12366 12395 
+		1497 1525 1553 1996 10514 12322 12366 12395 
 	}
 	manpower=8977100
 	buildings_max_level_factor=1.000

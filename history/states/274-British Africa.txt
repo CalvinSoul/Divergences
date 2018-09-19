@@ -1,8 +1,7 @@
+
 state={
 	id=274
 	name="STATE_274"
-	
-	state_category = rural
 
 	history={
 		owner = ANG
@@ -21,8 +20,9 @@ state={
 	}
 
 	provinces={
-		8039 8096 10862 12742 12785 12787 13136 
+		5013 8122 10803 10862 12742 12787 13136 
 	}
 	manpower=3163600
 	buildings_max_level_factor=1.000
+	state_category=rural
 }

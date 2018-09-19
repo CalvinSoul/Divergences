@@ -1,0 +1,16 @@
+state={
+	id=871
+	name="STATE_871"
+	provinces={
+		1951 2050 4952 10919 12731 12762 12785 12817 12843 12874 12900 
+	}
+	history={
+		owner = ANG
+		add_core_of = ANG
+		buildings = {
+			infrastructure = 5
+		}
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+}

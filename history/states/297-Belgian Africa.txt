@@ -1,25 +1,29 @@
-state=
-{
+
+state={
 	id=297
-	name="STATE_297" # Equatorial Guinea
-	manpower = 185000
-	
-	state_category = enclave
-	
-	history=
-	{
+	name="STATE_297"
+
+	history={
 		owner = GER
 		buildings = {
 			infrastructure = 2
 			1903 = {
 				naval_base = 1
+
 			}
 			8244 = {
 				naval_base = 1
+
 			}
+
 		}
+
 	}
-	provinces=
-	{
-8244 	}
+
+	provinces={
+		2115 8207 10968 12975 
+	}
+	manpower=185000
+	buildings_max_level_factor=1.000
+	state_category=enclave
 }

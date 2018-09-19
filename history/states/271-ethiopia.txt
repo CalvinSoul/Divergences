@@ -7,7 +7,7 @@ state={
 	}
 
 	history={
-		owner = ETH
+		owner = SPA
 		add_core_of = ETH
 		buildings = {
 			infrastructure = 3
@@ -29,7 +29,7 @@ state={
 	}
 
 	provinces={
-		2009 2066 4954 4995 5010 5097 7912 7980 8019 8036 8062 10734 10775 10859 11145 12714 12757 12812 12856 13137 
+		2066 4985 4995 5010 7980 8019 8036 8062 8124 10734 10775 12714 12757 12812 
 	}
 	manpower=10000000
 	buildings_max_level_factor=1.000

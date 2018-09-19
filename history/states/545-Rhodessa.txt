@@ -8,8 +8,8 @@ state={
 	}
 
 	history={
-		owner = SAF
-		add_core_of = SAF
+		owner = SHA
+		add_core_of = SHA
 		buildings = {
 			infrastructure = 3
 
