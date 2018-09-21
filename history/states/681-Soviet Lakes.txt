@@ -8,16 +8,18 @@ state={
 		add_core_of = CAP
 		buildings = {
 			infrastructure = 5
-			industrial_complex = 2
-			air_base = 1
-			12589 = {
-				naval_base = 4
-
-			}
-
 		}
 		victory_points = {
-			12589 10 
+			12589 5
+		}
+		victory_points = {
+			12692 5
+		}
+		victory_points = {
+			4528 5
+		}
+		victory_points = {
+			12419 5
 		}
 
 	}
@@ -25,7 +27,7 @@ state={
 	provinces={
 		4528 10415 10442 12419 12589 12692 
 	}
-	manpower=1637178
+	manpower=0
 	buildings_max_level_factor=1.000
 	state_category=town
 }

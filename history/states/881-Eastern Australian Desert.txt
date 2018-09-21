@@ -4,6 +4,8 @@ state={
 	provinces={
 		2205 2221 8206 10991 
 	}
+	manpower=0
+	buildings_max_level_factor=1.000
 	history={
 		owner = ZHO
 		add_core_of = ZHO

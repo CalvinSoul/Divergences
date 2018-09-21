@@ -1,15 +1,15 @@
 
 state={
-	id=879
-	name="STATE_879"
+	id=884
+	name="STATE_884"
 	provinces={
-		2223 8134 8155 8237 10955 11013 12904 12992 
+		3772 6788 11891 
 	}
 	manpower=0
 	buildings_max_level_factor=1.000
 	history={
-		owner = JER
-		add_core_of = JER
+		owner = ITA
+		add_core_of = ITA
 		buildings = {
 			infrastructure = 5
 		}

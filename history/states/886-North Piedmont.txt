@@ -1,0 +1,21 @@
+
+state={
+	id=886
+	name="STATE_886"
+
+	history={
+		owner = ITA
+		add_core_of = ITA
+		buildings = {
+			infrastructure = 5
+
+		}
+
+	}
+
+	provinces={
+		611 3612 6635 9587 11570 
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+}

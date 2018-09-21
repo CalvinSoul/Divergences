@@ -7,19 +7,16 @@ state={
 		owner = VRY
 		add_core_of = VRY
 		buildings = {
-			infrastructure = 3
-
+			infrastructure = 5
 		}
-		victory_points = {
-			4879 1 
-		}
-
+		victory_points = { 10978 5 }
+		victory_points = { 12519 5 }
 	}
 
 	provinces={
-		8136 10957 10978 12921 
+		7770 8136 10957 10978 12519 12921 
 	}
-	manpower=462000
+	manpower=0
 	buildings_max_level_factor=1.000
 	state_category=wasteland
 }

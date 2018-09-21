@@ -12,15 +12,11 @@ state={
 		add_core_of = SAF
 		buildings = {
 			infrastructure = 5
-			arms_factory = 1
-			industrial_complex = 5
-			air_base = 3
-
 		}
-		victory_points = {
-			10400 10 
-		}
-
+		victory_points = { 2213 5 }
+		victory_points = { 10400 5 }
+		victory_points = { 2171 5 }
+		victory_points = { 5217 5 }
 	}
 
 	provinces={
