@@ -1,10 +1,7 @@
 
 state={
 	id=35
-	name="STATE_35" # Brabant
-	manpower = 1449000
-	
-	state_category = city
+	name="STATE_35"
 
 	history={
 		owner = BRG
@@ -12,13 +9,18 @@ state={
 		buildings = {
 			infrastructure = 7
 			industrial_complex = 5
+
 		}
 		victory_points = {
-			6496 5
+			6496 5 
 		}
+
 	}
 
 	provinces={
-		3262 6496 6500 11456 11562 
+		3262 6496 6500 11456 
 	}
+	manpower=1449000
+	buildings_max_level_factor=1.000
+	state_category=city
 }

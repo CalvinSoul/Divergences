@@ -1,0 +1,15 @@
+state={
+	id=883
+	name="STATE_883"
+	provinces={
+		2201 5207 8152 8209 8247 10937 10958 11016 12993 
+	}
+	history={
+		owner = JER
+		add_core_of = JER 
+		buildings = {
+			infrastructure = 5
+		}
+		#victory_points = { 0 5 }
+	}
+}

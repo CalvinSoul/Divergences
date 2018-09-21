@@ -1,16 +1,21 @@
+
 state={
 	id=794
 	name="STATE_794"
-	provinces={
-		575 3447 3536 11483 11548 11606 
-	}
-	manpower=0
-	buildings_max_level_factor=1.000
+
 	history={
 		owner = BRG
 		add_core_of = BRG
 		buildings = {
 			infrastructure = 3
+
 		}
+
 	}
+
+	provinces={
+		575 3447 3536 11483 11548 11606 13081 
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
 }

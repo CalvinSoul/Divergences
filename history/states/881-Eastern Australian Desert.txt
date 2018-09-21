@@ -1,0 +1,15 @@
+state={
+	id=881
+	name="STATE_881"
+	provinces={
+		2205 2221 8206 10991 
+	}
+	history={
+		owner = ZHO
+		add_core_of = ZHO
+		buildings = {
+			infrastructure = 5
+		}
+		#victory_points = { 0 5 }
+	}
+}

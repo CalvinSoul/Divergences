@@ -1,0 +1,16 @@
+
+state={
+	id=879
+	name="STATE_879"
+	provinces={
+		2223 8134 8155 8237 10955 11013 12904 12992 
+	}
+	history={
+		owner = JER
+		add_core_of = JER
+		buildings = {
+			infrastructure = 5
+		}
+		#victory_points = { 0 5 }
+	}
+}

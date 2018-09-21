@@ -1,28 +1,30 @@
-state=
-{
+
+state={
 	id=8
 	name="STATE_8"
-	
-	state_category = town
-	
-	manpower = 294748
 	resources={
-		steel=5 # was: 8
+		steel=5.000
 	}
 
-	history=
-	{
+	history={
 		owner = BRG
 		add_core_of = BRG
 		buildings = {
 			infrastructure = 6
 			arms_factory = 1
 			industrial_complex = 3
+
 		}
-		victory_points = { 6583 5 }
+		victory_points = {
+			6583 5 
+		}
+
 	}
 
-	provinces=
-	{
-6583 	}
+	provinces={
+		3488 6583 11562 
+	}
+	manpower=294748
+	buildings_max_level_factor=1.000
+	state_category=town
 }
