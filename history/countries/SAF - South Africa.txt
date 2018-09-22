@@ -1,4 +1,4 @@
-﻿capital = 1
+capital = 1
 
 oob = "Z_1936"
 
@@ -15,52 +15,77 @@ set_politics = {
 
 	parties = {
 		cornelian_communard = { 
-			popularity = 10
+			popularity = 0
 		}
 		egalitarian_collectivist = {
-			popularity = 10
+			popularity = 0
 		}
 		libertarian_socialist = {
-			popularity = 10
+			popularity = 20
 		}
 		social_democrat = { 
-			popularity = 10
+			popularity = 5
 		}
 		classical_liberal = { 
-			popularity = 10
+			popularity = 5
 		}
 		social_conservative = { 
-			popularity = 10
+			popularity = 5
 		}
 		authoritarian_democrat = { 
-			popularity = 10
+			popularity = 50
 		}
 		paternal_autocrat = { 
-			popularity = 10
+			popularity = 0
 		}
 		national_autocracy = { 
 			popularity = 10
 		}
 		imperial_irredentist = { 
-			popularity = 10
+			popularity = 5
 		}
 	}
 	
 	ruling_party = authoritarian_democrat
-	last_election = "1936.1.1"
+	last_election = "1923.5.12"
 	election_frequency = 48
 	elections_allowed = no
 }
 
 create_country_leader = {
 	
-	name = "The Invisible Man"
-	picture = "gfx//leaders//Invisible_Man.tga" ""
+	name = "Theofiel de Wierd"
+	picture = "gfx//leaders//SAF//Theofiel_de_Wierd_SAF.tga"
 	expire = "1965.1.1"
 	ideology = authoritarian_democrat_subtype
 	traits = {
-		#
+		}
 	}
-}
-
+	
+create_country_leader = {
+	name = "Dries Bergvlamingh"
+	picture = "gfx//leaders//SAF//Dries_Bergvlamingh_SAF.tga"
+	expire = "1965.1.1"
+	ideology = classical_liberal_subtype
+	traits = {
+		}
+	}
+	
+create_country_leader = {
+	name = "Jacob Maurits Aloysius"
+	picture = "gfx//leaders//SAF//Jacob_Maurits_Aloysius_SAF.tga"
+	expire = "1965.1.1"
+	ideology = national_autocracy_subtype
+	traits = {
+		}
+	}
+	
+create_country_leader = {	
+	name = "Aloysius, Erfgenaam den Bourgondië"
+	picture = "gfx//leaders//SAF//Jacob_Maurits_Aloysius_SAF.tga"
+	expire = "1965.1.1"
+	ideology = imperial_irredentist_subtype
+	traits = {
+		}
+	}
 }
