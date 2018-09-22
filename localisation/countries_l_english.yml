@@ -101,8 +101,8 @@
  VER_social_democrat:0 "Republic of Verland"
  VIN_social_democrat:0 "Republic of Vinland"
  ZHO_social_conservative:0 "Confederation of Zhourao"
- ZUL_authoritarian_democrat:0 "isiZulu"
- XHO_authoritarian_democrat:0 "isiXhosa"
+ ZUL_libertarian_socialist:0 "isiZulu"
+ XHO_libertarian_socialist:0 "isiXhosa"
 
 WAL_authoritarian_democrat:0 "Kingdom of Wallachia"
 MOL_authoritarian_democrat:0 "Kingdom of Moldovia"
