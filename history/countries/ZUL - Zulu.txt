@@ -55,7 +55,7 @@ set_politics = {
 create_country_leader = {
 	
 	name = "Inkosi Amaphakheji"
-	picture = "gfx//leaders//ZUL//Inkosi_Amaphakheji_ZUL"
+	picture = "gfx//leaders//ZUL//Inkosi_Amaphakheji_ZUL.tga"
 	expire = "1965.1.1"
 	ideology = libertarian_socialist_subtype
 	traits = {
