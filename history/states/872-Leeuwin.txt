@@ -9,7 +9,7 @@ state={
 	history={
 		owner = SAF
 		add_core_of = SAF
-		add_core_of LEU
+		add_core_of = LEU
 		buildings = {
 			infrastructure = 5
 		}
