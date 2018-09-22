@@ -1,4 +1,4 @@
-﻿capital = 1
+capital = 1
 
 oob = "Z_1936"
 
@@ -15,38 +15,38 @@ set_politics = {
 
 	parties = {
 		cornelian_communard = { 
-			popularity = 10
+			popularity = 5
 		}
 		egalitarian_collectivist = {
-			popularity = 10
+			popularity = 6
 		}
 		libertarian_socialist = {
-			popularity = 10
+			popularity = 7
 		}
 		social_democrat = { 
-			popularity = 10
+			popularity = 22
 		}
 		classical_liberal = { 
-			popularity = 10
+			popularity = 27
 		}
 		social_conservative = { 
-			popularity = 10
+			popularity = 18
 		}
 		authoritarian_democrat = { 
-			popularity = 10
+			popularity = 3
 		}
 		paternal_autocrat = { 
-			popularity = 10
+			popularity = 3
 		}
 		national_autocracy = { 
-			popularity = 10
+			popularity = 9
 		}
 		imperial_irredentist = { 
-			popularity = 10
+			popularity = 0
 		}
 	}
 	
-	ruling_party = authoritarian_democrat
+	ruling_party = classical_liberal
 	last_election = "1936.1.1"
 	election_frequency = 48
 	elections_allowed = no
@@ -54,8 +54,19 @@ set_politics = {
 
 create_country_leader = {
 	
-	name = "The Invisible Man"
-	picture = "gfx//leaders//Invisible_Man.tga" ""
+	name = "Galeazzo Premarin"
+	picture = "gfx//leaders/ITA/Galeazzo_Premarin.tga" 
+	expire = "1965.1.1"
+	ideology = classical_liberal_subtype
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	
+	name = "Carlo Sanuto"
+	picture = "gfx//leaders/ITA/Carlo_Sanuto.tga" 
 	expire = "1965.1.1"
 	ideology = authoritarian_democrat_subtype
 	traits = {
@@ -63,4 +74,46 @@ create_country_leader = {
 	}
 }
 
+create_country_leader = {
+	
+	name = "Gianfranco Zorzi"
+	picture = "gfx//leaders/ITA/Gianfranco_Zorzi.tga" 
+	expire = "1965.1.1"
+	ideology = social_conservative_subtype
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	
+	name = "Massimo Ferri"
+	picture = "gfx//leaders/ITA/Massimo_Ferri.tga" 
+	expire = "1965.1.1"
+	ideology = egalitarian_collectivist_subtype
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	
+	name = "Paolo Innocenti"
+	picture = "gfx//leaders/ITA/Paolo_Innocenti.tga" 
+	expire = "1965.1.1"
+	ideology = social_democrat_subtype
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	
+	name = "Zeno Priuli"
+	picture = "gfx//leaders/ITA/Zeno_Priuli.tga" 
+	expire = "1965.1.1"
+	ideology = national_autocracy_subtype
+	traits = {
+		#
+	}
 }
