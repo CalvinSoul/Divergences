@@ -100,5 +100,7 @@ PRU_authoritarian_democrat:0 "Prussian Republic"
 CAP_paternal_autocrat:0 "Duchy of the Cape"
 VRY_social_conservative:0 "Vryland"
 SAF_authoritarian_democrat:0 "Geuzenland"
-
+LEU_paternal_autocrat:0 "Leeuwin"
+TRA_social_conservative:0 "Transkaap"
+NFL_classical_liberal:0 "Nuweflander"
 
