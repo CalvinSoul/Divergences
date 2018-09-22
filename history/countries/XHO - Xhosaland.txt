@@ -54,8 +54,8 @@ set_politics = {
 
 create_country_leader = {
 	
-	name = "Inkosi Amaphakheji"
-	picture = "gfx//leaders//XHO//Bu_Ngileyo_XHO"
+	name = "Bu Ngileyo"
+	picture = "gfx//leaders//XHO//Bu_Ngileyo_XHO.tga"
 	expire = "1965.1.1"
 	ideology = libertarian_socialist_subtype
 	traits = {
