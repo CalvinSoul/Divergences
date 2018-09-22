@@ -1,4 +1,4 @@
-﻿capital = 1
+capital = 1
 
 oob = "Z_1936"
 
@@ -15,51 +15,51 @@ set_politics = {
 
 	parties = {
 		cornelian_communard = { 
-			popularity = 10
+			popularity = 5
 		}
 		egalitarian_collectivist = {
-			popularity = 10
+			popularity = 25
 		}
 		libertarian_socialist = {
-			popularity = 10
+			popularity = 20
 		}
 		social_democrat = { 
-			popularity = 10
+			popularity = 0
 		}
 		classical_liberal = { 
-			popularity = 10
+			popularity = 0
 		}
 		social_conservative = { 
-			popularity = 10
+			popularity = 50
 		}
 		authoritarian_democrat = { 
-			popularity = 10
+			popularity = 0
 		}
 		paternal_autocrat = { 
-			popularity = 10
+			popularity = 0
 		}
 		national_autocracy = { 
-			popularity = 10
+			popularity = 0
 		}
 		imperial_irredentist = { 
-			popularity = 10
+			popularity = 0
 		}
 	}
 	
-	ruling_party = authoritarian_democrat
-	last_election = "1936.1.1"
+	ruling_party = social_conservative
+	last_election = "1923.7.11"
 	election_frequency = 48
 	elections_allowed = no
 }
 
 create_country_leader = {
 	
-	name = "The Invisible Man"
-	picture = "gfx//leaders//Invisible_Man.tga" ""
+	name = "Wimpie Beukes"
+	picture = "gfx//leaders//VRY//Wimpie_Beukes_VRY.tga"
 	expire = "1965.1.1"
-	ideology = authoritarian_democrat_subtype
+	ideology = social_conservative_subtype
 	traits = {
-		#
+		}
 	}
 }
 
