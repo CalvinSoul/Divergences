@@ -1,4 +1,4 @@
-﻿capital = 1
+capital = 1
 
 oob = "Z_1936"
 
@@ -15,38 +15,38 @@ set_politics = {
 
 	parties = {
 		cornelian_communard = { 
-			popularity = 10
+			popularity = 0
 		}
 		egalitarian_collectivist = {
-			popularity = 10
+			popularity = 5
 		}
 		libertarian_socialist = {
-			popularity = 10
+			popularity = 5
 		}
 		social_democrat = { 
 			popularity = 10
 		}
 		classical_liberal = { 
-			popularity = 10
+			popularity = 0
 		}
 		social_conservative = { 
-			popularity = 10
+			popularity = 20
 		}
 		authoritarian_democrat = { 
-			popularity = 10
+			popularity = 0
 		}
 		paternal_autocrat = { 
-			popularity = 10
+			popularity = 60
 		}
 		national_autocracy = { 
-			popularity = 10
+			popularity = 0
 		}
 		imperial_irredentist = { 
-			popularity = 10
+			popularity = 0
 		}
 	}
 	
-	ruling_party = authoritarian_democrat
+	ruling_party = paternal_autocrat
 	last_election = "1936.1.1"
 	election_frequency = 48
 	elections_allowed = no
@@ -54,12 +54,12 @@ set_politics = {
 
 create_country_leader = {
 	
-	name = "The Invisible Man"
-	picture = "gfx//leaders//Invisible_Man.tga" ""
+	name = "Duc Rudolph Jean du Bourgogne du Cap"
+	picture = "gfx//leaders//CAP//Rudolph_Jean_CAP.tga" ""
 	expire = "1965.1.1"
-	ideology = authoritarian_democrat_subtype
+	ideology = paternal_autocrat_subtype
 	traits = {
-		#
+		}
 	}
 }
 
