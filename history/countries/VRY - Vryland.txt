@@ -64,7 +64,7 @@ create_country_leader = {
 	
 	create_country_leader = {
 	
-	name = Umphathi Wobuzalwana"
+	name = "Umphathi Wobuzalwana"
 	picture = "gfx//leaders//VRY//Umphathi_Wobuzalwana_VRY.tga"
 	expire = "1965.1.1"
 	ideology = egalitarian_collectivist_subtype
