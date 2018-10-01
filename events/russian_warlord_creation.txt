@@ -1,0 +1,505 @@
+add_namespace = rwc
+
+country_event = {
+	id = rwc.1		#Belorussia breaking away
+	title = rwc.1.t
+	desc = rwc.1.d
+	picture = GFX_
+	
+	fire_only_once = yes
+	
+	is_triggered_only = yes
+	
+	trigger = {
+		AND = {
+			TAG = RUS
+			RUS = {
+				has_country_flag = flag_russian_warlords
+			}
+		}
+	}
+	
+	mean_time_to_happen = {
+		days = 47
+	}
+	
+	option = {
+		name = rwc.1.a
+		ai_chance = {
+			factor = 100
+		}
+		
+		BLR = {
+			transfer_state = 207
+			transfer_state = 206
+			transfer_state = 241
+		}
+	}
+	
+	option = {
+		name = rwc.1.b
+		ai_chance = {
+			factor = 0
+		}
+		
+		BLR = {
+			change_tag_from = ROOT
+			transfer_state = 207
+			transfer_state = 206
+			transfer_state = 241
+		}
+	}	
+}
+
+country_event = {
+	id = rwc.2
+	title = rwc.2.t
+	desc - rwc.2.d
+	picture = GFX_
+	
+	fire_only_once = yes
+	
+	is_triggered_only = yes
+	
+	trigger = {
+		AND = {
+			TAG = RUS
+			RUS = {
+				has_country_flag = flag_russian_warlords
+			}
+		}
+	}
+	
+	mean_time_to_happen = {
+		days = 68
+	}
+	
+	option = {
+		name = rwc.2.a
+		ai_chance = {
+			factor = 100
+		}
+		
+		SML = {
+			transfer_state = 243
+			transfer_state = 242
+		}
+	}
+	
+	option = {
+		name = rwc.2.b
+		ai_chance = {
+			factor = 0
+		}
+		
+		SML = {
+			change_tag_from = ROOT
+			transfer_state = 243
+			transfer_state = 242
+		}
+	}
+}
+
+country_event = {
+	id = rwc.3 #Novgorod breaks away 
+	title = rwc.3.t
+	desc = rwc.3.d
+	
+	fire_only_once = yes 
+	
+	is_triggered_only = yes
+	
+	trigger = {
+		AND = {
+			TAG = RUS
+			RUS = {
+				has_country_flag = flag_russian_warlords
+			}
+		}
+	}
+	
+	mean_time_to_happen = {
+		days = 165
+	}
+	
+	option = {
+		name = rwc.3.a
+		ai_chance = {
+			factor = 100
+		}
+		
+		NOV = {
+			transfer_state = 210
+			transfer_state = 246
+			transfer_state = 263
+			transfer_state = 244
+			transfer_state = 247
+			transfer_state = 264
+		}
+	}
+	
+	option = {
+		name = rwc.3.b
+		ai_chance = {
+			factor = 0
+		}
+		NOV = {
+			change_tag_from = ROOT
+			transfer_state = 210
+			transfer_state = 246
+			transfer_state = 263
+			transfer_state = 244
+			transfer_state = 247
+			transfer_state = 264
+		}		
+	}
+}
+
+country_event = {
+	id = rwc.4
+	title = rwc.4.t
+	desc = rwc.4.d
+	picture = GFX_
+
+	trigger = {
+		AND = {
+			TAG = RUS
+			RUS = {
+				has_country_flag = flag_russian_warlords
+			}
+		}
+	}
+	
+	mean_time_to_happen = {
+		days = 175
+	}
+	
+	option = {
+		name = rwc.4.a
+		ai_chance = {
+			factor = 100
+		}
+		SVR = {
+			transfer_state = 216
+			transfer_state = 215
+			transfer_state = 213
+			transfer_state = 214
+		}
+	}
+	
+	option = {
+		name = rwc.4.b
+		ai_chance = {
+			factor = 0
+		}
+		SVR = {
+			change_tag_from = ROOT
+			transfer_state = 216
+			transfer_state = 215
+			transfer_state = 213
+			transfer_state = 214
+		}
+	}
+}
+
+country_event = {
+	id = rwc.5
+	title = rwc.5.t
+	desc = rwc.5.d
+	picture = GFX_
+	
+	fire_only_once = yes
+	
+	is_triggered_only = yes
+	
+	trigger = {
+		AND = {
+			TAG = RUS
+			RUS = {
+				has_country_flag = flag_russian_warlords
+			}
+		}
+	}
+	
+	mean_time_to_happen = {
+		days = 184
+	}
+	
+	option = {
+		name = rwc.5.a
+		ai_chance = {
+			factor = 100
+		}
+		YAR = {
+			transfer_state = 351
+			transfer_state = 248
+		}
+	}
+	
+	option = {
+		name = rwc.5.b
+		ai_chance = {
+			factor = 0
+		}
+		YAR = {
+			change_tag_from = ROOT
+			transfer_state = 351
+			transfer_state = 248
+		}
+	}
+}
+
+country_event = {
+	id = rwc.6
+	title = rwc.6.t
+	desc = rwc.6.d
+	picture = GFX_
+	
+	fire_only_once = yes
+	
+	is_triggered_only = yes
+	
+	trigger = {
+		AND = {
+			TAG = RUS
+			RUS = {
+				has_country_flag = flag_russian_warlords
+			}
+		}
+	}
+	
+	mean_time_to_happen = {
+		days = 201
+	}
+	
+	option = {
+		name = rwc.6.a
+		ai_chance = {
+			factor = 100
+		}
+		MOS = {
+			transfer_state = 219
+			transfer_state = 223
+			transfer_state = 205
+			transfer_state = 254
+			transfer_state = 253
+			transfer_state = 252
+			transfer_state = 255
+			transfer_state = 257
+			transfer_state = 258
+		}
+	}
+	
+	option = {
+		name = rwc.6.b
+		ai_chance = {
+			factor = 0
+		}
+		RUS = {
+			set_capital = 217
+		}
+		MOS = {
+			change_tag_from = ROOT
+			transfer_state = 219
+			transfer_state = 223
+			transfer_state = 205
+			transfer_state = 254
+			transfer_state = 253
+			transfer_state = 252
+			transfer_state = 255
+			transfer_state = 257
+			transfer_state = 258
+		}
+	}
+}
+
+country_event = {
+	id = rwc.7
+	title = rwc.7.t
+	desc = rwc.7.d
+	picture = GFX_
+	
+	fire_only_once = yes
+	
+	is_triggered_only = yes
+	
+	trigger = {
+		AND = {
+			TAG = RUS
+			RUS = {
+				has_country_flag = flag_russian_warlords
+			}
+		}
+	}
+	
+	mean_time_to_happen = {
+		days = 210
+	}
+	
+	option = {
+		name = rwc.7.a
+		ai_chance = {
+			factor = 100
+		}
+		CHE = {
+			transfer_state = 222
+			transfer_state = 220
+			transfer_state = 240
+			transfer_state = 260
+		}
+	}
+	
+	option = {
+		name = rwc.7.b
+		ai_chance = {
+			factor = 0
+		}
+		CHE = {
+			change_tag_from = ROOT
+			transfer_state = 222
+			transfer_state = 220
+			transfer_state = 240
+			transfer_state = 260
+		}
+	}
+}
+
+country_event = {
+	id = rwc.8
+	title = rwc.8.t
+	desc = rwc.8.d
+	picture = GFX_
+	
+	fire_only_once = yes
+	
+	is_triggered_only = yes
+	
+	trigger = {
+		AND = {
+			TAG = RUS
+			RUS = {
+				has_country_flag = flag_russian_warlords
+			}
+		}
+	}
+	
+	mean_time_to_happen = {
+		days = 205
+	}
+	
+	option = {
+		name = rwc.8.a
+		ai_chance = {
+			factor = 100
+		}
+		KZN = {
+			transfer_state = 250
+			transfer_state = 249
+			transfer_state = 256
+			transfer_state = 399
+			transfer_state = 400
+		}
+	}
+	
+	option = {
+		name = rwc.8.b
+		ai_chance = P
+			factor = 0
+		}
+		KZN = {
+			change_tag_from = ROOT
+			transfer_state = 250
+			transfer_state = 249
+			transfer_state = 256
+			transfer_state = 399
+			transfer_state = 400
+		}
+	}
+}
+
+country_event = {
+	id = rwc.9
+	title = rwc.9.t
+	desc = rwc.9.d
+	picture = GFX_
+	
+	fire_only_once = yes
+	
+	is_triggered_only = yes
+	
+	trigger = {
+		AND = {
+			TAG = RUS
+			RUS = {
+				has_country_flag = flag_russian_warlords
+			}
+		}
+	}
+	
+	mean_time_to_happen = {
+		days = 160
+	}	
+	
+	option = {
+		name = rwc.9.a
+		ai_chance = {
+			factor = 100
+		}
+		PSK = {
+			transfer_state = 195
+			transfer_state = 208
+			transfer_state = 209
+		}
+	}
+	
+	option = {
+		name = rwc.9.b
+		ai_chance = {
+			factor = 0
+		}
+		PSK = {
+			change_tag_from = ROOT
+			transfer_state = 195
+			transfer_state = 208
+			transfer_state = 209
+		}
+	}
+}
+
+country_event = {
+	id = rwc.10
+	title = rwc.10.t
+	desc = rwc.10.d
+	picture = GFX_
+	
+	fire_only_once = yes
+	
+	is_triggered_only = yes
+	
+	trigger = {
+		AND = {
+			TAG = RUS
+			RUS = {
+				has_country_flag = flag_russian_warlords
+			}
+		}
+	}
+	
+	mean_time_to_happen = {
+		days = 210
+	}		
+	
+	option = {
+		name = rwc.10.a
+		ai_chance - {
+			factor = 100
+		}
+		KZK = {
+			transfer_state = 239
+			transfer_state = 265
+			transfer_state = 218
+			transfer_state = 217
+			transfer_state = 245
+		}
+	}
+}
