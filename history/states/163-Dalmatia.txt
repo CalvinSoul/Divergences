@@ -1,22 +1,20 @@
-state=
-{
+
+state={
 	id=163
 	name="STATE_163"
-	manpower = 18000
-	
-	state_category = enclave
-	
+
 	history={
 		owner = ITA
 		add_core_of = ITA
 		buildings = {
 			infrastructure = 5
-			3943 = {
-				naval_base = 1
-			}
 		}
-	} 
-	provinces={	
-		3943 
 	}
+
+	provinces={
+		591 984 3943 6611 11564 11901 
+	}
+	manpower=547088
+	buildings_max_level_factor=1.000
+	state_category=enclave
 }
