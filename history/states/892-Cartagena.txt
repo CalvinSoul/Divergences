@@ -1,16 +1,14 @@
-
 state={
-	id=884
-	name="STATE_884"
+	id=892
+	name="STATE_892"
 	provinces={
-		3772 6788 11891 
+		1093 3835 10024 10109 11884 
 	}
-	manpower=1922643
+	manpower=0
 	buildings_max_level_factor=1.000
 	history={
-		owner = ITA
-		add_core_of = ITA
-		add_core_of = PDM
+		owner = ARA
+		add_core_of = SPA
 		buildings = {
 			infrastructure = 5
 		}

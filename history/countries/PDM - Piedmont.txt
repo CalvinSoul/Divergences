@@ -1,6 +1,6 @@
-capital = 681
+capital = 158
 
-oob = "Z_1936"
+oob = "PDM_1936"
 
 # Starting tech
 set_technology = {
@@ -15,38 +15,38 @@ set_politics = {
 
 	parties = {
 		cornelian_communard = { 
-			popularity = 0
+			popularity = 8
 		}
 		egalitarian_collectivist = {
-			popularity = 5
+			popularity = 8
 		}
 		libertarian_socialist = {
-			popularity = 5
+			popularity = 14
 		}
 		social_democrat = { 
-			popularity = 10
+			popularity = 25
 		}
 		classical_liberal = { 
-			popularity = 0
+			popularity = 45
 		}
 		social_conservative = { 
-			popularity = 20
+			popularity = 0
 		}
 		authoritarian_democrat = { 
 			popularity = 0
 		}
 		paternal_autocrat = { 
-			popularity = 60
+			popularity = 0
 		}
 		national_autocracy = { 
-			popularity = 0
+			popularity = 5
 		}
 		imperial_irredentist = { 
 			popularity = 0
 		}
 	}
 	
-	ruling_party = paternal_autocrat
+	ruling_party = libertarian_socialist
 	last_election = "1936.1.1"
 	election_frequency = 48
 	elections_allowed = no
@@ -54,13 +54,14 @@ set_politics = {
 
 create_country_leader = {
 	
-	name = "Duc Rudolph Jean du Bourgogne du Cap"
-	picture = "gfx//leaders//CAP//Rudolph_Jean_CAP.tga" ""
+	name = "Marcello Buontempi"
+	picture = "gfx//leaders//Invisible_Man.tga" 
 	expire = "1965.1.1"
-	ideology = paternal_autocrat_subtype
+	ideology = libertarian_socialist_subtype
 	traits = {
-		}
+		#
 	}
 }
 
 }
+

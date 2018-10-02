@@ -1,0 +1,17 @@
+state={
+	id=895
+	name="STATE_895"
+	provinces={
+		809 931 3930 3940 4080 6884 6954 7098 9815 9819 9891 11749 11798 11851 12070 
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+	history={
+		owner = SPA
+		add_core_of = SPA
+		buildings = {
+			infrastructure = 5
+		}
+		#victory_points = { 0 5 }
+	}
+}

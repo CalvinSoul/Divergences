@@ -6,6 +6,7 @@ state={
 	history={
 		owner = ITA
 		add_core_of = ITA
+		add_core_of = PDM
 		buildings = {
 			infrastructure = 5
 
@@ -16,6 +17,6 @@ state={
 	provinces={
 		611 3612 6635 9587 11570 
 	}
-	manpower=0
+	manpower=452255
 	buildings_max_level_factor=1.000
 }

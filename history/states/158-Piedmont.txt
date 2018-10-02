@@ -2,16 +2,11 @@
 state={
 	id=158
 	name="STATE_158"
-	resources={
-		steel=24.000
-		aluminium=16.000
-		chromium=2.000
-		tungsten=1.000
-	}
 
 	history={
 		owner = ITA
 		add_core_of = ITA
+		add_core_of = PDM
 		victory_points = {
 			6788 10 
 		}
@@ -19,15 +14,7 @@ state={
 			6780 5 
 		}
 		buildings = {
-			infrastructure = 7
-			arms_factory = 7
-			industrial_complex = 1
-			dockyard = 2
-			air_base = 8
-			6788 = {
-				naval_base = 8
-
-			}
+			infrastructure = 5
 
 		}
 
@@ -36,7 +23,7 @@ state={
 	provinces={
 		770 771 776 3782 6780 9741 11723 11726 11730 
 	}
-	manpower=4765476
+	manpower=2815398
 	buildings_max_level_factor=1.000
 	state_category=metropolis
 }

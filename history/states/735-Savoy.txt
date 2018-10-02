@@ -6,6 +6,7 @@ state={
 	history={
 		owner = ITA
 		add_core_of = ITA
+		add_core_of = PDM
 		victory_points = {
 			778 1 
 		}
@@ -13,20 +14,15 @@ state={
 			9909 5 
 		}
 		buildings = {
-			infrastructure = 4
-			9909 = {
-				naval_base = 2
-
-			}
-
+			infrastructure = 5
 		}
 
 	}
 
 	provinces={
-		764 778 3764 6609 9603 9738 9745 11573 11721 
+		764 778 3764 6609 6975 9603 9738 9745 11573 11721 
 	}
-	manpower=907500
+	manpower=1245460
 	buildings_max_level_factor=1.000
 	state_category=town
 }

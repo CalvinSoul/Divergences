@@ -2,17 +2,12 @@
 state={
 	id=39
 	name="STATE_39"
-	resources={
-		aluminium=14.000
-	}
 
 	history={
 		owner = ITA
 		add_core_of = ITA
 		buildings = {
-			infrastructure = 6
-			industrial_complex = 1
-
+			infrastructure = 5
 		}
 
 	}
@@ -20,7 +15,7 @@ state={
 	provinces={
 		656 3657 9598 9613 11598 
 	}
-	manpower=641650
+	manpower=304928
 	buildings_max_level_factor=1.000
 	state_category=town
 }
