@@ -1,0 +1,17 @@
+state={
+	id=890
+	name="STATE_890"
+	provinces={
+		400 3254 3272 6281 6407 11312 
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+	history={
+		owner = LIT
+		add_core_of = LIT
+		buildings = {
+			infrastructure = 5
+		}
+		#victory_points = { 0 5 }
+	}
+}

@@ -2,8 +2,6 @@
 state={
 	id=5
 	name="STATE_5"
-	manpower = 3378108
-	state_category = large_city
 
 	history={
 		owner = PRU
@@ -24,10 +22,15 @@ state={
 
 			}
 			air_base = 6
+
 		}
+
 	}
 
 	provinces={
-		266 281 348 395 3351 3380 3384 6332 6375 6402 9327 9346 9372 9398 11245 11265 11386 
+		266 281 348 395 3351 3380 3384 6332 6375 6402 9327 9346 9372 9398 11245 11386 
 	}
+	manpower=3378108
+	buildings_max_level_factor=1.000
+	state_category=large_city
 }

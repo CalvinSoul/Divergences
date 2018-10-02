@@ -1,0 +1,20 @@
+state={
+	id=889
+	name="STATE_889"
+	provinces={
+		11265 
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+	history={
+		owner = POL
+		add_core_of = PRU
+		buildings = {
+			infrastructure = 5
+			11265  = {
+				naval_base = 3
+			}
+		}
+		#victory_points = { 0 5 }
+	}
+}
