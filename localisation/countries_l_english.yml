@@ -47,6 +47,17 @@
  ITA_national_autocracy:0 "Most Serene State of Venice"
  ITA_imperial_irredentist:0 "Kingdom of Italy"
 
+ PDM_cornelian_communard:0 "Commune of Alba"
+ PDM_egalitarian_collectivist:0 "Commune of Alba"
+ PDM_libertarian_socialist:0 "Commune of Alba"
+ PDM_social_democrat:0 "Republic of Alba"
+ PDM_classical_liberal:0 "Republic of Alba"
+ PDM_social_conservative:0 "Republic of Alba"
+ PDM_authoritarian_democrat:0 "Republic fo Alba"
+ PDM_paternal_autocrat:0 "Duchy of Piedmont"
+ PDM_national_autocracy:0 "State of Alba"
+ PDM_imperial_irredentist:0 "Kingdom of Piedmont"
+
  JAP_social_conservative:0 "Japanese Empire"
  JER_social_conservative:0 "Département of Nouveau Jersey"
  KHE_authoritarian_democrat:0 "Khemer Empire"
