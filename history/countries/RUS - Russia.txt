@@ -15,34 +15,34 @@ set_politics = {
 
 	parties = {
 		cornelian_communard = { 
-			popularity = 10
+			popularity = 11
 		}
 		egalitarian_collectivist = {
-			popularity = 10
+			popularity = 3
 		}
 		libertarian_socialist = {
-			popularity = 10
+			popularity = 9
 		}
 		social_democrat = { 
 			popularity = 10
 		}
 		classical_liberal = { 
-			popularity = 10
+			popularity = 9
 		}
 		social_conservative = { 
-			popularity = 10
+			popularity = 17
 		}
 		authoritarian_democrat = { 
-			popularity = 10
+			popularity = 15
 		}
 		paternal_autocrat = { 
-			popularity = 10
+			popularity = 26
 		}
 		national_autocracy = { 
-			popularity = 10
+			popularity = 0
 		}
 		imperial_irredentist = { 
-			popularity = 10
+			popularity = 0
 		}
 	}
 	
@@ -54,8 +54,8 @@ set_politics = {
 
 create_country_leader = {
 	
-	name = "The Invisible Man"
-	picture = "gfx//leaders//Invisible_Man.tga" ""
+	name = "Reformation Council"
+	picture = "gfx/leaders/RUS/Portrait_RUS_Reformation_Council.dds"
 	expire = "1965.1.1"
 	ideology = authoritarian_democrat_subtype
 	traits = {
