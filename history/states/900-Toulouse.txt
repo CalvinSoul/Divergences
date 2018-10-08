@@ -1,0 +1,17 @@
+state={
+	id=900
+	name="STATE_900"
+	provinces={
+		943 3749 3948 6766 11702 12169 
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+	history={
+		owner = OCC
+		add_core_of = OCC
+		buildings = {
+			infrastructure = 5
+		}
+		#victory_points = { 0 5 }
+	}
+}

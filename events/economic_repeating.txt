@@ -6,7 +6,40 @@ country_event = {
 	fire_only_once = no
 	hidden = yes
 	immediate = { 
-		country_event = { days = 30 id = economic_tick.0 }
+		country_event = { days = 1 id = economic_tick.0 }
+		every_owned_state = {
+				#(civfactories*consumer_goods_level*(construction_speed/10+1)*(infrastructure_level/10+1))
+    			set_variable = {
+    				var = economic_growth_rate
+    				value = industrial_complex_level
+          }
+          set_temp_variable = { temp1 = Root.modifier@production_speed_buildings_factor }
+         add_to_temp_variable = { temp1 = 1}
+         multiply_variable = {
+           var = economic_growth_rate
+           value = temp1
+         }
+         set_temp_variable = { temp2 = infrastructure_level }
+         divide_temp_variable = { temp2 = 10 }
+         add_to_temp_variable = { temp2 = 1}
+         multiply_variable = {
+           var = economic_growth_rate
+           value = temp2
+         }
+          multiply_variable = {
+           economic_growth_rate = Root.privitization_level
+         }
+		}
+	}
+	#option = {}
+}
+country_event = {
+	id = economic_tick.1
+	is_triggered_only = yes 
+	fire_only_once = no
+	hidden = yes
+	immediate = { 
+		country_event = { days = 30 id = economic_tick.1 }
 		every_owned_state = {
 			add_to_variable = {
 				var = economic_growth_level
@@ -14,7 +47,7 @@ country_event = {
 			}
 		}
 
-		every_state = {
+		every_owned_state = {
 			if ={
 				limit = { 
 					check_variable = { economic_growth_level > 100 }

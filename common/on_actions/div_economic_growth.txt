@@ -13,49 +13,53 @@ on_actions = {
 
   }
   every_country = {
-   country_event = { hours = 1 id = economic_tick.0 }
-}
-GER = {
-  set_variable = {
-    var = privitization_level
-    value = 0.5
-  }
-}
-PAP = {
-  set_variable = {
-    var = privitization_level
-    value = 0.8
-  }
-}
-}    
-}
-on_daily = {
- effect = {
-  every_state = {
-    			#(civfactories*privitization_level*(construction_speed/10+1)*(infrastructure_level/10+1))
-    			set_variable = {
-    				var = economic_growth_rate
-    				value = industrial_complex_level
-          }
-          set_temp_variable = { temp1 = Root.modifier@production_speed_buildings_factor }
-          divide_temp_variable = { temp1 = 10 }
-          add_to_temp_variable = { temp1 = 1}
-          multiply_variable = {
-           var = economic_growth_rate
-           value = temp1
-         }
-         set_temp_variable = { temp2 = infrastructure_level }
-         divide_temp_variable = { temp2 = 10 }
-         add_to_temp_variable = { temp2 = 1}
-         multiply_variable = {
-           var = economic_growth_rate
-           value = temp2
-         }
-         multiply_variable = {
-          var = economic_growth_rate
-          value = Root.privitization_level
-        }
-      }
+    set_variable = {
+      var = privitization_level
+      value = 0.5
     }
-  }
+    IF = {
+      limit = {
+      has_idea = very_low_taxation }
+       set_variable = {
+         var = privitization_level
+         value = 0.8
+       }
+     }
+      IF = {
+      limit = {
+      has_idea = low_taxation }
+       set_variable = {
+         var = privitization_level
+         value = 0.6
+       }
+     }
+      IF = {
+      limit = {
+      has_idea = medium_taxation }
+       set_variable = {
+         var = privitization_level
+         value = 0.4
+       }
+     }
+     IF = {
+      limit = {
+      has_idea = high_taxation }
+       set_variable = {
+         var = privitization_level
+         value = 0.2
+       }
+     }
+      IF = {
+      limit = {
+      has_idea = very_high_taxation }
+       set_variable = {
+         var = privitization_level
+         value = 0.0
+       }
+     }
+     country_event = { hours = 1 id = economic_tick.0 }
+   country_event = { hours = 1 id = economic_tick.1 }
+   }
+ }
+}    
 }

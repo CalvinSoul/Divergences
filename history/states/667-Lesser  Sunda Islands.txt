@@ -2,13 +2,9 @@
 state={
 	id=667
 	name="STATE_667"
-	resources={
-		rubber=12.000
-	}
 
 	history={
 		owner = ANG
-		add_core_of = IDN
 		buildings = {
 			infrastructure = 3
 			1355 = {

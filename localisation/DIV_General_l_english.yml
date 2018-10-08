@@ -153,7 +153,7 @@ military_theorist:0 "Military Theorist"
  large_research_budget:0 "Large Research Funding"
  very_large_research_budget:0 "Massive Research Funding"
 
- TEST_ONE:0 "§Y[?economic_growth_level|1]/100:§!§G(+[?economic_growth_rate|1])[?Root.privitization_level]§!"
+ TEST_ONE:0 "§Y[?economic_growth_level|1]/100:§!§G(+[?economic_growth_rate|1])[?ROOT.privitization_level]§!"
  TEST_TWO:0 "§Y45.8/100:§!§G(+12.3)§!"
 
 

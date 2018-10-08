@@ -1,0 +1,17 @@
+state={
+	id=898
+	name="STATE_898"
+	provinces={
+		3594 6644 9607 9609 11576 
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+		history={
+		owner = ANG
+		add_core_of = ANG
+		buildings = {
+			infrastructure = 5
+		}
+		#victory_points = { 0 5 }
+	}
+}

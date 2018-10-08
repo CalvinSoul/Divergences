@@ -1,13 +1,9 @@
-state=
-{
+
+state={
 	id=164
 	name="STATE_164"
-	manpower = 120000
-	
-	state_category = small_island
-	
-	history=
-	{
+
+	history={
 		owner = ITA
 		add_core_of = GRE
 		victory_points = {
@@ -18,13 +14,21 @@ state=
 			air_base = 1
 			10007 = {
 				naval_base = 4
+
 			}
 			7003 = {
 				naval_base = 1
+
 			}
+
 		}
+
 	}
-	provinces=
-	{
-7003 10007 	}
+
+	provinces={
+		10007 
+	}
+	manpower=120000
+	buildings_max_level_factor=1.000
+	state_category=small_island
 }
