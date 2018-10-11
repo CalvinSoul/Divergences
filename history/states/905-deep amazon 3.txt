@@ -1,0 +1,14 @@
+state={
+	id=905
+	name="STATE_905"
+	provinces={
+		13218 
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+	history={
+		owner = AMA
+		add_core_of = AMA
+		}
+		impassable = yes
+}
