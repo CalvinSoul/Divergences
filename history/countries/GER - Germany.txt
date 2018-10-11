@@ -9,7 +9,10 @@ set_technology = {
 }
 
 set_convoys = 50
-
+set_country_flag = flag_semi_constitutional_monarchy
+add_ideas = {
+	GOV_semi_constitutional_monarchy
+}
 
 set_politics = {
 

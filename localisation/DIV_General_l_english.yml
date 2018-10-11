@@ -98,61 +98,6 @@ imperial_irredentist_desc:0 "Monarchy"
  POLITICS_NOELECTIONS:0 " "
 
 
- ### Minister Types ###
-national_expenditures:0 "National Expenditures"
-mobilization_laws:0 "Conscription Laws"
-taxation_level:0 "Taxation Level"
-economy:0 "Economic Focus"
-military_budget:0 "Military Budget"
-research_budget:0 "Research Budget"
-special_projects:0 "Special Projects"
-    
-government_structure:0 "Government Structure"
-prime_minister:0 "Head of Government"
-deputy_minister:0 "Second in Command"
-government_type:0 "Government Type"
-voting_laws:0 "Voting Laws"
-party_laws:0 "Party Legality"
-press_laws:0 "Press Laws"
-    
-economic_policy:0 "Economic Policy"
-economic_structure:0 "Economic Framework"
-trade_laws:0 "Trade Laws"
-union_laws:0 "Union Laws"
-wage_laws:0 "Wage Laws"
-welfare_laws:0 "Welfare Laws"
-healthcare_laws:0 "Healthcare Laws"
-   
-manufacturers:0 "National Manufacturers" 
-weapons_manufacturer:0 "Weapons Manufacturer"
-tank_manufacturer:0 "Motorized Manufacturer"
-tank_manufacturer:0 "Motorized Manufacturer"
-air_naval_manufacturer:0 "Special Manufacturer"
-air_naval_manufacturer:0 "Special Manufacturer"
-industrial_concern:0 "Industrial Company"
-
-
-chief_of_staff:0 "Chief of Staff"
-chief_of_army:0 "Chief of the Army"
-chief_of_navy:0 "Chief of the Navy"
-chief_of_air_force:0 "Chief of the Airforce"
-military_theorist:0 "Military Theorist"
-military_theorist:0 "Military Theorist"
- ### Ministers ###
- military_budget:0 "Military Budget"
- very_small_military_budget:0 "Miniscule Military Funding"
- small_military_budget:0 "Small Military Funding"
- moderate_military_budget:0 "Moderate Military Funding"
- large_military_budget:0 "Large Military Funding"
- very_large_military_budget:0 "Massive Military Funding"
-
- research_budget:0 "Research Budget"
- very_small_research_budget:0 "Miniscule Research Funding"
- small_research_budget:0 "Small Research Funding"
- moderate_research_budget:0 "Moderate Research Funding"
- large_research_budget:0 "Large Research Funding"
- very_large_research_budget:0 "Massive Research Funding"
-
  TEST_ONE:0 "§Y[?economic_growth_level|1]/100:§!§G(+[?economic_growth_rate|1])[?ROOT.privitization_level]§!"
  TEST_TWO:0 "§Y45.8/100:§!§G(+12.3)§!"
 

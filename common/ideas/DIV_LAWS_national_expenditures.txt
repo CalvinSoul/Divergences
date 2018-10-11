@@ -245,6 +245,7 @@ ideas = {
 			level = 1
 
 			modifier = {
+				conscription = 0.3
 				industrial_capacity_factory = -0.4
 				industrial_capacity_dockyard = -0.4
 				production_speed_buildings_factor = -0.4
@@ -291,7 +292,7 @@ ideas = {
    				 }
 			}
 			
-			default = yes
+			default = no
 			cancel_if_invalid = no
 		}
 		medium_taxation = {
@@ -309,7 +310,7 @@ ideas = {
    				 }
 			}
 			
-			default = no
+			default = yes
 			cancel_if_invalid = no
 		}
 		high_taxation = {
@@ -386,8 +387,8 @@ ideas = {
 				production_speed_arms_factory_factor = -0.2
 				conversion_cost_civ_to_mil_factor= 0.25
 				conversion_cost_mil_to_civ_factor = -0.25
-				industrial_capacity_factory = 0.025
-				industrial_capacity_dockyard = 0.025
+				consumer_goods_factor = -0.05
+				production_speed_buildings_factor = -0.05
 			}
 			
 			cancel_if_invalid = no
@@ -418,8 +419,8 @@ ideas = {
 				production_speed_arms_factory_factor = -0.1
 				conversion_cost_civ_to_mil_factor= 0.1
 				conversion_cost_mil_to_civ_factor = -0.1
-				industrial_capacity_factory = 0.05
-				industrial_capacity_dockyard = 0.05
+				consumer_goods_factor = -0.1
+				production_speed_buildings_factor = -0.1
 			}
 			
 			cancel_if_invalid = no
@@ -447,10 +448,10 @@ ideas = {
 			modifier = {
 				production_speed_industrial_complex_factor = -0.1
 				production_speed_arms_factory_factor = 0.1
-				conversion_cost_civ_to_mil_factor= 0.25
-				conversion_cost_mil_to_civ_factor = -0.25
-				industrial_capacity_factory = 0.1
-				industrial_capacity_dockyard = 0.1
+				conversion_cost_mil_to_civ_factor = 0.25
+				conversion_cost_civ_to_mil_factor= -0.25
+				consumer_goods_factor = -0.15
+				production_speed_buildings_factor = -0.15
 			}
 			
 			cancel_if_invalid = no
@@ -508,9 +509,10 @@ ideas = {
 				conscription = -0.03
 				production_speed_industrial_complex_factor = -0.5
 				production_speed_arms_factory_factor = 0.3
+				conversion_cost_mil_to_civ_factor = 0.5
 				conversion_cost_civ_to_mil_factor= -0.5
-				industrial_capacity_factory = 0.15
-				industrial_capacity_dockyard = 0.15
+				consumer_goods_factor = -0.2
+				production_speed_buildings_factor = -0.2
 			}
 			
 			cancel_if_invalid = no

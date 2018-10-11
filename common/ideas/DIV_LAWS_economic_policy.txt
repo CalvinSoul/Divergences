@@ -1,6 +1,46 @@
 ideas = {
 	economic_structure = { 
 		law = yes
+		ECS_pre_industrial = {
+			allowed = {}
+			available = {}
+			visible = {}
+			cancel_if_invalid = yes
+			modifier = {}
+			default = no
+		}
+		ECS_state_capitalism = {
+			allowed = {}
+			available = {}
+			visible = {}
+			cancel_if_invalid = yes
+			modifier = {}
+			default = no
+		}
+		ECS_free_market_capitalism = {
+			allowed = {}
+			available = {}
+			visible = {}
+			cancel_if_invalid = yes
+			modifier = {}
+			default = no
+		}
+		ECS_union_socialism = {
+			allowed = {}
+			available = {}
+			visible = {}
+			cancel_if_invalid = yes
+			modifier = {}
+			default = no
+		}
+		ECS_state_socialism = {
+			allowed = {}
+			available = {}
+			visible = {}
+			cancel_if_invalid = yes
+			modifier = {}
+			default = no
+		}
 	}
 	trade_laws = { 
 		law = yes
@@ -124,14 +164,150 @@ ideas = {
 	}
 	union_laws = { 
 		law = yes
+		UNI_illegal = {
+			allowed = {}
+			available = {}
+			visible = {}
+			cancel_if_invalid = yes
+			modifier = {}
+			default = no
+		}
+		UNI_state = {
+			allowed = {}
+			available = {}
+			visible = {}
+			cancel_if_invalid = yes
+			modifier = {}
+			default = no
+		}
+		UNI_non_socialist = {
+			allowed = {}
+			available = {}
+			visible = {}
+			cancel_if_invalid = yes
+			modifier = {}
+			default = no
+		}
+		UNI_all = {
+			allowed = {}
+			available = {}
+			visible = {}
+			cancel_if_invalid = yes
+			modifier = {}
+			default = no
+		}
 	}
 	wage_laws = { 
 		law = yes
+		WAG_none = {
+			allowed = {}
+			available = {}
+			visible = {}
+			cancel_if_invalid = yes
+			modifier = {}
+			default = no
+		}
+		WAG_trincket = {
+			allowed = {}
+			available = {}
+			visible = {}
+			cancel_if_invalid = yes
+			modifier = {}
+			default = no
+		}
+		WAG_low = {
+			allowed = {}
+			available = {}
+			visible = {}
+			cancel_if_invalid = yes
+			modifier = {}
+			default = no
+		}
+		WAG_acceptable = {
+			allowed = {}
+			available = {}
+			visible = {}
+			cancel_if_invalid = yes
+			modifier = {}
+			default = no
+		}
+		WAG_good = {
+			allowed = {}
+			available = {}
+			visible = {}
+			cancel_if_invalid = yes
+			modifier = {}
+			default = no
+		}
 	}
 	welfare_laws = { 
 		law = yes
+		WEL_none = {
+			allowed = {}
+			available = {}
+			visible = {}
+			cancel_if_invalid = yes
+			modifier = {}
+			default = no
+		}
+		WEL_limited = {
+			allowed = {}
+			available = {}
+			visible = {}
+			cancel_if_invalid = yes
+			modifier = {}
+			default = no
+		}
+		WEL_modest = {
+			allowed = {}
+			available = {}
+			visible = {}
+			cancel_if_invalid = yes
+			modifier = {}
+			default = no
+		}
+		WEL_excellent = {
+			allowed = {}
+			available = {}
+			visible = {}
+			cancel_if_invalid = yes
+			modifier = {}
+			default = no
+		}
 	}
 	healthcare_laws = { 
 		law = yes
+		HLT_none = {
+			allowed = {}
+			available = {}
+			visible = {}
+			cancel_if_invalid = yes
+			modifier = {}
+			default = no
+		}
+		HLT_private = {
+			allowed = {}
+			available = {}
+			visible = {}
+			cancel_if_invalid = yes
+			modifier = {}
+			default = no
+		}
+		HLT_regulated = {
+			allowed = {}
+			available = {}
+			visible = {}
+			cancel_if_invalid = yes
+			modifier = {}
+			default = no
+		}
+		HLT_universal = {
+			allowed = {}
+			available = {}
+			visible = {}
+			cancel_if_invalid = yes
+			modifier = {}
+			default = no
+		}
 	}
 }

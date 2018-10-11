@@ -7,14 +7,147 @@ ideas = {
 	}
 	government_type = { 
 		law = yes
+		GOV_absolute_monarchy = {
+			allowed = {}
+			available = {has_country_flag = flag_absolute_monarchy}
+			visible = {}
+			cancel_if_invalid = yes
+		}
+		GOV_semi_constitutional_monarchy = {
+			allowed = {}
+			available = {has_country_flag = flag_semi_constitutional_monarchy}
+			visible = {}
+			cancel_if_invalid = yes
+		}
+		GOV_constitutional_monarchy = {
+			allowed = {}
+			available = {has_country_flag = flag_constitutional_monarchy}
+			visible = {}
+			cancel_if_invalid = yes
+		}
+		GOV_presidential_dictatorship = {
+			allowed = {}
+			available = {has_country_flag = flag_presidential_dictatorship}
+			visible = {}
+			cancel_if_invalid = yes
+		}
+		GOV_autocracy = {
+			allowed = {}
+			available = {has_country_flag = flag_autocracy}
+			visible = {}
+			cancel_if_invalid = yes
+		}
+		GOV_republic= {
+			allowed = {}
+			available = {has_country_flag = flag_republic}
+			visible = {}
+			cancel_if_invalid = yes
+		}
+
 	}
 	voting_laws = { 
 		law = yes
+		VOT_none = {
+			allowed = {}
+			available = {}
+			visible = {}
+			cancel_if_invalid = yes
+			modifier = {}
+			default = no
+		}
+		VOT_landed = {
+			allowed = {}
+			available = {}
+			visible = {}
+			cancel_if_invalid = yes
+			modifier = {}
+			default = no
+		}
+		VOT_wealth = {
+			allowed = {}
+			available = {}
+			visible = {}
+			cancel_if_invalid = yes
+			modifier = {}
+			default = no
+		}
+		VOT_universal_male = {
+			allowed = {}
+			available = {}
+			visible = {}
+			cancel_if_invalid = yes
+			modifier = {}
+			default = no
+		}
+		VOT_universal = {
+			allowed = {}
+			available = {}
+			visible = {}
+			cancel_if_invalid = yes
+			modifier = {}
+			default = no
+		}
 	}
 	party_laws = { 
 		law = yes
+		PAR_illegal_opposition = {
+			allowed = {}
+			available = {}
+			visible = {}
+			cancel_if_invalid = yes
+			modifier = {}
+			default = no
+		}
+		PAR_state_harassment = {
+			allowed = {}
+			available = {}
+			visible = {}
+			cancel_if_invalid = yes
+			modifier = {}
+			default = no
+		}
+		PAR_gerrymandering= {
+			allowed = {}
+			available = {}
+			visible = {}
+			cancel_if_invalid = yes
+			modifier = {}
+			default = no
+		}
+		PAR_protected = {
+			allowed = {}
+			available = {}
+			visible = {}
+			cancel_if_invalid = yes
+			modifier = {}
+			default = no
+		}
 	}
 	press_laws = { 
 		law = yes
+		PRS_state = {
+			allowed = {}
+			available = {}
+			visible = {}
+			cancel_if_invalid = yes
+			modifier = {}
+			default = no
+		}
+		PRS_censored = {
+			allowed = {}
+			available = {}
+			visible = {}
+			cancel_if_invalid = yes
+			modifier = {}
+			default = no
+		}
+		PRS_free = {
+			allowed = {}
+			available = {}
+			visible = {}
+			cancel_if_invalid = yes
+			modifier = {}
+			default = no
+		}
 	}
 }

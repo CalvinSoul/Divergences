@@ -9,6 +9,8 @@ country_event = {
 		country_event = { days = 1 id = economic_tick.0 }
 		every_owned_state = {
 				#(civfactories*consumer_goods_level*(construction_speed/10+1)*(infrastructure_level/10+1))
+				#f= factories, c= construction speed, i = infrastructure level, p=privitization, x=months, y=end factory quantity
+				# y=f*((1+c)*(1+0.1i)*p)^(x/100)
     			set_variable = {
     				var = economic_growth_rate
     				value = industrial_complex_level
