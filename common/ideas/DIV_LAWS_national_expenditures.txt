@@ -263,7 +263,13 @@ ideas = {
 			level = 5
 			cost = 100
 			removal_cost = -1
-			
+			available = {
+				OR = {
+					has_idea = ECS_pre_industrial
+					has_idea = ECS_free_market_capitalism
+					has_idea = ECS_union_socialism
+				}
+			}
 			modifier = {
 				consumer_goods_factor = 0.8
 			}
@@ -281,7 +287,13 @@ ideas = {
 			level = 4
 			cost = 100
 			removal_cost = -1
-			
+			available = {
+				OR = {
+					has_idea = ECS_pre_industrial
+					has_idea = ECS_free_market_capitalism
+					has_idea = ECS_union_socialism
+				}
+			}
 			modifier = {
 				consumer_goods_factor = 0.6
 			}
@@ -299,7 +311,13 @@ ideas = {
 			level = 3
 			cost = 100
 			removal_cost = -1
-			
+			available = {
+				OR = {
+					has_idea = ECS_pre_industrial
+					has_idea = ECS_free_market_capitalism
+					has_idea = ECS_union_socialism
+				}
+			}
 			modifier = {
 				consumer_goods_factor = 0.4
 			}
@@ -317,7 +335,15 @@ ideas = {
 			level = 2
 			cost = 100
 			removal_cost = -1
-			
+			available = {
+				OR = {
+					has_idea = ECS_pre_industrial
+					has_idea = ECS_state_capitalism
+					has_idea = ECS_free_market_capitalism
+					has_idea = ECS_union_socialism
+					has_idea = ECS_state_socialism
+				}
+			}
 			modifier = {
 				consumer_goods_factor = 0.2
 			}
@@ -335,7 +361,12 @@ ideas = {
 			level = 1
 			cost = 100
 			removal_cost = -1
-			
+			available = {
+				OR = {
+					has_idea = ECS_state_capitalism
+					has_idea = ECS_state_socialism
+				}
+			}
 			modifier = {
 				consumer_goods_factor = 0.0
 			}
@@ -602,7 +633,7 @@ ideas = {
 			removal_cost = -1
 			
 			modifier = {
-				consumer_goods_factor = 0.05
+				consumer_goods_factor = -0.05
 				research_time_factor = 0.1
 			}
 			cancel_if_invalid = no

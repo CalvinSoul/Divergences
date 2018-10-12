@@ -48,40 +48,87 @@ ideas = {
 	voting_laws = { 
 		law = yes
 		VOT_none = {
+			level = 5
+			cost = 100
+			removal_cost = -1
 			allowed = {}
-			available = {}
+			available = {
+				OR = {
+					has_idea = GOV_absolute_monarchy
+					has_idea = GOV_presidential_dictatorship
+					has_idea = GOV_autocracy
+				}
+			}
 			visible = {}
 			cancel_if_invalid = yes
-			modifier = {}
+			modifier = {
+
+			}
 			default = no
 		}
 		VOT_landed = {
+			level = 4
+			cost = 100
+			removal_cost = -1
 			allowed = {}
-			available = {}
+			available = {
+				OR = {
+					has_idea = GOV_semi_constitutional_monarchy
+					has_idea = GOV_constitutional_monarchy
+					has_idea = GOV_republic
+				}
+			}
 			visible = {}
 			cancel_if_invalid = yes
 			modifier = {}
 			default = no
 		}
 		VOT_wealth = {
+			level = 3
+			cost = 100
+			removal_cost = -1
 			allowed = {}
-			available = {}
+			available = {
+				OR = {
+					has_idea = GOV_semi_constitutional_monarchy
+					has_idea = GOV_constitutional_monarchy
+					has_idea = GOV_republic
+				}
+			}
 			visible = {}
 			cancel_if_invalid = yes
 			modifier = {}
 			default = no
 		}
 		VOT_universal_male = {
+			level = 2
+			cost = 100
+			removal_cost = -1
 			allowed = {}
-			available = {}
+			available = {
+				OR = {
+					has_idea = GOV_semi_constitutional_monarchy
+					has_idea = GOV_constitutional_monarchy
+					has_idea = GOV_republic
+				}
+			}
 			visible = {}
 			cancel_if_invalid = yes
 			modifier = {}
-			default = no
+			default = yes
 		}
 		VOT_universal = {
+			level = 1
+			cost = 100
+			removal_cost = -1
 			allowed = {}
-			available = {}
+			available = {
+				OR = {
+					has_idea = GOV_semi_constitutional_monarchy
+					has_idea = GOV_constitutional_monarchy
+					has_idea = GOV_republic
+				}
+			}
 			visible = {}
 			cancel_if_invalid = yes
 			modifier = {}
@@ -92,34 +139,85 @@ ideas = {
 		law = yes
 		PAR_illegal_opposition = {
 			allowed = {}
-			available = {}
+			available = {
+				OR = {
+					has_idea = GOV_absolute_monarchy
+					has_idea = GOV_presidential_dictatorship
+					has_idea = GOV_autocracy
+				}
+			}
 			visible = {}
 			cancel_if_invalid = yes
-			modifier = {}
+			modifier = {
+				drift_defence_factor =0.25
+			}
+			default = no
+		}
+		PAR_limited_opposition = {
+			allowed = {}
+			available = {
+				OR = {
+					has_idea = GOV_presidential_dictatorship
+					has_idea = GOV_semi_constitutional_monarchy
+					has_idea = GOV_constitutional_monarchy
+					has_idea = GOV_republic
+				}
+			}
+			visible = {}
+			cancel_if_invalid = yes
+			modifier = {
+				drift_defence_factor =0.2
+			}
 			default = no
 		}
 		PAR_state_harassment = {
 			allowed = {}
-			available = {}
+			available = {
+				OR = {
+					has_idea = GOV_presidential_dictatorship
+					has_idea = GOV_semi_constitutional_monarchy
+					has_idea = GOV_constitutional_monarchy
+					has_idea = GOV_republic
+				}
+			}
 			visible = {}
 			cancel_if_invalid = yes
-			modifier = {}
+			modifier = {
+				drift_defence_factor =0.15
+			}
 			default = no
 		}
 		PAR_gerrymandering= {
 			allowed = {}
-			available = {}
+			available = {
+				OR = {
+					has_idea = GOV_presidential_dictatorship
+					has_idea = GOV_semi_constitutional_monarchy
+					has_idea = GOV_constitutional_monarchy
+					has_idea = GOV_republic
+				}
+			}
 			visible = {}
 			cancel_if_invalid = yes
-			modifier = {}
-			default = no
+			modifier = {
+				drift_defence_factor =0.1
+			}
+			default = yes
 		}
 		PAR_protected = {
 			allowed = {}
-			available = {}
+			available = {
+				OR = {
+					has_idea = GOV_semi_constitutional_monarchy
+					has_idea = GOV_constitutional_monarchy
+					has_idea = GOV_republic
+				}
+			}
 			visible = {}
 			cancel_if_invalid = yes
-			modifier = {}
+			modifier = {
+				drift_defence_factor =-0.1
+			}
 			default = no
 		}
 	}
@@ -130,7 +228,11 @@ ideas = {
 			available = {}
 			visible = {}
 			cancel_if_invalid = yes
-			modifier = {}
+			modifier = {
+				drift_defence_factor =0.25
+				war_support_factor = 0.15
+				stability_factor = -0.05
+			}
 			default = no
 		}
 		PRS_censored = {
@@ -138,15 +240,21 @@ ideas = {
 			available = {}
 			visible = {}
 			cancel_if_invalid = yes
-			modifier = {}
-			default = no
+			modifier = {
+				drift_defence_factor =0.1
+				war_support_factor = 0.10
+			}
+			default = yes
 		}
 		PRS_free = {
 			allowed = {}
 			available = {}
 			visible = {}
 			cancel_if_invalid = yes
-			modifier = {}
+			modifier = {
+				drift_defence_factor = -0.1
+				stability_factor = 0.05
+			}
 			default = no
 		}
 	}

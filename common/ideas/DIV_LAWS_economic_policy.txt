@@ -6,7 +6,12 @@ ideas = {
 			available = {}
 			visible = {}
 			cancel_if_invalid = yes
-			modifier = {}
+			modifier = {
+				research_time_factor = 0.3
+				industrial_capacity_factory = -0.25
+				production_speed_buildings_factor = -0.25
+				industrial_capacity_dockyard = -0.5
+			}
 			default = no
 		}
 		ECS_state_capitalism = {
@@ -23,7 +28,7 @@ ideas = {
 			visible = {}
 			cancel_if_invalid = yes
 			modifier = {}
-			default = no
+			default = yes
 		}
 		ECS_union_socialism = {
 			allowed = {}
@@ -75,18 +80,12 @@ ideas = {
 
 			ai_will_do = {
    				factor = 1
-
 				# portugal and sweden are special tungsten snowflakes
 				modifier = {
 					factor = 0
-					
 					is_major = no
 					has_war = no
 					is_in_faction = no
-					OR = {
-						tag = POR
-						tag = SWE
-					}
 				}
    			}
 		}
@@ -95,30 +94,23 @@ ideas = {
 			level = 2
 			cost = 100
 			removal_cost = -1
-			
 			modifier = {
 				min_export = 0.2
 				production_speed_buildings_factor = 0.05
 				research_time_factor = -0.01
 			}
-			
 			cancel_if_invalid = no
-
 			ai_will_do = {
    				factor = 1
-
    				modifier = {
 					factor = 0
-					
 					is_major = no
 					is_in_faction = yes
 					has_war = yes
 				}
-
 				# minors not at war should want to get the bonuses from free trade
 				modifier = {
 					factor = 0
-					
 					is_major = no
 					has_war = no
 				}
@@ -130,32 +122,24 @@ ideas = {
 			cost = 100
 			removal_cost = -1
 			
-			
 			modifier = {
 				min_export = 0
 			}
-			
 			on_add = {
 				custom_effect_tooltip = closed_economy_TT
 			}
-			
 			cancel_if_invalid = no
-
 			ai_will_do = {
    				factor = 1
-
    				modifier = {
 					factor = 0
-					
 					is_major = no
 					is_in_faction = yes
 					has_war = yes
 				}
-
 				# minors not at war should want to get the bonuses from free trade
 				modifier = {
 					factor = 0
-					
 					is_major = no
 					has_war = no
 				}
@@ -165,148 +149,250 @@ ideas = {
 	union_laws = { 
 		law = yes
 		UNI_illegal = {
+			level = 4
+			cost = 100
+			removal_cost = -1
 			allowed = {}
 			available = {}
 			visible = {}
 			cancel_if_invalid = yes
-			modifier = {}
+			modifier = {
+				stability_factor = -0.05
+				production_speed_buildings_factor = 0.05
+			}
 			default = no
 		}
 		UNI_state = {
+			level = 3
+			cost = 100
+			removal_cost = -1
 			allowed = {}
 			available = {}
 			visible = {}
 			cancel_if_invalid = yes
-			modifier = {}
+			modifier = {
+				stability_factor = 0.02
+				production_speed_buildings_factor = 0.02
+			}
 			default = no
 		}
 		UNI_non_socialist = {
+			level = 2
+			cost = 100
+			removal_cost = -1
 			allowed = {}
 			available = {}
 			visible = {}
 			cancel_if_invalid = yes
-			modifier = {}
-			default = no
+			modifier = {
+				stability_factor = 0.05
+				production_speed_buildings_factor = -0.02
+			}
+			default = yes
 		}
 		UNI_all = {
+			level = 1
+			cost = 100
+			removal_cost = -1
 			allowed = {}
 			available = {}
 			visible = {}
 			cancel_if_invalid = yes
-			modifier = {}
+			modifier = {
+				stability_factor = 0.06
+				production_speed_buildings_factor = -0.025
+			}
 			default = no
 		}
 	}
 	wage_laws = { 
 		law = yes
 		WAG_none = {
+			level = 5
+			cost = 100
+			removal_cost = -1
 			allowed = {}
 			available = {}
 			visible = {}
 			cancel_if_invalid = yes
-			modifier = {}
+			modifier = {
+				stability_factor = -0.05
+				production_factory_efficiency_gain_factor = 0.1
+			}
 			default = no
 		}
 		WAG_trincket = {
+			level = 4
+			cost = 100
+			removal_cost = -1
 			allowed = {}
 			available = {}
 			visible = {}
 			cancel_if_invalid = yes
-			modifier = {}
+			modifier = {
+				stability_factor = -0.02
+				production_factory_efficiency_gain_factor = 0.05
+			}
 			default = no
 		}
 		WAG_low = {
+			level = 3
+			cost = 100
+			removal_cost = -1
 			allowed = {}
 			available = {}
 			visible = {}
 			cancel_if_invalid = yes
-			modifier = {}
-			default = no
+			modifier = {
+				stability_factor = 0.04
+				production_factory_efficiency_gain_factor = 0.01
+			}
+			default = yes
 		}
 		WAG_acceptable = {
+			level = 2
+			cost = 100
+			removal_cost = -1
 			allowed = {}
 			available = {}
 			visible = {}
 			cancel_if_invalid = yes
-			modifier = {}
+			modifier = {
+				stability_factor = 0.06
+				production_factory_efficiency_gain_factor = -0.05
+			}
 			default = no
 		}
 		WAG_good = {
+			level = 1
+			cost = 100
+			removal_cost = -1
 			allowed = {}
 			available = {}
 			visible = {}
 			cancel_if_invalid = yes
-			modifier = {}
+			modifier = {
+				stability_factor = 0.08
+				production_factory_efficiency_gain_factor = -0.1
+			}
 			default = no
 		}
 	}
 	welfare_laws = { 
 		law = yes
 		WEL_none = {
+			level = 4
+			cost = 100
+			removal_cost = -1
 			allowed = {}
 			available = {}
 			visible = {}
 			cancel_if_invalid = yes
-			modifier = {}
+			modifier = {
+				stability_factor = -0.05
+			}
 			default = no
 		}
 		WEL_limited = {
+			level = 3
+			cost = 100
+			removal_cost = -1
 			allowed = {}
 			available = {}
 			visible = {}
 			cancel_if_invalid = yes
-			modifier = {}
-			default = no
+			modifier = {
+				consumer_goods_factor = 0.05
+				stability_factor = 0.01
+			}
+			default = yes
 		}
 		WEL_modest = {
+			level = 2
+			cost = 100
+			removal_cost = -1
 			allowed = {}
 			available = {}
 			visible = {}
 			cancel_if_invalid = yes
-			modifier = {}
+			modifier = {
+				consumer_goods_factor = 0.10
+				stability_factor = 0.05
+			}
 			default = no
 		}
 		WEL_excellent = {
+			level = 1
+			cost = 100
+			removal_cost = -1
 			allowed = {}
 			available = {}
 			visible = {}
 			cancel_if_invalid = yes
-			modifier = {}
+			modifier = {
+				consumer_goods_factor = 0.15
+				stability_factor = 0.1
+			}
 			default = no
 		}
 	}
 	healthcare_laws = { 
 		law = yes
 		HLT_none = {
+			level = 4
+			cost = 100
+			removal_cost = -1
 			allowed = {}
 			available = {}
 			visible = {}
 			cancel_if_invalid = yes
-			modifier = {}
+			modifier = {
+				MONTHLY_POPULATION = -0.2
+			}
 			default = no
 		}
 		HLT_private = {
+			level = 3
+			cost = 100
+			removal_cost = -1
 			allowed = {}
 			available = {}
 			visible = {}
 			cancel_if_invalid = yes
-			modifier = {}
-			default = no
+			modifier = {
+				MONTHLY_POPULATION = 0.05
+				conscription_factor = 0.1
+			}
+			default = yes
 		}
 		HLT_regulated = {
+			level = 2
+			cost = 100
+			removal_cost = -1
 			allowed = {}
 			available = {}
 			visible = {}
 			cancel_if_invalid = yes
-			modifier = {}
+			modifier = {
+				consumer_goods_factor = 0.05
+				MONTHLY_POPULATION = 0.1
+				conscription_factor = 0.15
+			}
 			default = no
 		}
 		HLT_universal = {
+			level = 1
+			cost = 100
+			removal_cost = -1
 			allowed = {}
 			available = {}
 			visible = {}
 			cancel_if_invalid = yes
-			modifier = {}
+			modifier = {
+				consumer_goods_factor = 0.08
+				MONTHLY_POPULATION = 0.1
+				conscription_factor = 0.2
+			}
 			default = no
 		}
 	}

@@ -47,5 +47,105 @@ spriteTypes = {
 		name = "stateview_growth_tab"
 		texturefile = "gfx/interface/stateview_growth_tab.dds"
 	}
-	
+	spriteType = {
+		name = "GFX_idea_UNI_all"
+		texturefile = "gfx/interface/ideas/idea_uni_1.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_UNI_non_socialist"
+		texturefile = "gfx/interface/ideas/idea_uni_2.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_UNI_state"
+		texturefile = "gfx/interface/ideas/idea_uni_3.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_UNI_illegal"
+		texturefile = "gfx/interface/ideas/idea_uni_4.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_WAG_good"
+		texturefile = "gfx/interface/ideas/idea_wag_1.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_WAG_acceptable"
+		texturefile = "gfx/interface/ideas/idea_wag_2.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_WAG_low"
+		texturefile = "gfx/interface/ideas/idea_wag_3.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_WAG_trincket"
+		texturefile = "gfx/interface/ideas/idea_wag_4.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_WAG_none"
+		texturefile = "gfx/interface/ideas/idea_wag_5.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_WEL_excellent"
+		texturefile = "gfx/interface/ideas/idea_wel_1.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_WEL_modest"
+		texturefile = "gfx/interface/ideas/idea_wel_2.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_WEL_limited"
+		texturefile = "gfx/interface/ideas/idea_wel_3.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_WEL_none"
+		texturefile = "gfx/interface/ideas/idea_wel_4.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_HLT_universal"
+		texturefile = "gfx/interface/ideas/idea_hel_1.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_HLT_regulated"
+		texturefile = "gfx/interface/ideas/idea_hel_2.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_HLT_private"
+		texturefile = "gfx/interface/ideas/idea_hel_3.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_HLT_none"
+		texturefile = "gfx/interface/ideas/idea_hel_4.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_VOT_none"
+		texturefile = "gfx/interface/ideas/idea_vot_5.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_VOT_landed"
+		texturefile = "gfx/interface/ideas/idea_vot_4.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_VOT_wealth"
+		texturefile = "gfx/interface/ideas/idea_vot_3.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_VOT_universal_male"
+		texturefile = "gfx/interface/ideas/idea_vot_2.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_VOT_universal"
+		texturefile = "gfx/interface/ideas/idea_vot_1.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_PRS_censored"
+		texturefile = "gfx/interface/ideas/idea_prs_state.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_PRS_free"
+		texturefile = "gfx/interface/ideas/idea_prs_free.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_PRS_state"
+		texturefile = "gfx/interface/ideas/idea_prs_censored.dds"
+	}
+
 }
