@@ -264,16 +264,20 @@ ideas = {
 			cost = 100
 			removal_cost = -1
 			available = {
-				OR = {
+				custom_trigger_tooltip = {
+    			tooltip = non_total_economy_tt		
+   				 OR = {
 					has_idea = ECS_pre_industrial
 					has_idea = ECS_free_market_capitalism
 					has_idea = ECS_union_socialism
+					}
 				}
 			}
 			modifier = {
 				consumer_goods_factor = 0.8
 			}
 			on_add = {
+				custom_effect_tooltip = tooltip_very_low_taxation
 				set_variable = {
      			 var = privitization_level
      			 value = 0.8
@@ -288,16 +292,20 @@ ideas = {
 			cost = 100
 			removal_cost = -1
 			available = {
-				OR = {
+				custom_trigger_tooltip = {
+    			tooltip = non_total_economy_tt		
+   				 OR = {
 					has_idea = ECS_pre_industrial
 					has_idea = ECS_free_market_capitalism
 					has_idea = ECS_union_socialism
+					}
 				}
 			}
 			modifier = {
 				consumer_goods_factor = 0.6
 			}
 			on_add = {
+				custom_effect_tooltip = tooltip_low_taxation
 				set_variable = {
      			 var = privitization_level
      			 value = 0.6
@@ -312,16 +320,20 @@ ideas = {
 			cost = 100
 			removal_cost = -1
 			available = {
-				OR = {
+				custom_trigger_tooltip = {
+    			tooltip = non_total_economy_tt		
+   				 OR = {
 					has_idea = ECS_pre_industrial
 					has_idea = ECS_free_market_capitalism
 					has_idea = ECS_union_socialism
+					}
 				}
 			}
 			modifier = {
 				consumer_goods_factor = 0.4
 			}
 			on_add = {
+				custom_effect_tooltip = tooltip_medium_taxation
 				set_variable = {
      			 var = privitization_level
      			 value = 0.4
@@ -336,18 +348,13 @@ ideas = {
 			cost = 100
 			removal_cost = -1
 			available = {
-				OR = {
-					has_idea = ECS_pre_industrial
-					has_idea = ECS_state_capitalism
-					has_idea = ECS_free_market_capitalism
-					has_idea = ECS_union_socialism
-					has_idea = ECS_state_socialism
-				}
+				
 			}
 			modifier = {
 				consumer_goods_factor = 0.2
 			}
 			on_add = {
+				custom_effect_tooltip = tooltip_high_taxation
 				set_variable = {
      			 var = privitization_level
      			 value = 0.2
@@ -362,15 +369,19 @@ ideas = {
 			cost = 100
 			removal_cost = -1
 			available = {
-				OR = {
-					has_idea = ECS_state_capitalism
-					has_idea = ECS_state_socialism
+				custom_trigger_tooltip = {
+    			tooltip = total_economy_tt		
+   					OR = {
+						has_idea = ECS_state_capitalism
+						has_idea = ECS_state_socialism
+					}
 				}
 			}
 			modifier = {
 				consumer_goods_factor = 0.0
 			}
 			on_add = {
+					custom_effect_tooltip = tooltip_very_high_taxation
 				set_variable = {
      			 var = privitization_level
      			 value = 0.0

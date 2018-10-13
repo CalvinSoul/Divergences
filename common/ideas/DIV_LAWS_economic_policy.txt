@@ -19,7 +19,10 @@ ideas = {
 			available = {}
 			visible = {}
 			cancel_if_invalid = yes
-			modifier = {}
+			modifier = {
+					consumer_goods_factor = -0.05
+					trade_opinion_factor = 0.25
+			}
 			default = no
 		}
 		ECS_free_market_capitalism = {
@@ -27,7 +30,10 @@ ideas = {
 			available = {}
 			visible = {}
 			cancel_if_invalid = yes
-			modifier = {}
+			modifier = {
+					research_time_factor = -0.05
+					trade_opinion_factor = 0.4
+			}
 			default = yes
 		}
 		ECS_union_socialism = {
@@ -35,7 +41,10 @@ ideas = {
 			available = {}
 			visible = {}
 			cancel_if_invalid = yes
-			modifier = {}
+			modifier = {
+					research_time_factor = -0.03
+					production_factory_efficiency_gain_factor = 0.1
+			}
 			default = no
 		}
 		ECS_state_socialism = {
@@ -43,7 +52,10 @@ ideas = {
 			available = {}
 			visible = {}
 			cancel_if_invalid = yes
-			modifier = {}
+			modifier = {
+				production_factory_max_efficiency_factor = 0.05
+				production_speed_buildings_factor = 0.1
+			}
 			default = no
 		}
 	}

@@ -1,5 +1,4 @@
 ﻿l_english:
-
 ### Loading Messages ###
 LOADING_GUI:0 "Winning the 100 Years War"
 #"Loading GUI"
@@ -98,8 +97,9 @@ imperial_irredentist_desc:0 "Monarchy"
  POLITICS_NOELECTIONS:0 " "
 
 
- TEST_ONE:0 "§Y[?economic_growth_level|1]/100:§!§G(+[?economic_growth_rate|1])[?ROOT.privitization_level]§!"
+ TEST_ONE:0 "§Y[?economic_growth_level|1]/100:§!§G(+[?economic_growth_rate|1])§!"
  TEST_TWO:0 "§Y45.8/100:§!§G(+12.3)§!"
+
 
 
 

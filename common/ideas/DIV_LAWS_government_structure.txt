@@ -9,38 +9,56 @@ ideas = {
 		law = yes
 		GOV_absolute_monarchy = {
 			allowed = {}
-			available = {has_country_flag = flag_absolute_monarchy}
+			#available = {has_country_flag = flag_absolute_monarchy}
 			visible = {}
+			on_add = {
+				custom_effect_tooltip = gov_non_democratic_tt
+			}
 			cancel_if_invalid = yes
 		}
 		GOV_semi_constitutional_monarchy = {
 			allowed = {}
-			available = {has_country_flag = flag_semi_constitutional_monarchy}
+			#available = {has_country_flag = flag_semi_constitutional_monarchy}
 			visible = {}
+			on_add = {
+				custom_effect_tooltip = gov_democratic_tt
+			}
 			cancel_if_invalid = yes
 		}
 		GOV_constitutional_monarchy = {
 			allowed = {}
-			available = {has_country_flag = flag_constitutional_monarchy}
+			#available = {has_country_flag = flag_constitutional_monarchy}
 			visible = {}
+			on_add = {
+				custom_effect_tooltip = gov_democratic_tt
+			}
 			cancel_if_invalid = yes
 		}
 		GOV_presidential_dictatorship = {
 			allowed = {}
-			available = {has_country_flag = flag_presidential_dictatorship}
+			#available = {has_country_flag = flag_presidential_dictatorship}
 			visible = {}
+			on_add = {
+				custom_effect_tooltip = gov_non_democratic_tt
+			}
 			cancel_if_invalid = yes
 		}
 		GOV_autocracy = {
 			allowed = {}
-			available = {has_country_flag = flag_autocracy}
+			#available = {has_country_flag = flag_autocracy}
 			visible = {}
+			on_add = {
+				custom_effect_tooltip = gov_non_democratic_tt
+			}
 			cancel_if_invalid = yes
 		}
 		GOV_republic= {
 			allowed = {}
-			available = {has_country_flag = flag_republic}
+			#available = {has_country_flag = flag_republic}
 			visible = {}
+			on_add = {
+				custom_effect_tooltip = gov_democratic_tt
+			}
 			cancel_if_invalid = yes
 		}
 
@@ -53,16 +71,19 @@ ideas = {
 			removal_cost = -1
 			allowed = {}
 			available = {
-				OR = {
-					has_idea = GOV_absolute_monarchy
-					has_idea = GOV_presidential_dictatorship
-					has_idea = GOV_autocracy
+				custom_trigger_tooltip = {
+    			tooltip = non_democratic_tt		
+   					OR = {
+						has_idea = GOV_absolute_monarchy
+						has_idea = GOV_presidential_dictatorship
+						has_idea = GOV_autocracy
+					}
 				}
 			}
 			visible = {}
 			cancel_if_invalid = yes
 			modifier = {
-
+				political_power_factor = 0.2
 			}
 			default = no
 		}
@@ -72,15 +93,21 @@ ideas = {
 			removal_cost = -1
 			allowed = {}
 			available = {
-				OR = {
-					has_idea = GOV_semi_constitutional_monarchy
-					has_idea = GOV_constitutional_monarchy
-					has_idea = GOV_republic
+				custom_trigger_tooltip = {
+    			tooltip = democratic_tt		
+   					OR = {
+						has_idea = GOV_semi_constitutional_monarchy
+						has_idea = GOV_constitutional_monarchy
+						has_idea = GOV_republic
+					}
 				}
 			}
 			visible = {}
 			cancel_if_invalid = yes
-			modifier = {}
+			modifier = {
+				political_power_factor = 0.15
+				army_core_defence_factor = 0.05
+			}
 			default = no
 		}
 		VOT_wealth = {
@@ -89,15 +116,21 @@ ideas = {
 			removal_cost = -1
 			allowed = {}
 			available = {
-				OR = {
-					has_idea = GOV_semi_constitutional_monarchy
-					has_idea = GOV_constitutional_monarchy
-					has_idea = GOV_republic
+				custom_trigger_tooltip = {
+    			tooltip = democratic_tt		
+   					OR = {
+						has_idea = GOV_semi_constitutional_monarchy
+						has_idea = GOV_constitutional_monarchy
+						has_idea = GOV_republic
+					}
 				}
 			}
 			visible = {}
 			cancel_if_invalid = yes
-			modifier = {}
+			modifier = {
+				political_power_factor = 0.1
+				army_core_defence_factor = 0.1
+			}
 			default = no
 		}
 		VOT_universal_male = {
@@ -106,15 +139,20 @@ ideas = {
 			removal_cost = -1
 			allowed = {}
 			available = {
-				OR = {
-					has_idea = GOV_semi_constitutional_monarchy
-					has_idea = GOV_constitutional_monarchy
-					has_idea = GOV_republic
+				custom_trigger_tooltip = {
+    			tooltip = democratic_tt		
+   					OR = {
+						has_idea = GOV_semi_constitutional_monarchy
+						has_idea = GOV_constitutional_monarchy
+						has_idea = GOV_republic
+					}
 				}
 			}
 			visible = {}
 			cancel_if_invalid = yes
-			modifier = {}
+			modifier = {
+				army_core_defence_factor = 0.15
+			}
 			default = yes
 		}
 		VOT_universal = {
@@ -123,15 +161,22 @@ ideas = {
 			removal_cost = -1
 			allowed = {}
 			available = {
-				OR = {
-					has_idea = GOV_semi_constitutional_monarchy
-					has_idea = GOV_constitutional_monarchy
-					has_idea = GOV_republic
+				custom_trigger_tooltip = {
+    			tooltip = democratic_tt		
+   					OR = {
+						has_idea = GOV_semi_constitutional_monarchy
+						has_idea = GOV_constitutional_monarchy
+						has_idea = GOV_republic
+					}
 				}
 			}
 			visible = {}
 			cancel_if_invalid = yes
-			modifier = {}
+			modifier = {
+				army_core_defence_factor = 0.15
+				stability_factor = 0.03
+				war_support_factor = -0.05
+			}
 			default = no
 		}
 	}
@@ -140,10 +185,13 @@ ideas = {
 		PAR_illegal_opposition = {
 			allowed = {}
 			available = {
-				OR = {
-					has_idea = GOV_absolute_monarchy
-					has_idea = GOV_presidential_dictatorship
-					has_idea = GOV_autocracy
+				custom_trigger_tooltip = {
+    			tooltip = non_democratic_tt		
+   					OR = {
+						has_idea = GOV_absolute_monarchy
+						has_idea = GOV_presidential_dictatorship
+						has_idea = GOV_autocracy
+					}
 				}
 			}
 			visible = {}
@@ -156,11 +204,13 @@ ideas = {
 		PAR_limited_opposition = {
 			allowed = {}
 			available = {
-				OR = {
-					has_idea = GOV_presidential_dictatorship
-					has_idea = GOV_semi_constitutional_monarchy
-					has_idea = GOV_constitutional_monarchy
-					has_idea = GOV_republic
+				custom_trigger_tooltip = {
+    			tooltip = democratic_tt		
+   					OR = {
+						has_idea = GOV_semi_constitutional_monarchy
+						has_idea = GOV_constitutional_monarchy
+						has_idea = GOV_republic
+					}
 				}
 			}
 			visible = {}
@@ -173,11 +223,13 @@ ideas = {
 		PAR_state_harassment = {
 			allowed = {}
 			available = {
-				OR = {
-					has_idea = GOV_presidential_dictatorship
-					has_idea = GOV_semi_constitutional_monarchy
-					has_idea = GOV_constitutional_monarchy
-					has_idea = GOV_republic
+				custom_trigger_tooltip = {
+    			tooltip = democratic_tt		
+   					OR = {
+						has_idea = GOV_semi_constitutional_monarchy
+						has_idea = GOV_constitutional_monarchy
+						has_idea = GOV_republic
+					}
 				}
 			}
 			visible = {}
@@ -190,11 +242,13 @@ ideas = {
 		PAR_gerrymandering= {
 			allowed = {}
 			available = {
-				OR = {
-					has_idea = GOV_presidential_dictatorship
-					has_idea = GOV_semi_constitutional_monarchy
-					has_idea = GOV_constitutional_monarchy
-					has_idea = GOV_republic
+				custom_trigger_tooltip = {
+    			tooltip = democratic_tt		
+   					OR = {
+						has_idea = GOV_semi_constitutional_monarchy
+						has_idea = GOV_constitutional_monarchy
+						has_idea = GOV_republic
+					}
 				}
 			}
 			visible = {}
@@ -207,10 +261,13 @@ ideas = {
 		PAR_protected = {
 			allowed = {}
 			available = {
-				OR = {
-					has_idea = GOV_semi_constitutional_monarchy
-					has_idea = GOV_constitutional_monarchy
-					has_idea = GOV_republic
+				custom_trigger_tooltip = {
+    			tooltip = democratic_tt		
+   					OR = {
+						has_idea = GOV_semi_constitutional_monarchy
+						has_idea = GOV_constitutional_monarchy
+						has_idea = GOV_republic
+					}
 				}
 			}
 			visible = {}
