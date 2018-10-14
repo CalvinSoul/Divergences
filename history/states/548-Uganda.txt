@@ -7,7 +7,7 @@ state={
 	}
 
 	history={
-		owner = ANG
+		owner = SPA
 		buildings = {
 			infrastructure = 3
 
@@ -16,7 +16,7 @@ state={
 	}
 
 	provinces={
-		3854 7088 7133 8223 11145 12929 12989 13177 
+		3854 7088 8223 11145 12929 12989 13177 
 	}
 	manpower=3515625
 	buildings_max_level_factor=1.000

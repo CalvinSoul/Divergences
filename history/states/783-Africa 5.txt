@@ -1,16 +1,20 @@
+
 state={
 	id=783
 	name="STATE_783"
-	provinces={
-		4154 4933 7908 7958 8046 
-	}
-	manpower=0
-	buildings_max_level_factor=1.000
+
 	history={
 		owner = ARA
 		buildings = {
 			infrastructure = 3
 
 		}
+
 	}
+
+	provinces={
+		4154 4933 7908 7958 
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
 }
