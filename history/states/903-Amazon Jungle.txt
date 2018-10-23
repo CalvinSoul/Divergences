@@ -1,0 +1,17 @@
+state={
+	id=903
+	name="STATE_903"
+	provinces={
+		13216 13218 13222 13227 13232 13233 13235 
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+	history={
+		owner = AMA
+		buildings = {
+			infrastructure = 0
+		}
+		#victory_points = { 0 5 }
+	}
+	impassable = yes
+}

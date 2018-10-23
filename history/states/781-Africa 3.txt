@@ -1,15 +1,20 @@
+
 state={
 	id=781
 	name="STATE_781"
-	provinces={
-		1891 1932 1969 1993 2025 4938 4972 4997 5028 7963 8021 8109 10820 
-	}
-	manpower=0
-	buildings_max_level_factor=1.000
+
 	history={
 		owner = ANG
 		buildings = {
 			infrastructure = 1
+
 		}
+
 	}
+
+	provinces={
+		1891 1932 1969 1993 2025 4938 4972 4997 5028 7963 8021 8028 8109 10758 10780 10805 10820 
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
 }

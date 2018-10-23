@@ -1,16 +1,12 @@
-state=
-{
+
+state={
 	id=298
 	name="STATE_298"
-	manpower = 745000
-	
-	state_category = rural
 	resources={
-		rubber=6 # was: 7
-	}	
-	
+		rubber=6.000
+	}
 
-	history= {
+	history={
 		owner = ANG
 		buildings = {
 			infrastructure = 2
@@ -18,13 +14,20 @@ state=
 			industrial_complex = 1
 			7959 = {
 				naval_base = 2
+
 			}
+
 		}
 		victory_points = {
-			7959 3
+			7959 3 
 		}
+
 	}
+
 	provinces={
-		7959 8006
+		2038 2094 7959 8006 10762 
 	}
+	manpower=745000
+	buildings_max_level_factor=1.000
+	state_category=rural
 }
