@@ -9,17 +9,19 @@ state={
 		add_core_of = QHE
 		buildings = {
 			infrastructure = 5
+
 		}
 		victory_points = {
-			12765 5
+			12765 5 
 		}
 		victory_points = {
-			7818 5
+			7818 5 
 		}
+
 	}
 
 	provinces={
-		1793 7818 7821 10573 11814 12765 
+		7818 7821 10573 11814 12765 
 	}
 	manpower=186265
 	buildings_max_level_factor=1.000
