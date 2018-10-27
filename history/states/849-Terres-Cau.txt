@@ -1,16 +1,12 @@
 state={
 	id=849
 	name="STATE_849"
-	provinces={
-		1352 1534 1564 1806 2043 4567 4811 7834 7892 9802 10717 12361 
-	}
-	manpower=299019
-	buildings_max_level_factor=1.000
 	history={
 		owner = PLA
 		add_core_of = PLA
 		buildings = {
-			infrastructure = 5
+			infrastructure = 4
+			industrial_complex = 2
 		}
 		victory_points = {
 			1806 5
@@ -22,4 +18,10 @@ state={
 			10717 5
 		}
 	}
+	provinces={
+		1352 1534 1564 1806 2043 4567 4811 7834 7892 9802 10717 12361 
+	}
+	manpower=299019
+	buildings_max_level_factor=1.000
+	state_category=rural
 }

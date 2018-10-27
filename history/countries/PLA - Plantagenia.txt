@@ -10,6 +10,27 @@ set_technology = {
 
 set_convoys = 50
 
+add_ideas = {
+	#Laws
+	limited_conscription
+	medium_taxation
+	civilian_economy
+	moderate_military_budget
+	moderate_research_budget
+
+	GOV_constitutional_monarchy
+	VOT_universal_male
+	PAR_gerrymandering
+	PRS_censored
+
+	ECS_free_market_capitalism
+	export_focus
+	UNI_non_socialist
+	WAG_low
+	WEL_none
+	HLT_private
+	#Other
+}
 
 set_politics = {
 
@@ -51,16 +72,131 @@ set_politics = {
 	election_frequency = 48
 	elections_allowed = no
 }
-
+ create_country_leader = {
+	name = "André Inconnu"
+	picture = "André_Inconnu.tga"
+	expire = "1965.1.1"
+	ideology = cornelian_communard_subtype
+	traits = {}
+}
 create_country_leader = {
-	
+	name = "Sylvie Droz"
+	picture = "Sylvie_Droz.tga"
+	expire = "1965.1.1"
+	ideology = egalitarian_collectivist_subtype
+	traits = {}
+}
+create_country_leader = {
+	name = "Dany Dimont"
+	picture = "Dany_Dimont.tga"
+	expire = "1965.1.1"
+	ideology = libertarian_socialist_subtype
+	traits = {}
+}
+create_country_leader = {
+	name = "Judicael II"
+	picture = "Portrait_PLA_Judicael_II.dds"
+	expire = "1965.1.1"
+	ideology = social_democrat_subtype
+	traits = {}
+}
+create_country_leader = {
+	name = "Judicael II"
+	picture = "Portrait_PLA_Judicael_II.dds"
+	expire = "1965.1.1"
+	ideology = classical_liberal_subtype
+	traits = {}
+}
+create_country_leader = {
 	name = "Judicael II"
 	picture = "Portrait_PLA_Judicael_II.dds"
 	expire = "1965.1.1"
 	ideology = social_conservative_subtype
-	traits = {
-		#
-	}
+	traits = {}
+}
+create_country_leader = {
+	name = "Judicael II"
+	picture = "Portrait_PLA_Judicael_II.dds"
+	expire = "1965.1.1"
+	ideology = authoritarian_democrat_subtype
+	traits = {}
+}
+create_country_leader = {
+	name = "Judicael II"
+	picture = "Portrait_PLA_Judicael_II.dds"
+	expire = "1965.1.1"
+	ideology = paternal_autocrat_subtype
+	traits = {}
+}
+create_country_leader = {
+	name = "Judicael II"
+	picture = "Portrait_PLA_Judicael_II.dds"
+	expire = "1965.1.1"
+	ideology = national_corporatist_subtype
+	traits = {}
+}
+create_country_leader = {
+	name = "Judicael II"
+	picture = "Portrait_PLA_Judicael_II.dds"
+	expire = "1965.1.1"
+	ideology = imperial_irredentist_subtype
+	traits = {}
 }
 
+create_field_marshal = {
+	name = "Maximilien Besson"
+	desc = ""
+	picture = "Maximilien_Besson.dds"
+	traits = {}
+	skill = 1
+	attack_skill = 1
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 1
+}	
+create_corps_commander = {
+	name = "Victor Fournier"
+	desc = ""
+	picture = "Victor_Fournier.dds"
+	traits = {}
+	skill = 1
+	attack_skill = 1
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 1
+}
+create_corps_commander = {
+	name = "August Chauve"
+	desc = ""
+	picture = "August_Chauve.dds"
+	traits = {}
+	skill = 1
+	attack_skill = 1
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 1
+}
+create_corps_commander = {
+	name = "Alain Bozonnet"
+	desc = ""
+	picture = "Alain_Bozonnet.dds"
+	traits = {}
+	skill = 1
+	attack_skill = 1
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 1
+}
+create_navy_leader = {
+	name = "Jean-Charles De Verley"
+	picture = "Jean-Charles_De_Verley.dds"
+	traits = { }
+	skill = 1
+}
+create_navy_leader = {
+	name = "Auguste Martin"
+	picture = "Auguste_Martin.dds"
+	traits = { }
+	skill = 1
+}
 }

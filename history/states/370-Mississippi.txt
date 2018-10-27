@@ -14,15 +14,13 @@ state={
 		}
 		buildings = {
 			infrastructure = 5
-
+			industrial_complex = 3
 		}
-
 	}
-
 	provinces={
 		1615 4464 4565 4622 4650 4756 7422 7480 7668 8110 10449 12429 
 	}
 	manpower=1077174
 	buildings_max_level_factor=1.000
-	state_category=city
+	state_category=	large_town
 }

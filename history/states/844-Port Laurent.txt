@@ -8,8 +8,7 @@ state={
 	buildings_max_level_factor=1.000
 	history={
 		owner = VIN
-		add_core_of = VIN
-		add_core_of = IRI
+		add_core_of = SEP
 		buildings = {
 			infrastructure = 5
 		}

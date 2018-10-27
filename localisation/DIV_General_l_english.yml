@@ -97,7 +97,7 @@ imperial_irredentist_desc:0 "Monarchy"
  POLITICS_NOELECTIONS:0 " "
 
 
- TEST_ONE:0 "§Y[?economic_growth_level|1]/100:§!§G(+[?economic_growth_rate|1])§!"
+ TEST_ONE:0 "§Y[?economic_growth_level_display|1]/100:§!§G(+[?economic_growth_rate_display|1])§!"
  TEST_TWO:0 "§Y45.8/100:§!§G(+12.3)§!"
 
 

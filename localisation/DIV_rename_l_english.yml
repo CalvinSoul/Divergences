@@ -28,5 +28,30 @@
 
  TAW_NATIVE_national_autocracy:0 "Tawantinsuyu"
  TAW_NATIVE_national_autocracy_DEF:0 "The Tawantinsuyu"
- ###
+ ##Arcadia##
+ CUB_NATIVE_authoritarian_democrat:0 "Virreinato de Cuba"
+ CUB_NATIVE_authoritarian_democrat_DEF:0 "The Virreinato de Cuba"
 
+ GCO_NATIVE_authoritarian_democrat:0 "Federación de Gran Colombia"
+ GCO_NATIVE_authoritarian_democrat_DEF:0 "The Federación de Gran Colombia"
+
+ LUS_NATIVE_social_conservative:0 "República da Lusitânia"
+ LUS_NATIVE_social_conservative_DEF:0 "The República da Lusitânia"
+
+ PLA_NATIVE_social_conservative:0 "Royaume de Plantagénie"
+ PLA_NATIVE_social_conservative_DEF:0 "The Royaume de Plantagénie"
+
+ QIN_NATIVE_authoritarian_democrat:0 "Qīng Qiū Liánhé Huì"
+ QIN_NATIVE_authoritarian_democrat_DEF:0 "The Qīng Qiū Liánhé Huì"
+
+ VIN_NATIVE_social_democrat:0 "Republikken Vinland"
+ VIN_NATIVE_social_democrat_DEF:0 "The Republikken Vinland"
+
+ SEP_NATIVE_national_autocracy:0 "Directoire Septimanie"
+ SEP_NATIVE_national_autocracy_DEF:0 "The Directoire Septimanie"
+
+ SDR_NATIVE_social_conservative:0 "Sudurhafeyjar Konføderation"
+ SDR_NATIVE_social_conservative_DEF:0 "The Sudurhafeyjar Konføderation"
+
+ PRA_NATIVE_cornelian_communard:0 "République Populaire d'Arcadie"
+ PRA_NATIVE_cornelian_communard_DEF:0 "The République Populaire d'Arcadie"

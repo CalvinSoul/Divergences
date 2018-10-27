@@ -4,8 +4,8 @@ state={
 	name="STATE_715"
 
 	history={
-		owner = QNG
-		add_core_of = QNG
+		owner = JAP
+		add_core_of = CHI
 		buildings = {
 			infrastructure = 3
 			arms_factory = 1
@@ -16,7 +16,7 @@ state={
 	}
 
 	provinces={
-		846 930 1499 1508 1558 1627 1638 3877 3978 4503 4561 4633 6893 6951 7812 9831 10429 11836 11903 12337 12469 12478 
+		930 1499 1508 1558 1627 1638 3877 3978 4503 4561 4633 7812 10429 11903 12337 12469 12478 
 	}
 	manpower=3643373
 	buildings_max_level_factor=1.000

@@ -2,13 +2,14 @@
 state={
 	id=363
 	name="STATE_363"
-
 	history={
 		owner = PLA
 		add_core_of = PLA
 		add_core_of = PRA
+		add_claim_by = SEP
 		buildings = {
 			infrastructure = 5
+			industrial_complex = 3
 		}
 		victory_points = {
 			10047 5
@@ -19,13 +20,11 @@ state={
 		victory_points = {
 			10081 6
 		}
-
 	}
-
 	provinces={
 		1019 4491 7012 7083 7134 7138 10047 10051 10081 10096 10495 11927 
 	}
 	manpower=2010537
 	buildings_max_level_factor=1.000
-	state_category=city
+	state_category= large_city
 }

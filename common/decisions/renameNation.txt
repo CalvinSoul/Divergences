@@ -17,6 +17,16 @@ rename_nation_catagory = {
 				LOT = {set_cosmetic_tag = LOT_NATIVE}
 				QUI = {set_cosmetic_tag = QUI_NATIVE}
 				TAW = {set_cosmetic_tag = TAW_NATIVE}
+
+				CUB = {set_cosmetic_tag = CUB_NATIVE}
+				GCO = {set_cosmetic_tag = GCO_NATIVE}
+				LUS = {set_cosmetic_tag = LUS_NATIVE}
+				PLA = {set_cosmetic_tag = PLA_NATIVE}
+				QIN = {set_cosmetic_tag = QIN_NATIVE}
+				VIN = {set_cosmetic_tag = VIN_NATIVE}
+				SEP = {set_cosmetic_tag = SEP_NATIVE}
+				SDR = {set_cosmetic_tag = SDR_NATIVE}
+				PRA = {set_cosmetic_tag = PRA_NATIVE}
 			}
 		}
 		english_names = {
@@ -36,6 +46,16 @@ rename_nation_catagory = {
 				LOT = {drop_cosmetic_tag = LOT_NATIVE}
 				QUI = {drop_cosmetic_tag = QUI_NATIVE}
 				TAW = {drop_cosmetic_tag = TAW_NATIVE}
+
+				CUB = {drop_cosmetic_tag = CUB_NATIVE}
+				GCO = {drop_cosmetic_tag = GCO_NATIVE}
+				LUS = {drop_cosmetic_tag = LUS_NATIVE}
+				PLA = {drop_cosmetic_tag = PLA_NATIVE}
+				QIN = {drop_cosmetic_tag = QIN_NATIVE}
+				VIN = {drop_cosmetic_tag = VIN_NATIVE}
+				SEP = {drop_cosmetic_tag = SEP_NATIVE}
+				SDR = {drop_cosmetic_tag = SDR_NATIVE}
+				PRA = {drop_cosmetic_tag = PRA_NATIVE}
 			}
 		}
 }

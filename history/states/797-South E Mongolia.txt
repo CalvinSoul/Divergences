@@ -7,8 +7,8 @@ state={
 	manpower=0
 	buildings_max_level_factor=1.000
 	history={
-		owner = QNG
-		add_core_of = QNG
+		owner = MON
+		add_core_of = MON
 		buildings = {
 			infrastructure = 4
 

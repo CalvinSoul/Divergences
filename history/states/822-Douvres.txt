@@ -2,22 +2,22 @@
 state={
 	id=822
 	name="STATE_822"
-
 	history={
 		owner = PLA
 		add_core_of = PLA
-		add_core_of = VIN
+		add_claim_by = VIN
 		buildings = {
-			infrastructure = 5
+			infrastructure = 4
+			industrial_complex = 1
 		}
 		victory_points = {
 			11635 5
 		}
 	}
-
 	provinces={
 		1881 11621 11635 
 	}
 	manpower=186729
 	buildings_max_level_factor=1.000
+	state_category=rural
 }

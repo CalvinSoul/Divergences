@@ -8,6 +8,7 @@ state={
 		add_core_of = PLA
 		buildings = {
 			infrastructure = 5
+			industrial_complex = 3
 		}
 		victory_points = {
 			10380 5
@@ -18,9 +19,7 @@ state={
 		victory_points = {
 			860 5
 		}
-
 	}
-
 	provinces={
 		492 860 4594 7640 9996 10352 10380 10520 11509 11942 
 	}

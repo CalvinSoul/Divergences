@@ -1,16 +1,13 @@
 state={
 	id=770
 	name="STATE_770"
-	provinces={
-		805 1500 2082 3960 4577 5001 5085 6968 7628 9829 9920 10337 10504 10778 10861 12486 
-	}
-	manpower=1069857
-	buildings_max_level_factor=1.000
 	history={
 		owner = PLA
 		add_core_of = PLA
+		add_claim_by = LUS
 		buildings = {
 			infrastructure = 5
+			industrial_complex = 3
 		}
 		victory_points = {
 			10337 5
@@ -19,4 +16,10 @@ state={
 			2082 5
 		}
 	}
+	provinces={
+		805 1500 2082 3960 4577 5001 5085 6968 7628 9829 9920 10337 10504 10778 10861 12486 
+	}
+	manpower=1069857
+	buildings_max_level_factor=1.000
+	state_category=	large_town
 }

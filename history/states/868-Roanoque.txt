@@ -1,21 +1,23 @@
 state={
 	id=868
 	name="STATE_868"
-	provinces={
-		1506 7558 9931 10412 10439 10468 12445 
-	}
-	manpower=530636
-	buildings_max_level_factor=1.000
 	history={
 		owner = PLA
 		add_core_of = PLA
 		add_core_of = PRA
+		add_claim_by = SEP
 		buildings = {
-			infrastructure = 5
-
+			infrastructure = 4
+			industrial_complex = 1
 		}
 		victory_points = {
 			10439 5
 		}
 	}
+	provinces={
+		1506 7558 9931 10412 10439 10468 12445 
+	}
+	manpower=530636
+	buildings_max_level_factor=1.000
+	state_category=rural
 }

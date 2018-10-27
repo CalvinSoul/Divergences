@@ -1,17 +1,12 @@
 state={
 	id=848
 	name="STATE_848"
-	provinces={
-		1453 4535 7524 7552 12398 
-	}
-	manpower=2907595
-	buildings_max_level_factor=1.000
 	history={
 		owner = PLA
 		add_core_of = PLA
 		buildings = {
-			infrastructure = 5
-
+			infrastructure = 6
+			industrial_complex = 4
 		}
 		victory_points = {
 			7552 25
@@ -20,4 +15,10 @@ state={
 			1453 5
 		}
 	}
+	provinces={
+		1453 4535 7524 7552 12398 
+	}
+	manpower=2907595
+	buildings_max_level_factor=1.000
+	state_category=	metropolis
 }

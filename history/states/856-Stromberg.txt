@@ -5,8 +5,10 @@ state={
 
 	history={
 		owner = VIN
-		add_core_of = PLA
+		add_core_of = VIN
 		add_core_of = IRI
+		add_claim_by = PLA
+		add_claim_by = SEP
 		buildings = {
 			infrastructure = 5
 		}

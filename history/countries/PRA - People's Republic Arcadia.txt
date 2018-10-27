@@ -52,16 +52,136 @@ set_politics = {
 	elections_allowed = no
 }
 
-create_country_leader = {
-	
+ create_country_leader = {
 	name = "André Inconnu"
 	picture = "André_Inconnu.tga"
 	expire = "1965.1.1"
 	ideology = cornelian_communard_subtype
-	traits = {
-		#
-	}
+	traits = {}
 }
-
+create_country_leader = {
+	name = "Sylvie Droz"
+	picture = "Sylvie_Droz.tga"
+	expire = "1965.1.1"
+	ideology = egalitarian_collectivist_subtype
+	traits = {}
+}
+create_country_leader = {
+	name = "Dany Dimont"
+	picture = "Dany_Dimont.tga"
+	expire = "1965.1.1"
+	ideology = libertarian_socialist_subtype
+	traits = {}
+}
+create_country_leader = {
+	name = "Judicael II"
+	picture = "Portrait_PLA_Judicael_II.dds"
+	expire = "1965.1.1"
+	ideology = social_democrat_subtype
+	traits = {}
+}
+create_country_leader = {
+	name = "Judicael II"
+	picture = "Portrait_PLA_Judicael_II.dds"
+	expire = "1965.1.1"
+	ideology = classical_liberal_subtype
+	traits = {}
+}
+create_country_leader = {
+	name = "Judicael II"
+	picture = "Portrait_PLA_Judicael_II.dds"
+	expire = "1965.1.1"
+	ideology = social_conservative_subtype
+	traits = {}
+}
+create_country_leader = {
+	name = "Judicael II"
+	picture = "Portrait_PLA_Judicael_II.dds"
+	expire = "1965.1.1"
+	ideology = authoritarian_democrat_subtype
+	traits = {}
+}
+create_country_leader = {
+	name = "Judicael II"
+	picture = "Portrait_PLA_Judicael_II.dds"
+	expire = "1965.1.1"
+	ideology = paternal_autocrat_subtype
+	traits = {}
+}
+create_country_leader = {
+	name = "Judicael II"
+	picture = "Portrait_PLA_Judicael_II.dds"
+	expire = "1965.1.1"
+	ideology = national_corporatist_subtype
+	traits = {}
+}
+create_country_leader = {
+	name = "Judicael II"
+	picture = "Portrait_PLA_Judicael_II.dds"
+	expire = "1965.1.1"
+	ideology = imperial_irredentist_subtype
+	traits = {}
+}
+create_field_marshal = {
+	name = "Ghislain Desmoulins"
+	desc = ""
+	picture = "Ghislain_Desmoulins.tga"
+	traits = {}
+	skill = 1
+	attack_skill = 1
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 1
+}	
+create_corps_commander = {
+	name = "Gilles Kléber"
+	desc = ""
+	picture = "Gilles_Kléber.tga"
+	traits = {}
+	skill = 1
+	attack_skill = 1
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 1
+}
+create_corps_commander = {
+	name = "Julien Cailloux"
+	desc = ""
+	picture = "Julien_Cailloux.tga"
+	traits = {}
+	skill = 1
+	attack_skill = 1
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 1
+}
+create_corps_commander = {
+	name = "Lou Bourseiller"
+	desc = ""
+	picture = "Lou_Bourseiller.tga"
+	traits = {}
+	skill = 1
+	attack_skill = 1
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 1
+}
+create_corps_commander = {
+	name = "Edmond Adnet"
+	desc = ""
+	picture = "Edmond_Adnet.tga"
+	traits = {}
+	skill = 1
+	attack_skill = 1
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 1
+}
+create_navy_leader = {
+	name = "Ange Hachette"
+	picture = "Ange_Hachette.tga"
+	traits = { }
+	skill = 1
+}
 }
 

@@ -53,14 +53,28 @@ set_politics = {
 }
 
 create_country_leader = {
-	
 	name = "Evasio Amante"
 	picture = "Evasio_Amante.dds"
 	expire = "1965.1.1"
 	ideology = classical_liberal_subtype
-	traits = {
-		#
-	}
+	traits = {}
+}
+create_corps_commander = {
+	name = "Enzo Bernero"
+	desc = ""
+	picture = "Enzo_Bernero.dds"
+	traits = {}
+	skill = 1
+	attack_skill = 1
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 1
+}
+create_navy_leader = {
+	name = "Senesio Caira"
+	picture = "Senesio_Caira.dds"
+	traits = { }
+	skill = 1
 }
 
 }
