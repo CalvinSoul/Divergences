@@ -62,4 +62,3 @@ create_country_leader = {
 	}
 }
 
-}

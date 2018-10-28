@@ -54,7 +54,7 @@ set_politics = {
 
  create_country_leader = {
 	name = "André Inconnu"
-	picture = "André_Inconnu.tga"
+	picture = "Andre_Inconnu.tga"
 	expire = "1965.1.1"
 	ideology = cornelian_communard_subtype
 	traits = {}
@@ -136,7 +136,7 @@ create_field_marshal = {
 create_corps_commander = {
 	name = "Gilles Kléber"
 	desc = ""
-	picture = "Gilles_Kléber.tga"
+	picture = "Gilles_Kleber.tga"
 	traits = {}
 	skill = 1
 	attack_skill = 1
@@ -183,5 +183,5 @@ create_navy_leader = {
 	traits = { }
 	skill = 1
 }
-}
+
 

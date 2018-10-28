@@ -74,7 +74,7 @@ set_politics = {
 }
  create_country_leader = {
 	name = "André Inconnu"
-	picture = "André_Inconnu.tga"
+	picture = "Andre_Inconnu.tga"
 	expire = "1965.1.1"
 	ideology = cornelian_communard_subtype
 	traits = {}
@@ -198,5 +198,4 @@ create_navy_leader = {
 	picture = "Auguste_Martin.dds"
 	traits = { }
 	skill = 1
-}
 }

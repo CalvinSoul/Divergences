@@ -77,5 +77,4 @@ create_navy_leader = {
 	skill = 1
 }
 
-}
 

@@ -55,7 +55,7 @@ set_politics = {
 create_country_leader = {
 	
 	name = "The Invisible Man"
-	picture = "gfx//leaders//Invisible_Man.tga" ""
+	picture = "gfx//leaders//Invisible_Man.tga"
 	expire = "1965.1.1"
 	ideology = authoritarian_democrat_subtype
 	traits = {
