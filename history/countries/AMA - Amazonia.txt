@@ -1,5 +1,5 @@
 ﻿capital = 498
-oob = "Z_1936"
+oob = "Default_1936"
 
 # Starting tech
 set_technology = {

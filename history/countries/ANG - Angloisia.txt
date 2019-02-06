@@ -1,6 +1,6 @@
 ﻿capital = 1
 
-oob = "ANG_1936"
+oob = "Default_1936"
 
 # Starting tech
 set_technology = {
@@ -52,10 +52,10 @@ set_politics = {
 	elections_allowed = no
 }
 #Diplomacy
-set_autonomy = {
-		target = SCO
-		autonomous_state = autonomy_2
-}
+#set_autonomy = {
+#		target = SCO
+#		autonomous_state = autonomy_2
+#}
 
 create_country_leader = {
 	name = "Henri XII"
