@@ -135,3 +135,7 @@ non_total_economy_tt:0 "One of the following must be true:\nEconomic Framework i
 total_economy_tt:0 "One of the following must be true:\nEconomic Framework is §YState Capitalist§!\nEconomic Framework is §YState Socialist§!"
 democratic_tt:0 "§YGovernment Type§! is §GDemocratic§!"
 non_democratic_tt:0 "§YGovernment Type§! is §RDictorial§!"
+MIL_guard_tt:0 "One of the following must be true:\nMilitary Type is §YNational Guard§!"
+MIL_guard_prof_tt:0 "One of the following must be true:\nMilitary Type is §YNational Guard§!\nMilitary Type is §YProfessional Army§!"
+MIL_guerilla_prof_mass_tt:0 "One of the following must be true:\nMilitary Type is §YProfessional Army§!\nMilitary Type is §YMass Mobilization§!\nEconomic Framework is §YGuerrilla Army§!"
+MIL_guerilla_mass_tt:0 "One of the following must be true:\nMilitary Type is §YMass Mobilization§!\nMilitary Type is §YGuerrilla Army§!"

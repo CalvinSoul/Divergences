@@ -1,17 +1,22 @@
+
 state={
 	id=802
 	name="STATE_802"
-	provinces={
-		1656 4435 4459 10349 10389 10878 12338 
-	}
-	manpower=0
-	buildings_max_level_factor=1.000
+
 	history={
 		owner = NEP
 		add_core_of = NEP
 		add_core_of = HIN
 		buildings = {
 			infrastructure = 1
+
 		}
+
 	}
+
+	provinces={
+		1656 4435 4459 10389 10878 12338 
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
 }

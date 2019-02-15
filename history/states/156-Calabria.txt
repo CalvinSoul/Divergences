@@ -2,9 +2,7 @@
 state={
 	id=156
 	name="STATE_156"
-	manpower = 2966315
-	
-	state_category = city
+
 	history={
 		owner = ARA
 		add_core_of = ARA
@@ -17,14 +15,21 @@ state={
 			air_base = 5
 			11837 = {
 				naval_base = 10
+
 			}
 			11998 = {
 				naval_base = 2
+
 			}
+
 		}
+
 	}
 
 	provinces={
-		3901 6979 9784 9856 9990 10027 11837 11998 12066 12098 
+		3901 3968 6972 9856 9990 10027 12066 12098 
 	}
+	manpower=2966315
+	buildings_max_level_factor=1.000
+	state_category=city
 }

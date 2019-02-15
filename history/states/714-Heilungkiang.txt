@@ -4,8 +4,8 @@ state={
 	name="STATE_714"
 
 	history={
-		owner = JAP
-		add_core_of = CHI
+		owner = MON
+		add_core_of = MON
 		buildings = {
 			infrastructure = 4
 
@@ -14,7 +14,7 @@ state={
 	}
 
 	provinces={
-		1502 1588 1645 1847 4506 4592 4809 4876 7526 7582 7613 7832 7848 7873 7894 7897 10567 10675 12485 12548 12618 
+		1502 1847 4809 4876 7848 7873 7894 10567 10675 12485 
 	}
 	manpower=3694191
 	buildings_max_level_factor=1.000

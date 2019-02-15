@@ -8,9 +8,7 @@ state={
 		add_core_of = BRG
 		buildings = {
 			infrastructure = 5
-
 		}
-
 	}
 
 	provinces={

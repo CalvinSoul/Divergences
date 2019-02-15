@@ -10,7 +10,7 @@ state={
 		chromium=40 # was: 44
 		aluminium=27 # was: 30
 	}
-
+	impassable = yes
 	history={
 		owner = RUS
 		add_core_of = RUS

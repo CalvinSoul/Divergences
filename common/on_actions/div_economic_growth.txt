@@ -111,10 +111,10 @@ on_daily = {
           limit = { 
             check_variable = { economic_growth_level > 10000 }
             free_building_slots = {
-            building = industrial_complex
-            size > 0
-            included_locked = no
-          }
+              building = industrial_complex
+              size > 0
+              included_locked = no
+            }
           }
           subtract_from_variable = {
             var = economic_growth_level
@@ -126,20 +126,34 @@ on_daily = {
             instant_build = yes
           }
         }
-         if ={
+        if ={
           limit = { 
             check_variable = { economic_growth_level > 10000 }
+            NOT = {
+             free_building_slots = {
+              building = industrial_complex
+              size > 0
+              included_locked = no
+            }
           }
-          subtract_from_variable = {
-            var = economic_growth_level
-            value = 10000
-          }
-          add_offsite_building = { type = industrial_complex level = 1 }
         }
+        subtract_from_variable = {
+          var = economic_growth_level
+          value = 10000
+        }
+        add_extra_state_shared_building_slots = 1
+        add_building_construction = {
+            type = industrial_complex
+            level = 1
+            instant_build = yes
+          }
+      }
         ####
 
       }
-}
-}
+    }
+  }
 }
 
+
+      

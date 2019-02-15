@@ -9,7 +9,7 @@ state={
 	}
 
 	history={
-		owner = CHI
+		owner = IDC
 		add_core_of = CHI
 		buildings = {
 			infrastructure = 3
@@ -19,35 +19,11 @@ state={
 		victory_points = {
 			7137 10 
 		}
-		1938.10.25 = {
-			if = {
-				limit = {
-					NOT = {
-						has_dlc = Waking the Tiger
-
-					}
-
-				}
-				remove_core_of = GXC
-				CHI = {
-					transfer_state = PREV
-
-				}
-
-			}
-			JAP = {
-				set_province_controller = 1018
-				set_province_controller = 4023
-				set_province_controller = 10004
-
-			}
-
-		}
 
 	}
 
 	provinces={
-		1018 4023 7044 7137 7192 10050 10105 11926 11983 12023 
+		1018 1625 4028 4077 4085 4628 7137 7650 10050 10459 11926 
 	}
 	manpower=6550000
 	buildings_max_level_factor=1.000

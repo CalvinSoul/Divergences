@@ -8,18 +8,31 @@ ideas = {
 			cost = 100
 			removal_cost = -1
 			level = 7
-			available = { }
+			available = {
+				custom_trigger_tooltip = {
+    				tooltip = MIL_guard_tt
+					has_idea = MIL_guard
+				}
+			}
 			modifier = {
 				conscription = 0.01
 			}
-			cancel_if_invalid = no
+			cancel_if_invalid = yes
 		}
 		
 		volunteer_only = {		
 			cost = 100
 			removal_cost = -1
 			level = 6
-			available = { }
+			available = {
+				custom_trigger_tooltip = {
+    			tooltip = MIL_guard_prof_tt
+   					OR = {
+						has_idea = MIL_guard
+						has_idea = MIL_professional
+					}
+				}
+			}
 			ai_will_do = {
    				factor = 1
    				modifier = {
@@ -31,7 +44,7 @@ ideas = {
 				conscription = 0.015
 			}
 			default = yes
-			cancel_if_invalid = no
+			cancel_if_invalid = yes
 		}
 		
 		limited_conscription = {	
@@ -39,7 +52,13 @@ ideas = {
 			removal_cost = -1
 			level = 5
 			available = {
-				has_war_support > 0.1
+				custom_trigger_tooltip = {
+    			tooltip = MIL_guard_prof_tt	
+   					OR = {
+						has_idea = MIL_guard
+						has_idea = MIL_professional
+					}
+				}
 			}
 			modifier = {
 				conscription = 0.025
@@ -52,17 +71,18 @@ ideas = {
 					manpower_per_military_factory <  1000
 				}
 			}
-			cancel_if_invalid = no
+			cancel_if_invalid = yes
 		}
 		
 		extensive_conscription = {
 			available = {
-				OR = {
-					AND = {
-						has_war = yes
-						enemies_strength_ratio > 0.5
-					}	
-						has_war_support > 0.5				
+				custom_trigger_tooltip = {
+    			tooltip =  MIL_guerilla_prof_mass_tt	
+   					OR = {
+						has_idea = MIL_guerilla
+						has_idea = MIL_professional
+						has_idea = MIL_mass
+					}
 				}
 			}
 			ai_will_do = {
@@ -80,19 +100,18 @@ ideas = {
 				conscription = 0.05
 				training_time_factor = 0.1
 			}
-			cancel_if_invalid = no
+			cancel_if_invalid = yes
 		}
 		
 		service_by_requirement = {
 			available = {
-				OR = {
-					AND = {
-						has_war = yes
-						enemies_strength_ratio > 0.6
-					}
-					has_war_support > 0.8
+				custom_trigger_tooltip = {
+    				tooltip = MIL_guerilla_mass_tt	
+   					OR = {
+						has_idea = MIL_guerilla
+						has_idea = MIL_mass
+						}
 				}
-
 			}
 			ai_will_do = {
    				factor = 1
@@ -122,17 +141,18 @@ ideas = {
 				production_speed_buildings_factor = -0.1
 				training_time_factor = 0.2
 			}
-			cancel_if_invalid = no
+			cancel_if_invalid = yes
 		}
 		
 		all_adults_serve = {
 			available = {
-				has_war = yes
-				OR = {
-					has_war_support > 0.8
-					surrender_progress > 0
+				custom_trigger_tooltip = {
+    			tooltip = MIL_guerilla_mass_tt			
+   				OR = {
+					has_idea = MIL_guerilla
+					has_idea = MIL_mass
+					}
 				}
-				enemies_strength_ratio > 0.75
 			}
 			ai_will_do = {
    				factor = 1
@@ -171,24 +191,18 @@ ideas = {
 				training_time_factor = 0.3
 			}
 			
-			cancel_if_invalid = no
+			cancel_if_invalid = yes
 		}
 		
 		scraping_the_barrel = {
 			available = {
-				#has_manpower_for_recruit_change_to =  { value = 0.25 group = mobilization_laws }
-				has_war = yes
-				OR = {
-					has_war_support > 0.85
-					surrender_progress > 0.25
+				custom_trigger_tooltip = {
+    			tooltip = MIL_guerilla_mass_tt		
+   				OR = {
+					has_idea = MIL_guerilla
+					has_idea = MIL_mass
+					}
 				}
-				enemies_strength_ratio > 1
-				#any_enemy_country = {
-				#	strength_ratio = {
-				#		tag = ROOT 
-				#		ratio > 1
-				#	}
-				#}
 			}
 			ai_will_do = {
    				factor = 1
@@ -219,7 +233,7 @@ ideas = {
 				production_speed_buildings_factor = -0.4
 				training_time_factor = 0.5
 			}
-			cancel_if_invalid = no
+			cancel_if_invalid = yes
 		}
 	}
 
@@ -396,8 +410,6 @@ ideas = {
 				production_speed_arms_factory_factor = -0.2
 				conversion_cost_civ_to_mil_factor= 0.25
 				conversion_cost_mil_to_civ_factor = -0.25
-				consumer_goods_factor = -0.05
-				production_speed_buildings_factor = -0.05
 			}
 			
 			cancel_if_invalid = no
@@ -428,8 +440,6 @@ ideas = {
 				production_speed_arms_factory_factor = -0.1
 				conversion_cost_civ_to_mil_factor= 0.1
 				conversion_cost_mil_to_civ_factor = -0.1
-				consumer_goods_factor = -0.1
-				production_speed_buildings_factor = -0.1
 			}
 			
 			cancel_if_invalid = no
@@ -459,8 +469,6 @@ ideas = {
 				production_speed_arms_factory_factor = 0.1
 				conversion_cost_mil_to_civ_factor = 0.25
 				conversion_cost_civ_to_mil_factor= -0.25
-				consumer_goods_factor = -0.15
-				production_speed_buildings_factor = -0.15
 			}
 			
 			cancel_if_invalid = no
@@ -520,8 +528,7 @@ ideas = {
 				production_speed_arms_factory_factor = 0.3
 				conversion_cost_mil_to_civ_factor = 0.5
 				conversion_cost_civ_to_mil_factor= -0.5
-				consumer_goods_factor = -0.2
-				production_speed_buildings_factor = -0.2
+				consumer_goods_factor = -0.1
 			}
 			
 			cancel_if_invalid = no
@@ -540,7 +547,7 @@ ideas = {
 				experience_gain_army = -0.1
 				training_time_army_factor = 0.3
 			}
-			cancel_if_invalid = no
+			cancel_if_invalid = yes
 		}
 		small_military_budget = {
 			level = 4
@@ -554,7 +561,7 @@ ideas = {
 				experience_gain_army = -0.03
 				training_time_army_factor = 0.1
 			}
-			cancel_if_invalid = no
+			cancel_if_invalid = yes
 		}
 		moderate_military_budget = {
 			level = 3
@@ -563,26 +570,30 @@ ideas = {
 			
 			modifier = {}
 			default = yes
-			cancel_if_invalid = no
+			cancel_if_invalid = yes
 		}
 		large_military_budget = {
 			level = 2
 			cost = 100
 			removal_cost = -1
-			
+			available = { 
+					num_of_civilian_factories_available_for_projects > 0
+			}
 			modifier = {
 				consumer_goods_factor = 0.05
 				army_org_factor = 0.05
 				army_morale_factor = 0.1
 				experience_gain_army = 0.05
 			}
-			cancel_if_invalid = no
+			cancel_if_invalid = yes
 		}
 		very_large_military_budget = {
 			level = 1
 			cost = 100
 			removal_cost = -1
-			
+			available = { 
+					num_of_civilian_factories_available_for_projects > 0
+			}
 			modifier = {
 				consumer_goods_factor = 0.1
 				army_org_factor = 0.1
@@ -590,7 +601,7 @@ ideas = {
 				experience_gain_army = 0.1
 				training_time_army_factor = -0.05
 			}
-			cancel_if_invalid = no
+			cancel_if_invalid = yes
 		}
 	}
 	research_budget = {
@@ -603,7 +614,7 @@ ideas = {
 				consumer_goods_factor = -0.10
 				research_time_factor = 0.25
 			}
-			cancel_if_invalid = no
+			cancel_if_invalid = yes
 		}
 		small_research_budget = {
 			level = 4
@@ -614,7 +625,7 @@ ideas = {
 				consumer_goods_factor = -0.05
 				research_time_factor = 0.1
 			}
-			cancel_if_invalid = no
+			cancel_if_invalid = yes
 		}
 		moderate_research_budget = {
 			level = 3
@@ -623,29 +634,33 @@ ideas = {
 			
 			modifier = {}
 			default = yes
-			cancel_if_invalid = no
+			cancel_if_invalid = yes
 		}
 		large_research_budget = {
 			level = 2
 			cost = 100
 			removal_cost = -1
-			
+			available = { 
+					num_of_civilian_factories_available_for_projects > 0
+			}
 			modifier = {
 				consumer_goods_factor = 0.05
-				research_time_factor = -0.5
+				research_time_factor = -0.05
 			}
-			cancel_if_invalid = no
+			cancel_if_invalid = yes
 		}
-		very_large_research_budget = {
+		very_large_research_budget = { 
 			level = 1
 			cost = 100
 			removal_cost = -1
-			
+			available = { 
+					num_of_civilian_factories_available_for_projects > 0
+			}
 			modifier = {
 				consumer_goods_factor = 0.1
 				research_time_factor = -0.1
 			}
-			cancel_if_invalid = no
+			cancel_if_invalid = yes
 		}
 
 	}

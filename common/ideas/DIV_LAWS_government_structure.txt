@@ -183,6 +183,7 @@ ideas = {
 	party_laws = { 
 		law = yes
 		PAR_illegal_opposition = {
+			level = 5
 			allowed = {}
 			available = {
 				custom_trigger_tooltip = {
@@ -202,6 +203,7 @@ ideas = {
 			default = no
 		}
 		PAR_limited_opposition = {
+			level = 4
 			allowed = {}
 			available = {
 				custom_trigger_tooltip = {
@@ -221,6 +223,7 @@ ideas = {
 			default = no
 		}
 		PAR_state_harassment = {
+			level = 3
 			allowed = {}
 			available = {
 				custom_trigger_tooltip = {
@@ -240,6 +243,7 @@ ideas = {
 			default = no
 		}
 		PAR_gerrymandering= {
+			level = 2
 			allowed = {}
 			available = {
 				custom_trigger_tooltip = {
@@ -259,6 +263,7 @@ ideas = {
 			default = yes
 		}
 		PAR_protected = {
+			level = 1
 			allowed = {}
 			available = {
 				custom_trigger_tooltip = {

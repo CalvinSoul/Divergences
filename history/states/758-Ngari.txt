@@ -4,7 +4,7 @@ state={
 	name="STATE_758"
 
 	history={
-		owner = CHI
+		owner = NEP
 		add_core_of = CHI
 		buildings = {
 			infrastructure = 1
@@ -14,7 +14,7 @@ state={
 	}
 
 	provinces={
-		1961 5042 5094 7273 8029 10802 10821 12784 12801 
+		1961 1970 4973 5042 5094 7273 8029 8112 10802 10821 10911 12784 12801 
 	}
 	manpower=1000000
 	buildings_max_level_factor=1.000

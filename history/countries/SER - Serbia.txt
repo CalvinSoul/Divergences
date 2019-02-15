@@ -15,38 +15,38 @@ set_politics = {
 
 	parties = {
 		cornelian_communard = { 
-			popularity = 10
+			popularity = 0
 		}
 		egalitarian_collectivist = {
-			popularity = 10
+			popularity = 0
 		}
 		libertarian_socialist = {
-			popularity = 10
+			popularity = 4
 		}
 		social_democrat = { 
-			popularity = 10
+			popularity = 6
 		}
 		classical_liberal = { 
-			popularity = 10
+			popularity = 12
 		}
 		social_conservative = { 
-			popularity = 10
+			popularity = 25
 		}
 		authoritarian_democrat = { 
-			popularity = 10
+			popularity = 15
 		}
 		paternal_autocrat = { 
-			popularity = 10
+			popularity = 12
 		}
 		national_autocracy = { 
-			popularity = 10
+			popularity = 18
 		}
 		imperial_irredentist = { 
-			popularity = 10
+			popularity = 0
 		}
 	}
 	
-	ruling_party = authoritarian_democrat
+	ruling_party = social_conservative
 	last_election = "1936.1.1"
 	election_frequency = 48
 	elections_allowed = no
@@ -54,10 +54,10 @@ set_politics = {
 
 create_country_leader = {
 	
-	name = "The Invisible Man"
-	picture = "gfx//leaders//Invisible_Man.tga"
+	name = "Frederick Alexander"
+	picture = "Frederick_Alexander.tga"
 	expire = "1965.1.1"
-	ideology = authoritarian_democrat_subtype
+	ideology = social_conservative_subtype
 	traits = {
 		#
 	}

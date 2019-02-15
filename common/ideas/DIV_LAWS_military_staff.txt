@@ -2,8 +2,57 @@ ideas = {
 	chief_of_staff = { 
 		law = yes
 	}
-	chief_of_army = { 
+	military_type = { 
 		law = yes
+		MIL_guerilla = {
+			allowed = {}
+			available = {}
+			visible = {}
+			modifier = {
+				no_supply_grace = 360
+				partisan_effect = 0.5
+				army_core_attack_factor = 0.5
+				army_core_defence_factor = 0.5
+				army_defence_factor = -0.25
+				army_attack_factor = -0.25
+			}
+			research_bonus = { land_doctrine = -0.50 }
+			research_bonus = { air_doctrine = -0.75 }
+			research_bonus = { naval_doctrine = -0.75 }
+			cancel_if_invalid = yes
+			default = no
+		}
+		MIL_guard = {
+			allowed = {}
+			available = {}
+			visible = {}
+			modifier = {
+				army_core_attack_factor = 0.1
+				army_core_defence_factor = 0.1
+			}
+			cancel_if_invalid = yes
+			default = yes
+		}
+		MIL_professional = {
+			allowed = {}
+			available = {}
+			visible = {}
+			modifier = {
+				minimum_training_level = 0.5
+				army_org_factor = 0.1
+				planning_speed = 0.25
+			}
+			cancel_if_invalid = yes
+		}
+		MIL_mass = {
+			allowed = {}
+			available = {}
+			visible = {}
+			modifier = {
+			}
+			cancel_if_invalid = yes
+			default = no
+		}
 	}
 	chief_of_navy = { 
 		law = yes

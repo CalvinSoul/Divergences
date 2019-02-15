@@ -1,19 +1,21 @@
 
 state={
 	id=460
-	name="STATE_460" # Constantine
-	manpower = 2343837
-	
-	state_category = town
+	name="STATE_460"
 
 	history={
 		owner = ARA
 		buildings = {
 			infrastructure = 4
+
 		}
+
 	}
 
 	provinces={
-		1058 1160 4046 7065 7081 7166 9976 10078 11953 12051 13077 
+		1058 1160 4046 7065 7081 7166 9976 10078 11953 12051 
 	}
+	manpower=2343837
+	buildings_max_level_factor=1.000
+	state_category=town
 }

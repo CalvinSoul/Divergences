@@ -10,6 +10,7 @@ state={
 			infrastructure = 5
 		}
 	}
+	impassable = yes
 
 	provinces={
 		2407 4272 7696 7830 7858 8653 10527 13075 13192 

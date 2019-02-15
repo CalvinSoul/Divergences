@@ -9,7 +9,7 @@ state={
 	resources={
 		oil=7 # was: 8
 	}
-
+	impassable = yes
 	history={
 		owner = RUS
 		add_core_of = RUS

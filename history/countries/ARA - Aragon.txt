@@ -15,38 +15,38 @@ set_politics = {
 
 	parties = {
 		cornelian_communard = { 
-			popularity = 10
+			popularity = 4
 		}
 		egalitarian_collectivist = {
-			popularity = 10
+			popularity = 6
 		}
 		libertarian_socialist = {
-			popularity = 10
+			popularity = 15
 		}
 		social_democrat = { 
-			popularity = 10
+			popularity = 30
 		}
 		classical_liberal = { 
-			popularity = 10
+			popularity = 15
 		}
 		social_conservative = { 
 			popularity = 10
 		}
 		authoritarian_democrat = { 
-			popularity = 10
+			popularity = 6
 		}
 		paternal_autocrat = { 
-			popularity = 10
+			popularity = 4
 		}
 		national_autocracy = { 
-			popularity = 10
+			popularity = 3
 		}
 		imperial_irredentist = { 
-			popularity = 10
+			popularity = 7
 		}
 	}
 	
-	ruling_party = authoritarian_democrat
+	ruling_party = social_democrat
 	last_election = "1936.1.1"
 	election_frequency = 48
 	elections_allowed = no
@@ -54,10 +54,10 @@ set_politics = {
 
 create_country_leader = {
 	
-	name = "The Invisible Man"
-	picture = "gfx//leaders//Invisible_Man.tga"
+	name = "Josep III"
+	picture = "Josep_III.tga"
 	expire = "1965.1.1"
-	ideology = authoritarian_democrat_subtype
+	ideology = social_democrat_subtype
 	traits = {
 		#
 	}

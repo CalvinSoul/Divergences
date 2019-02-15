@@ -8,7 +8,7 @@ state=
 	
 	history=
 	{
-		owner = JAP
+		owner = SPA
 		buildings = {
 			infrastructure = 3
 			4429 = {

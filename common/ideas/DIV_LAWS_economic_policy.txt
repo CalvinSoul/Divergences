@@ -314,8 +314,7 @@ ideas = {
 			visible = {}
 			cancel_if_invalid = yes
 			modifier = {
-				consumer_goods_factor = 0.05
-				stability_factor = 0.01
+				consumer_goods_factor = 0.04
 			}
 			default = yes
 		}
@@ -328,7 +327,7 @@ ideas = {
 			visible = {}
 			cancel_if_invalid = yes
 			modifier = {
-				consumer_goods_factor = 0.10
+				consumer_goods_factor = 0.08
 				stability_factor = 0.05
 			}
 			default = no
@@ -342,8 +341,8 @@ ideas = {
 			visible = {}
 			cancel_if_invalid = yes
 			modifier = {
-				consumer_goods_factor = 0.15
-				stability_factor = 0.1
+				consumer_goods_factor = 0.12
+				stability_factor = 0.10
 			}
 			default = no
 		}
@@ -360,6 +359,7 @@ ideas = {
 			cancel_if_invalid = yes
 			modifier = {
 				MONTHLY_POPULATION = -0.2
+				conscription_factor = -0.25
 			}
 			default = no
 		}
@@ -373,7 +373,6 @@ ideas = {
 			cancel_if_invalid = yes
 			modifier = {
 				MONTHLY_POPULATION = 0.05
-				conscription_factor = 0.1
 			}
 			default = yes
 		}
@@ -388,7 +387,7 @@ ideas = {
 			modifier = {
 				consumer_goods_factor = 0.05
 				MONTHLY_POPULATION = 0.1
-				conscription_factor = 0.15
+				conscription_factor = 0.1
 			}
 			default = no
 		}
@@ -402,8 +401,9 @@ ideas = {
 			cancel_if_invalid = yes
 			modifier = {
 				consumer_goods_factor = 0.08
+				stability_factor = 0.05
 				MONTHLY_POPULATION = 0.1
-				conscription_factor = 0.2
+				conscription_factor = 0.1
 			}
 			default = no
 		}

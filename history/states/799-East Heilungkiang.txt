@@ -1,16 +1,21 @@
+
 state={
 	id=799
 	name="STATE_799"
-	provinces={
-		1545 1693 1732 4649 7767 10368 10379 10698 
-	}
-	manpower=0
-	buildings_max_level_factor=1.000
+
 	history={
 		owner = JAP
 		add_core_of = QNG
 		buildings = {
 			infrastructure = 1
+
 		}
+
 	}
+
+	provinces={
+		1545 1588 1645 1693 1732 4506 4592 4649 7526 7582 7613 7767 7832 7897 10368 10379 10698 12548 12618 
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
 }

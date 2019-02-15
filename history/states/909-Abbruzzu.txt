@@ -1,0 +1,18 @@
+state={
+	id=909
+	name="STATE_909"
+
+	history={
+		owner = ARA
+		add_core_of = ARA
+		buildings = {
+			infrastructure = 5
+		}
+	}
+	
+	provinces={
+		923 963 3923 3966 6831 11882 
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+}
