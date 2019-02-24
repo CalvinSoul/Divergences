@@ -14,39 +14,39 @@ set_convoys = 50
 set_politics = {
 
 	parties = {
-		cornelian_communard = { 
+		blanquism = { 
 			popularity = 38
 		}
-		egalitarian_collectivist = {
+		egalitarianism = {
 			popularity = 22
 		}
-		libertarian_socialist = {
+		libertarianism = {
 			popularity = 24
 		}
-		social_democrat = { 
+		progressivism = { 
 			popularity = 16
 		}
-		classical_liberal = { 
+		commercialism = { 
 			popularity = 0
 		}
-		social_conservative = { 
+		conservativism = { 
 			popularity = 0
 		}
-		authoritarian_democrat = { 
+		paternalism = { 
 			popularity = 0
 		}
-		paternal_autocrat = { 
+		reactionism = { 
 			popularity = 0
 		}
-		national_autocracy = { 
+		ultra_nationalism = { 
 			popularity = 0
 		}
-		imperial_irredentist = { 
+		hierarchism = { 
 			popularity = 0
 		}
 	}
 	
-	ruling_party = cornelian_communard
+	ruling_party = blanquism
 	last_election = "1936.1.1"
 	election_frequency = 48
 	elections_allowed = no
@@ -56,56 +56,56 @@ set_politics = {
 	name = "André Inconnu"
 	picture = "Andre_Inconnu.tga"
 	expire = "1965.1.1"
-	ideology = cornelian_communard_subtype
+	ideology = blanquism_subtype
 	traits = {}
 }
 create_country_leader = {
 	name = "Sylvie Droz"
 	picture = "Sylvie_Droz.tga"
 	expire = "1965.1.1"
-	ideology = egalitarian_collectivist_subtype
+	ideology = egalitarianism_subtype
 	traits = {}
 }
 create_country_leader = {
 	name = "Dany Dimont"
 	picture = "Dany_Dimont.tga"
 	expire = "1965.1.1"
-	ideology = libertarian_socialist_subtype
+	ideology = libertarianism_subtype
 	traits = {}
 }
 create_country_leader = {
 	name = "Judicael II"
 	picture = "Portrait_PLA_Judicael_II.dds"
 	expire = "1965.1.1"
-	ideology = social_democrat_subtype
+	ideology = progressivism_subtype
 	traits = {}
 }
 create_country_leader = {
 	name = "Judicael II"
 	picture = "Portrait_PLA_Judicael_II.dds"
 	expire = "1965.1.1"
-	ideology = classical_liberal_subtype
+	ideology = commercialism_subtype
 	traits = {}
 }
 create_country_leader = {
 	name = "Judicael II"
 	picture = "Portrait_PLA_Judicael_II.dds"
 	expire = "1965.1.1"
-	ideology = social_conservative_subtype
+	ideology = conservativism_subtype
 	traits = {}
 }
 create_country_leader = {
 	name = "Judicael II"
 	picture = "Portrait_PLA_Judicael_II.dds"
 	expire = "1965.1.1"
-	ideology = authoritarian_democrat_subtype
+	ideology = paternalism_subtype
 	traits = {}
 }
 create_country_leader = {
 	name = "Judicael II"
 	picture = "Portrait_PLA_Judicael_II.dds"
 	expire = "1965.1.1"
-	ideology = paternal_autocrat_subtype
+	ideology = reactionism_subtype
 	traits = {}
 }
 create_country_leader = {
@@ -119,7 +119,7 @@ create_country_leader = {
 	name = "Judicael II"
 	picture = "Portrait_PLA_Judicael_II.dds"
 	expire = "1965.1.1"
-	ideology = imperial_irredentist_subtype
+	ideology = hierarchism_subtype
 	traits = {}
 }
 create_field_marshal = {

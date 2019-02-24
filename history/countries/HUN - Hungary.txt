@@ -14,39 +14,39 @@ set_convoys = 50
 set_politics = {
 
 	parties = {
-		cornelian_communard = { 
+		blanquism = { 
 			popularity = 10
 		}
-		egalitarian_collectivist = {
+		egalitarianism = {
 			popularity = 5
 		}
-		libertarian_socialist = {
+		libertarianism = {
 			popularity = 15
 		}
-		social_democrat = { 
+		progressivism = { 
 			popularity = 30
 		}
-		classical_liberal = { 
+		commercialism = { 
 			popularity = 15
 		}
-		social_conservative = { 
+		conservativism = { 
 			popularity = 15
 		}
-		authoritarian_democrat = { 
+		paternalism = { 
 			popularity = 0
 		}
-		paternal_autocrat = { 
+		reactionism = { 
 			popularity = 0
 		}
-		national_autocracy = { 
+		ultra_nationalism = { 
 			popularity = 7
 		}
-		imperial_irredentist = { 
+		hierarchism = { 
 			popularity = 3
 		}
 	}
 	
-	ruling_party = social_democrat
+	ruling_party = progressivism
 	last_election = "1936.1.1"
 	election_frequency = 48
 	elections_allowed = no
@@ -57,7 +57,7 @@ create_country_leader = {
 	name = "Jozsef Biro"
 	picture = "Jozsef_Biro.tga"
 	expire = "1965.1.1"
-	ideology = social_democrat_subtype
+	ideology = progressivism_subtype
 	traits = {
 		#
 	}

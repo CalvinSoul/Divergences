@@ -11,47 +11,47 @@
 ######################################################################Cosmetic Tags#################################################################
 
 ##Ameriga##
- AMA_NATIVE_classical_liberal:0 "Fédération Amazonienne"
- AMA_NATIVE_classical_liberal_DEF:0 "The Fédération Amazonienne"
+ AMA_NATIVE_commercialism:0 "Fédération Amazonienne"
+ AMA_NATIVE_commercialism_DEF:0 "The Fédération Amazonienne"
 
- BEO_NATIVE_imperial_irredentist:0 "Kingdom of Beornia"
- BEO_NATIVE_imperial_irredentist_DEF:0 "The Kingdom of Beornia"
+ BEO_NATIVE_hierarchism:0 "Kingdom of Beornia"
+ BEO_NATIVE_hierarchism_DEF:0 "The Kingdom of Beornia"
 
- GRA_NATIVE_classical_liberal:0 "República de Granada"
- GRA_NATIVE_classical_liberal_DEF:0 "The República de Granada"
+ GRA_NATIVE_commercialism:0 "República de Granada"
+ GRA_NATIVE_commercialism_DEF:0 "The República de Granada"
 
- LOT_NATIVE_paternal_autocrat:0 "Lotharingien République"
- LOT_NATIVE_paternal_autocrat_DEF:0 "The Lotharingien République"
+ LOT_NATIVE_reactionism:0 "Lotharingien République"
+ LOT_NATIVE_reactionism_DEF:0 "The Lotharingien République"
 
- QUI_NATIVE_authoritarian_democrat:0 "República de Quito"
- QUI_NATIVE_authoritarian_democrat_DEF:0 "The República de Quito"
+ QUI_NATIVE_paternalism:0 "República de Quito"
+ QUI_NATIVE_paternalism_DEF:0 "The República de Quito"
 
- TAW_NATIVE_national_autocracy:0 "Tawantinsuyu"
- TAW_NATIVE_national_autocracy_DEF:0 "The Tawantinsuyu"
+ TAW_NATIVE_ultra_nationalism:0 "Tawantinsuyu"
+ TAW_NATIVE_ultra_nationalism_DEF:0 "The Tawantinsuyu"
  ##Arcadia##
- CUB_NATIVE_authoritarian_democrat:0 "Virreinato de Cuba"
- CUB_NATIVE_authoritarian_democrat_DEF:0 "The Virreinato de Cuba"
+ CUB_NATIVE_paternalism:0 "Virreinato de Cuba"
+ CUB_NATIVE_paternalism_DEF:0 "The Virreinato de Cuba"
 
- GCO_NATIVE_authoritarian_democrat:0 "Federación de Gran Colombia"
- GCO_NATIVE_authoritarian_democrat_DEF:0 "The Federación de Gran Colombia"
+ GCO_NATIVE_paternalism:0 "Federación de Gran Colombia"
+ GCO_NATIVE_paternalism_DEF:0 "The Federación de Gran Colombia"
 
- LUS_NATIVE_social_conservative:0 "República da Lusitânia"
- LUS_NATIVE_social_conservative_DEF:0 "The República da Lusitânia"
+ LUS_NATIVE_conservativism:0 "República da Lusitânia"
+ LUS_NATIVE_conservativism_DEF:0 "The República da Lusitânia"
 
- PLA_NATIVE_social_conservative:0 "Royaume de Plantagénie"
- PLA_NATIVE_social_conservative_DEF:0 "The Royaume de Plantagénie"
+ PLA_NATIVE_conservativism:0 "Royaume de Plantagénie"
+ PLA_NATIVE_conservativism_DEF:0 "The Royaume de Plantagénie"
 
- QIN_NATIVE_authoritarian_democrat:0 "Qīng Qiū Liánhé Huì"
- QIN_NATIVE_authoritarian_democrat_DEF:0 "The Qīng Qiū Liánhé Huì"
+ QIN_NATIVE_paternalism:0 "Qīng Qiū Liánhé Huì"
+ QIN_NATIVE_paternalism_DEF:0 "The Qīng Qiū Liánhé Huì"
 
- VIN_NATIVE_social_democrat:0 "Republikken Vinland"
- VIN_NATIVE_social_democrat_DEF:0 "The Republikken Vinland"
+ VIN_NATIVE_progressivism:0 "Republikken Vinland"
+ VIN_NATIVE_progressivism_DEF:0 "The Republikken Vinland"
 
- SEP_NATIVE_national_autocracy:0 "Directoire Septimanie"
- SEP_NATIVE_national_autocracy_DEF:0 "The Directoire Septimanie"
+ SEP_NATIVE_ultra_nationalism:0 "Directoire Septimanie"
+ SEP_NATIVE_ultra_nationalism_DEF:0 "The Directoire Septimanie"
 
- SDR_NATIVE_social_conservative:0 "Sudurhafeyjar Konføderation"
- SDR_NATIVE_social_conservative_DEF:0 "The Sudurhafeyjar Konføderation"
+ SDR_NATIVE_conservativism:0 "Sudurhafeyjar Konføderation"
+ SDR_NATIVE_conservativism_DEF:0 "The Sudurhafeyjar Konføderation"
 
- PRA_NATIVE_cornelian_communard:0 "République Populaire d'Arcadie"
- PRA_NATIVE_cornelian_communard_DEF:0 "The République Populaire d'Arcadie"
+ PRA_NATIVE_blanquism:0 "République Populaire d'Arcadie"
+ PRA_NATIVE_blanquism_DEF:0 "The République Populaire d'Arcadie"

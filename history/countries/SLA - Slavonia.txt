@@ -14,39 +14,39 @@ set_convoys = 50
 set_politics = {
 
 	parties = {
-		cornelian_communard = { 
+		blanquism = { 
 			popularity = 4
 		}
-		egalitarian_collectivist = {
+		egalitarianism = {
 			popularity = 6
 		}
-		libertarian_socialist = {
+		libertarianism = {
 			popularity = 10
 		}
-		social_democrat = { 
+		progressivism = { 
 			popularity = 30
 		}
-		classical_liberal = { 
+		commercialism = { 
 			popularity = 10
 		}
-		social_conservative = { 
+		conservativism = { 
 			popularity = 20
 		}
-		authoritarian_democrat = { 
+		paternalism = { 
 			popularity = 10
 		}
-		paternal_autocrat = { 
+		reactionism = { 
 			popularity = 14
 		}
-		national_autocracy = { 
+		ultra_nationalism = { 
 			popularity = 6
 		}
-		imperial_irredentist = { 
+		hierarchism = { 
 			popularity = 0
 		}
 	}
 	
-	ruling_party = social_democrat
+	ruling_party = progressivism
 	last_election = "1936.1.1"
 	election_frequency = 48
 	elections_allowed = no
@@ -57,7 +57,7 @@ create_country_leader = {
 	name = "Kazimir Kovač"
 	picture = "Kazimir_Kovac.tga"
 	expire = "1965.1.1"
-	ideology = social_democrat_subtype
+	ideology = progressivism_subtype
 	traits = {
 		#
 	}

@@ -17,39 +17,39 @@ add_ideas = {
 set_politics = {
 
 	parties = {
-		cornelian_communard = { 
+		blanquism = { 
 			popularity = 10
 		}
-		egalitarian_collectivist = {
+		egalitarianism = {
 			popularity = 10
 		}
-		libertarian_socialist = {
+		libertarianism = {
 			popularity = 10
 		}
-		social_democrat = { 
+		progressivism = { 
 			popularity = 10
 		}
-		classical_liberal = { 
+		commercialism = { 
 			popularity = 10
 		}
-		social_conservative = { 
+		conservativism = { 
 			popularity = 10
 		}
-		authoritarian_democrat = { 
+		paternalism = { 
 			popularity = 10
 		}
-		paternal_autocrat = { 
+		reactionism = { 
 			popularity = 10
 		}
-		national_autocracy = { 
+		ultra_nationalism = { 
 			popularity = 10
 		}
-		imperial_irredentist = { 
+		hierarchism = { 
 			popularity = 10
 		}
 	}
 	
-	ruling_party = authoritarian_democrat
+	ruling_party = paternalism
 	last_election = "1936.1.1"
 	election_frequency = 48
 	elections_allowed = no
@@ -60,7 +60,7 @@ create_country_leader = {
 	name = "Sigismund IV"
 	picture = "Portrait_GER_Sigismund_IV.dds"
 	expire = "1965.1.1"
-	ideology = authoritarian_democrat_subtype
+	ideology = paternalism_subtype
 	traits = {
 		#
 	}

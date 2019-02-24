@@ -7,9 +7,9 @@
 
 ideologies = {
 
-	cornelian_communard = {
+	blanquism = {
 		types = {
-		cornelian_communard_subtype = {}
+		blanquism_subtype = {}
 		}
 		dynamic_faction_names = {
 			"FACTION_NAME_VANGUARDIST_1"
@@ -34,9 +34,9 @@ ideologies = {
 		can_be_boosted = no
 	}
 	
-	egalitarian_collectivist = {
+	egalitarianism = {
 		types = {
-			egalitarian_collectivist_subtype = {}
+			egalitarianism_subtype = {}
 			}
 		dynamic_faction_names = {
 			"FACTION_NAME_collectivist_1"
@@ -62,17 +62,17 @@ ideologies = {
 
 	}
 
-	libertarian_socialist = {
+	libertarianism = {
 		types = {
-			libertarian_socialist_subtype = {}
+			libertarianism_subtype = {}
 		}
 		dynamic_faction_names = {
-			"FACTION_NAME_LIBERTARIAN_SOCIALIST_1"
-			"FACTION_NAME_LIBERTARIAN_SOCIALIST_2"
-			"FACTION_NAME_LIBERTARIAN_SOCIALIST_3"
-			"FACTION_NAME_LIBERTARIAN_SOCIALIST_4"
-			"FACTION_NAME_LIBERTARIAN_SOCIALIST_5"
-			"FACTION_NAME_LIBERTARIAN_SOCIALIST_6"
+			"FACTION_NAME_libertarianism_1"
+			"FACTION_NAME_libertarianism_2"
+			"FACTION_NAME_libertarianism_3"
+			"FACTION_NAME_libertarianism_4"
+			"FACTION_NAME_libertarianism_5"
+			"FACTION_NAME_libertarianism_6"
 		}
 		color = { 233 58 58 } #old one was 255 65 65
 		rules = {
@@ -90,17 +90,17 @@ ideologies = {
 
 	}
 	
-	social_democrat = {
+	progressivism = {
 		types = {
-			social_democrat_subtype = {}
+			progressivism_subtype = {}
 		}
 		dynamic_faction_names = {
-			"FACTION_NAME_SOCIAL_DEMOCRAT_1"
-			"FACTION_NAME_SOCIAL_DEMOCRAT_2"
-			"FACTION_NAME_SOCIAL_DEMOCRAT_3"
-			"FACTION_NAME_SOCIAL_DEMOCRAT_4"
-			"FACTION_NAME_SOCIAL_DEMOCRAT_5"
-			"FACTION_NAME_SOCIAL_DEMOCRAT_6"
+			"FACTION_NAME_progressivism_1"
+			"FACTION_NAME_progressivism_2"
+			"FACTION_NAME_progressivism_3"
+			"FACTION_NAME_progressivism_4"
+			"FACTION_NAME_progressivism_5"
+			"FACTION_NAME_progressivism_6"
 		}
 		color = { 194 30 86 }
 		rules = {
@@ -118,9 +118,9 @@ ideologies = {
 
 	}
 	
-	classical_liberal = {
+	commercialism = {
 		types = {
-		classical_liberal_subtype = {}
+		commercialism_subtype = {}
 		}
 		dynamic_faction_names = {
 			"FACTION_NAME_SOCIAL_LIBERAL_1"
@@ -130,7 +130,7 @@ ideologies = {
 			"FACTION_NAME_SOCIAL_LIBERAL_5"
 			"FACTION_NAME_SOCIAL_LIBERAL_6"
 		}
-		color = { 245 160 0 } #Originally 255 170 0. Changed the tint so it's now noticeably different from Market Liberal's colour.
+		color = { 240 200 40 } #Originally 255 170 0. Changed the tint so it's now noticeably different from Market Liberal's colour.
 		rules = {
 			can_force_government = no
 			can_puppet = no
@@ -145,17 +145,17 @@ ideologies = {
 		can_be_boosted = no
 	}
 
-	social_conservative = {
+	conservativism = {
 		types = {
-		social_conservative_subtype = {}
+		conservativism_subtype = {}
 		}
 		dynamic_faction_names = {
-			"FACTION_NAME_SOCIAL_CONSERVATIVE_1"
-			"FACTION_NAME_SOCIAL_CONSERVATIVE_2"
-			"FACTION_NAME_SOCIAL_CONSERVATIVE_3"
-			"FACTION_NAME_SOCIAL_CONSERVATIVE_4"
-			"FACTION_NAME_SOCIAL_CONSERVATIVE_5"
-			"FACTION_NAME_SOCIAL_CONSERVATIVE_6"
+			"FACTION_NAME_conservativism_1"
+			"FACTION_NAME_conservativism_2"
+			"FACTION_NAME_conservativism_3"
+			"FACTION_NAME_conservativism_4"
+			"FACTION_NAME_conservativism_5"
+			"FACTION_NAME_conservativism_6"
 		}
 		color = { 0 60 180 } #0 0 255 is the original one
 		rules = {
@@ -172,20 +172,20 @@ ideologies = {
 		can_be_boosted = no
 	}
 	
-	authoritarian_democrat = {
+	paternalism = {
 		types = {
-		authoritarian_democrat_subtype = {}
+		paternalism_subtype = {}
 		presidential_dictatorship_subtype = {}
 		}
 		dynamic_faction_names = {
-			"FACTION_NAME_AUTHORITARIAN_DEMOCRAT_1"
-			"FACTION_NAME_AUTHORITARIAN_DEMOCRAT_2"
-			"FACTION_NAME_AUTHORITARIAN_DEMOCRAT_3"
-			"FACTION_NAME_AUTHORITARIAN_DEMOCRAT_4"
-			"FACTION_NAME_AUTHORITARIAN_DEMOCRAT_5"
-			"FACTION_NAME_AUTHORITARIAN_DEMOCRAT_6"
+			"FACTION_NAME_paternalism_1"
+			"FACTION_NAME_paternalism_2"
+			"FACTION_NAME_paternalism_3"
+			"FACTION_NAME_paternalism_4"
+			"FACTION_NAME_paternalism_5"
+			"FACTION_NAME_paternalism_6"
 		}
-		color = { 95 95 95 } #110 110 110 is original
+		color = { 0 25 65 } #110 110 110 is original
 		rules = {
 			can_force_government = no
 			can_puppet = no
@@ -200,21 +200,21 @@ ideologies = {
 		can_be_boosted = no
 	}
 	
-	paternal_autocrat = {
+	reactionism = {
 		types = {
-		paternal_autocrat_subtype = {}
+		reactionism_subtype = {}
 		absolute_monarchy_subtype = {}
 		military_junta_subtype = {}
 		}
 		dynamic_faction_names = {
-			"FACTION_NAME_PATERNAL_AUTOCRAT_1"
-			"FACTION_NAME_PATERNAL_AUTOCRAT_2"
-			"FACTION_NAME_PATERNAL_AUTOCRAT_3"
-			"FACTION_NAME_PATERNAL_AUTOCRAT_4"
-			"FACTION_NAME_PATERNAL_AUTOCRAT_5"
-			"FACTION_NAME_PATERNAL_AUTOCRAT_6"
+			"FACTION_NAME_reactionism_1"
+			"FACTION_NAME_reactionism_2"
+			"FACTION_NAME_reactionism_3"
+			"FACTION_NAME_reactionism_4"
+			"FACTION_NAME_reactionism_5"
+			"FACTION_NAME_reactionism_6"
 		}
-		color = { 40 40 40 } #45 45 45
+		color = { 222 222 222 } #45 45 45
 		rules = {
 			can_force_government = no
 			can_puppet = no
@@ -229,8 +229,9 @@ ideologies = {
 		can_be_boosted = no
 	}
 	
-	national_autocracy = {
+	ultra_nationalism = {
 		types = {
+		ultra_nationalism_subtype = {}
 		national_corporatist_subtype = {}
 		national_communard_subtype = {}
 		}
@@ -242,7 +243,7 @@ ideologies = {
 			"FACTION_NAME_NATIONAL_POPULIST_5"
 			"FACTION_NAME_NATIONAL_POPULIST_6"
 		}
-		color = { 112 53 0 } #142 57 0 is original
+		color = { 200 100 0 } #142 57 0 is original
 		rules = {
 			can_force_government = no
 			can_puppet = no
@@ -257,9 +258,9 @@ ideologies = {
 		can_be_boosted = no
 	}
 
-	imperial_irredentist = {
+	hierarchism = {
 		types = {
-		imperial_irredentist_subtype = {}
+		hierarchism_subtype = {}
 		}
 		dynamic_faction_names = {
 			"FACTION_NAME_IRREDENTIST_1"
@@ -269,7 +270,7 @@ ideologies = {
 			"FACTION_NAME_IRREDENTIST_5"
 			"FACTION_NAME_IRREDENTIST_6"
 		}
-		color = { 102 0 255 }
+		color = { 125 0 125 }
 		rules = {
 			can_force_government = no
 			can_puppet = no

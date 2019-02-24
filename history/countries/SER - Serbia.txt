@@ -14,39 +14,39 @@ set_convoys = 50
 set_politics = {
 
 	parties = {
-		cornelian_communard = { 
+		blanquism = { 
 			popularity = 0
 		}
-		egalitarian_collectivist = {
+		egalitarianism = {
 			popularity = 0
 		}
-		libertarian_socialist = {
+		libertarianism = {
 			popularity = 4
 		}
-		social_democrat = { 
+		progressivism = { 
 			popularity = 6
 		}
-		classical_liberal = { 
+		commercialism = { 
 			popularity = 12
 		}
-		social_conservative = { 
+		conservativism = { 
 			popularity = 25
 		}
-		authoritarian_democrat = { 
+		paternalism = { 
 			popularity = 15
 		}
-		paternal_autocrat = { 
+		reactionism = { 
 			popularity = 12
 		}
-		national_autocracy = { 
+		ultra_nationalism = { 
 			popularity = 18
 		}
-		imperial_irredentist = { 
+		hierarchism = { 
 			popularity = 0
 		}
 	}
 	
-	ruling_party = social_conservative
+	ruling_party = conservativism
 	last_election = "1936.1.1"
 	election_frequency = 48
 	elections_allowed = no
@@ -57,7 +57,7 @@ create_country_leader = {
 	name = "Frederick Alexander"
 	picture = "Frederick_Alexander.tga"
 	expire = "1965.1.1"
-	ideology = social_conservative_subtype
+	ideology = conservativism_subtype
 	traits = {
 		#
 	}

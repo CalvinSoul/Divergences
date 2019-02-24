@@ -14,39 +14,39 @@ set_convoys = 50
 set_politics = {
 
 	parties = {
-		cornelian_communard = { 
+		blanquism = { 
 			popularity = 10
 		}
-		egalitarian_collectivist = {
+		egalitarianism = {
+			popularity = 5
+		}
+		libertarianism = {
+			popularity = 5
+		}
+		progressivism = { 
+			popularity = 5
+		}
+		commercialism = { 
 			popularity = 10
 		}
-		libertarian_socialist = {
+		conservativism = { 
 			popularity = 10
 		}
-		social_democrat = { 
+		paternalism = { 
+			popularity = 35
+		}
+		reactionism = { 
+			popularity = 0
+		}
+		ultra_nationalism = { 
 			popularity = 10
 		}
-		classical_liberal = { 
-			popularity = 10
-		}
-		social_conservative = { 
-			popularity = 10
-		}
-		authoritarian_democrat = { 
-			popularity = 10
-		}
-		paternal_autocrat = { 
-			popularity = 10
-		}
-		national_autocracy = { 
-			popularity = 10
-		}
-		imperial_irredentist = { 
-			popularity = 10
+		hierarchism = { 
+			popularity = 0
 		}
 	}
 	
-	ruling_party = paternal_autocrat
+	ruling_party = paternalism
 	last_election = "1936.1.1"
 	election_frequency = 48
 	elections_allowed = no
@@ -57,7 +57,7 @@ create_country_leader = {
 	name = "Hugo Nibelungen"
 	picture = "Portrait_LOT_Hugo_Nibelungen.dds"
 	expire = "1965.1.1"
-	ideology = military_junta_subtype
+	ideology = paternalism_subtype
 	traits = {
 		#
 	}

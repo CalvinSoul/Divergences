@@ -14,39 +14,39 @@ set_convoys = 50
 set_politics = {
 
 	parties = {
-		cornelian_communard = { 
+		blanquism = { 
 			popularity = 0
 		}
-		egalitarian_collectivist = {
+		egalitarianism = {
 			popularity = 0
 		}
-		libertarian_socialist = {
+		libertarianism = {
 			popularity = 0
 		}
-		social_democrat = { 
+		progressivism = { 
 			popularity = 0
 		}
-		classical_liberal = { 
+		commercialism = { 
 			popularity = 0
 		}
-		social_conservative = { 
+		conservativism = { 
 			popularity = 0
 		}
-		authoritarian_democrat = { 
+		paternalism = { 
 			popularity = 10
 		}
-		paternal_autocrat = { 
+		reactionism = { 
 			popularity = 70
 		}
-		national_autocracy = { 
+		ultra_nationalism = { 
 			popularity = 10
 		}
-		imperial_irredentist = { 
+		hierarchism = { 
 			popularity = 10
 		}
 	}
 	
-	ruling_party = paternal_autocrat
+	ruling_party = reactionism
 	last_election = "1936.1.1"
 	election_frequency = 48
 	elections_allowed = no
@@ -57,7 +57,7 @@ create_country_leader = {
 	name = "Jacob Maurits Aloysius"
 	picture = "gfx//leaders//SAF//Jacob_Maurits_Aloysius_SAF.tga"
 	expire = "1965.1.1"
-	ideology = paternal_autocrat_subtype
+	ideology = reactionism_subtype
 	traits = {
 		#
 	}

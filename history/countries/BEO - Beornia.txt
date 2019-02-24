@@ -14,39 +14,39 @@ set_convoys = 50
 set_politics = {
 
 	parties = {
-		cornelian_communard = { 
+		blanquism = { 
+			popularity = 3
+		}
+		egalitarianism = {
+			popularity = 2
+		}
+		libertarianism = {
+			popularity = 5
+		}
+		progressivism = { 
 			popularity = 10
 		}
-		egalitarian_collectivist = {
+		commercialism = { 
+			popularity = 15
+		}
+		conservativism = { 
 			popularity = 10
 		}
-		libertarian_socialist = {
+		paternalism = { 
 			popularity = 10
 		}
-		social_democrat = { 
-			popularity = 10
+		reactionism = { 
+			popularity = 30
 		}
-		classical_liberal = { 
-			popularity = 10
+		ultra_nationalism = { 
+			popularity = 15
 		}
-		social_conservative = { 
-			popularity = 10
-		}
-		authoritarian_democrat = { 
-			popularity = 10
-		}
-		paternal_autocrat = { 
-			popularity = 10
-		}
-		national_autocracy = { 
-			popularity = 10
-		}
-		imperial_irredentist = { 
-			popularity = 10
+		hierarchism = { 
+			popularity = 0
 		}
 	}
 	
-	ruling_party = imperial_irredentist
+	ruling_party = reactionism
 	last_election = "1936.1.1"
 	election_frequency = 48
 	elections_allowed = no
@@ -57,7 +57,7 @@ create_country_leader = {
 	name = "George V"
 	picture = "Portrait_BEO_George_V.dds"
 	expire = "1965.1.1"
-	ideology = imperial_irredentist_subtype
+	ideology = reactionism_subtype
 	traits = {
 		#
 	}

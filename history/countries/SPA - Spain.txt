@@ -14,39 +14,39 @@ set_convoys = 50
 set_politics = {
 
 	parties = {
-		cornelian_communard = { 
+		blanquism = { 
+			popularity = 2
+		}
+		egalitarianism = {
+			popularity = 3
+		}
+		libertarianism = {
 			popularity = 10
 		}
-		egalitarian_collectivist = {
-			popularity = 10
+		progressivism = { 
+			popularity = 35
 		}
-		libertarian_socialist = {
-			popularity = 10
+		commercialism = { 
+			popularity = 15
 		}
-		social_democrat = { 
-			popularity = 10
+		conservativism = { 
+			popularity = 20
 		}
-		classical_liberal = { 
-			popularity = 10
+		paternalism = { 
+			popularity = 3
 		}
-		social_conservative = { 
-			popularity = 10
+		reactionism = { 
+			popularity = 8
 		}
-		authoritarian_democrat = { 
-			popularity = 10
+		ultra_nationalism = { 
+			popularity = 2
 		}
-		paternal_autocrat = { 
-			popularity = 10
-		}
-		national_autocracy = { 
-			popularity = 10
-		}
-		imperial_irredentist = { 
-			popularity = 10
+		hierarchism = { 
+			popularity = 2
 		}
 	}
 	
-	ruling_party = social_democrat
+	ruling_party = progressivism
 	last_election = "1936.1.1"
 	election_frequency = 48
 	elections_allowed = no
@@ -57,7 +57,7 @@ create_country_leader = {
 	name = "Inigo III"
 	picture = "Portrait_SPA_Inigo_III.dds"
 	expire = "1965.1.1"
-	ideology = social_democrat_subtype
+	ideology = progressivism_subtype
 	traits = {
 		#
 	}

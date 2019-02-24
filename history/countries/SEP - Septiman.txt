@@ -14,39 +14,39 @@ set_convoys = 50
 set_politics = {
 
 	parties = {
-		cornelian_communard = { 
+		blanquism = { 
 			popularity = 0
 		}
-		egalitarian_collectivist = {
+		egalitarianism = {
 			popularity = 0
 		}
-		libertarian_socialist = {
+		libertarianism = {
 			popularity = 14
 		}
-		social_democrat = { 
+		progressivism = { 
 			popularity = 4
 		}
-		classical_liberal = { 
+		commercialism = { 
 			popularity = 21
 		}
-		social_conservative = { 
+		conservativism = { 
 			popularity = 8
 		}
-		authoritarian_democrat = { 
+		paternalism = { 
 			popularity = 18
 		}
-		paternal_autocrat = { 
+		reactionism = { 
 			popularity = 0
 		}
-		national_autocracy = { 
+		ultra_nationalism = { 
 			popularity = 29
 		}
-		imperial_irredentist = { 
+		hierarchism = { 
 			popularity = 6
 		}
 	}
 	
-	ruling_party = national_autocracy
+	ruling_party = ultra_nationalism
 	last_election = "1936.1.1"
 	election_frequency = 48
 	elections_allowed = no

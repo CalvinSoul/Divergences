@@ -14,39 +14,39 @@ set_convoys = 50
 set_politics = {
 
 	parties = {
-		cornelian_communard = { 
+		blanquism = { 
 			popularity = 5
 		}
-		egalitarian_collectivist = {
+		egalitarianism = {
 			popularity = 25
 		}
-		libertarian_socialist = {
+		libertarianism = {
 			popularity = 20
 		}
-		social_democrat = { 
+		progressivism = { 
 			popularity = 0
 		}
-		classical_liberal = { 
+		commercialism = { 
 			popularity = 0
 		}
-		social_conservative = { 
+		conservativism = { 
 			popularity = 50
 		}
-		authoritarian_democrat = { 
+		paternalism = { 
 			popularity = 0
 		}
-		paternal_autocrat = { 
+		reactionism = { 
 			popularity = 0
 		}
-		national_autocracy = { 
+		ultra_nationalism = { 
 			popularity = 0
 		}
-		imperial_irredentist = { 
+		hierarchism = { 
 			popularity = 0
 		}
 	}
 	
-	ruling_party = social_conservative
+	ruling_party = conservativism
 	last_election = "1923.7.11"
 	election_frequency = 48
 	elections_allowed = no
@@ -57,7 +57,7 @@ create_country_leader = {
 	name = "Wimpie Beukes"
 	picture = "gfx//leaders//VRY//Wimpie_Beukes_VRY.tga"
 	expire = "1965.1.1"
-	ideology = social_conservative_subtype
+	ideology = conservativism_subtype
 	traits = {
 		}
 	}
@@ -67,7 +67,7 @@ create_country_leader = {
 	name = "Umphathi Wobuzalwana"
 	picture = "gfx//leaders//VRY//Umphathi_Wobuzalwana_VRY.tga"
 	expire = "1965.1.1"
-	ideology = egalitarian_collectivist_subtype
+	ideology = egalitarianism_subtype
 	traits = {
 		}
 	}

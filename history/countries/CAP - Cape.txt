@@ -14,39 +14,39 @@ set_convoys = 50
 set_politics = {
 
 	parties = {
-		cornelian_communard = { 
+		blanquism = { 
 			popularity = 0
 		}
-		egalitarian_collectivist = {
+		egalitarianism = {
 			popularity = 5
 		}
-		libertarian_socialist = {
+		libertarianism = {
 			popularity = 5
 		}
-		social_democrat = { 
+		progressivism = { 
 			popularity = 10
 		}
-		classical_liberal = { 
+		commercialism = { 
 			popularity = 0
 		}
-		social_conservative = { 
+		conservativism = { 
 			popularity = 20
 		}
-		authoritarian_democrat = { 
+		paternalism = { 
 			popularity = 0
 		}
-		paternal_autocrat = { 
+		reactionism = { 
 			popularity = 60
 		}
-		national_autocracy = { 
+		ultra_nationalism = { 
 			popularity = 0
 		}
-		imperial_irredentist = { 
+		hierarchism = { 
 			popularity = 0
 		}
 	}
 	
-	ruling_party = paternal_autocrat
+	ruling_party = reactionism
 	last_election = "1936.1.1"
 	election_frequency = 48
 	elections_allowed = no
@@ -57,7 +57,7 @@ create_country_leader = {
 	name = "Duc Rudolph Jean du Bourgogne du Cap"
 	picture = "gfx//leaders//CAP//Rudolph_Jean_CAP.tga" ""
 	expire = "1965.1.1"
-	ideology = paternal_autocrat_subtype
+	ideology = reactionism_subtype
 	traits = {
 		}
 	}

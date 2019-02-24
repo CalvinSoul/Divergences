@@ -14,39 +14,39 @@ set_convoys = 50
 set_politics = {
 
 	parties = {
-		cornelian_communard = { 
-			popularity = 10
+		blanquism = { 
+			popularity = 3
 		}
-		egalitarian_collectivist = {
-			popularity = 10
+		egalitarianism = {
+			popularity = 2
 		}
-		libertarian_socialist = {
-			popularity = 10
+		libertarianism = {
+			popularity = 5
 		}
-		social_democrat = { 
-			popularity = 10
+		progressivism = { 
+			popularity = 15
 		}
-		classical_liberal = { 
-			popularity = 10
+		commercialism = { 
+			popularity = 35
 		}
-		social_conservative = { 
-			popularity = 10
+		conservativism = { 
+			popularity = 20
 		}
-		authoritarian_democrat = { 
-			popularity = 10
+		paternalism = { 
+			popularity = 4
 		}
-		paternal_autocrat = { 
-			popularity = 10
+		reactionism = { 
+			popularity = 4
 		}
-		national_autocracy = { 
-			popularity = 10
+		ultra_nationalism = { 
+			popularity = 12
 		}
-		imperial_irredentist = { 
-			popularity = 10
+		hierarchism = { 
+			popularity = 0
 		}
 	}
 	
-	ruling_party = classical_liberal
+	ruling_party = commercialism
 	last_election = "1936.1.1"
 	election_frequency = 48
 	elections_allowed = no
@@ -57,7 +57,7 @@ create_country_leader = {
 	name = "Diego Solos"
 	picture = "Portrait_GRA_Diego_Solos.dds"
 	expire = "1965.1.1"
-	ideology = classical_liberal_subtype
+	ideology = commercialism_subtype
 	traits = {
 		#
 	}

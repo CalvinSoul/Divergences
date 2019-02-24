@@ -14,39 +14,39 @@ set_convoys = 50
 set_politics = {
 
 	parties = {
-		cornelian_communard = { 
+		blanquism = { 
 			popularity = 3
 		}
-		egalitarian_collectivist = {
+		egalitarianism = {
 			popularity = 1
 		}
-		libertarian_socialist = {
+		libertarianism = {
 			popularity = 1
 		}
-		social_democrat = { 
+		progressivism = { 
 			popularity = 10
 		}
-		classical_liberal = { 
+		commercialism = { 
 			popularity = 15
 		}
-		social_conservative = { 
+		conservativism = { 
 			popularity = 35
 		}
-		authoritarian_democrat = { 
+		paternalism = { 
 			popularity = 15
 		}
-		paternal_autocrat = { 
+		reactionism = { 
 			popularity = 10
 		}
-		national_autocracy = { 
+		ultra_nationalism = { 
 			popularity = 15
 		}
-		imperial_irredentist = { 
+		hierarchism = { 
 			popularity = 0
 		}
 	}
 	
-	ruling_party = social_conservative
+	ruling_party = conservativism
 	last_election = "1936.1.1"
 	election_frequency = 48
 	elections_allowed = no
@@ -57,7 +57,7 @@ create_country_leader = {
 	name = "Apostol II"
 	picture = "Apostol_II.tga"
 	expire = "1965.1.1"
-	ideology = social_conservative_subtype
+	ideology = conservativism_subtype
 	traits = {
 		#
 	}

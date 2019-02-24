@@ -14,39 +14,39 @@ set_convoys = 50
 set_politics = {
 
 	parties = {
-		cornelian_communard = { 
+		blanquism = { 
 			popularity = 11
 		}
-		egalitarian_collectivist = {
+		egalitarianism = {
 			popularity = 3
 		}
-		libertarian_socialist = {
+		libertarianism = {
 			popularity = 9
 		}
-		social_democrat = { 
+		progressivism = { 
 			popularity = 10
 		}
-		classical_liberal = { 
+		commercialism = { 
 			popularity = 9
 		}
-		social_conservative = { 
+		conservativism = { 
 			popularity = 17
 		}
-		authoritarian_democrat = { 
+		paternalism = { 
 			popularity = 15
 		}
-		paternal_autocrat = { 
+		reactionism = { 
 			popularity = 26
 		}
-		national_autocracy = { 
+		ultra_nationalism = { 
 			popularity = 0
 		}
-		imperial_irredentist = { 
+		hierarchism = { 
 			popularity = 0
 		}
 	}
 	
-	ruling_party = authoritarian_democrat
+	ruling_party = paternalism
 	last_election = "1936.1.1"
 	election_frequency = 48
 	elections_allowed = no
@@ -57,7 +57,7 @@ create_country_leader = {
 	name = "Reformation Council"
 	picture = "gfx/leaders/RUS/Portrait_RUS_Reformation_Council.dds"
 	expire = "1965.1.1"
-	ideology = authoritarian_democrat_subtype
+	ideology = paternalism_subtype
 	traits = {
 		#
 	}

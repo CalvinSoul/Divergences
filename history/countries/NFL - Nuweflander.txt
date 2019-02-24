@@ -14,39 +14,39 @@ set_convoys = 50
 set_politics = {
 
 	parties = {
-		cornelian_communard = { 
+		blanquism = { 
 			popularity = 0
 		}
-		egalitarian_collectivist = {
+		egalitarianism = {
 			popularity = 0
 		}
-		libertarian_socialist = {
+		libertarianism = {
 			popularity = 0
 		}
-		social_democrat = { 
+		progressivism = { 
 			popularity = 20
 		}
-		classical_liberal = { 
+		commercialism = { 
 			popularity = 60
 		}
-		social_conservative = { 
+		conservativism = { 
 			popularity = 20
 		}
-		authoritarian_democrat = { 
+		paternalism = { 
 			popularity = 0
 		}
-		paternal_autocrat = { 
+		reactionism = { 
 			popularity = 0
 		}
-		national_autocracy = { 
+		ultra_nationalism = { 
 			popularity = 0
 		}
-		imperial_irredentist = { 
+		hierarchism = { 
 			popularity = 0
 		}
 	}
 	
-	ruling_party = classical_liberal
+	ruling_party = commercialism
 	last_election = "1936.1.1"
 	election_frequency = 48
 	elections_allowed = no
@@ -57,7 +57,7 @@ create_country_leader = {
 	name = "Dries Bergvlamingh"
 	picture = "gfx//leaders//SAF//Dries_Bergvlamingh_SAF.tga"
 	expire = "1965.1.1"
-	ideology = classical_liberal_subtype
+	ideology = commercialism_subtype
 	traits = {
 		#
 	}

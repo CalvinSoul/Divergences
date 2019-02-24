@@ -14,39 +14,39 @@ set_convoys = 50
 set_politics = {
 
 	parties = {
-		cornelian_communard = { 
+		blanquism = { 
 			popularity = 6
 		}
-		egalitarian_collectivist = {
+		egalitarianism = {
 			popularity = 4
 		}
-		libertarian_socialist = {
+		libertarianism = {
 			popularity = 22
 		}
-		social_democrat = { 
+		progressivism = { 
 			popularity = 34
 		}
-		classical_liberal = { 
+		commercialism = { 
 			popularity = 16
 		}
-		social_conservative = { 
+		conservativism = { 
 			popularity = 14
 		}
-		authoritarian_democrat = { 
+		paternalism = { 
 			popularity = 4
 		}
-		paternal_autocrat = { 
+		reactionism = { 
 			popularity = 0
 		}
-		national_autocracy = { 
+		ultra_nationalism = { 
 			popularity = 0
 		}
-		imperial_irredentist = { 
+		hierarchism = { 
 			popularity = 0
 		}
 	}
 	
-	ruling_party = social_democrat
+	ruling_party = progressivism
 	last_election = "1936.1.1"
 	election_frequency = 48
 	elections_allowed = no
@@ -57,7 +57,7 @@ create_country_leader = {
 	name = "Freya Stenberg"
 	picture = "Portrait_VIN_Freya_Stenberg.dds"
 	expire = "1965.1.1"
-	ideology = social_democrat_subtype
+	ideology = progressivism_subtype
 	traits = {
 		#
 	}
