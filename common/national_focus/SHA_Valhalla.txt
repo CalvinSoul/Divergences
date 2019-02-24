@@ -1,0 +1,563 @@
+focus_tree = { 
+id = SHA
+country = { 
+factor = 0 
+modifier = { 
+add = 10 
+tag = SHA 
+} 
+
+
+} 
+#Focus for A Coup?
+focus = { 
+id = SHA_acoup
+icon = GFX_focus_valhalla8
+x = 12
+y = 2
+cost = 5
+available_if_capitulated = yes 
+ai_will_do = { 
+ factor = 1
+ } 
+
+  completion_reward = {
+        country_event = {
+           id = shacoup.1
+           days = 1
+           }
+
+  }
+
+ } 
+
+
+
+#Focus for The Investigation
+focus = { 
+id = SHA_night_of_the_ravens
+icon = GFX_focus_valhalla4
+x = 12
+y = 3
+cost = 5
+available_if_capitulated = yes 
+prerequisite = { focus = SHA_acoup } 
+ai_will_do = { 
+ factor = 1
+ } 
+
+      completion_reward = {
+        country_event = {
+           id = shacoup.2
+           days = 1
+           } 
+
+    }
+
+ } 
+
+
+
+#Focus for The Coup successful
+focus = { 
+id = SHA_thecoupsuccessful
+icon = GFX_focus_valhalla3
+x = 9
+y = 4
+cost = 5
+available_if_capitulated = yes 
+prerequisite = { 
+focus = SHA_night_of_the_ravens 
+} 
+
+available = {
+   has_global_flag = {
+    flag = valhalla_coup_success
+ }
+}
+
+ai_will_do = { 
+ factor = 1
+  }
+
+completion_reward = {
+   country_event = {
+       id = shacoup.3
+        days = 1
+      } 
+
+ } 
+} 
+
+
+
+#Focus for The Coup crushed
+focus = { 
+id = SHA_thecoupcrushed
+icon = GFX_focus_valhalla1
+x = 15
+y = 4
+cost = 5
+available_if_capitulated = yes 
+prerequisite = {
+ focus = SHA_night_of_the_ravens 
+} 
+
+available = {
+   has_global_flag = {
+    flag = valhalla_coup_fail
+ }
+}
+
+mutually_exclusive = { focus = SHA_thecoupsuccessful } 
+ai_will_do = { 
+ factor = 1
+  } 
+
+completion_reward = {
+   country_event = {
+       id = shacoup.7
+        days = 1
+      } 
+
+ } 
+} 
+
+
+
+#Focus for Reconcile with the tribes
+focus = { 
+id = SHA_reconcilewiththetribes
+icon = GFX_focus_valhalla5
+x = 8
+y = 5
+cost = 5
+available_if_capitulated = yes 
+prerequisite = { focus = SHA_thecoupsuccessful } 
+ai_will_do = { 
+ factor = 1
+ } 
+ 
+    completion_reward = {
+        add_stability = 0.05
+        add_political_power = 50
+           add_ideas = {
+           SHA_native_cooperation
+           } 
+
+    }
+ 
+ } 
+
+
+
+#Focus for The great trials
+focus = { 
+id = SHA_thegreattrials
+icon = GFX_focus_valhalla6
+x = 10
+y = 5
+cost = 5
+available_if_capitulated = yes 
+prerequisite = { focus = SHA_thecoupsuccessful } 
+ai_will_do = { 
+ factor = 1
+ } 
+  
+   completion_reward = {
+        country_event = {
+           id = shacoup.4
+           days = 1
+           } 
+
+    }
+
+ } 
+
+
+
+#Focus for !WIP! Liberla governor !WIP!
+focus = { 
+id = SHA_wipliberlagovernorwip
+icon = GFX_madsen_governor
+x = 8
+y = 6
+cost = 5
+available_if_capitulated = yes 
+prerequisite = { focus = SHA_reconcilewiththetribes } 
+ai_will_do = { 
+ factor = 1
+ } 
+
+     completion_reward = {
+        country_event = {
+           id = shacoup.5
+           days = 1
+           } 
+
+    }
+
+
+ } 
+
+
+
+#Focus for !WIP! Status Quo governor !WIP!
+focus = { 
+id = SHA_wipstatusquogovernorwip
+icon = GFX_wahlberg_governor
+x = 10
+y = 6
+cost = 5
+available_if_capitulated = yes 
+prerequisite = { focus = SHA_thegreattrials } 
+mutually_exclusive = { focus = SHA_wipliberlagovernorwip } 
+ai_will_do = { 
+ factor = 1
+ } 
+
+       completion_reward = {
+        country_event = {
+           id = shacoup.6
+           days = 1
+           } 
+
+    }
+
+
+ } 
+
+
+#Focus for Spare some
+focus = { 
+id = SHA_sparesome
+icon = GFX_focus_valhalla7
+x = 14
+y = 5
+cost = 5
+available_if_capitulated = yes 
+prerequisite = { focus = SHA_thecoupcrushed } 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ completion_reward = {
+
+    completion_reward = {
+        add_stability = 0.05
+        add_political_power = -50
+
+     }
+
+    }
+
+ } 
+
+
+
+#Focus for The great purge
+focus = { 
+id = SHA_thegreatpurge
+icon = GFX_focus_valhalla2
+x = 17
+y = 5
+cost = 5
+available_if_capitulated = yes 
+prerequisite = { focus = SHA_thecoupcrushed } 
+mutually_exclusive = { focus = SHA_sparesome } 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ completion_reward = {
+        country_event = {
+           id = shacoup.8
+           days = 1
+           } 
+
+    }
+
+ } 
+
+
+
+#Focus for Create the governors circle
+focus = { 
+id = SHA_createthegovernorscircle
+icon = GFX_focus_valhalla9
+x = 14
+y = 6
+cost = 5
+available_if_capitulated = yes 
+prerequisite = { focus = SHA_sparesome } 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ completion_reward = {
+
+    completion_reward = {
+        add_stability = 0.05
+        add_political_power = -50
+        country_event = {
+           id = shacoup.9
+           days = 1
+         } 
+     }
+
+  }
+
+
+ } 
+
+
+
+#Focus for Crack down on the tribes
+focus = { 
+id = SHA_crackdownonthetribes
+icon = GFX_goal_unknown
+x = 17
+y = 6
+cost = 5
+available_if_capitulated = yes 
+prerequisite = { focus = SHA_thegreatpurge } 
+ai_will_do = { 
+ factor = 1
+ } 
+
+    completion_reward = {
+
+        set_global_flag = tribal_unrest
+        country_event = {
+           id = shacoup.10
+           days = 1
+
+          } 
+
+       }
+
+ } 
+
+
+
+#Focus for New blood
+focus = { 
+id = SHA_newblood
+icon = GFX_goal_unknown
+x = 7
+y = 8
+cost = 5
+available_if_capitulated = yes 
+prerequisite = { focus = SHA_wipliberlagovernorwip focus = SHA_wipstatusquogovernorwip } 
+mutually_exclusive = { focus = SHA_theoldguard focus = SHA_ }ai_will_do = { 
+ factor = 1
+ } 
+
+ completion_reward = {
+        country_event = {
+           id = SHA_general.1
+           days = 1
+           } 
+
+    }
+
+ } 
+
+
+
+#Focus for The old guard
+focus = { 
+id = SHA_theoldguard
+icon = GFX_goal_unknown
+x = 12
+y = 8
+cost = 5
+available_if_capitulated = yes 
+prerequisite = { focus = SHA_wipstatusquogovernorwip } 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ completion_reward = {
+        country_event = {
+           id = SHA_general.2
+           days = 1
+           } 
+
+    }
+
+ } 
+
+
+
+#Focus for The loyal few
+focus = { 
+id = SHA_theloyalfew
+icon = GFX_goal_unknown
+x = 16
+y = 8
+cost = 5
+available_if_capitulated = yes 
+prerequisite = { focus = SHA_createthegovernorscircle focus = SHA_crackdownonthetribes } 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ completion_reward = {
+        country_event = {
+           id = SHA_general.3
+           days = 1
+           } 
+
+    }
+
+ } 
+
+
+
+#Focus for A Liberal market
+focus = { 
+id = SHA_aliberalmarket
+icon = GFX_goal_unknown
+x = 7
+y = 9
+cost = 5
+available_if_capitulated = yes 
+prerequisite = { focus = SHA_newblood } 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ completion_reward = {
+
+     add_ideas = {
+     SHA_economic_upturn
+     }
+
+    }
+
+ } 
+
+
+
+#Focus for Keep !WIP! monopoly ceo !WIP! in charge
+focus = { 
+id = SHA_keepwipmonopolyceowipincharge
+icon = GFX_goal_unknown
+x = 12
+y = 9
+cost = 5
+available_if_capitulated = yes 
+prerequisite = { focus = SHA_theoldguard } 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ completion_reward = {
+
+        add_stability = 0.05
+        add_political_power = 50
+
+ } 
+
+}
+
+#Focus for Nationalize Valhalla
+focus = { 
+id = SHA_nationalizevalhalla
+icon = GFX_goal_unknown
+x = 16
+y = 9
+cost = 5
+available_if_capitulated = yes 
+prerequisite = { focus = SHA_theloyalfew } 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ completion_reward = {
+        add_building_construction = {
+          type = arms_factory
+          level = 4
+          instant_build = yes
+        } 
+        add_ideas = {
+          SHA_economic_downturn
+        }
+    } 
+
+ }
+
+
+
+
+
+#Focus for More rights to the kingdoms
+focus = { 
+id = SHA_morerightstothekingdoms
+icon = GFX_goal_unknown
+x = 9
+y = 11
+cost = 5
+available_if_capitulated = yes 
+prerequisite = { focus = SHA_aliberalmarket focus = SHA_keepwipmonopolyceowipincharge focus = SHA_theoldguard } 
+ai_will_do = { 
+ factor = 1
+ } 
+
+    completion_reward = {
+        add_stability = 0.1
+        add_war_support = 0.1
+        add_political_power = 100
+
+    }
+
+ } 
+
+
+
+#Focus for New reasurrance treaties
+focus = { 
+id = SHA_newreasurrancetreaties
+icon = GFX_goal_unknown
+x = 13
+y = 11
+cost = 5
+available_if_capitulated = yes 
+prerequisite = { focus = SHA_keepwipmonopolyceowipincharge focus = SHA_nationalizevalhalla } 
+mutually_exclusive = { focus = SHA_morerightstothekingdoms focus = SHA_ }ai_will_do = { 
+ factor = 1
+ } 
+
+    completion_reward = {
+        add_stability = 0.05
+        add_war_support = 0.05
+        add_political_power = 10
+
+    }
+
+ } 
+
+
+
+#Focus for Dissolve all treaties
+focus = { 
+id = SHA_dissolvealltreaties
+icon = GFX_goal_unknown
+x = 17
+y = 11
+cost = 5
+available_if_capitulated = yes 
+prerequisite = { focus = SHA_nationalizevalhalla } 
+mutually_exclusive = { focus = SHA_newreasurrancetreaties } 
+ai_will_do = { 
+ factor = 1
+ } 
+
+modify_global_flag = {
+    flag = tribal_unrest
+    value = 1
+}
+
+
+}

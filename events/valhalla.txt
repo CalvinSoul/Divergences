@@ -1,0 +1,223 @@
+
+add_namespace = shacoup
+
+country_event = {
+	id = shacoup.0
+        title = shacoup.0.t 
+        desc = shacoup.0.d 
+	picture = GFX_report_event_election_vote 
+
+	is_triggered_only = yes
+
+	fire_only_once = yes
+
+    option = {
+     name = shacoup.0.a
+     set_global_flag = valhalla_coup
+    }     
+}
+
+country_event = {
+	id = shacoup.1
+        title = shacoup.1.t 
+        desc = shacoup.1.d 
+	picture = GFX_report_event_election_vote 
+
+	is_triggered_only = yes
+
+	fire_only_once = yes
+
+    mean_time_to_happen = {
+		days = 3
+	}
+
+    option = {
+     name = shacoup.1.a
+
+    }     
+}
+
+country_event = {
+	id = shacoup.2
+        title = shacoup.2.t 
+        desc = shacoup.2.d 
+	picture = GFX_report_event_election_vote 
+
+	is_triggered_only = yes
+
+	fire_only_once = yes
+
+    mean_time_to_happen = {
+		days = 3
+	}
+
+    option = {
+     name = shacoup.2.a
+     set_global_flag = valhalla_coup_fail
+    } 
+
+    option = {
+     name = shacoup.2.b
+     set_global_flag = valhalla_coup_success 
+    }    
+}
+
+country_event = {
+    id = shacoup.3
+        title = shacoup.3.t 
+        desc = shacoup.3.d 
+    picture = GFX_report_event_election_vote 
+
+    is_triggered_only = yes
+
+    fire_only_once = yes
+
+    mean_time_to_happen = {
+        days = 3
+    }
+
+    option = {
+     name = shacoup.3.a
+    }     
+}
+
+country_event = {
+    id = shacoup.4
+        title = shacoup.4.t 
+        desc = shacoup.4.d 
+    picture = GFX_report_event_election_vote 
+
+    is_triggered_only = yes
+
+    fire_only_once = yes
+
+    mean_time_to_happen = {
+        days = 3
+    }
+
+    option = {
+     name = shacoup.4.a
+    }
+
+    option = {
+     name = shacoup.4.b
+    }     
+}
+
+country_event = {
+    id = shacoup.5
+        title = shacoup.5.t 
+        desc = shacoup.5.d 
+    picture = GFX_report_event_election_vote 
+
+    is_triggered_only = yes
+
+    fire_only_once = yes
+
+    mean_time_to_happen = {
+        days = 3
+    }
+
+    option = {
+     name = shacoup.5.a
+    }     
+}
+
+country_event = {
+    id = shacoup.6
+        title = shacoup.6.t 
+        desc = shacoup.6.d 
+    picture = GFX_report_event_election_vote 
+
+    is_triggered_only = yes
+
+    fire_only_once = yes
+
+    mean_time_to_happen = {
+        days = 3
+    }
+
+    option = {
+     name = shacoup.6.a
+    }     
+}
+
+country_event = {
+    id = shacoup.7
+        title = shacoup.7.t 
+        desc = shacoup.7.d 
+    picture = GFX_report_event_election_vote 
+
+    is_triggered_only = yes
+
+    fire_only_once = yes
+
+    mean_time_to_happen = {
+        days = 3
+    }
+
+    option = {
+     name = shacoup.7.a
+    }     
+}
+
+country_event = {
+    id = shacoup.8
+        title = shacoup.8.t 
+        desc = shacoup.8.d 
+    picture = GFX_report_event_election_vote 
+
+    is_triggered_only = yes
+
+    fire_only_once = yes
+
+    mean_time_to_happen = {
+        days = 3
+    }
+
+    option = {
+     name = shacoup.8.a
+    }     
+}
+
+country_event = {
+    id = shacoup.9
+        title = shacoup.9.t 
+        desc = shacoup.9.d 
+    picture = GFX_report_event_election_vote 
+
+    is_triggered_only = yes
+
+    fire_only_once = yes
+
+    mean_time_to_happen = {
+        days = 3
+    }
+
+    option = {
+     name = shacoup.9.a
+    }     
+}
+
+country_event = {
+    id = shacoup.10
+        title = shacoup.10.t 
+        desc = shacoup.10.d 
+    picture = GFX_report_event_election_vote 
+
+    is_triggered_only = yes
+
+    fire_only_once = yes
+
+    mean_time_to_happen = {
+        days = 3
+    }
+
+    option = {
+     name = shacoup.10.a
+        add_ideas = {
+        SHA_native_unrest
+        } 
+        add_political_power = -50
+    }     
+}

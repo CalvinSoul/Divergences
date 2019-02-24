@@ -1,0 +1,105 @@
+ideas = {
+	country ={
+     
+       SHA_economic_downturn = {
+
+         	allowed = {
+	          always = no
+		    }
+
+			removal_cost = -1
+
+			picture = GFX_idea_very_low_taxation
+			
+			modifier = {
+              production_factory_efficiency_gain_factor = -0.05
+              line_change_production_efficiency_factor = -0.05
+              production_factory_max_efficiency_factor = -0.05
+              consumer_goods_factor = -0.05
+			}
+
+       }
+
+	}
+
+}
+
+
+ideas = {
+	country ={
+     
+       SHA_economic_upturn = {
+
+         	allowed = {
+	          always = no
+		    }
+
+			removal_cost = -1
+
+			picture = GFX_idea_very_high_taxation
+			
+			modifier = {
+              production_factory_efficiency_gain_factor = 0.05
+              line_change_production_efficiency_factor = 0.05
+              production_factory_max_efficiency_factor = 0.05
+			}
+
+       }
+
+	}
+
+}
+
+
+ideas = {
+	country ={
+     
+       SHA_native_unrest = {
+
+         	allowed = {
+	          always = no
+		    }
+
+			removal_cost = -1
+
+			picture = GFX_idea_very_high_taxation
+			
+			modifier = {
+              production_factory_efficiency_gain_factor = -0.01
+              line_change_production_efficiency_factor = -0.01
+              production_factory_max_efficiency_factor = -0.01
+              add_stability = -0.05
+			}
+
+       }
+
+	}
+
+}
+
+
+ideas = {
+	country ={
+     
+       SHA_native_cooperation = {
+
+         	allowed = {
+	          always = no
+		    }
+
+			removal_cost = -1
+
+			picture = GFX_idea_very_high_taxation
+			
+			modifier = {
+              production_factory_efficiency_gain_factor = 0.01
+              line_change_production_efficiency_factor = 0.01
+              production_factory_max_efficiency_factor = 0.01
+              add_stability = 0.05
+			}
+
+       }
+
+	}
+
+}
