@@ -1,0 +1,21 @@
+ideas = {
+	
+#############
+# Ministers #
+#############
+### Prime Minister
+	prime_minister = {
+		PLA_pm_judicael_ii = {
+			allowed = {	original_tag = PLA	}
+			available = {	}
+			traits = { pm_reformer_3 }
+			cancel_if_invalid = no
+		}
+		PLA_pm_charles_iii = {
+			allowed = {	original_tag = PLA	}
+			available = {	}
+			traits = { pm_compromiser_1 }
+			cancel_if_invalid = no
+		}
+	}
+}

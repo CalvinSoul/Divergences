@@ -18,6 +18,8 @@ add_ideas = {
 	moderate_military_budget
 	moderate_research_budget
 
+	PLA_pm_judicael_ii
+
 	GOV_constitutional_monarchy
 	VOT_universal_male
 	PAR_gerrymandering
@@ -51,10 +53,10 @@ set_politics = {
 			popularity = 8
 		}
 		conservativism = { 
-			popularity = 37
+			popularity = 31
 		}
 		paternalism = { 
-			popularity = 13
+			popularity = 8
 		}
 		reactionism = { 
 			popularity = 4
@@ -63,10 +65,11 @@ set_politics = {
 			popularity = 5
 		}
 		hierarchism = { 
-			popularity = 2
+			popularity = 13
 		}
 	}
-	
+	+
+	-
 	ruling_party = conservativism
 	last_election = "1936.1.1"
 	election_frequency = 48

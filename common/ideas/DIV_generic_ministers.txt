@@ -1,0 +1,75 @@
+ideas = {
+	
+#############
+# Ministers #
+#############
+### Prime Minister
+	prime_minister = {
+		GEN_pm_generic_autocrat = {
+			allowed = {
+				NOT = {
+					OR = {
+						original_tag = PLA
+					}
+				}
+			}
+			available = {
+			}
+			traits = { pm_autocrat_2 }
+			cancel_if_invalid = no
+		}
+		GEN_pm_generic_compromiser = {
+			allowed = {
+				NOT = {
+					OR = {
+						original_tag = PLA
+					}
+				}
+			}
+			available = {
+			}
+			traits = { pm_compromiser_2 }
+			cancel_if_invalid = no
+		}
+		GEN_pm_generic_populist = {
+			allowed = {
+				NOT = {
+					OR = {
+						original_tag = PLA
+					}
+				}
+			}
+			available = {
+			}
+			traits = { pm_populist_2 }
+			cancel_if_invalid = no
+		}
+		GEN_pm_generic_reformer = {
+			allowed = {
+				NOT = {
+					OR = {
+						original_tag = PLA
+					}
+				}
+			}
+			available = {
+			}
+			traits = { pm_reformer_2 }
+			cancel_if_invalid = no
+		}
+		GEN_pm_generic_traditionalist = {
+			allowed = {
+				NOT = {
+					OR = {
+						original_tag = PLA
+					}
+				}
+			}
+			available = {
+			}
+			traits = { pm_traditionalist_2 }
+			cancel_if_invalid = no
+		}
+
+	}
+}
