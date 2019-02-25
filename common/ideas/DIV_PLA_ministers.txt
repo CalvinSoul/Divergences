@@ -8,13 +8,63 @@ ideas = {
 		PLA_pm_judicael_ii = {
 			allowed = {	original_tag = PLA	}
 			available = {	}
-			traits = { pm_reformer_3 }
+			traits = { pm_reformer_3 progressive }
 			cancel_if_invalid = no
 		}
 		PLA_pm_charles_iii = {
 			allowed = {	original_tag = PLA	}
 			available = {	}
-			traits = { pm_compromiser_1 }
+			traits = { pm_compromiser_1 figurehead_puppet }
+			cancel_if_invalid = no
+		}
+	}
+	deputy_minister = {
+		PLA_dm_dany_dimont = {
+			allowed = {	original_tag = PLA	}
+			available = {	}
+			traits = { dm_union_organizer libertarian }
+			cancel_if_invalid = no
+		}
+		PLA_dm_jaquob_kaplan = {
+			allowed = {	original_tag = PLA	}
+			available = {	}
+			traits = { dm_popular_figure progressive }
+			cancel_if_invalid = no
+		}
+		PLA_dm_henri_bessette = {
+			allowed = {	original_tag = PLA	}
+			available = {	}
+			traits = { dm_industrialist commercialist }
+			cancel_if_invalid = no
+		}
+		PLA_dm_alexandre_bourbeau = {
+			allowed = {	original_tag = PLA	}
+			available = {	}
+			traits = { dm_diplomat conservative }
+			cancel_if_invalid = no
+		}
+		PLA_dm_henri_de_chatillon = {
+			allowed = {	original_tag = PLA	}
+			available = {	}
+			traits = { dm_militarist paternalist }
+			cancel_if_invalid = no
+		}
+		PLA_dm_alduin_de_rochechouart = {
+			allowed = {	original_tag = PLA	}
+			available = {	}
+			traits = { dm_isolationist reactionary }
+			cancel_if_invalid = no
+		}
+		PLA_dm_vincent_bacque = {
+			allowed = {	original_tag = PLA	}
+			available = {	}
+			traits = { dm_visionary ultra_nationalist }
+			cancel_if_invalid = no
+		}
+		PLA_dm_theo_duverger = {
+			allowed = {	original_tag = PLA	}
+			available = {	}
+			traits = { dm_terrorizing_figure hierarchist }
 			cancel_if_invalid = no
 		}
 	}

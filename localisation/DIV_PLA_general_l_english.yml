@@ -6,3 +6,20 @@
   PLA_pm_judicael_ii_desc:0 "Judicael II was well educated abroad, and is sympathetic towards liberalism. With a sharp mind, he hopes to help reform his country and lead it to a brighter tomorrow.\n"
   PLA_pm_charles_iii:0 "Charles III"
   PLA_pm_charles_iii_desc:0 "Charles is the younger brother of Judicael; aloof from politics, he enjoys playing war. His domestic education and lack of interest makes him an ideal figurehead, should some force manage to put him in power.\n"
+  PLA_dm_dany_dimont:0 "Dany Dimont"
+  PLA_dm_jaquob_kaplan:0 "Jaquob Kaplan"
+  PLA_dm_henri_bessette:0 "Henri Bessette"
+  PLA_dm_alexandre_bourbeau:0 "Alexandre Bourbeau"
+  PLA_dm_henri_de_chatillon:0 "Henri de Châtillon"
+  PLA_dm_alduin_de_rochechouart:0 "Alduin de Rochechouart"
+  PLA_dm_vincent_bacque:0 "Vincent Bacque"
+  PLA_dm_theo_duverger:0 "Théo Duverger"
+
+
+
+ PLA_commercialism_coalition:0 "Liberty and Fraternity" 
+ PLA_commercialism_coalition_long:0 "Liberty and Fraternity Party (Commercialists)\nParti de la Liberté et Fraternité (Commercialistes)"
+ PLA_progressivism_coalition:0 "Liberty and Fraternity"
+ PLA_progressivism_coalition_long:0 "Liberty and Fraternity Party (Progressives)\nParti de la Liberté et Fraternit (Progressives)"
+ PLA_libertarian_coalition:0 "Liberty and Fraternity"
+ PLA_libertarian_coalition_long:0 "Liberty and Fraternity Party (Libertarian)\nParti de la Liberté et Fraternit (Libertaire)"

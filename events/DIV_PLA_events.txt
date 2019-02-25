@@ -1,0 +1,97 @@
+add_namespace = PLA
+
+country_event = { # The Coalition Ticket?
+	id = PLA.1
+#	title = 
+#	desc = 
+#	picture = 
+
+	fire_only_once = yes
+
+	trigger = {
+		tag = PLA
+		date > 1925.2.05
+	}
+
+	mean_time_to_happen = {
+		days = 1
+	}
+
+	immediate = {
+	#	set_country_flag = 
+	}
+
+	option = { # Form the Coalition
+		name = PLA.1.a
+		ai_chance = {
+			factor = 30
+		}
+		add_stability = -0.1
+		add_political_power = -100
+		hidden_effect = {
+			set_party_name = {
+				ideology = progressivism
+				long_name = PLA_progressivism_coalition_long
+				name = PLA_progressivism_coalition
+			}
+			set_party_name = {
+				ideology = commercialism
+				long_name = PLA_commercialism_coalition_long
+				name = PLA_commercialism_coalition
+			}
+		}
+	}
+	option = { # Don't form the coalition
+		name = PLA.1.b
+		ai_chance = {
+			factor = 70
+		}
+		hidden_effect = {
+		}
+	}
+}
+country_event = { # The Coalition Ticket?
+	id = PLA.2
+#	title = 
+#	desc = 
+#	picture = 
+
+	fire_only_once = yes
+
+	trigger = {
+		tag = PLA
+		date > 1925.2.05
+	}
+
+	mean_time_to_happen = {
+		days = 1
+	}
+
+	immediate = {
+	#	set_country_flag = 
+	}
+
+	option = { # Form the Coalition
+		name = PLA.2.a
+		ai_chance = {
+			factor = 30
+		}
+		add_stability = -0.1
+		add_political_power = -100
+		hidden_effect = {
+			set_party_name = {
+				ideology = libertarianism
+				long_name = PLA_libertarian_coalition_long
+				name = PLA_libertarian_coalition
+			}
+		}
+	}
+	option = { # Don't form the coalition
+		name = PLA.3.b
+		ai_chance = {
+			factor = 70
+		}
+		hidden_effect = {
+		}
+	}
+}

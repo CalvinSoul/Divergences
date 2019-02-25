@@ -1,7 +1,7 @@
 #overwrites vanilla file
 
 leader_traits = {		###PUTTING THIS HERE PLS NO UPSET####
-	
+	### Prime Ministers
 	pm_reformer_4 = {
 		political_power_gain = 0.30
 		stability_factor = -0.03
@@ -126,4 +126,75 @@ leader_traits = {		###PUTTING THIS HERE PLS NO UPSET####
 
 		random = no
 	}
+	### Deputy Ministers
+	dm_militarist = {
+		production_speed_industrial_complex_factor = -0.1
+		experience_gain_army_factor = 0.25
+		war_support_factor = 0.08
+
+		random = no
+	}
+	dm_isolationist = {
+		stability_factor = 0.06
+		war_support_factor = -0.2
+
+		random = no
+	}
+	dm_industrialist = {
+		production_speed_industrial_complex_factor = 0.1
+		production_speed_infrastructure_factor = 0.05
+
+		random = no
+	}
+	dm_union_organizer = {
+		production_factory_efficiency_gain_factor = -0.1
+		stability_factor = 0.06
+
+		random = no
+	}
+	dm_diplomat = {
+		trade_opinion_factor = 0.25
+		political_power_gain = 0.05
+
+		random = no
+	}
+	dm_administrator = {
+		production_speed_infrastructure_factor = 0.2
+		supply_consumption_factor = -0.1
+
+		random = no
+	}
+	dm_visionary = {
+		research_time_factor = -0.05
+		stability_factor = -0.03
+
+		random = no
+	}
+	dm_popular_figure = {
+		stability_factor = 0.05
+		partisan_effect = 0.3
+		political_power_gain = -0.05
+
+		random = no
+	}
+	dm_terrorizing_figure = {
+		stability_factor = -0.03
+		political_power_gain = 0.05
+		enemy_partisan_effect = -0.3
+
+		random = no
+	}
+
+	blanquist = { random = no }
+	egalitarian = { random = no	}
+	libertarian = { random = no	}
+	progressive = { random = no	}
+	commercialist = { random = no }
+	conservative = { random = no }
+	paternalist = { random = no	}
+	reactionary = { random = no	}
+	ultra_nationalist = { random = no }
+	hierarchist = { random = no	}
+	figurehead_puppet = { random = no }
+	opportunist = { random = no	}
 }

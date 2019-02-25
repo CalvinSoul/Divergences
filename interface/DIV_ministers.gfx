@@ -21,6 +21,43 @@ spriteTypes = {
 		texturefile = "gfx/interface/ideas/idea_pm_traditionalist.dds"
 	}
 
+	spriteType = {
+		name = "GFX_idea_GEN_dm_generic_militarist"
+		texturefile = "gfx/interface/ideas/idea_dm_militarist.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_GEN_dm_generic_isolationist"
+		texturefile = "gfx/interface/ideas/idea_dm_isolationist.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_GEN_dm_generic_industrialist"
+		texturefile = "gfx/interface/ideas/idea_dm_industrialist.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_GEN_dm_generic_union_organizer"
+		texturefile = "gfx/interface/ideas/idea_dm_union_organizer.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_GEN_dm_generic_administrator"
+		texturefile = "gfx/interface/ideas/idea_dm_administrator.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_GEN_dm_generic_diplomat"
+		texturefile = "gfx/interface/ideas/idea_dm_diplomat.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_GEN_dm_generic_visionary"
+		texturefile = "gfx/interface/ideas/idea_dm_visionary.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_GEN_dm_generic_popular_figure"
+		texturefile = "gfx/interface/ideas/idea_dm_popular_figure.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_GEN_dm_generic_terrorizing_figure"
+		texturefile = "gfx/interface/ideas/idea_dm_terrorizing_figure.dds"
+	}
+
 	###PLA Plantagenia###
 	spriteType = {
 		name = "GFX_idea_PLA_pm_judicael_ii"
@@ -29,5 +66,38 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_idea_PLA_pm_charles_iii"
 		texturefile = "gfx/interface/ideas/PLA/idea_PLA_pm_charles_iii.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_PLA_dm_dany_dimont"
+		texturefile = "gfx/interface/ideas/idea_dm_union_organizer.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_PLA_dm_jaquob_kaplan"
+		texturefile = "gfx/interface/ideas/idea_dm_popular_figure.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_PLA_dm_henri_bessette"
+		texturefile = "gfx/interface/ideas/idea_dm_industrialist.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_PLA_dm_alexandre_bourbeau"
+		texturefile = "gfx/interface/ideas/idea_dm_diplomat.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_PLA_dm_henri_de_chatillon"
+		texturefile = "gfx/interface/ideas/idea_dm_militarist.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_PLA_dm_alduin_de_rochechouart"
+		texturefile = "gfx/interface/ideas/idea_dm_isolationist.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_PLA_dm_vincent_bacque"
+		texturefile = "gfx/interface/ideas/idea_dm_visionary.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_PLA_dm_theo_duverger"
+		texturefile = "gfx/interface/ideas/idea_dm_terrorizing_figure.dds"
 	}
 }

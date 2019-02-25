@@ -72,4 +72,124 @@ ideas = {
 		}
 
 	}
+### Auxillary Minister
+	deputy_minister = {
+		GEN_dm_generic_militarist = {
+			allowed = {
+				NOT = {
+					OR = {
+						original_tag = PLA
+					}
+				}
+			}
+			available = {
+			}
+			traits = { dm_militarist }
+			cancel_if_invalid = no
+		}
+		GEN_dm_generic_isolationist = {
+			allowed = {
+				NOT = {
+					OR = {
+						original_tag = PLA
+					}
+				}
+			}
+			available = {
+			}
+			traits = { dm_isolationist }
+			cancel_if_invalid = no
+		}
+		GEN_dm_generic_industrialist = {
+			allowed = {
+				NOT = {
+					OR = {
+						original_tag = PLA
+					}
+				}
+			}
+			available = {
+			}
+			traits = { dm_industrialist }
+			cancel_if_invalid = no
+		}
+		GEN_dm_generic_union_organizer = {
+			allowed = {
+				NOT = {
+					OR = {
+						original_tag = PLA
+					}
+				}
+			}
+			available = {
+			}
+			traits = { dm_union_organizer }
+			cancel_if_invalid = no
+		}
+		GEN_dm_generic_diplomat = {
+			allowed = {
+				NOT = {
+					OR = {
+						original_tag = PLA
+					}
+				}
+			}
+			available = {
+			}
+			traits = { dm_diplomat }
+			cancel_if_invalid = no
+		}
+		GEN_dm_generic_administrator = {
+			allowed = {
+				NOT = {
+					OR = {
+						original_tag = PLA
+					}
+				}
+			}
+			available = {
+			}
+			traits = { dm_administrator }
+			cancel_if_invalid = no
+		}
+		GEN_dm_generic_visionary = {
+			allowed = {
+				NOT = {
+					OR = {
+						original_tag = PLA
+					}
+				}
+			}
+			available = {
+			}
+			traits = { dm_visionary }
+			cancel_if_invalid = no
+		}
+		GEN_dm_generic_popular_figure = {
+			allowed = {
+				NOT = {
+					OR = {
+						original_tag = PLA
+					}
+				}
+			}
+			available = {
+			}
+			traits = { dm_popular_figure }
+			cancel_if_invalid = no
+		}
+		GEN_dm_generic_terrorizing_figure = {
+			allowed = {
+				NOT = {
+					OR = {
+						original_tag = PLA
+					}
+				}
+			}
+			available = {
+			}
+			traits = { dm_terrorizing_figure }
+			cancel_if_invalid = no
+		}
+	}
 }

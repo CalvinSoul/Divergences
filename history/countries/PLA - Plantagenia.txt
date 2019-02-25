@@ -19,6 +19,7 @@ add_ideas = {
 	moderate_research_budget
 
 	PLA_pm_judicael_ii
+	PLA_dm_alexandre_bourbeau
 
 	GOV_constitutional_monarchy
 	VOT_universal_male
