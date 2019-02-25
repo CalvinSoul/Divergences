@@ -1,4 +1,4 @@
-﻿capital = 306
+﻿capital = 493
 
 oob = "Default_1936"
 
@@ -15,13 +15,13 @@ set_politics = {
 
 	parties = {
 		blanquism = { 
-			popularity = 3
+			popularity = 0
 		}
 		egalitarianism = {
-			popularity = 2
+			popularity = 10
 		}
 		libertarianism = {
-			popularity = 5
+			popularity = 0
 		}
 		progressivism = { 
 			popularity = 15
@@ -33,13 +33,13 @@ set_politics = {
 			popularity = 20
 		}
 		paternalism = { 
-			popularity = 4
+			popularity = 0
 		}
 		reactionism = { 
-			popularity = 4
+			popularity = 20
 		}
 		ultra_nationalism = { 
-			popularity = 12
+			popularity = 0
 		}
 		hierarchism = { 
 			popularity = 0
@@ -54,10 +54,87 @@ set_politics = {
 
 create_country_leader = {
 	
+	name = "Fernando Pastor"
+	picture = "Portrait_GRA_Fernando_Pastor.dds"
+	expire = "1965.1.1"
+	ideology = egalitarianism_subtype
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	
 	name = "Diego Solos"
 	picture = "Portrait_GRA_Diego_Solos.dds"
 	expire = "1965.1.1"
 	ideology = commercialism_subtype
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	
+	name = "Fernando Pastor"
+	picture = "Portrait_GRA_Fernando_Pastor.dds"
+	expire = "1965.1.1"
+	ideology = libertarianism_subtype
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	
+	name = "Miguel Rabia Herrera"
+	picture = "Portrait_GRA_Miguel_Rabia_Herrera.dds"
+	expire = "1965.1.1"
+	ideology = conservativism_subtype
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	
+	name = "Vicente Quesada"
+	picture = "Portrait_GRA_Vicente_Quesada.dds"
+	expire = "1965.1.1"
+	ideology = paternalism_subtype
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	
+	name = "Miguel Alvarado"
+	picture = "Portrait_GRA_Miguel_Alvarado.dds"
+	expire = "1965.1.1"
+	ideology = reactionism_subtype
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	
+	name = "Miguel Alvarado"
+	picture = "Portrait_GRA_Miguel_Alvarado.dds"
+	expire = "1965.1.1"
+	ideology = ultra_nationalism_subtype
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	
+	name = "Miguel Alvarado"
+	picture = "Portrait_GRA_Miguel_Alvarado.dds"
+	expire = "1965.1.1"
+	ideology = hierarchism_subtype
 	traits = {
 		#
 	}
