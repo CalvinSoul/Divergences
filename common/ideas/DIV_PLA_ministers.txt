@@ -68,4 +68,151 @@ ideas = {
 			cancel_if_invalid = no
 		}
 	}
+#############
+# Companies #
+#############
+	weapons_manufacturer = {
+		PLA_wm_royal_infantry = {
+			allowed = {	original_tag = PLA	}
+			available = {	}
+			traits = { infantry_equipment_producer_allround_2 }
+			cancel_if_invalid = no
+		}
+		PLA_wm_vandame_infantry = {
+			allowed = {	original_tag = PLA	}
+			available = {	}
+			traits = { infantry_equipment_producer_offense_1 }
+			cancel_if_invalid = no
+		}
+		PLA_wm_pelican_infantry = {
+			allowed = {	original_tag = PLA	}
+			available = {	}
+			traits = { infantry_equipment_producer_defense_1 }
+			cancel_if_invalid = no
+		}
+	}
+	artillery_manufacturer = {
+		PLA_am_royal_artillery = {
+			allowed = {	original_tag = PLA	}
+			available = {	}
+			traits = { artillery_producer_offense_2 }
+			cancel_if_invalid = no
+		}
+		PLA_am_richardville_armory = {
+			allowed = {	original_tag = PLA	}
+			available = {	}
+			traits = { artillery_producer_defense_1 }
+			cancel_if_invalid = no
+		}
+		PLA_am_general_artillery = {
+			allowed = {	original_tag = PLA	}
+			available = {	}
+			traits = { artillery_producer_mass_1 }
+			cancel_if_invalid = no
+		}
+	}
+	tank_manufacturer = {
+		PLA_tm_royal_automobile = {
+			allowed = {	original_tag = PLA	}
+			available = {	}
+			traits = { heavy_tank_producer_defense_1 }
+			cancel_if_invalid = no
+		}
+		PLA_tm_oriflamme = {
+			allowed = {	original_tag = PLA	}
+			available = {	}
+			traits = { medium_tank_producer_offense_2 }
+			cancel_if_invalid = no
+		}
+		PLA_tm_arcadian_automobile = {
+			allowed = {	original_tag = PLA	}
+			available = {	}
+			traits = { motorised_equipment_producer_mass_1 }
+			cancel_if_invalid = no
+		}
+	}
+	air_naval_manufacturer = {
+		PLA_anm_royal_air = {
+			allowed = {	original_tag = PLA	}
+			available = {	}
+			traits = { fighter_producer_offense_1 }
+			cancel_if_invalid = no
+		}
+		PLA_anm_bassard_aeronautical = {
+			allowed = {	original_tag = PLA	}
+			available = {	}
+			traits = { fighter_producer_defense_0 }
+			cancel_if_invalid = no
+		}
+		PLA_anm_rosalie_commerical = {
+			allowed = {	original_tag = PLA	}
+			available = {	}
+			traits = { bomber_producer_mass_0 }
+			cancel_if_invalid = no
+		}
+		PLA_anm_royal_naval = {
+			allowed = {	original_tag = PLA	}
+			available = {	}
+			traits = { capital_ship_producer_offense_1 }
+			cancel_if_invalid = no
+		}
+		PLA_anm_dandalo_shipyards = {
+			allowed = {	original_tag = PLA	}
+			available = {	}
+			traits = { cruiser_producer_mass_1 }
+			cancel_if_invalid = no
+		}
+		PLA_anm_eleanor_nautical = {
+			allowed = {	original_tag = PLA	}
+			available = {	}
+			traits = { small_ship_producer_offense_1 }
+			cancel_if_invalid = no
+		}
+		PLA_anm_angloueme_naval = {
+			allowed = {	original_tag = PLA	}
+			available = {	}
+			traits = { capital_ship_producer_mass_0 }
+			cancel_if_invalid = no
+		}
+	}
+	industrial_concern = {
+		PLA_ic_national_electric = {
+			allowed = {	original_tag = PLA	}
+			available = {	}
+			research_bonus = { electronics = 0.15 } 
+			traits = { company_electronics_2 }
+			cancel_if_invalid = no
+		}
+		PLA_ic_national_rail = {
+			allowed = {	original_tag = PLA	}
+			available = {	}
+			traits = { company_rail_2 }
+			cancel_if_invalid = no
+		}
+		PLA_ic_chatillon = {
+			allowed = {	original_tag = PLA	}
+			available = {	}
+			traits = { company_industrial_1 }
+			cancel_if_invalid = no
+		}
+		PLA_ic_roanoque_mining = {
+			allowed = {	original_tag = PLA	}
+			available = {	}
+			traits = { company_extraction_1 }
+			cancel_if_invalid = no
+		}
+		PLA_ic_arcadian_electric = {
+			allowed = {	original_tag = PLA	}
+			available = {	}
+			research_bonus = { electronics = 0.05 } 
+			traits = { company_electronics_0 }
+			cancel_if_invalid = no
+		}
+		PLA_ic_arcadian_rail = {
+			allowed = {	original_tag = PLA	}
+			available = {	}
+			traits = { company_rail_0 }
+			cancel_if_invalid = no
+		}
+	}
 }

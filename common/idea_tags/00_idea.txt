@@ -50,7 +50,7 @@ idea_categories = {
 	}
 	manufacturers = {
 		slot = weapons_manufacturer
-		slot = tank_manufacturer
+		slot = artillery_manufacturer
 		slot = tank_manufacturer
 		slot = air_naval_manufacturer
 		slot = air_naval_manufacturer

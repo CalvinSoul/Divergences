@@ -2,7 +2,7 @@ ideas = {
 	weapons_manufacturer = { 
 		law = yes
 	}
-	tank_manufacturer = { 
+	artillery_manufacturer = { 
 		law = yes
 	}
 	tank_manufacturer = { 

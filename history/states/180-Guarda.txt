@@ -2,9 +2,6 @@
 state={
 	id=180
 	name="STATE_180"
-	manpower = 964700
-	
-	state_category = town
 
 	history={
 		owner = SPA
@@ -18,11 +15,17 @@ state={
 			dockyard = 2
 			9817 = {
 				naval_base = 3
+
 			}
+
 		}
+
 	}
 
 	provinces={
 		724 877 3892 6921 6941 9817 11673 
 	}
+	manpower=964700
+	buildings_max_level_factor=1.000
+	state_category=town
 }

@@ -20,9 +20,119 @@ leader_traits = {
 #####################
 leader_traits = {
 
-	chemical_producer = { random = no }
-	industrial_manufacturer = { random = no }
-	electronics_manufacturer = { random = no }
+	company_chemical_0 = { 
+		production_speed_synthetic_refinery_factor = 0.08
+
+		random = no 
+	}
+	company_chemical_1 = { 
+		production_speed_synthetic_refinery_factor = 0.16
+		 
+		random = no 
+	}
+	company_chemical_2 = { 
+		production_speed_synthetic_refinery_factor = 0.24
+		random = no 
+	}
+	company_industrial_0 = { 
+		production_speed_industrial_complex_factor = 0.05
+
+		random = no 
+	}
+	company_industrial_1 = { 
+		production_speed_industrial_complex_factor = 0.10
+
+		random = no 
+	}
+	company_industrial_2 = { 
+		production_speed_industrial_complex_factor = 0.15
+
+		random = no 
+	}
+	company_military_0 = { 
+		production_speed_arms_factory_factor = 0.05
+			
+		random = no 
+	}
+	company_military_1 = { 
+		production_speed_arms_factory_factor = 0.10
+			
+		random = no 
+	}
+	company_military_2 = { 
+		production_speed_arms_factory_factor = 0.15
+			
+		random = no 
+	}
+	company_military_industrial_0 = { 
+		production_speed_arms_factory_factor = 0.03
+		production_speed_industrial_complex_factor = 0.03
+
+		random = no 
+	}
+	company_military_industrial_1 = { 
+		production_speed_arms_factory_factor = 0.06
+		production_speed_industrial_complex_factor = 0.06
+
+		random = no 
+	}
+	company_military_industrial_2 = { 
+		production_speed_arms_factory_factor = 0.1
+		production_speed_industrial_complex_factor = 0.1
+
+		random = no 
+	}
+	company_electronics_0 = { 
+		production_speed_radar_station_factor = 0.10
+		research_bonus = { electronics = 0.05 }
+
+		random = no 
+	}
+	company_electronics_1 = { 
+		production_speed_radar_station_factor = 0.20
+		research_bonus = { electronics = 0.10 }
+
+		random = no 
+	}
+	company_electronics_2 = { 
+		production_speed_radar_station_factor = 0.30
+		research_bonus = { electronics = 0.15 }
+
+		random = no 
+	}
+	company_rail_0 = { 
+		production_speed_infrastructure_factor = 0.08
+		#research_bonus = { industry = 0.15 }
+
+		random = no 
+	}
+	company_rail_1 = { 
+		production_speed_infrastructure_factor = 0.16
+		#research_bonus = { industry = 0.15 }
+
+		random = no 
+	}
+	company_rail_2 = { 
+		production_speed_infrastructure_factor = 0.24
+		#research_bonus = { industry = 0.15 }
+
+		random = no 
+	}
+	company_extraction_0 = { 
+		local_resources_factor = 4
+
+		random = no 
+	}
+	company_extraction_1 = { 
+		local_resources_factor = 8
+
+		random = no 
+	}
+	company_extraction_2 = { 
+		local_resources_factor = 12
+
+		random = no 
+	}
 }
 
 #####################
@@ -111,21 +221,6 @@ leader_traits = {
 				soft_attack = 0.1
 				defense = 0.1
 				reliability = 0.1
-				instant = yes
-			}
-		}
-		
-		ai_will_do = {
-			factor = 1
-		}
-	}
-	infantry_equipment_producer_defense_3= {
-		random = no
-		equipment_bonus = {
-			infantry_equipment = {
-				build_cost_ic = -0.07
-				soft_attack = 0.07
-				reliability = 0.07
 				instant = yes
 			}
 		}
@@ -536,26 +631,6 @@ leader_traits = {
 			mechanized_equipment = {
 				hardness = 0.15
 				maximum_speed = 0.1
-				instant = yes
-			}
-		}
-
-		ai_will_do = {
-			factor = 1
-		}
-	}
-	#FR
-	motorised_equipment_producer_offense_3= {
-		random = no
-		equipment_bonus = {
-			motorized_equipment = {
-				hardness = 0.1
-				maximum_speed = 0.15
-				instant = yes
-			}
-			mechanized_equipment = {
-				hardness = 0.1
-				maximum_speed = 0.15
 				instant = yes
 			}
 		}

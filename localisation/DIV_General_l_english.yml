@@ -96,6 +96,7 @@ hierarchism_desc:0 "Totalitarian"
  #POLITICS_NOELECTIONS:0 "Any elections by event."
  POLITICS_NOELECTIONS:0 " "
 
+ GIBRALTAR_STRAIT:0 "Pillars of Hercules"
 
  TEST_ONE:0 "§Y[?economic_growth_level_display|1]/100:§!§G(+[?economic_growth_rate_display|1])§!"
  TEST_TWO:0 "§Y45.8/100:§!§G(+12.3)§!"

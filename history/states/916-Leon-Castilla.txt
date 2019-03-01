@@ -1,0 +1,17 @@
+state={
+	id=916
+	name="STATE_916"
+	provinces={
+		794 874 939 3820 3845 3874 6867 6907 9770 9800 9827 9846 11756 11809 
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+	state_category=town
+	history={
+		owner = SPA
+		add_core_of = SPA
+		buildings = {
+			infrastructure = 5
+		}
+	}
+}

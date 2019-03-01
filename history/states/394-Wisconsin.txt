@@ -9,16 +9,25 @@ state={
 		add_core_of = IRI
 		buildings = {
 			infrastructure = 5
+
 		}
-		victory_points = { 709 5 }
-		victory_points = { 4166 5 }
-		victory_points = { 1760 5 }
-		victory_points = { 9678 5 }
+		victory_points = {
+			709 5 
+		}
+		victory_points = {
+			4166 5 
+		}
+		victory_points = {
+			1760 5 
+		}
+		victory_points = {
+			9678 5 
+		}
 
 	}
 
 	provinces={
-		703 709 751 926 1760 1849 3699 4029 4166 4738 4834 4854 5205 7776 7829 9657 9678 10341 10526 10599 
+		703 709 751 926 1760 1849 3699 4029 4166 4738 4834 4854 5205 7776 7829 9657 9678 10341 10526 10599 13159 
 	}
 	manpower=71965
 	buildings_max_level_factor=1.000
