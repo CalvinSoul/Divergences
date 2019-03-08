@@ -100,4 +100,93 @@ spriteTypes = {
 		name = "GFX_idea_PLA_dm_theo_duverger"
 		texturefile = "gfx/interface/ideas/idea_dm_terrorizing_figure.dds"
 	}
+
+	spriteType = {
+		name = "GFX_idea_PLA_wm_royal_infantry"
+		texturefile = "gfx/interface/ideas/PLA/idea_PLA_Royal_Arms_Company.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_PLA_am_royal_artillery"
+		texturefile = "gfx/interface/ideas/PLA/idea_PLA_Royal_Arms_Company.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_PLA_tm_royal_automobile"
+		texturefile = "gfx/interface/ideas/PLA/idea_PLA_Royal_Arms_Company.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_PLA_anm_royal_air"
+		texturefile = "gfx/interface/ideas/PLA/idea_PLA_Royal_Arms_Company.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_PLA_anm_royal_naval"
+		texturefile = "gfx/interface/ideas/PLA/idea_PLA_Royal_Arms_Company.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_PLA_ic_national_electric"
+		texturefile = "gfx/interface/ideas/PLA/idea_PLA_Royal_Company.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_PLA_ic_national_rail"
+		texturefile = "gfx/interface/ideas/PLA/idea_PLA_Royal_Company.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_PLA_anm_dandalo_shipyards"
+		texturefile = "gfx/interface/ideas/PLA/idea_PLA_anm_dandalo_shipyards.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_PLA_ic_chatillon"
+		texturefile = "gfx/interface/ideas/PLA/idea_PLA_ic_chatillon.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_PLA_tm_oriflamme"
+		texturefile = "gfx/interface/ideas/PLA/idea_PLA_tm_oriflamme.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_PLA_ic_arcadian_electric"
+		texturefile = "gfx/interface/ideas/PLA/idea_PLA_ic_arcadian_electric.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_PLA_ic_arcadian_rail"
+		texturefile = "gfx/interface/ideas/PLA/idea_PLA_ic_arcadian_rail.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_PLA_tm_arcadian_automobile"
+		texturefile = "gfx/interface/ideas/PLA/idea_PLA_tm_arcadian_automobile.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_PLA_anm_eleanor_nautical"
+		texturefile = "gfx/interface/ideas/PLA/idea_PLA_anm_eleanor_nautical.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_PLA_anm_bassard_aeronautical"
+		texturefile = "gfx/interface/ideas/PLA/idea_PLA_anm_bassard_aeronautical.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_PLA_wm_vandame_infantry"
+		texturefile = "gfx/interface/ideas/PLA/idea_PLA_wm_vandame_infantry.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_PLA_wm_pelican_infantry"
+		texturefile = "gfx/interface/ideas/PLA/idea_PLA_wm_pelican_infantry.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_PLA_am_general_artillery"
+		texturefile = "gfx/interface/ideas/PLA/idea_PLA_am_general_artillery.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_PLA_ic_roanoque_mining"
+		texturefile = "gfx/interface/ideas/PLA/idea_PLA_ic_roanoque_mining.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_PLA_anm_rosalie_commerical"
+		texturefile = "gfx/interface/ideas/PLA/idea_PLA_anm_rosalie_commerical.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_PLA_am_richardville_armory"
+		texturefile = "gfx/interface/ideas/PLA/idea_PLA_am_richardville_armory.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_PLA_anm_angloueme_naval"
+		texturefile = "gfx/interface/ideas/PLA/idea_PLA_anm_angloueme_naval.dds"
+	}
 }
