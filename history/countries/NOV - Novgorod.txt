@@ -1,4 +1,4 @@
-capital = 195
+﻿capital = 195
 
 oob = "Default_1936"
 

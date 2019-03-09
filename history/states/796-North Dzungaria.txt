@@ -4,7 +4,8 @@ state={
 	provinces={
 		1749 1818 1864 4823 4849 7693 7737 12427 
 	}
-	manpower=0
+	state_category = rural
+	manpower=100
 	buildings_max_level_factor=1.000
 	history={
 		owner = MON

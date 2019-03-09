@@ -32,6 +32,7 @@ ideologies = {
 		}
 		ai_neutral = yes			
 		can_be_boosted = no
+		can_host_government_in_exile = no
 	}
 	
 	egalitarianism = {
@@ -59,7 +60,7 @@ ideologies = {
 		}
 		ai_neutral = yes	
 		can_be_boosted = no
-
+		can_host_government_in_exile = no
 	}
 
 	libertarianism = {
@@ -87,7 +88,7 @@ ideologies = {
 		}
 		ai_neutral = yes		
 		can_be_boosted = no
-
+		can_host_government_in_exile = no
 	}
 	
 	progressivism = {
@@ -115,7 +116,7 @@ ideologies = {
 		}
 		ai_neutral = yes	
 		can_be_boosted = no
-
+		can_host_government_in_exile = no
 	}
 	
 	commercialism = {
@@ -143,6 +144,7 @@ ideologies = {
 		}
 		ai_neutral = yes		
 		can_be_boosted = no
+		can_host_government_in_exile = no
 	}
 
 	conservativism = {
@@ -170,6 +172,7 @@ ideologies = {
 		}
 		ai_neutral = yes		
 		can_be_boosted = no
+		can_host_government_in_exile = no
 	}
 	
 	paternalism = {
@@ -198,6 +201,7 @@ ideologies = {
 		}
 		ai_neutral = yes		
 		can_be_boosted = no
+		can_host_government_in_exile = no
 	}
 	
 	reactionism = {
@@ -227,6 +231,7 @@ ideologies = {
 		}
 		ai_neutral = yes			
 		can_be_boosted = no
+		can_host_government_in_exile = no
 	}
 	
 	ultra_nationalism = {
@@ -256,6 +261,7 @@ ideologies = {
 		}
 		ai_neutral = yes	
 		can_be_boosted = no
+		can_host_government_in_exile = no
 	}
 
 	hierarchism = {
@@ -283,5 +289,6 @@ ideologies = {
 		}
 		ai_neutral = yes	
 		can_be_boosted = no
+		can_host_government_in_exile = no
 	}
 }

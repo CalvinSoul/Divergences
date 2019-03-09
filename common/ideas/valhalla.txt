@@ -68,7 +68,7 @@ ideas = {
               production_factory_efficiency_gain_factor = -0.01
               line_change_production_efficiency_factor = -0.01
               production_factory_max_efficiency_factor = -0.01
-              add_stability = -0.05
+              stability_factor = -0.05
 			}
 
        }
@@ -95,7 +95,7 @@ ideas = {
               production_factory_efficiency_gain_factor = 0.01
               line_change_production_efficiency_factor = 0.01
               production_factory_max_efficiency_factor = 0.01
-              add_stability = 0.05
+              stability_factor  = 0.05
 			}
 
        }

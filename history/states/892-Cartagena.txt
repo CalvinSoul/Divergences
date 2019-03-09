@@ -4,7 +4,8 @@ state={
 	provinces={
 		1093 3835 10024 10109 11884 
 	}
-	manpower=0
+	state_category = rural
+	manpower=100
 	buildings_max_level_factor=1.000
 	history={
 		owner = ARA

@@ -4,7 +4,8 @@ state={
 	provinces={
 		2054 4915 7998 12041 12718 12844 12876 
 	}
-	manpower=0
+	state_category = rural
+	manpower=100
 	buildings_max_level_factor=1.000
 	history={
 		owner = SIK

@@ -11,9 +11,9 @@ state={
 		}
 
 	}
-
+	impassable = yes
 	provinces={
-		7979 8035 10779 10814 
+		8035 10779 10814 
 	}
 	manpower=32000
 	buildings_max_level_factor=1.000

@@ -4,7 +4,8 @@ state={
 	provinces={
 		3512 9281 9309 9363 9403 11318 
 	}
-	manpower=0
+	state_category = rural
+	manpower=100
 	buildings_max_level_factor=1.000
 	history={
 		owner = BRG

@@ -12,4 +12,6 @@ state={
 		}
 		#victory_points = { 0 5 }
 	}
+	state_category = rural
+	manpower=100
 }

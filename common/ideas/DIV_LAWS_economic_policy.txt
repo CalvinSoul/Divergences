@@ -7,7 +7,7 @@ ideas = {
 			visible = {}
 			cancel_if_invalid = yes
 			modifier = {
-				research_time_factor = 0.3
+				research_speed_factor = 0.3
 				industrial_capacity_factory = -0.25
 				production_speed_buildings_factor = -0.25
 				industrial_capacity_dockyard = -0.5
@@ -31,7 +31,7 @@ ideas = {
 			visible = {}
 			cancel_if_invalid = yes
 			modifier = {
-					research_time_factor = -0.05
+					research_speed_factor = -0.05
 					trade_opinion_factor = 0.4
 			}
 			default = yes
@@ -42,7 +42,7 @@ ideas = {
 			visible = {}
 			cancel_if_invalid = yes
 			modifier = {
-					research_time_factor = -0.03
+					research_speed_factor = -0.03
 					production_factory_efficiency_gain_factor = 0.1
 			}
 			default = no
@@ -70,7 +70,7 @@ ideas = {
 			modifier = {
 				min_export = 0.5
 				production_speed_buildings_factor = 0.15
-				research_time_factor = -0.10
+				research_speed_factor = -0.10
 			}
 			cancel_if_invalid = no
 		}
@@ -83,7 +83,7 @@ ideas = {
 			modifier = {
 				min_export = 0.3
 				production_speed_buildings_factor = 0.1
-				research_time_factor = -0.05
+				research_speed_factor = -0.05
 			}
 			
 			default = yes
@@ -109,7 +109,7 @@ ideas = {
 			modifier = {
 				min_export = 0.2
 				production_speed_buildings_factor = 0.05
-				research_time_factor = -0.01
+				research_speed_factor = -0.01
 			}
 			cancel_if_invalid = no
 			ai_will_do = {

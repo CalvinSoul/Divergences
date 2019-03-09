@@ -4,7 +4,8 @@ state={
 	provinces={
 		3594 6644 9607 9609 11576 
 	}
-	manpower=0
+	state_category = rural
+	manpower=100
 	buildings_max_level_factor=1.000
 		history={
 		owner = ANG

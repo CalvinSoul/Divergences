@@ -4,7 +4,8 @@ state={
 	provinces={
 		1230 1304 1316 4279 4335 4409 7227 10282 12129 12955 
 	}
-	manpower=0
+	state_category = rural
+	manpower=100
 	buildings_max_level_factor=1.000
 	history={
 		owner = CHI

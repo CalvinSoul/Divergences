@@ -1,4 +1,4 @@
-capital = 681
+﻿capital = 681
 
 oob = "Default_1936"
 
@@ -55,7 +55,7 @@ set_politics = {
 create_country_leader = {
 	
 	name = "Duc Rudolph Jean du Bourgogne du Cap"
-	picture = "gfx//leaders//CAP//Rudolph_Jean_CAP.tga" ""
+	picture = "gfx//leaders//CAP//Rudolph_Jean_CAP.tga"
 	expire = "1965.1.1"
 	ideology = reactionism_subtype
 	traits = {

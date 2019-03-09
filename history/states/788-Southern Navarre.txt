@@ -4,7 +4,8 @@ state={
 	provinces={
 		884 3887 3902 6903 11852 
 	}
-	manpower=0
+	state_category = rural
+	manpower=100
 	buildings_max_level_factor=1.000
 	history={
 		owner = NAV

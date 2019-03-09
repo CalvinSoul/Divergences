@@ -5,7 +5,8 @@ state={
 	provinces={
 		2223 8134 8155 8237 10955 11013 12904 12992 
 	}
-	manpower=0
+	state_category = rural
+	manpower=100
 	buildings_max_level_factor=1.000
 	history={
 		owner = JER

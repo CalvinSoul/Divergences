@@ -12,7 +12,7 @@ operations = {
 	icon = GFX_decision_category_military_operation
 
 	visible = { 
-		NOT = { original_tag = ENG } 
+
 	}
 }
 
@@ -20,7 +20,7 @@ foreign_support = {
 	icon = generic_political_actions
 
 	visible = {
-		NOT = { original_tag = ENG }
+	
 	}
 }
 
@@ -40,7 +40,7 @@ political_actions = {
 	icon = generic_political_actions
 
 	visible = {
-		NOT = { original_tag = ENG }
+		
 	}
 	
 	allowed = {
@@ -51,7 +51,7 @@ political_actions_right = {
 	icon = military_operation
 	
 	visible = {
-		NOT = { original_tag = ENG }
+
 	}
 	
 	allowed = {
@@ -62,7 +62,7 @@ political_actions_dem = {
 	icon = generic_democracy
 	
 	visible = {
-		NOT = { original_tag = ENG }
+
 	}
 
 	allowed = {
@@ -73,7 +73,7 @@ political_actions_left = {
 	icon = generic_collectivism
 	
 	visible = {
-		NOT = { original_tag = ENG }
+
 	}
 
 	allowed = {
@@ -84,7 +84,7 @@ fascism_on_the_rise = {
 	icon = generic_fascism
 	
 	visible = {
-		NOT = { original_tag = ENG }
+	
 	}
 
 	allowed = {
@@ -100,7 +100,7 @@ democratic_on_the_rise = {
 	icon = generic_democracy
 	
 	visible = {
-		NOT = { original_tag = ENG }
+		
 	}
 
 	allowed = {
@@ -116,7 +116,7 @@ communism_on_the_rise = {
 	icon = generic_communism
 	
 	visible = {
-		NOT = { original_tag = ENG }
+	
 	}
 
 	allowed = {
@@ -134,7 +134,7 @@ crisis = {
 
 	visible = {
 		has_country_flag = crisis_in_progress
-		NOT = { original_tag = ENG }
+	
 	}
 }
 
@@ -144,7 +144,7 @@ demobilization = {
 	
 	visible = {
 		has_war = no
-		NOT = { original_tag = ENG }
+	
 	}
 }
 
@@ -152,7 +152,7 @@ economy_decisions = {
 	icon = generic_economy
 	
 	visible = {
-		NOT = { original_tag = ENG }
+
 	}
 
 }
@@ -165,7 +165,7 @@ prospect_for_resources = {
 	}
 	
 	visible = {
-		NOT = { original_tag = ENG }
+	
 	}
 }
 
@@ -178,7 +178,7 @@ special_projects = {
 	}
 	
 	visible = {
-		NOT = { original_tag = ENG }
+	
 	}
 }
 

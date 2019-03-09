@@ -1,4 +1,4 @@
-ï»¿# Division template historical names system. Is a new method of naming the divisions based on the names-group assigned to it's template.
+# Division template historical names system. Is a new method of naming the divisions based on the names-group assigned to it's template.
 # If we run out of all historical names, the names will be assigned in the old way.
 #
 # Each group has a made up tag. Use it if you want to append more, or replace existing names with the extra txt files (modding).
@@ -47,17 +47,17 @@ SPAN_INF_01 =
 	# Number reservation system will tie to another group.
 	#link_numbering_with = { SPAN_INF_01 }
 
-	fallback_name = "%da DivisiÃ³n de InfanterÃ­a"
+	fallback_name = "%da División de Infantería"
 
 	# Names with numbers (only one number per entry). 
 	# It's okay to have gaps in numbering.
 	ordered =
 	{
-		1 = { "%da DivisiÃ³n de InfanterÃ­a" }
-		2 = { "%da DivisiÃ³n de InfanterÃ­a" }
-		3 = { "%da DivisiÃ³n de InfanterÃ­a" }
-		4 = { "%da DivisiÃ³n de InfanterÃ­a" }
-		5 = { "%da DivisiÃ³n de InfanterÃ­a" }
+		1 = { "%da División de Infantería" }
+		2 = { "%da División de Infantería" }
+		3 = { "%da División de Infantería" }
+		4 = { "%da División de Infantería" }
+		5 = { "%da División de Infantería" }
 	}
 }
 
@@ -76,17 +76,17 @@ SPAN_CAV_01 =
 	# Number reservation system will tie to another group.
 	#link_numbering_with = { SPAN_INF_01 }
 
-	fallback_name = "%da DivisiÃ³n de CaballerÃ­a"
+	fallback_name = "%da División de Caballería"
 
 	# Names with numbers (only one number per entry). 
 	# It's okay to have gaps in numbering.
 	ordered =
 	{
-		1 = { "%da DivisiÃ³n de CaballerÃ­a" }
-		2 = { "%da DivisiÃ³n de CaballerÃ­a" }
-		3 = { "%da DivisiÃ³n de CaballerÃ­a" }
-		4 = { "%da DivisiÃ³n de CaballerÃ­a" }
-		5 = { "%da DivisiÃ³n de CaballerÃ­a" }
+		1 = { "%da División de Caballería" }
+		2 = { "%da División de Caballería" }
+		3 = { "%da División de Caballería" }
+		4 = { "%da División de Caballería" }
+		5 = { "%da División de Caballería" }
 	}
 }
 
@@ -103,17 +103,17 @@ SPAN_MOT_01 =
 	# Number reservation system will tie to another group.
 	link_numbering_with = { SPAN_INF_01 }
 
-	fallback_name = "%da DivisiÃ³n de Inf. Motorizada"
+	fallback_name = "%da División de Inf. Motorizada"
 
 	# Names with numbers (only one number per entry). 
 	# It's okay to have gaps in numbering.
 	ordered =
 	{
-		1 = { "%da DivisiÃ³n de InfanterÃ­a Motorizada" }
-		2 = { "%da DivisiÃ³n de InfanterÃ­a Motorizada" }
-		3 = { "%da DivisiÃ³n de InfanterÃ­a Motorizada" }
-		4 = { "%da DivisiÃ³n de InfanterÃ­a Motorizada" }
-		5 = { "%da DivisiÃ³n de InfanterÃ­a Motorizada" }
+		1 = { "%da División de Infantería Motorizada" }
+		2 = { "%da División de Infantería Motorizada" }
+		3 = { "%da División de Infantería Motorizada" }
+		4 = { "%da División de Infantería Motorizada" }
+		5 = { "%da División de Infantería Motorizada" }
 	}
 }
 
@@ -130,17 +130,17 @@ SPAN_MEC_01 =
 	# Number reservation system will tie to another group.
 	link_numbering_with = { SPAN_INF_01 }
 
-	fallback_name = "%da DivisiÃ³n de Inf. Mecanizada"
+	fallback_name = "%da División de Inf. Mecanizada"
 
 	# Names with numbers (only one number per entry). 
 	# It's okay to have gaps in numbering.
 	ordered =
 	{
-		1 = { "%da DivisiÃ³n de InfanterÃ­a Mecanizada" }
-		2 = { "%da DivisiÃ³n de InfanterÃ­a Mecanizada" }
-		3 = { "%da DivisiÃ³n de InfanterÃ­a Mecanizada" }
-		4 = { "%da DivisiÃ³n de InfanterÃ­a Mecanizada" }
-		5 = { "%da DivisiÃ³n de InfanterÃ­a Mecanizada" }
+		1 = { "%da División de Infantería Mecanizada" }
+		2 = { "%da División de Infantería Mecanizada" }
+		3 = { "%da División de Infantería Mecanizada" }
+		4 = { "%da División de Infantería Mecanizada" }
+		5 = { "%da División de Infantería Mecanizada" }
 	}
 }
 
@@ -157,17 +157,17 @@ SPAN_ARM_01 =
 	# Number reservation system will tie to another group.
 	#link_numbering_with = { SPAN_INF_01 }
 
-	fallback_name = "%da DivisiÃ³n Blindada"
+	fallback_name = "%da División Blindada"
 
 	# Names with numbers (only one number per entry). 
 	# It's okay to have gaps in numbering.
 	ordered =
 	{
-		1 = { "%da DivisiÃ³n Blindada" }
-		2 = { "%da DivisiÃ³n Blindada" }
-		3 = { "%da DivisiÃ³n Blindada" }
-		4 = { "%da DivisiÃ³n Blindada" }
-		5 = { "%da DivisiÃ³n Blindada" }
+		1 = { "%da División Blindada" }
+		2 = { "%da División Blindada" }
+		3 = { "%da División Blindada" }
+		4 = { "%da División Blindada" }
+		5 = { "%da División Blindada" }
 	}
 }
 
@@ -184,17 +184,17 @@ SPAN_PAR_01 =
 	# Number reservation system will tie to another group.
 	#link_numbering_with = { SPAN_INF_01 }
 
-	fallback_name = "%da DivisiÃ³n de Paracaidistas"
+	fallback_name = "%da División de Paracaidistas"
 
 	# Names with numbers (only one number per entry). 
 	# It's okay to have gaps in numbering.
 	ordered =
 	{
-		1 = { "%da DivisiÃ³n de Paracaidistas" }
-		2 = { "%da DivisiÃ³n de Paracaidistas" }
-		3 = { "%da DivisiÃ³n de Paracaidistas" }
-		4 = { "%da DivisiÃ³n de Paracaidistas" }
-		5 = { "%da DivisiÃ³n de Paracaidistas" }
+		1 = { "%da División de Paracaidistas" }
+		2 = { "%da División de Paracaidistas" }
+		3 = { "%da División de Paracaidistas" }
+		4 = { "%da División de Paracaidistas" }
+		5 = { "%da División de Paracaidistas" }
 	}
 }
 
@@ -211,17 +211,17 @@ SPAN_MAR_01 =
 	# Number reservation system will tie to another group.
 	#link_numbering_with = { SPAN_INF_01 }
 
-	fallback_name = "%da Div. de InfanterÃ­a de Marina"
+	fallback_name = "%da Div. de Infantería de Marina"
 
 	# Names with numbers (only one number per entry). 
 	# It's okay to have gaps in numbering.
 	ordered =
 	{
-		1 = { "%da Div. de InfanterÃ­a de Marina" }
-		2 = { "%da Div. de InfanterÃ­a de Marina" }
-		3 = { "%da Div. de InfanterÃ­a de Marina" }
-		4 = { "%da Div. de InfanterÃ­a de Marina" }
-		5 = { "%da Div. de InfanterÃ­a de Marina" }
+		1 = { "%da Div. de Infantería de Marina" }
+		2 = { "%da Div. de Infantería de Marina" }
+		3 = { "%da Div. de Infantería de Marina" }
+		4 = { "%da Div. de Infantería de Marina" }
+		5 = { "%da Div. de Infantería de Marina" }
 	}
 }
 
@@ -236,18 +236,17 @@ SPAN_MNT_01 =
 	division_types = { "mountaineers" }
 
 
-	fallback_name = "%da DivisiÃ³n de MontaÃ±a"
+	fallback_name = "%da División de Montaña"
 
 	# Names with numbers (only one number per entry). 
 	# It's okay to have gaps in numbering.
 	ordered =
 	{
-		1 = { "%da DivisiÃ³n de InfanterÃ­a de MontaÃ±a" }
-		2 = { "%da DivisiÃ³n de InfanterÃ­a de MontaÃ±a" }
-		3 = { "%da DivisiÃ³n de InfanterÃ­a de MontaÃ±a" }
-		4 = { "%da DivisiÃ³n de InfanterÃ­a de MontaÃ±a" }
-		5 = { "%da DivisiÃ³n de InfanterÃ­a de MontaÃ±a" }
+		1 = { "%da División de Infantería de Montaña" }
+		2 = { "%da División de Infantería de Montaña" }
+		3 = { "%da División de Infantería de Montaña" }
+		4 = { "%da División de Infantería de Montaña" }
+		5 = { "%da División de Infantería de Montaña" }
 	}
 }
-
 

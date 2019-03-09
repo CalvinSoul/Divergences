@@ -165,7 +165,7 @@ leader_traits = {		###PUTTING THIS HERE PLS NO UPSET####
 		random = no
 	}
 	dm_visionary = {
-		research_time_factor = -0.05
+		research_speed_factor = -0.05
 		stability_factor = -0.03
 
 		random = no

@@ -612,7 +612,7 @@ ideas = {
 			
 			modifier = {
 				consumer_goods_factor = -0.10
-				research_time_factor = 0.25
+				research_speed_factor = 0.25
 			}
 			cancel_if_invalid = yes
 		}
@@ -623,7 +623,7 @@ ideas = {
 			
 			modifier = {
 				consumer_goods_factor = -0.05
-				research_time_factor = 0.1
+				research_speed_factor = 0.1
 			}
 			cancel_if_invalid = yes
 		}
@@ -645,7 +645,7 @@ ideas = {
 			}
 			modifier = {
 				consumer_goods_factor = 0.05
-				research_time_factor = -0.05
+				research_speed_factor = -0.05
 			}
 			cancel_if_invalid = yes
 		}
@@ -658,7 +658,7 @@ ideas = {
 			}
 			modifier = {
 				consumer_goods_factor = 0.1
-				research_time_factor = -0.1
+				research_speed_factor = -0.1
 			}
 			cancel_if_invalid = yes
 		}

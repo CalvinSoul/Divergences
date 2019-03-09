@@ -4,7 +4,8 @@ state={
 	provinces={
 		789 6976 6991 7454 10403 10472 
 	}
-	manpower=0
+	state_category = rural
+	manpower=100
 	buildings_max_level_factor=1.000
 	history={
 		owner = TCA

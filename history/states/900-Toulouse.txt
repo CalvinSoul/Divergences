@@ -4,7 +4,8 @@ state={
 	provinces={
 		943 3749 3948 6766 11702 12169 
 	}
-	manpower=0
+	state_category = rural
+	manpower=100
 	buildings_max_level_factor=1.000
 	history={
 		owner = OCC
