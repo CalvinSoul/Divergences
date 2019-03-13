@@ -11,7 +11,7 @@ state={
 		add_core_of = QIN
 		add_core_of = QYO
 		victory_points = {
-			986 5
+			986 25
 		}
 	}
 

@@ -5,17 +5,19 @@ state={
 
 	history={
 		owner = ARA
+		add_core_of = MGH
 		buildings = {
-			infrastructure = 3
-
+			infrastructure = 5
 		}
-
+		victory_points = {
+			4047 5
+		}
 	}
 
 	provinces={
 		1041 4047 4057 10046 10117 12088 
 	}
-	manpower=40431
+	manpower=152391
 	buildings_max_level_factor=1.000
 	state_category=enclave
 }

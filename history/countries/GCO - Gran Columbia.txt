@@ -57,7 +57,7 @@ create_country_leader = {
 	name = "Pablo Cortez"
 	picture = "Portrait_GCO_Pablo_Cortez.dds"
 	expire = "1965.1.1"
-	ideology = presidential_dictatorship_subtype
+	ideology = unitary_nationalism_subtype
 	traits = {
 		#
 	}

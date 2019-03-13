@@ -5,7 +5,7 @@ state={
 		790 899 915 6901 9813 9840 9842 11793 11819 11821 11838 
 	}
 	state_category = rural
-	manpower=100
+	manpower=562086
 	buildings_max_level_factor=1.000
 	history={
 		owner = ARA
@@ -13,6 +13,8 @@ state={
 		buildings = {
 			infrastructure = 5
 		}
-		#victory_points = { 0 5 }
+		victory_points = {
+			11821 5
+		}
 	}
 }

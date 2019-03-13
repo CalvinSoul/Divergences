@@ -87,11 +87,52 @@ country_event = { # The Coalition Ticket?
 		}
 	}
 	option = { # Don't form the coalition
-		name = PLA.3.b
+		name = PLA.2.b
 		ai_chance = {
 			factor = 70
 		}
 		hidden_effect = {
 		}
+	}
+}
+country_event = { # The Coalition Ticket?
+	id = PLA.3
+#	title = 
+#	desc = 
+#	picture = 
+
+	fire_only_once = yes
+
+	trigger = {
+		tag = PLA
+		date > 1925.2.05
+	}
+
+	mean_time_to_happen = {
+		days = 1
+	}
+
+	immediate = {
+	#	set_country_flag = 
+	}
+
+	option = { # Form the Coalition
+		name = PLA.3.a
+		ai_chance = {
+			factor = 30
+		}
+		add_to_variable = {
+   			var = commercialism_seats
+   			value = 15
+		}
+		add_to_variable = {
+   			var = progressivism_seats
+   			value = 10
+		}
+		subtract_from_variable = {
+   			var = conservativism_seats
+   			value = 25
+		}
+		PLA_recalc_coalition_percentage = yes
 	}
 }

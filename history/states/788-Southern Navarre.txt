@@ -5,13 +5,16 @@ state={
 		884 3887 3902 6903 11852 
 	}
 	state_category = rural
-	manpower=100
+	manpower=332300
 	buildings_max_level_factor=1.000
 	history={
 		owner = NAV
 		add_core_of = NAV
 		buildings = {
 			infrastructure = 3
+		}
+		victory_points = {
+			3902 5
 		}
 	}
 }

@@ -57,7 +57,7 @@ create_country_leader = {
 	name = "Lee Rong-Shi"
 	picture = "Portrait_QIN_Lee_Rong-Shi.dds"
 	expire = "1965.1.1"
-	ideology = paternalism_subtype
+	ideology = unitary_nationalism_subtype
 	traits = {
 		#
 	}

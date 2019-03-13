@@ -68,7 +68,7 @@ create_country_leader = {
 	name = "Diego Solos"
 	picture = "Portrait_GRA_Diego_Solos.dds"
 	expire = "1965.1.1"
-	ideology = commercialism_subtype
+	ideology = market_liberalism_subtype
 	traits = {
 		#
 	}

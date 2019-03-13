@@ -4,7 +4,8 @@ state={
 	provinces={
 		2133 2177 2186 5138 7623 10473 12906 12912 12926 13131 
 	}
-	state_category = rural
+	state_category = wasteland
+	impassable = yes
 	manpower=100
 	buildings_max_level_factor=1.000
 	history={

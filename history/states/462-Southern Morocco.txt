@@ -5,9 +5,21 @@ state={
 
 	history={
 		owner = SPA
+		add_core_of = MGH
 		buildings = {
-			infrastructure = 1
-
+			infrastructure = 5
+		}
+		victory_points = {
+			1102 5
+		}
+		victory_points = {
+			7203 5
+		}
+		victory_points = {
+			12857 5
+		}
+		victory_points = {
+			10107 5
 		}
 
 	}
@@ -15,7 +27,7 @@ state={
 	provinces={
 		1102 1152 1207 1958 1989 4022 4108 4920 5046 7203 8038 8046 8111 10107 12857 
 	}
-	manpower=1865552
+	manpower=748845
 	buildings_max_level_factor=1.000
 	state_category=wasteland
 }

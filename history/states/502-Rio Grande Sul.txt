@@ -10,7 +10,7 @@ state={
 		}
 		add_core_of = LOT
 		victory_points = {
-			10447 30
+			10447 50
 		}
 		victory_points = {
 			10502 5

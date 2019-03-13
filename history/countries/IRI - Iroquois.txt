@@ -57,7 +57,7 @@ create_country_leader = {
 	name = "Kariwase Falkensen"
 	picture = "Kariwase_Falkensen.tga"
 	expire = "1965.1.1"
-	ideology = progressivism_subtype
+	ideology = left_liberalism_subtype
 	traits = {
 		#
 	}

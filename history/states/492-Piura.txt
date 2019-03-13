@@ -10,7 +10,7 @@ state={
 		}
 		add_core_of = TAW
 		victory_points = {
-			5202 10 
+			5202 25
 		}
 		victory_points = {
 			12953 5

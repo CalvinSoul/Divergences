@@ -1,4 +1,4 @@
-﻿capital = 1
+﻿capital = 112
 
 oob = "Default_1936"
 
@@ -57,7 +57,7 @@ create_country_leader = {
 	name = "Inigo III"
 	picture = "Portrait_SPA_Inigo_III.dds"
 	expire = "1965.1.1"
-	ideology = progressivism_subtype
+	ideology = left_liberalism_subtype
 	traits = {
 		#
 	}

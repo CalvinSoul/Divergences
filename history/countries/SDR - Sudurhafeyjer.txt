@@ -57,7 +57,7 @@ create_country_leader = {
 	name = "Oddvar Stien"
 	picture = "Portrait_SDR_Oddvar_Stien.dds"
 	expire = "1965.1.1"
-	ideology = conservativism_subtype
+	ideology = classical_conservativism_subtype
 	traits = {
 		#
 	}

@@ -57,7 +57,7 @@ create_country_leader = {
 	name = "Brian O'Connerlee"
 	picture = "Brian_O_Connerlee.tga"
 	expire = "1965.1.1"
-	ideology = conservativism_subtype
+	ideology = liberal_conservatism_subtype
 	traits = {
 		#
 	}

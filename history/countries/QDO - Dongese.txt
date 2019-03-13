@@ -57,7 +57,7 @@ create_country_leader = {
 	name = "Dai Yong"
 	picture = "Dai_Yong.tga"
 	expire = "1965.1.1"
-	ideology = conservativism_subtype
+	ideology = liberal_conservatism_subtype
 	traits = {
 		#
 	}

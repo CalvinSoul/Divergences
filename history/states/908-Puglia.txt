@@ -5,8 +5,18 @@ state={
 	history={
 		owner = ARA
 		add_core_of = ARA
+		add_core_of = NAP
 		buildings = {
 			infrastructure = 5
+		}
+		victory_points = {
+			11837 25
+		}
+		victory_points = {
+			9784 5
+		}
+		victory_points = {
+			883 5
 		}
 	}
 
@@ -14,6 +24,6 @@ state={
 		883 6843 6939 6979 6980 9784 11837 11998 
 	}
 	state_category = rural
-	manpower=100
+	manpower=2731280
 	buildings_max_level_factor=1.000
 }

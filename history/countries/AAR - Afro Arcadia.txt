@@ -56,7 +56,7 @@ create_country_leader = {
 	name = "Severiano Désir"
 	picture = "Severiano_Désir.tga"
 	expire = "1965.1.1"
-	ideology = commercialism_subtype
+	ideology = classical_liberalism_subtype
 	traits = {}
 }
 create_corps_commander = {

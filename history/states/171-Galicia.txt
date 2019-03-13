@@ -7,26 +7,20 @@ state={
 		owner = SPA
 		add_core_of = SPA
 		victory_points = {
-			758 3 
+			758 25
+		}
+		victory_points = {
+			6734 5
 		}
 		buildings = {
-			infrastructure = 6
-			dockyard = 2
-			arms_factory = 1
-			air_base = 2
-			758 = {
-				naval_base = 6
-
-			}
-
+			infrastructure = 5
 		}
-
 	}
 
 	provinces={
 		729 758 3761 6734 6764 6955 9686 9689 11675 11677 11692 11710 11840 
 	}
-	manpower=2295085
+	manpower=2209250
 	buildings_max_level_factor=1.000
 	state_category=city
 }

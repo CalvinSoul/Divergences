@@ -10,6 +10,8 @@ ideologies = {
 	blanquism = {
 		types = {
 		blanquism_subtype = {}
+		vanguardism_subtype = {}
+		plebiscial_subtype = {}
 		}
 		dynamic_faction_names = {
 			"FACTION_NAME_VANGUARDIST_1"
@@ -38,6 +40,8 @@ ideologies = {
 	egalitarianism = {
 		types = {
 			egalitarianism_subtype = {}
+			egalitarian_collectivist_subtype = {}
+			islamic_socialism_subtype = {}
 			}
 		dynamic_faction_names = {
 			"FACTION_NAME_collectivist_1"
@@ -66,6 +70,8 @@ ideologies = {
 	libertarianism = {
 		types = {
 			libertarianism_subtype = {}
+			syndicalism_subtype = {}
+			liberal_socialism_subtype = {}
 		}
 		dynamic_faction_names = {
 			"FACTION_NAME_libertarianism_1"
@@ -94,6 +100,8 @@ ideologies = {
 	progressivism = {
 		types = {
 			progressivism_subtype = {}
+			left_liberalism_subtype = {}
+			social_liberalism_subtype = {}
 		}
 		dynamic_faction_names = {
 			"FACTION_NAME_progressivism_1"
@@ -122,6 +130,8 @@ ideologies = {
 	commercialism = {
 		types = {
 		commercialism_subtype = {}
+		classical_liberalism_subtype = {}
+		market_liberalism_subtype = {}
 		}
 		dynamic_faction_names = {
 			"FACTION_NAME_SOCIAL_LIBERAL_1"
@@ -150,6 +160,8 @@ ideologies = {
 	conservativism = {
 		types = {
 		conservativism_subtype = {}
+		liberal_conservatism_subtype = {}
+		classical_conservativism_subtype = {}
 		}
 		dynamic_faction_names = {
 			"FACTION_NAME_conservativism_1"
@@ -178,7 +190,9 @@ ideologies = {
 	paternalism = {
 		types = {
 		paternalism_subtype = {}
-		presidential_dictatorship_subtype = {}
+		unitary_nationalism_subtype = {}
+		paternal_militarism_subtype = {}
+		constitutional_monarchism_subtype ={}
 		}
 		dynamic_faction_names = {
 			"FACTION_NAME_paternalism_1"
@@ -207,8 +221,8 @@ ideologies = {
 	reactionism = {
 		types = {
 		reactionism_subtype = {}
-		absolute_monarchy_subtype = {}
-		military_junta_subtype = {}
+		absolute_monarchism_subtype = {}
+		theocratic_subtype = {}
 		}
 		dynamic_faction_names = {
 			"FACTION_NAME_reactionism_1"
@@ -267,6 +281,8 @@ ideologies = {
 	hierarchism = {
 		types = {
 		hierarchism_subtype = {}
+		meritocratic_hierarchism_subtype = {}
+		imperial_hierarchism_subtype = {}
 		}
 		dynamic_faction_names = {
 			"FACTION_NAME_IRREDENTIST_1"

@@ -2,38 +2,29 @@
 state={
 	id=459
 	name="STATE_459"
-	resources={
-		steel=26.000
-	}
 
 	history={
 		owner = ARA
-		victory_points = {
-			1145 5 
-		}
-		victory_points = {
-			7132 5 
-		}
+		add_core_of = ARA
+		add_core_of = CAR
 		buildings = {
-			infrastructure = 4
-			air_base = 5
-			1145 = {
-				naval_base = 2
-
-			}
-			7132 = {
-				naval_base = 6
-
-			}
-
+			infrastructure = 5
 		}
-
+		victory_points = {
+			7132 5
+		}
+		victory_points = {
+			1145 25
+		}
+		victory_points = {
+			1013 5
+		}
 	}
 
 	provinces={
 		1013 1145 4116 4131 4146 7132 9964 11923 11939 12760 
 	}
-	manpower=3089944
+	manpower=1818166
 	buildings_max_level_factor=1.000
 	state_category=town
 }

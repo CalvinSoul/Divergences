@@ -13,7 +13,7 @@ state={
 		}
 		add_core_of = AMA
 		victory_points = {
-			10946 10
+			10946 25
 		}
 		victory_points = {
 			8143 5

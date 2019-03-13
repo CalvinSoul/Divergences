@@ -1,23 +1,19 @@
-state=
-{
+state={
 	id=116
 	name="STATE_116"
-	manpower = 241621
+	manpower = 276023
 	state_category = small_island
 	history= {
 		owner = ARA
 		add_core_of = ARA
-		victory_points = {
-			12003 5 
-		}
 		buildings = {
-			infrastructure = 3
-			air_base = 3
-			12003 = {
-				naval_base = 3
-				coastal_bunker = 1
-			}
+			infrastructure = 5
 		}
+	victory_points = {
+			12003 5
+		}	
 	}
-	provinces= { 12003 }
+	provinces= { 
+		12003
+	 }
 }

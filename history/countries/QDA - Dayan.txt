@@ -57,7 +57,7 @@ create_country_leader = {
 	name = "Su Jiahao"
 	picture = "Su_Jiahao.tga"
 	expire = "1965.1.1"
-	ideology = commercialism_subtype
+	ideology = market_liberalism_subtype
 	traits = {
 		#
 	}

@@ -57,7 +57,7 @@ create_country_leader = {
 	name = "Mario Valdez"
 	picture = "Portrait_QUI_Mario_Valdez.dds"
 	expire = "1965.1.1"
-	ideology = presidential_dictatorship_subtype
+	ideology = unitary_nationalism_subtype
 	traits = {
 		#
 	}

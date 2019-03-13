@@ -7,17 +7,23 @@ state={
 		owner = SPA
 		add_core_of = SPA
 		buildings = {
-			industrial_complex = 1
-			infrastructure = 6
-
+			infrastructure = 5
 		}
-
+		victory_points = {
+			875 25
+		}
+		victory_points = {
+			10111 5
+		}
+		victory_points = {
+			6832 5
+		}
 	}
 
 	provinces={
 		809 875 879 950 3810 3871 3930 3953 6744 6832 6896 6948 9778 9828 9891 9891 10111 12081 12083 
 	}
-	manpower=848903
+	manpower=1849584
 	buildings_max_level_factor=1.000
 	state_category=town
 }

@@ -56,7 +56,7 @@ create_country_leader = {
 	name = "Evasio Amante"
 	picture = "Evasio_Amante.dds"
 	expire = "1965.1.1"
-	ideology = commercialism_subtype
+	ideology = market_liberalism_subtype
 	traits = {}
 }
 create_corps_commander = {

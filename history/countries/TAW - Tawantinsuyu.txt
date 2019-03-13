@@ -57,7 +57,7 @@ create_country_leader = {
 	name = "Pachacuti Tawar"
 	picture = "Portrait_TAW_Pachacuti_Tawar.dds"
 	expire = "1965.1.1"
-	ideology = hierarchism_subtype
+	ideology = imperial_hierarchism_subtype
 	traits = {
 		#
 	}

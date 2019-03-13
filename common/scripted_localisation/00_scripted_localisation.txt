@@ -7,3 +7,441 @@
 # (eg Root or From.From).)
 # localization_key -> points to the localization key
 # that'll be used if trigger passes
+defined_text = { # Country
+	name = GetIdeologicalSubtype
+	text = {
+		trigger = {
+			has_country_leader_with_trait = vanguardism_trait
+		}
+		localization_key = vanguardism_subtype
+	}
+	text = {
+		trigger = {
+			has_country_leader_with_trait = plebiscial_trait
+		}
+		localization_key = plebiscial_subtype
+	}
+	text = {
+		trigger = {
+			has_country_leader_with_trait = egalitarianism_trait
+		}
+		localization_key = egalitarianism_subtype
+	}
+	text = {
+		trigger = {
+			has_country_leader_with_trait = egalitarian_collectivist_trait
+		}
+		localization_key = egalitarian_collectivist_subtype
+	}
+	text = {
+		trigger = {
+			has_country_leader_with_trait = islamic_socialism_trait
+		}
+		localization_key = islamic_socialism_subtype
+	}
+	text = {
+		trigger = {
+			has_country_leader_with_trait = syndicalism_trait
+		}
+		localization_key = syndicalism_subtype
+	}
+	text = {
+		trigger = {
+			has_country_leader_with_trait = liberal_socialism_trait
+		}
+		localization_key = liberal_socialism_subtype
+	}
+	text = {
+		trigger = {
+			has_country_leader_with_trait = left_liberalism_trait
+		}
+		localization_key = left_liberalism_subtype
+	}
+	text = {
+		trigger = {
+			has_country_leader_with_trait = social_liberalism_trait
+		}
+		localization_key = social_liberalism_subtype
+	}
+	text = {
+		trigger = {
+			has_country_leader_with_trait = classical_liberalism_trait
+		}
+		localization_key = classical_liberalism_subtype
+	}
+	text = {
+		trigger = {
+			has_country_leader_with_trait = market_liberalism_trait
+		}
+		localization_key = market_liberalism_subtype
+	}
+	text = {
+		trigger = {
+			has_country_leader_with_trait = liberal_conservatism_trait
+		}
+		localization_key = liberal_conservatism_subtype
+	}
+	text = {
+		trigger = {
+			has_country_leader_with_trait = classical_conservativism_trait
+		}
+		localization_key = classical_conservativism_subtype
+	}
+	text = {
+		trigger = {
+			has_country_leader_with_trait = unitary_nationalism_trait
+		}
+		localization_key = unitary_nationalism_subtype
+	}
+	text = {
+		trigger = {
+			has_country_leader_with_trait = paternal_militarism_trait
+		}
+		localization_key = paternal_militarism_subtype
+	}
+	text = {
+		trigger = {
+			has_country_leader_with_trait = constitutional_monarchism_trait
+		}
+		localization_key = constitutional_monarchism_subtype
+	}
+	text = {
+		trigger = {
+			has_country_leader_with_trait = absolute_monarchism_trait
+		}
+		localization_key = absolute_monarchism_subtype
+	}
+	text = {
+		trigger = {
+			has_country_leader_with_trait = theocratic_trait
+		}
+		localization_key = theocratic_subtype
+	}
+	text = {
+		trigger = {
+			has_country_leader_with_trait = national_corporatist_trait
+		}
+		localization_key = national_corporatist_subtype
+	}
+	text = {
+		trigger = {
+			has_country_leader_with_trait = national_communard_trait
+		}
+		localization_key = national_communard_subtype
+	}
+	text = {
+		trigger = {
+			has_country_leader_with_trait = meritocratic_hierarchism_trait
+		}
+		localization_key = meritocratic_hierarchism_subtype
+	}
+	text = {
+		trigger = {
+			has_country_leader_with_trait = imperial_hierarchism_trait
+		}
+		localization_key = imperial_hierarchism_subtype
+	}
+	text = {
+		localization_key = no_ideological_subtype
+	}
+}
+defined_text = { # Country
+	name = GetBlanquismLegality
+	text = {
+		trigger = {
+			check_variable = { blanquism_legality = 3 }
+		}
+		localization_key = party_ruling
+	}
+	text = {
+		trigger = {
+			check_variable = { blanquism_legality = 2 }
+		}
+		localization_key = party_coalition
+	}
+	text = {
+		trigger = {
+			check_variable = { blanquism_legality = 1 }
+		}
+		localization_key = party_legal
+	}
+	text = {
+		trigger = {
+			check_variable = { blanquism_legality = 0 }
+		}
+		localization_key = party_illegal
+	}
+	text = {
+		localization_key = party_legal
+	}
+}
+defined_text = { # Country
+	name = GetEgalitarianismLegality
+	text = {
+		trigger = {
+			check_variable = { egalitarianism_legality = 3 }
+		}
+		localization_key = party_ruling
+	}
+	text = {
+		trigger = {
+			check_variable = { egalitarianismlegality = 2 }
+		}
+		localization_key = party_coalition
+	}
+	text = {
+		trigger = {
+			check_variable = { egalitarianism_legality = 1 }
+		}
+		localization_key = party_legal
+	}
+	text = {
+		trigger = {
+			check_variable = { egalitarianism_legality = 0 }
+		}
+		localization_key = party_illegal
+	}
+	text = {
+		localization_key = party_legal
+	}
+}
+defined_text = { # Country
+	name = GetLibertarianismLegality
+	text = {
+		trigger = {
+			check_variable = { libertarianism_legality = 3 }
+		}
+		localization_key = party_ruling
+	}
+	text = {
+		trigger = {
+			check_variable = { libertarianism_legality = 2 }
+		}
+		localization_key = party_coalition
+	}
+	text = {
+		trigger = {
+			check_variable = { libertarianism_legality = 1 }
+		}
+		localization_key = party_legal
+	}
+	text = {
+		trigger = {
+			check_variable = { libertarianism_legality = 0 }
+		}
+		localization_key = party_illegal
+	}
+	text = {
+		localization_key = party_legal
+	}
+}
+defined_text = { # Country
+	name = GetProgressivismLegality
+	text = {
+		trigger = {
+			check_variable = { progressivism_legality = 3 }
+		}
+		localization_key = party_ruling
+	}
+	text = {
+		trigger = {
+			check_variable = { progressivism_legality = 2 }
+		}
+		localization_key = party_coalition
+	}
+	text = {
+		trigger = {
+			check_variable = { progressivism_legality = 1 }
+		}
+		localization_key = party_legal
+	}
+	text = {
+		trigger = {
+			check_variable = { progressivism_legality = 0 }
+		}
+		localization_key = party_illegal
+	}
+	text = {
+		localization_key = party_legal
+	}
+}
+defined_text = { # Country
+	name = GetCommercialismLegality
+	text = {
+		trigger = {
+			check_variable = { commercialism_legality = 3 }
+		}
+		localization_key = party_ruling
+	}
+	text = {
+		trigger = {
+			check_variable = { commercialism_legality = 2 }
+		}
+		localization_key = party_coalition
+	}
+	text = {
+		trigger = {
+			check_variable = { commercialism_legality = 1 }
+		}
+		localization_key = party_legal
+	}
+	text = {
+		trigger = {
+			check_variable = { commercialism_legality = 0 }
+		}
+		localization_key = party_illegal
+	}
+	text = {
+		localization_key = party_legal
+	}
+}
+defined_text = { # Country
+	name = GetConservativismLegality
+	text = {
+		trigger = {
+			check_variable = { conservativism_legality = 3 }
+		}
+		localization_key = party_ruling
+	}
+	text = {
+		trigger = {
+			check_variable = { conservativism_legality = 2 }
+		}
+		localization_key = party_coalition
+	}
+	text = {
+		trigger = {
+			check_variable = { conservativism_legality = 1 }
+		}
+		localization_key = party_legal
+	}
+	text = {
+		trigger = {
+			check_variable = { conservativism_legality = 0 }
+		}
+		localization_key = party_illegal
+	}
+	text = {
+		localization_key = party_legal
+	}
+}
+defined_text = { # Country
+	name = GetPaternalismLegality
+	text = {
+		trigger = {
+			check_variable = { paternalism_legality = 3 }
+		}
+		localization_key = party_ruling
+	}
+	text = {
+		trigger = {
+			check_variable = { paternalism_legality = 2 }
+		}
+		localization_key = party_coalition
+	}
+	text = {
+		trigger = {
+			check_variable = { paternalism_legality = 1 }
+		}
+		localization_key = party_legal
+	}
+	text = {
+		trigger = {
+			check_variable = { paternalism_legality = 0 }
+		}
+		localization_key = party_illegal
+	}
+	text = {
+		localization_key = party_legal
+	}
+}
+defined_text = { # Country
+	name = GetReactionismLegality
+	text = {
+		trigger = {
+			check_variable = { reactionism_legality = 3 }
+		}
+		localization_key = party_ruling
+	}
+	text = {
+		trigger = {
+			check_variable = { reactionism_legality = 2 }
+		}
+		localization_key = party_coalition
+	}
+	text = {
+		trigger = {
+			check_variable = { reactionism_legality = 1 }
+		}
+		localization_key = party_legal
+	}
+	text = {
+		trigger = {
+			check_variable = { reactionism_legality = 0 }
+		}
+		localization_key = party_illegal
+	}
+	text = {
+		localization_key = party_legal
+	}
+}
+defined_text = { # Country
+	name = GetUltraNationalismLegality
+	text = {
+		trigger = {
+			check_variable = { ultra_nationalism_legality = 3 }
+		}
+		localization_key = party_ruling
+	}
+	text = {
+		trigger = {
+			check_variable = { ultra_nationalism_legality = 2 }
+		}
+		localization_key = party_coalition
+	}
+	text = {
+		trigger = {
+			check_variable = { ultra_nationalism_legality = 1 }
+		}
+		localization_key = party_legal
+	}
+	text = {
+		trigger = {
+			check_variable = { ultra_nationalism_legality = 0 }
+		}
+		localization_key = party_illegal
+	}
+	text = {
+		localization_key = party_legal
+	}
+}
+defined_text = { # Country
+	name = GetHierarchismLegality
+	text = {
+		trigger = {
+			check_variable = { hierarchism_legality = 3 }
+		}
+		localization_key = party_ruling
+	}
+	text = {
+		trigger = {
+			check_variable = { hierarchism_legality = 2 }
+		}
+		localization_key = party_coalition
+	}
+	text = {
+		trigger = {
+			check_variable = { hierarchism_legality = 1 }
+		}
+		localization_key = party_legal
+	}
+	text = {
+		trigger = {
+			check_variable = { hierarchism_legality = 0 }
+		}
+		localization_key = party_illegal
+	}
+	text = {
+		localization_key = party_legal
+	}
+}

@@ -57,7 +57,7 @@ create_country_leader = {
 	name = "Freya Stenberg"
 	picture = "Portrait_VIN_Freya_Stenberg.dds"
 	expire = "1965.1.1"
-	ideology = progressivism_subtype
+	ideology = left_liberalism_subtype
 	traits = {
 		#
 	}

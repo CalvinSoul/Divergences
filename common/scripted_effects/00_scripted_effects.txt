@@ -124,3 +124,31 @@ ROOT_inherit_current_scope_wars_effect = {
 	}
 }
 
+PLA_recalc_coalition_percentage = {
+	set_temp_variable = { coalition_seats_temp = conservativism_seats}
+	add_to_temp_variable = { coalition_seats_temp = paternalism_seats }
+	add_to_temp_variable = { coalition_seats_temp = reactionism_seats }
+	add_to_temp_variable = { coalition_seats_temp = hierarchism_seats }
+
+	set_variable = { coalition_seats = coalition_seats_temp }
+
+	divide_temp_variable = { coalition_seats_temp = 3 }
+
+	set_variable = { coalition_percentage = coalition_seats_temp }
+
+	set_temp_variable = { senators_temp = coalition_seats }
+	divide_temp_variable = { senators_temp = 300 }
+	multiply_temp_variable = { senators_temp = 21 }
+	if = {
+		limit = { check_variable = { senators_temp > 0 } }
+		clamp_temp_variable = {
+			var = senators_temp
+			min = 1
+			max = 21
+		}
+	}
+	else = {
+		set_temp_variable = { senators_temp = 1 }
+	}
+	set_variable = { current_PLA_assembly_icon_frame = senators_temp }
+}

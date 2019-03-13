@@ -5,17 +5,16 @@ state={
 
 	history={
 		owner = ARA
+		add_core_of = MGH
 		buildings = {
 			infrastructure = 1
-
 		}
-
 	}
 
 	provinces={
 		1174 4051 4117 4176 7154 10037 10067 11940 12009 
 	}
-	manpower=17617
+	manpower=50214
 	buildings_max_level_factor=1.000
 	state_category=wasteland
 }

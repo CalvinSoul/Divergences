@@ -57,7 +57,7 @@ create_country_leader = {
 	name = "Hugo Da Costa"
 	picture = "Portrait_LUS_Hugo_Da_Costa.dds"
 	expire = "1965.1.1"
-	ideology = conservativism_subtype
+	ideology = liberal_conservatism_subtype
 	traits = {
 		#
 	}

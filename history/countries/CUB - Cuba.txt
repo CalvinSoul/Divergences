@@ -57,7 +57,7 @@ create_country_leader = {
 	name = "Guermo Azulo"
 	picture = "Portrait_CUB_Guermo_Azulo.dds"
 	expire = "1965.1.1"
-	ideology = paternalism_subtype
+	ideology = paternal_militarism_subtype
 	traits = {
 		#
 	}

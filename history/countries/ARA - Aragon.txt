@@ -1,4 +1,4 @@
-﻿capital = 1
+﻿capital = 165
 
 oob = "Default_1936"
 
@@ -57,7 +57,7 @@ create_country_leader = {
 	name = "Josep III"
 	picture = "Josep_III.tga"
 	expire = "1965.1.1"
-	ideology = progressivism_subtype
+	ideology = social_liberalism_subtype
 	traits = {
 		#
 	}

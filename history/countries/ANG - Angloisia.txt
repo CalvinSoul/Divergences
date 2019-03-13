@@ -61,7 +61,7 @@ create_country_leader = {
 	name = "Henri XII"
 	picture = "Portrait_ANG_Henri_XII.dds" 
 	expire = "1965.1.1"
-	ideology = conservativism_subtype
+	ideology = classical_conservativism_subtype
 	traits = { }
 }
 

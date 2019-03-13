@@ -8,15 +8,19 @@ state={
 		add_core_of = SPA
 		buildings = {
 			infrastructure = 5
-
 		}
-
+		victory_points = {
+			9815 5
+		}
+		victory_points = {
+			11851 5
+		}
 	}
 
 	provinces={
 		3940 6884 6954 9815 9819 11749 11798 11851 12070 
 	}
 	state_category = rural
-	manpower=100
+	manpower=787529
 	buildings_max_level_factor=1.000
 }

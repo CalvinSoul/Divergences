@@ -5,14 +5,15 @@ state={
 	provinces={
 		2223 8134 8155 8237 10955 11013 12904 12992 
 	}
-	state_category = rural
+	state_category = wasteland
+	impassable = yes
 	manpower=100
 	buildings_max_level_factor=1.000
 	history={
 		owner = JER
 		add_core_of = JER
 		buildings = {
-			infrastructure = 5
+			infrastructure = 0
 		}
 		#victory_points = { 0 5 }
 	}

@@ -34,6 +34,34 @@ add_ideas = {
 	HLT_private
 	#Other
 }
+#Governmetn Variables
+set_variable = { var = blanquism_seats value = 0 }
+set_variable = { var = egalitarianism_seats value = 0 }
+set_variable = { var = libertarianism_seats value = 9 }
+set_variable = { var = progressivism_seats value = 46 }
+set_variable = { var = commercialism_seats value = 30 }
+set_variable = { var = conservativism_seats value = 124 }
+set_variable = { var = paternalism_seats value = 26 }
+set_variable = { var = reactionism_seats value = 10 }
+set_variable = { var = ultra_nationalism_seats value = 12 }
+set_variable = { var = hierarchism_seats value = 43 }
+
+set_variable = { var = blanquism_legality value = 0 }
+set_variable = { var = egalitarianism_legality value = 0 }
+set_variable = { var = libertarianism_legality value = 1 }
+set_variable = { var = progressivism_legality value = 1 }
+set_variable = { var = commercialism_legality value = 1 }
+set_variable = { var = conservativism_legality value = 3 }
+set_variable = { var = paternalism_legality value = 2 }
+set_variable = { var = reactionism_legality value = 2 }
+set_variable = { var = ultra_nationalism_legality value = 1 }
+set_variable = { var = hierarchism_legality value = 2 }
+
+set_variable = { var = coalition_seats value = 0 }
+set_variable = { var = coalition_percentage value = 0 }
+
+set_variable = { var = current_PLA_assembly_icon_frame value = 0 }
+PLA_recalc_coalition_percentage = yes
 
 set_politics = {
 
@@ -78,56 +106,56 @@ set_politics = {
 	name = "André Inconnu"
 	picture = "Andre_Inconnu.tga"
 	expire = "1965.1.1"
-	ideology = blanquism_subtype
+	ideology = vanguardism_subtype
 	traits = {}
 }
 create_country_leader = {
 	name = "Sylvie Droz"
 	picture = "Sylvie_Droz.tga"
 	expire = "1965.1.1"
-	ideology = egalitarianism_subtype
+	ideology = egalitarian_collectivist_subtype
 	traits = {}
 }
 create_country_leader = {
 	name = "Dany Dimont"
 	picture = "Dany_Dimont.tga"
 	expire = "1965.1.1"
-	ideology = libertarianism_subtype
+	ideology = syndicalism_subtype
 	traits = {}
 }
 create_country_leader = {
 	name = "Judicael II"
 	picture = "Portrait_PLA_Judicael_II.dds"
 	expire = "1965.1.1"
-	ideology = progressivism_subtype
+	ideology = left_liberalism_subtype
 	traits = {}
 }
 create_country_leader = {
 	name = "Judicael II"
 	picture = "Portrait_PLA_Judicael_II.dds"
 	expire = "1965.1.1"
-	ideology = commercialism_subtype
+	ideology = classical_liberalism_subtype
 	traits = {}
 }
 create_country_leader = {
 	name = "Judicael II"
 	picture = "Portrait_PLA_Judicael_II.dds"
 	expire = "1965.1.1"
-	ideology = conservativism_subtype
+	ideology = classical_conservativism_subtype
 	traits = {}
 }
 create_country_leader = {
 	name = "Judicael II"
 	picture = "Portrait_PLA_Judicael_II.dds"
 	expire = "1965.1.1"
-	ideology = paternalism_subtype
+	ideology = paternal_militarism_subtype
 	traits = {}
 }
 create_country_leader = {
 	name = "Judicael II"
 	picture = "Portrait_PLA_Judicael_II.dds"
 	expire = "1965.1.1"
-	ideology = reactionism_subtype
+	ideology = absolute_monarchism_subtyp
 	traits = {}
 }
 create_country_leader = {
@@ -141,7 +169,7 @@ create_country_leader = {
 	name = "Judicael II"
 	picture = "Portrait_PLA_Judicael_II.dds"
 	expire = "1965.1.1"
-	ideology = hierarchism_subtype
+	ideology = imperial_hierarchism_subtype
 	traits = {}
 }
 

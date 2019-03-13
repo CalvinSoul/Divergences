@@ -57,7 +57,7 @@ create_country_leader = {
 	name = "Meng Ju"
 	picture = "Meng_Ju.tga"
 	expire = "1965.1.1"
-	ideology = blanquism_subtype
+	ideology = plebiscial_subtype
 	traits = {
 		#
 	}

@@ -1,0 +1,14 @@
+scripted_gui = {
+
+	pla_assembly_decision_ui = {
+		context_type = decision_category
+		window_name = "pla_assembly_decision_ui_window"
+
+		properties = {
+			PLA_assembly_icon = {
+				frame = current_PLA_assembly_icon_frame
+			} 
+		}
+	}
+}
+

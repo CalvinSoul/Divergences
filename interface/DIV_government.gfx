@@ -251,4 +251,10 @@ spriteTypes = {
 		name = "GFX_idea_very_high_taxation"
 		texturefile = "gfx/interface/ideas/idea_very_high_taxation.dds"
 	}
+
+	spriteType = {
+		name = "GFX_PLA_national_assembly"
+		texturefile = "gfx/interface/PLA_national_assembly.dds"
+		noOfFrames = 21
+	}
 }

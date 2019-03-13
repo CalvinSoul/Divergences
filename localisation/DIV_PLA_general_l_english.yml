@@ -46,3 +46,35 @@
  PLA_progressivism_coalition_long:0 "Liberty and Fraternity Party (Progressives)\nParti de la Liberté et Fraternit (Progressives)"
  PLA_libertarian_coalition:0 "Liberty and Fraternity"
  PLA_libertarian_coalition_long:0 "Liberty and Fraternity Party (Libertarian)\nParti de la Liberté et Fraternit (Libertaire)"
+
+##LocaL
+assembly_blanquism_seats_text:0 "§Y[?blanquism_seats|0]/300§!"
+assembly_egalitarianism_seats_text:0 "§Y[?egalitarianism_seats|0]/300§!"
+assembly_libertarianism_seats_text:0 "§Y[?libertarianism_seats|0]/300§!"
+assembly_progressivism_seats_text:0 "§Y[?progressivism_seats|0]/300§!"
+assembly_commercialism_seats_text:0 "§Y[?commercialism_seats|0]/300§!"
+assembly_conservativism_seats_text:0 "§Y[?conservativism_seats|0]/300§!"
+assembly_paternalism_seats_text:0 "§Y[?paternalism_seats|0]/300§!"
+assembly_reactionism_seats_text:0 "§Y[?reactionism_seats|0]/300§!"
+assembly_ultra_nationalism_seats_text:0 "§Y[?ultra_nationalism_seats|0]/300§!"
+assembly_hierarchism_seats_text:0 "§Y[?hierarchism_seats|0]/300§!"
+
+blanquism_legality_text:0 "[Root.GetBlanquismLegality]"
+egalitarianism_legality_text:0 "[Root.GetEgalitarianismLegality]"
+libertarianism_legality_text:0 "[Root.GetLibertarianismLegality]"
+progressivism_legality_text:0 "[Root.GetProgressivismLegality]"
+commercialism_legality_text:0 "[Root.GetCommercialismLegality]"
+conservativism_legality_text:0 "[Root.GetConservativismLegality]"
+paternalism_legality_text:0 "[Root.GetPaternalismLegality]"
+reactionism_legality_text:0 "[Root.GetReactionismLegality]"
+ultra_nationalism_legality_text:0 "[Root.GetUltraNationalismLegality]"
+hierarchism_legality_text:0 "[Root.GetHierarchismLegality]"
+
+party_ruling:0 "§GRuling Party"
+party_coalition:0 "§GCoalition Party"
+party_legal:0 "§ROpposition Party"
+party_illegal:0 "§gIllegal Party"
+
+coalition_values_text:0 "§Y Coalition Seats: [?coalition_seats|0]/300 \n Coalition Percentage: [?coalition_percentage|0]%§!"
+
+PLA_assembly_category:0 "National Assembly"

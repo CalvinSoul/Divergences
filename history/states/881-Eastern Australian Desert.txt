@@ -2,9 +2,10 @@ state={
 	id=881
 	name="STATE_881"
 	provinces={
-		2205 2221 8206 10991 
+		2205 2221 8206 10991 10336
 	}
-	state_category = rural
+	state_category = wasteland
+	impassable = yes
 	manpower=100
 	buildings_max_level_factor=1.000
 	history={

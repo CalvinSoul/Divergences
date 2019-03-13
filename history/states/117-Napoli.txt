@@ -2,35 +2,26 @@
 state={
 	id=117
 	name="STATE_117"
-	resources={
-		aluminium=10.000
-		steel=15.000
-	}
 
 	history={
 		owner = ARA
 		add_core_of = ARA
-		victory_points = {
-			819 20 
-		}
+		add_core_of = NAP
 		buildings = {
-			infrastructure = 6
-			arms_factory = 1
-			industrial_complex = 2
-			air_base = 3
-			819 = {
-				naval_base = 6
-
-			}
-
+			infrastructure = 5
 		}
-
+		victory_points = {
+			819 25
+		}
+		victory_points = {
+			955 5
+		}
 	}
 
 	provinces={
 		819 851 955 3958 9826 11803 
 	}
-	manpower=5333611
+	manpower=4628268
 	buildings_max_level_factor=1.000
 	state_category=city
 }

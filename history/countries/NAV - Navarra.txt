@@ -1,4 +1,4 @@
-﻿capital = 1
+﻿capital = 172
 
 oob = "Default_1936"
 
@@ -15,38 +15,38 @@ set_politics = {
 
 	parties = {
 		blanquism = { 
-			popularity = 10
+			popularity = 1
 		}
 		egalitarianism = {
-			popularity = 10
+			popularity = 4
 		}
 		libertarianism = {
-			popularity = 10
+			popularity = 5
 		}
 		progressivism = { 
-			popularity = 10
+			popularity = 30
 		}
 		commercialism = { 
-			popularity = 10
+			popularity = 20
 		}
 		conservativism = { 
-			popularity = 10
+			popularity = 20
 		}
 		paternalism = { 
-			popularity = 10
+			popularity = 5
 		}
 		reactionism = { 
-			popularity = 10
+			popularity = 5
 		}
 		ultra_nationalism = { 
 			popularity = 10
 		}
 		hierarchism = { 
-			popularity = 10
+			popularity = 0
 		}
 	}
 	
-	ruling_party = paternalism
+	ruling_party = progressivism
 	last_election = "1936.1.1"
 	election_frequency = 48
 	elections_allowed = no
@@ -54,10 +54,10 @@ set_politics = {
 
 create_country_leader = {
 	
-	name = "The Invisible Man"
-	picture = "gfx//leaders//Invisible_Man.tga"
+	name = "Belasquita I"
+	picture = "Belasquita_I.tga"
 	expire = "1965.1.1"
-	ideology = paternalism_subtype
+	ideology = social_liberalism_subtype
 	traits = {
 		#
 	}

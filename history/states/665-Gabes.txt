@@ -5,17 +5,19 @@ state={
 
 	history={
 		owner = ARA
+		add_core_of = MGH
 		buildings = {
-			infrastructure = 3
-
+			infrastructure = 5
 		}
-
+		victory_points = {
+			7005 5
+		}
 	}
 
 	provinces={
 		7005 10026 11957 
 	}
-	manpower=427824
+	manpower=321001
 	buildings_max_level_factor=1.000
 	state_category=pastoral
 }

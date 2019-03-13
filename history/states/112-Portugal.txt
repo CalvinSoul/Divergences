@@ -2,34 +2,29 @@
 state={
 	id=112
 	name="STATE_112"
-	resources={
-		tungsten=48.000
-	}
 
 	history={
 		owner = SPA
 		add_core_of = SPA
+		add_core_of = POR
 		victory_points = {
-			11805 30.0 
+			11805 50
+		}
+		victory_points = {
+			844 5
+		}
+		victory_points = {
+			970 5
 		}
 		buildings = {
-			infrastructure = 6
-			arms_factory = 2
-			industrial_complex = 4
-			air_base = 5
-			11805 = {
-				naval_base = 8
-
-			}
-
+			infrastructure = 5
 		}
-
 	}
 
 	provinces={
 		844 924 970 3861 11768 11805 
 	}
-	manpower=2369100
+	manpower=2940174
 	buildings_max_level_factor=1.000
 	state_category=city
 }

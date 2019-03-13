@@ -1,0 +1,14 @@
+#########
+#  PLA  #
+#########
+
+PLA_assembly_category = {
+	icon = usa_congress
+	allowed = {
+		original_tag = PLA
+	}
+
+	scripted_gui = pla_assembly_decision_ui
+
+	priority = 85
+}

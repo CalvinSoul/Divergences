@@ -1,0 +1,95 @@
+PLA_assembly_category = {
+		ree = {
+			
+			cost = 0
+			days_re_enable = 0
+			days_remove = 1
+			visible = { 
+					
+			}
+			available = {
+			}
+			complete_effect = {
+				#subtract_from_variable = { libertarianism_seats = 9 }
+				#add_to_variable = { conservativism_seats = 9 }
+				#set_variable = { libertarianism_legality = 0 } 
+				PLA_recalc_coalition_percentage = yes
+			}
+		} 
+	PLA_state_one = {
+
+		icon = eng_blackshirt_march
+
+		allowed = {
+			tag = PLA
+		}
+
+		available = {
+			has_full_control_of_state = 848
+		}
+
+		highlight_states = { state = 848 }
+
+		on_map_mode = map_only
+
+		cost = 0
+
+		fire_only_once = no
+
+		visible = {
+			tag = PLA
+		#	NOT = { has_government = fascism }
+		}
+
+		cancel_if_not_visible = yes
+
+		complete_effect = {
+			
+		}
+
+		ai_will_do = {
+			factor = 0
+		}
+	}
+	PLA_state_two = {
+
+		icon = eng_blackshirt_march
+
+		allowed = {
+			tag = PLA
+		}
+
+		available = {
+			has_full_control_of_state = 370
+		}
+
+		highlight_states = {
+            OR = {
+                state = 370
+                state = 367      
+                state = 862
+            }
+        }
+			
+		#on_map_mode = map_only
+
+		cost = 0
+
+		fire_only_once = no
+
+		visible = {
+			tag = PLA
+		#	NOT = { has_government = fascism }
+		}
+
+		cancel_if_not_visible = yes
+
+		complete_effect = {
+			
+		}
+
+		ai_will_do = {
+			factor = 0
+		}
+	}
+}

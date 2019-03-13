@@ -1,0 +1,312 @@
+guiTypes = {
+
+	containerWindowType = {
+		name = "pla_assembly_decision_ui_window"
+		position = { x = 0 y = 0 }
+		size = { width = 100% height= 500 }
+
+		iconType = {
+			name ="assembly_blanquism_icon"
+			spriteType = "GFX_ideology_blanquism_group"
+			position = { x= 15	 y = 100 }
+		}
+		instantTextBoxType = {
+			name ="assembly_blanquism_seats"
+			position = { x = 100 y = 100 }
+			font = "hoi_18"
+			text = "assembly_blanquism_seats_text"
+			format = UPPER_LEFT
+			maxHeight = 24
+		}
+		instantTextBoxType = {
+			name ="assembly_blanquism_name"
+			position = { x = 100 y = 115 }
+			font = "hoi_18"
+			text = "PLA_blanquism_party"
+			format = UPPER_LEFT
+			maxHeight = 24
+		}
+		instantTextBoxType = {
+			name ="assembly_blanquism_legality"
+			position = { x = 100 y = 130 }
+			font = "hoi_18"
+			text = "blanquism_legality_text"
+			format = UPPER_LEFT
+			maxHeight = 24
+		}
+		iconType = {
+			name ="assembly_egalitarianism_icon"
+			spriteType = "GFX_ideology_egalitarianism_group"
+			position = { x= 15	 y = 175 }
+		}
+		instantTextBoxType = {
+			name ="assembly_egalitarianism_seats"
+			position = { x = 100 y = 175 }
+			font = "hoi_18"
+			text = "assembly_egalitarianism_seats_text"
+			format = UPPER_LEFT
+			maxHeight = 24
+		}
+		instantTextBoxType = {
+			name ="assembly_egalitarianism_name"
+			position = { x = 100 y = 190 }
+			font = "hoi_18"
+			text = "PLA_egalitarianism_party"
+			format = UPPER_LEFT
+			maxHeight = 24
+		}
+		instantTextBoxType = {
+			name ="assembly_egalitarianism_legality"
+			position = { x = 100 y = 205 }
+			font = "hoi_18"
+			text = "egalitarianism_legality_text"
+			format = UPPER_LEFT
+			maxHeight = 24
+		}
+		iconType = {
+			name ="assembly_libertarianism_icon"
+			spriteType = "GFX_ideology_libertarianism_group"
+			position = { x= 15	 y = 250 }
+		}
+		instantTextBoxType = {
+			name ="assembly_libertarianism_seats"
+			position = { x = 100 y = 250 }
+			font = "hoi_18"
+			text = "assembly_libertarianism_seats_text"
+			format = UPPER_LEFT
+			maxHeight = 24
+		}
+		instantTextBoxType = {
+			name ="assembly_libertarianism_name"
+			position = { x = 100 y = 265 }
+			font = "hoi_18"
+			text = "PLA_libertarianism_party"
+			format = UPPER_LEFT
+			maxHeight = 24
+		}
+		instantTextBoxType = {
+			name ="assembly_libertarianism_legality"
+			position = { x = 100 y = 280 }
+			font = "hoi_18"
+			text = "libertarianism_legality_text"
+			format = UPPER_LEFT
+			maxHeight = 24
+		}
+		iconType = {
+			name ="assembly_progressivism_icon"
+			spriteType = "GFX_ideology_progressivism_group"
+			position = { x= 15	 y = 325 }
+		}
+		instantTextBoxType = {
+			name ="assembly_progressivism_seats"
+			position = { x = 100 y = 325 }
+			font = "hoi_18"
+			text = "assembly_progressivism_seats_text"
+			format = UPPER_LEFT
+			maxHeight = 24
+		}
+		instantTextBoxType = {
+			name ="assembly_progressivism_name"
+			position = { x = 100 y = 340 }
+			font = "hoi_18"
+			text = "PLA_progressivism_party"
+			format = UPPER_LEFT
+			maxHeight = 24
+		}
+		instantTextBoxType = {
+			name ="assembly_progressivism_legality"
+			position = { x = 100 y = 355 }
+			font = "hoi_18"
+			text = "progressivism_legality_text"
+			format = UPPER_LEFT
+			maxHeight = 24
+		}
+		iconType = {
+			name ="assembly_commercialism_icon"
+			spriteType = "GFX_ideology_commercialism_group"
+			position = { x= 15 y = 400 }
+		}
+		instantTextBoxType = {
+			name ="assembly_commercialism_seats"
+			position = { x = 100 y = 400 }
+			font = "hoi_18"
+			text = "assembly_commercialism_seats_text"
+			format = UPPER_LEFT
+			maxHeight = 24
+		}
+		instantTextBoxType = {
+			name ="assembly_commercialism_name"
+			position = { x = 100 y = 415 }
+			font = "hoi_18"
+			text = "PLA_commercialism_party"
+			format = UPPER_LEFT
+			maxHeight = 24
+		}
+		instantTextBoxType = {
+			name ="assembly_commercialism_legality"
+			position = { x = 100 y = 430 }
+			font = "hoi_18"
+			text = "commercialism_legality_text"
+			format = UPPER_LEFT
+			maxHeight = 24
+		}
+		iconType = {
+			name ="assembly_conservativism_icon"
+			spriteType = "GFX_ideology_conservativism_group"
+			position = { x= 250	 y = 100 }
+		}
+		instantTextBoxType = {
+			name ="assembly_conservativism_seats"
+			position = { x = 335 y = 100 }
+			font = "hoi_18"
+			text = "assembly_conservativism_seats_text"
+			format = UPPER_LEFT
+			maxHeight = 24
+		}
+		instantTextBoxType = {
+			name ="assembly_conservativism_name"
+			position = { x = 335 y = 115 }
+			font = "hoi_18"
+			text = "PLA_conservativism_party"
+			format = UPPER_LEFT
+			maxHeight = 24
+		}
+		instantTextBoxType = {
+			name ="assembly_conservativism_legality"
+			position = { x = 335 y = 130 }
+			font = "hoi_18"
+			text = "conservativism_legality_text"
+			format = UPPER_LEFT
+			maxHeight = 24
+		}
+		iconType = {
+			name ="assembly_paternalism_icon"
+			spriteType = "GFX_ideology_paternalism_group"
+			position = { x= 250	 y = 175 }
+		}
+		instantTextBoxType = {
+			name ="assembly_paternalism_seats"
+			position = { x = 335 y = 175 }
+			font = "hoi_18"
+			text = "assembly_paternalism_seats_text"
+			format = UPPER_LEFT
+			maxHeight = 24
+		}
+		instantTextBoxType = {
+			name ="assembly_paternalism_name"
+			position = { x = 335 y = 190 }
+			font = "hoi_18"
+			text = "PLA_paternalism_party"
+			format = UPPER_LEFT
+			maxHeight = 24
+		}
+		instantTextBoxType = {
+			name ="assembly_paternalism_legality"
+			position = { x = 335 y = 205 }
+			font = "hoi_18"
+			text = "paternalism_legality_text"
+			format = UPPER_LEFT
+			maxHeight = 24
+		}
+		iconType = {
+			name ="assembly_reactionism_icon"
+			spriteType = "GFX_ideology_reactionism_group"
+			position = { x= 250	 y = 250 }
+		}
+		instantTextBoxType = {
+			name ="assembly_reactionism_seats"
+			position = { x = 335 y = 250 }
+			font = "hoi_18"
+			text = "assembly_reactionism_seats_text"
+			format = UPPER_LEFT
+			maxHeight = 24
+		}
+		instantTextBoxType = {
+			name ="assembly_reactionism_name"
+			position = { x = 335 y = 265 }
+			font = "hoi_18"
+			text = "PLA_reactionism_party"
+			format = UPPER_LEFT
+			maxHeight = 24
+		}
+		instantTextBoxType = {
+			name ="assembly_reactionism_legality"
+			position = { x = 335 y = 280 }
+			font = "hoi_18"
+			text = "reactionism_legality_text"
+			format = UPPER_LEFT
+			maxHeight = 24
+		}
+		iconType = {
+			name ="assembly_ultra_nationalism_icon"
+			spriteType = "GFX_ideology_ultra_nationalism_group"
+			position = { x= 250	 y = 325 }
+		}
+		instantTextBoxType = {
+			name ="assembly_ultra_nationalism_seats"
+			position = { x = 335 y = 325 }
+			font = "hoi_18"
+			text = "assembly_ultra_nationalism_seats_text"
+			format = UPPER_LEFT
+			maxHeight = 24
+		}
+		instantTextBoxType = {
+			name ="assembly_ultra_nationalism_name"
+			position = { x = 335 y = 340 }
+			font = "hoi_18"
+			text = "PLA_ultra_nationalism_party"
+			format = UPPER_LEFT
+			maxHeight = 24
+		}
+		instantTextBoxType = {
+			name ="assembly_ultra_nationalism_legality"
+			position = { x = 335 y = 355 }
+			font = "hoi_18"
+			text = "ultra_nationalism_legality_text"
+			format = UPPER_LEFT
+			maxHeight = 24
+		}
+		iconType = {
+			name ="assembly_hierarchism_icon"
+			spriteType = "GFX_ideology_hierarchism_group"
+			position = { x= 250 y = 400 }
+		}
+		instantTextBoxType = {
+			name ="assembly_hierarchism_seats"
+			position = { x = 335 y = 400 }
+			font = "hoi_18"
+			text = "assembly_hierarchism_seats_text"
+			format = UPPER_LEFT
+			maxHeight = 24
+		}
+		instantTextBoxType = {
+			name ="assembly_hierarchism_name"
+			position = { x = 335 y = 415 }
+			font = "hoi_18"
+			text = "PLA_hierarchism_party"
+			format = UPPER_LEFT
+			maxHeight = 24
+		}
+		instantTextBoxType = {
+			name ="assembly_hierarchism_legality"
+			position = { x = 335 y = 430 }
+			font = "hoi_18"
+			text = "hierarchism_legality_text"
+			format = UPPER_LEFT
+			maxHeight = 24
+		}
+		instantTextBoxType = {
+			name ="coalition_values"
+			position = { x = 220 y = 20 }
+			font = "hoi_26mbs"
+			text = "coalition_values_text"
+			format = UPPER_LEFT
+			maxHeight = 24
+		}
+		iconType = {
+			name ="PLA_assembly_icon"
+			spriteType = "GFX_PLA_national_assembly"
+			position = { x= 40	 y = 0 }
+		}
+	}
+}

@@ -5,17 +5,26 @@ state={
 
 	history={
 		owner = ARA
+		add_core_of = ARA
+		add_core_of = CAR
 		buildings = {
-			infrastructure = 4
-
+			infrastructure = 5
 		}
-
+		victory_points = {
+			11953 5
+		}
+		victory_points = {
+			4046 25
+		}
+		victory_points = {
+			12051 5
+		}
 	}
 
 	provinces={
 		1058 1160 4046 7065 7081 7166 9976 10078 11953 12051 
 	}
-	manpower=2343837
+	manpower=2139130
 	buildings_max_level_factor=1.000
 	state_category=town
 }

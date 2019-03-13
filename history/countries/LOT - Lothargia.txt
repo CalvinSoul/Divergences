@@ -57,7 +57,7 @@ create_country_leader = {
 	name = "Hugo Nibelungen"
 	picture = "Portrait_LOT_Hugo_Nibelungen.dds"
 	expire = "1965.1.1"
-	ideology = paternalism_subtype
+	ideology = paternal_militarism_subtype
 	traits = {
 		#
 	}

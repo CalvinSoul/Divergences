@@ -2,7 +2,7 @@
 state={
 	id=178
 	name="STATE_178"
-	manpower = 561347
+	manpower = 439765
 	
 	state_category = small_island
 
@@ -10,10 +10,10 @@ state={
 		owner = SPA
 		add_core_of = SPA
 		buildings = {
-			infrastructure = 3
-			13071 = {
-				naval_base = 1
-			}
+			infrastructure = 5
+		}
+		victory_points = {
+			13071 5
 		}
 	}
 

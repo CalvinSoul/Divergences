@@ -57,7 +57,7 @@ create_country_leader = {
 	name = "Feng Jie"
 	picture = "Feng_Jie.tga"
 	expire = "1965.1.1"
-	ideology = paternalism_subtype
+	ideology = unitary_nationalism_subtype
 	traits = {
 		#
 	}

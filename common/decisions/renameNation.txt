@@ -1,4 +1,4 @@
-rename_nation_catagory = {
+rename_nation_category = {
 		native_names = {
 			
 			cost = 0

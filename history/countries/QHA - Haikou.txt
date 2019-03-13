@@ -57,7 +57,7 @@ create_country_leader = {
 	name = "Song Shi"
 	picture = "Song_Shi.tga"
 	expire = "1965.1.1"
-	ideology = conservativism_subtype
+	ideology = classical_conservativism_subtype
 	traits = {
 		#
 	}

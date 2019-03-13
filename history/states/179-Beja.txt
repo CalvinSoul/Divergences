@@ -6,22 +6,25 @@ state={
 	history={
 		owner = SPA
 		add_core_of = SPA
+		add_core_of = POR
 		buildings = {
-			infrastructure = 6
-			industrial_complex = 3
-			3790 = {
-				naval_base = 2
-
-			}
-
+			infrastructure =5
 		}
-
+		victory_points = {
+			6880 5
+		}
+		victory_points = {
+			6933 5
+		}
+		victory_points = {
+			9896 5
+		}
 	}
 
 	provinces={
 		980 3790 3846 3866 3886 3926 6880 6933 6986 9765 9869 
 	}
-	manpower=1122200
+	manpower=684936
 	buildings_max_level_factor=1.000
 	state_category=town
 }
