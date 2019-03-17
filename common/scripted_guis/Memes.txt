@@ -1,0 +1,10 @@
+scripted_gui = {
+	overlay = {
+   		context_type = player_context
+ 		parent_window_token = politics_tab
+  		window_name = "DIV_politics_tab_overlay"
+    	visible = { always = yes }
+    	effects = {}
+    	triggers = {}
+  	}
+}

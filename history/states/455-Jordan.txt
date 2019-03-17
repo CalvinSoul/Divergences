@@ -4,8 +4,8 @@ state={
 	name="STATE_455"
 
 	history={
-		owner = PAL
-		add_core_of = PAL
+		owner = ARB
+		add_core_of = ARB
 		buildings = {
 			infrastructure = 3
 			industrial_complex = 1

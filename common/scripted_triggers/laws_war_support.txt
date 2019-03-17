@@ -45,8 +45,8 @@ has_unsupported_manpower_law = {
 		}
 			has_idea = extensive_conscription
 			has_war_support < 0.2
-			NOT = { has_government = communism }
-			NOT = { has_government = fascism }
+		#	NOT = { has_government = communism }
+		#	NOT = { has_government = fascism }
 	}
 	else_if = {
 		limit = {
@@ -54,8 +54,8 @@ has_unsupported_manpower_law = {
 		}
 			has_idea = service_by_requirement
 			has_war_support < 0.6
-			NOT = { has_government = communism }
-			NOT = { has_government = fascism }
+		#	NOT = { has_government = communism }
+		#	NOT = { has_government = fascism }
 	}
 	else_if = {
 		limit = {
@@ -98,12 +98,12 @@ has_excessive_army_size = { #not currently used due to AI concerns
 		AND = {
 			has_army_manpower = { size = 2500000 }
 			has_manpower < 1
-			has_government = democratic
+		#	has_government = democratic
 		}
 		AND = {
 			has_army_manpower = { size = 3000000 }
 			has_manpower < 1
-			has_government = fascism
+		#	has_government = fascism
 		}
 	}
 }

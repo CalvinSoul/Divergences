@@ -21,16 +21,16 @@ set_politics = {
 			popularity = 6
 		}
 		libertarianism = {
-			popularity = 15
+			popularity = 10
 		}
 		progressivism = { 
-			popularity = 30
-		}
-		commercialism = { 
 			popularity = 15
 		}
+		commercialism = { 
+			popularity = 34
+		}
 		conservativism = { 
-			popularity = 10
+			popularity = 11
 		}
 		paternalism = { 
 			popularity = 6
@@ -46,7 +46,7 @@ set_politics = {
 		}
 	}
 	
-	ruling_party = progressivism
+	ruling_party = commercialism
 	last_election = "1936.1.1"
 	election_frequency = 48
 	elections_allowed = no
@@ -57,7 +57,7 @@ create_country_leader = {
 	name = "Josep III"
 	picture = "Josep_III.tga"
 	expire = "1965.1.1"
-	ideology = social_liberalism_subtype
+	ideology = classical_liberalism_subtype
 	traits = {
 		#
 	}

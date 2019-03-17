@@ -21,13 +21,13 @@ set_politics = {
 			popularity = 0
 		}
 		libertarianism = {
-			popularity = 14
+			popularity = 4
 		}
 		progressivism = { 
 			popularity = 4
 		}
 		commercialism = { 
-			popularity = 21
+			popularity = 11
 		}
 		conservativism = { 
 			popularity = 8
@@ -42,7 +42,7 @@ set_politics = {
 			popularity = 29
 		}
 		hierarchism = { 
-			popularity = 6
+			popularity = 26
 		}
 	}
 	
@@ -58,6 +58,26 @@ create_country_leader = {
 	picture = "Portrait_SEP_Godfried_Hoedemaker.dds"
 	expire = "1965.1.1"
 	ideology = national_corporatist_subtype
+	traits = {
+		#
+	}
+}
+create_country_leader = {
+	
+	name = "Boede Van Der Woude"
+	picture = "Boede_Van_Der_Woude.dds"
+	expire = "1965.1.1"
+	ideology = hierarchism_subtype
+	traits = {
+		#
+	}
+}
+create_country_leader = {
+	
+	name = "Egérius Quirion"
+	picture = "Egerius_Quirion.dds"
+	expire = "1965.1.1"
+	ideology = paternalism_subtype
 	traits = {
 		#
 	}

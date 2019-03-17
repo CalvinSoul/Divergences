@@ -15,7 +15,7 @@ guiTypes = {
 			position = { x = 100 y = 100 }
 			font = "hoi_18"
 			text = "assembly_blanquism_seats_text"
-			format = UPPER_LEFT
+			format = LEFT
 			maxHeight = 24
 		}
 		instantTextBoxType = {
@@ -23,7 +23,7 @@ guiTypes = {
 			position = { x = 100 y = 115 }
 			font = "hoi_18"
 			text = "PLA_blanquism_party"
-			format = UPPER_LEFT
+			format = LEFT
 			maxHeight = 24
 		}
 		instantTextBoxType = {
@@ -31,7 +31,7 @@ guiTypes = {
 			position = { x = 100 y = 130 }
 			font = "hoi_18"
 			text = "blanquism_legality_text"
-			format = UPPER_LEFT
+			format = LEFT
 			maxHeight = 24
 		}
 		iconType = {
@@ -44,7 +44,7 @@ guiTypes = {
 			position = { x = 100 y = 175 }
 			font = "hoi_18"
 			text = "assembly_egalitarianism_seats_text"
-			format = UPPER_LEFT
+			format = LEFT
 			maxHeight = 24
 		}
 		instantTextBoxType = {
@@ -52,7 +52,7 @@ guiTypes = {
 			position = { x = 100 y = 190 }
 			font = "hoi_18"
 			text = "PLA_egalitarianism_party"
-			format = UPPER_LEFT
+			format = LEFT
 			maxHeight = 24
 		}
 		instantTextBoxType = {
@@ -60,7 +60,7 @@ guiTypes = {
 			position = { x = 100 y = 205 }
 			font = "hoi_18"
 			text = "egalitarianism_legality_text"
-			format = UPPER_LEFT
+			format = LEFT
 			maxHeight = 24
 		}
 		iconType = {
@@ -73,7 +73,7 @@ guiTypes = {
 			position = { x = 100 y = 250 }
 			font = "hoi_18"
 			text = "assembly_libertarianism_seats_text"
-			format = UPPER_LEFT
+			format = LEFT
 			maxHeight = 24
 		}
 		instantTextBoxType = {
@@ -81,7 +81,7 @@ guiTypes = {
 			position = { x = 100 y = 265 }
 			font = "hoi_18"
 			text = "PLA_libertarianism_party"
-			format = UPPER_LEFT
+			format = LEFT
 			maxHeight = 24
 		}
 		instantTextBoxType = {
@@ -89,7 +89,7 @@ guiTypes = {
 			position = { x = 100 y = 280 }
 			font = "hoi_18"
 			text = "libertarianism_legality_text"
-			format = UPPER_LEFT
+			format = LEFT
 			maxHeight = 24
 		}
 		iconType = {
@@ -102,7 +102,7 @@ guiTypes = {
 			position = { x = 100 y = 325 }
 			font = "hoi_18"
 			text = "assembly_progressivism_seats_text"
-			format = UPPER_LEFT
+			format = LEFT
 			maxHeight = 24
 		}
 		instantTextBoxType = {
@@ -110,7 +110,7 @@ guiTypes = {
 			position = { x = 100 y = 340 }
 			font = "hoi_18"
 			text = "PLA_progressivism_party"
-			format = UPPER_LEFT
+			format = LEFT
 			maxHeight = 24
 		}
 		instantTextBoxType = {
@@ -118,7 +118,7 @@ guiTypes = {
 			position = { x = 100 y = 355 }
 			font = "hoi_18"
 			text = "progressivism_legality_text"
-			format = UPPER_LEFT
+			format = LEFT
 			maxHeight = 24
 		}
 		iconType = {
@@ -131,7 +131,7 @@ guiTypes = {
 			position = { x = 100 y = 400 }
 			font = "hoi_18"
 			text = "assembly_commercialism_seats_text"
-			format = UPPER_LEFT
+			format = LEFT
 			maxHeight = 24
 		}
 		instantTextBoxType = {
@@ -139,7 +139,7 @@ guiTypes = {
 			position = { x = 100 y = 415 }
 			font = "hoi_18"
 			text = "PLA_commercialism_party"
-			format = UPPER_LEFT
+			format = LEFT
 			maxHeight = 24
 		}
 		instantTextBoxType = {
@@ -147,7 +147,7 @@ guiTypes = {
 			position = { x = 100 y = 430 }
 			font = "hoi_18"
 			text = "commercialism_legality_text"
-			format = UPPER_LEFT
+			format = LEFT
 			maxHeight = 24
 		}
 		iconType = {
@@ -160,7 +160,7 @@ guiTypes = {
 			position = { x = 335 y = 100 }
 			font = "hoi_18"
 			text = "assembly_conservativism_seats_text"
-			format = UPPER_LEFT
+			format = LEFT
 			maxHeight = 24
 		}
 		instantTextBoxType = {
@@ -168,7 +168,7 @@ guiTypes = {
 			position = { x = 335 y = 115 }
 			font = "hoi_18"
 			text = "PLA_conservativism_party"
-			format = UPPER_LEFT
+			format = LEFT
 			maxHeight = 24
 		}
 		instantTextBoxType = {
@@ -176,7 +176,7 @@ guiTypes = {
 			position = { x = 335 y = 130 }
 			font = "hoi_18"
 			text = "conservativism_legality_text"
-			format = UPPER_LEFT
+			format = LEFT
 			maxHeight = 24
 		}
 		iconType = {
@@ -189,7 +189,7 @@ guiTypes = {
 			position = { x = 335 y = 175 }
 			font = "hoi_18"
 			text = "assembly_paternalism_seats_text"
-			format = UPPER_LEFT
+			format = LEFT
 			maxHeight = 24
 		}
 		instantTextBoxType = {
@@ -197,7 +197,7 @@ guiTypes = {
 			position = { x = 335 y = 190 }
 			font = "hoi_18"
 			text = "PLA_paternalism_party"
-			format = UPPER_LEFT
+			format = LEFT
 			maxHeight = 24
 		}
 		instantTextBoxType = {
@@ -205,7 +205,7 @@ guiTypes = {
 			position = { x = 335 y = 205 }
 			font = "hoi_18"
 			text = "paternalism_legality_text"
-			format = UPPER_LEFT
+			format = LEFT
 			maxHeight = 24
 		}
 		iconType = {
@@ -218,7 +218,7 @@ guiTypes = {
 			position = { x = 335 y = 250 }
 			font = "hoi_18"
 			text = "assembly_reactionism_seats_text"
-			format = UPPER_LEFT
+			format = LEFT
 			maxHeight = 24
 		}
 		instantTextBoxType = {
@@ -226,7 +226,7 @@ guiTypes = {
 			position = { x = 335 y = 265 }
 			font = "hoi_18"
 			text = "PLA_reactionism_party"
-			format = UPPER_LEFT
+			format = LEFT
 			maxHeight = 24
 		}
 		instantTextBoxType = {
@@ -234,7 +234,7 @@ guiTypes = {
 			position = { x = 335 y = 280 }
 			font = "hoi_18"
 			text = "reactionism_legality_text"
-			format = UPPER_LEFT
+			format = LEFT
 			maxHeight = 24
 		}
 		iconType = {
@@ -247,7 +247,7 @@ guiTypes = {
 			position = { x = 335 y = 325 }
 			font = "hoi_18"
 			text = "assembly_ultra_nationalism_seats_text"
-			format = UPPER_LEFT
+			format = LEFT
 			maxHeight = 24
 		}
 		instantTextBoxType = {
@@ -255,7 +255,7 @@ guiTypes = {
 			position = { x = 335 y = 340 }
 			font = "hoi_18"
 			text = "PLA_ultra_nationalism_party"
-			format = UPPER_LEFT
+			format = LEFT
 			maxHeight = 24
 		}
 		instantTextBoxType = {
@@ -263,7 +263,7 @@ guiTypes = {
 			position = { x = 335 y = 355 }
 			font = "hoi_18"
 			text = "ultra_nationalism_legality_text"
-			format = UPPER_LEFT
+			format = LEFT
 			maxHeight = 24
 		}
 		iconType = {
@@ -276,7 +276,7 @@ guiTypes = {
 			position = { x = 335 y = 400 }
 			font = "hoi_18"
 			text = "assembly_hierarchism_seats_text"
-			format = UPPER_LEFT
+			format = LEFT
 			maxHeight = 24
 		}
 		instantTextBoxType = {
@@ -284,7 +284,7 @@ guiTypes = {
 			position = { x = 335 y = 415 }
 			font = "hoi_18"
 			text = "PLA_hierarchism_party"
-			format = UPPER_LEFT
+			format = LEFT
 			maxHeight = 24
 		}
 		instantTextBoxType = {
@@ -292,7 +292,7 @@ guiTypes = {
 			position = { x = 335 y = 430 }
 			font = "hoi_18"
 			text = "hierarchism_legality_text"
-			format = UPPER_LEFT
+			format = LEFT
 			maxHeight = 24
 		}
 		instantTextBoxType = {
@@ -300,7 +300,7 @@ guiTypes = {
 			position = { x = 220 y = 20 }
 			font = "hoi_26mbs"
 			text = "coalition_values_text"
-			format = UPPER_LEFT
+			format = LEFT
 			maxHeight = 24
 		}
 		iconType = {
