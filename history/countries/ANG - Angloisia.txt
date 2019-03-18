@@ -66,6 +66,6 @@ create_country_leader = {
 }
 
 set_autonomy = {
-	target = NAZ
+	target = JER
 	autonomous_state = autonomy_4
 	freedom_level = 0.5
