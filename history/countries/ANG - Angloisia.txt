@@ -65,3 +65,7 @@ create_country_leader = {
 	traits = { }
 }
 
+set_autonomy = {
+	target = NAZ
+	autonomous_state = autonomy_4
+	freedom_level = 0.5
