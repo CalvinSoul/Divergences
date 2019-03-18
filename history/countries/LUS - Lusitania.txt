@@ -62,3 +62,113 @@ create_country_leader = {
 		#
 	}
 }
+create_field_marshal = {
+	name = "Lourenço da Costa Silva"
+	desc = ""
+	picture = "Lourenco_Silva.tga"
+	traits = {}
+	skill = 1
+	attack_skill = 1
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 1
+}	
+create_field_marshal = {
+	name = "Raphael Cusatti de Abrantes"
+	desc = ""
+	picture = "Raphael_Abrantes.tga"
+	traits = {}
+	skill = 1
+	attack_skill = 1
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 1
+}
+create_corps_commander = {
+	name = "Aloisio dos Santos Jr."
+	desc = ""
+	picture = "Aloisio_Santos.tga"
+	traits = {}
+	skill = 1
+	attack_skill = 1
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 1
+}
+create_corps_commander = {
+	name = "Cleiton Silva Huitztlacatl"
+	desc = ""
+	picture = "Cleiton_Huitztlacatl.tga"
+	traits = {}
+	skill = 1
+	attack_skill = 1
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 1
+}
+create_corps_commander = {
+	name = "Diogo Euzébio da Cunha"
+	desc = ""
+	picture = "Diogo_Cunha.tga"
+	traits = {}
+	skill = 1
+	attack_skill = 1
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 1
+}
+create_corps_commander = {
+	name = "João Pedro Mascarenhas"
+	desc = ""
+	picture = "Joao_Mascarenhas.tga"
+	traits = {}
+	skill = 1
+	attack_skill = 1
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 1
+}
+create_corps_commander = {
+	name = "Martinho Tlatehui Memehua"
+	desc = ""
+	picture = "Martinho_Memehua.tga"
+	traits = {}
+	skill = 1
+	attack_skill = 1
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 1
+}
+create_navy_leader = {
+	name = "Casemiro de Abreu e Arruda"
+	desc = ""
+	picture = "Casemiro_Arruda.tga"
+	traits = {}
+	skill = 1
+	attack_skill = 1
+	defense_skill = 1
+	maneuvering_skill = 1
+	coordination_skill = 1
+}
+create_navy_leader = {
+	name = "Francisco Fernandes Gomes"
+	desc = ""
+	picture = "Francisco_Gomes.tga"
+	traits = {}
+	skill = 1
+	attack_skill = 1
+	defense_skill = 1
+	maneuvering_skill = 1
+	coordination_skill = 1
+}
+create_navy_leader = {
+	name = "José Pinto Müller"
+	desc = ""
+	picture = "Jose_Muller.tga"
+	traits = {}
+	skill = 1
+	attack_skill = 1
+	defense_skill = 1
+	maneuvering_skill = 1
+	coordination_skill = 1
+}

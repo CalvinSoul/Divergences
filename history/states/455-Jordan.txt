@@ -4,7 +4,7 @@ state={
 	name="STATE_455"
 
 	history={
-		owner = ARB
+		owner = ARA
 		add_core_of = ARB
 		buildings = {
 			infrastructure = 3
@@ -18,7 +18,7 @@ state={
 	}
 
 	provinces={
-		4017 4115 7151 7170 10089 
+		1544 4017 4115 4440 4574 4591 7001 7151 7170 10089 
 	}
 	manpower=932000
 	buildings_max_level_factor=1.000

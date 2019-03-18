@@ -222,10 +222,18 @@ create_navy_leader = {
 	picture = "Jean-Charles_De_Verley.dds"
 	traits = { }
 	skill = 1
+	attack_skill = 1
+	defense_skill = 1
+	maneuvering_skill = 1
+	coordination_skill = 1
 }
 create_navy_leader = {
 	name = "Auguste Martin"
 	picture = "Auguste_Martin.dds"
 	traits = { }
 	skill = 1
+	attack_skill = 1
+	defense_skill = 1
+	maneuvering_skill = 1
+	coordination_skill = 1
 }

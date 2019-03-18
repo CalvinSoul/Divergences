@@ -7,7 +7,8 @@ state={
 	}
 
 	history={
-		owner = TUR
+		owner = MAC
+		add_core_of = MAc
 		add_core_of = TUR
 		buildings = {
 			infrastructure = 4
@@ -21,7 +22,7 @@ state={
 	}
 
 	provinces={
-		785 947 3786 6864 6912 9799 9887 11778 11867 
+		6864 6912 8435 9799 9887 11778 
 	}
 	manpower=1026527
 	buildings_max_level_factor=1.000
