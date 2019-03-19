@@ -1,21 +1,30 @@
 state={
 	id=669
 	name="STATE_669"
-	manpower = 314300
+	manpower = 671415
 
 	state_category = pastoral
 
-	history= {
+	history={
 		owner = JER
-		add_core_of = IDN
-		victory_points = {
-			12371 1 
-		}
+		add_core_of = JER
 		buildings = {
-			infrastructure = 1
-			12371 = {
-				naval_base = 2
-			}
+			infrastructure = 5
+		}
+		victory_points = {
+			4468 5
+		}
+		victory_points = {
+			10505 5
+		}
+		victory_points = {
+			12371 5
+		}
+		victory_points = {
+			4593 5
+		}
+		victory_points = {
+			7542 5
 		}
 	}
 	provinces={

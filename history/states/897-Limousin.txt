@@ -1,18 +1,22 @@
+
 state={
 	id=897
 	name="STATE_897"
-	provinces={
-		620 625 651 3598 3621 3626 6648 6651 11869 
-	}
-	state_category = rural
-	manpower=100
-	buildings_max_level_factor=1.000
+
 	history={
 		owner = ANG
 		add_core_of = ANG
 		buildings = {
 			infrastructure = 5
+
 		}
-		#victory_points = { 0 5 }
+
 	}
+
+	provinces={
+		620 625 651 3598 3621 3626 6618 6648 6651 6792 9751 11869 
+	}
+	manpower=100
+	buildings_max_level_factor=1.000
+	state_category=rural
 }

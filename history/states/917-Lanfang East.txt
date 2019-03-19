@@ -1,0 +1,17 @@
+state={
+	id=917
+	name="STATE_917"
+	provinces={
+		2170 2222 7424 8221 10310 
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+	state_category=town
+	history={
+		owner = CHI
+		add_core_of = CHI
+		buildings = {
+			infrastructure = 5
+		}
+	}
+}

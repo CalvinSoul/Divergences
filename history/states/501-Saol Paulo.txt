@@ -8,29 +8,31 @@ state={
 		add_core_of = LOT
 		buildings = {
 			infrastructure = 5
+
 		}
 		victory_points = {
-			10513 25
+			10513 25 
 		}
 		victory_points = {
-			12479 5
+			12479 5 
 		}
 		victory_points = {
-			10432 5
+			10432 5 
 		}
 		victory_points = {
-			5112 5
+			5112 5 
 		}
 		victory_points = {
-			1583 5
+			1583 5 
 		}
 		victory_points = {
-			12438 5
+			12438 5 
 		}
+
 	}
 
 	provinces={
-		1583 2185 5186 7476 7636 8148 8210 10360 10513 10947 10994 11003 11008 12438 12479 12937 12972 7553 5167 5112 10432
+		1583 2185 5112 5167 5186 7553 7636 8148 8210 10360 10432 10513 10947 10994 11003 11008 12438 12479 12937 12972 
 	}
 	manpower=1221511
 	buildings_max_level_factor=1.000
