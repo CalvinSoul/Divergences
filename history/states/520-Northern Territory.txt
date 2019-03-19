@@ -2,32 +2,25 @@
 state={
 	id=520
 	name="STATE_520"
-	resources={
-		steel=22.000
-	}
 
 	history={
 		owner = JER
 		add_core_of = JER
 		buildings = {
-			infrastructure = 3
-			air_base = 1
-			7669 = {
-				naval_base = 1
-
-			}
-
+			infrastructure = 5
 		}
 		victory_points = {
-			7669 5 
+			7669 30
 		}
-
+		victory_points = {
+			1410 25
+		}
 	}
 
 	provinces={
 		1217 1410 1422 1431 4415 7457 7669 10276 10288 10316 10518 12104 12246 12290 12339 12499 
 	}
-	manpower=13000
+	manpower=2403683
 	buildings_max_level_factor=1.000
-	state_category=wasteland
+	state_category=rural
 }

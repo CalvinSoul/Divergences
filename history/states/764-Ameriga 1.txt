@@ -8,19 +8,21 @@ state={
 		add_core_of = LOT
 		buildings = {
 			infrastructure = 5
+
 		}
 		victory_points = {
-			10999 25
+			10999 25 
 		}
 		victory_points = {
-			7589 5
+			7589 5 
 		}
+
 	}
 
 	provinces={
 		2153 4570 7476 7589 10999 12938 
 	}
-	state_category = rural
 	manpower=1199314
 	buildings_max_level_factor=1.000
+	state_category=rural
 }

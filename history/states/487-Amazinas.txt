@@ -7,12 +7,14 @@ state={
 		owner = AMA
 		buildings = {
 			infrastructure = 5
+
 		}
 		add_core_of = AMA
+
 	}
 
 	provinces={
-		10982 12917 12973 
+		10982 12973 
 	}
 	manpower=73875
 	buildings_max_level_factor=1.000

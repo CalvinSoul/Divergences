@@ -3,19 +3,21 @@ state={
 	id=519
 	name="STATE_519"
 
-	history= {
+	history={
 		owner = VER
 		add_core_of = VER
 		victory_points = {
-			12976 5
+			12976 5 
 		}
 		buildings = {
 			infrastructure = 5
+
 		}
+
 	}
 
 	provinces={
-		2191 2219 5211 5225 7567 8186 8200 8220 10925 10969 12948 12962 12976 12990 
+		2191 8200 10969 12948 12962 12976 12990 
 	}
 	manpower=427036
 	buildings_max_level_factor=1.000

@@ -8,15 +8,19 @@ state={
 		add_core_of = JER
 		buildings = {
 			infrastructure = 5
-
 		}
-
+		victory_points = {
+			8209 5
+		}
+		victory_points = {
+			8152 5
+		}
 	}
 
 	provinces={
 		2201 5207 8152 8209 8247 10937 10958 11016 12993 13133 
 	}
-	manpower=100
+	manpower=608257
 	buildings_max_level_factor=1.000
 	state_category=rural
 }
