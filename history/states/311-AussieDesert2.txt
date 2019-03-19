@@ -1,13 +1,13 @@
 
 state={
-	id=519
-	name="STATE_519"
+	id=311
+	name="STATE_311"
 
 	history= {
 		owner = VER
 		add_core_of = VER
 		victory_points = {
-			12976 5
+			5183 5
 		}
 		buildings = {
 			infrastructure = 5
@@ -15,9 +15,9 @@ state={
 	}
 
 	provinces={
-		2191 2219 5211 5225 7567 8186 8200 8220 10925 10969 12948 12962 12976 12990 
+		5183 5197 8165 10927 13169 
 	}
-	manpower=427036
+	manpower=145738
 	buildings_max_level_factor=1.000
-	state_category=pastoral
+	state_category=rural
 }

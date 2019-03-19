@@ -1,0 +1,19 @@
+state={
+	id=314
+	name="STATE_314"
+	provinces={
+		8134 8155 12904 
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+	state_category = wasteland
+	impassable = yes
+	history={
+		owner = JER
+		add_core_of = JER
+		buildings = {
+			infrastructure = 0
+		}
+		#victory_points = { 0 5 }
+	}
+}

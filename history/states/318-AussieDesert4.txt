@@ -1,0 +1,20 @@
+state={
+	id=318
+	name="STATE_318"
+	provinces={
+		10336 
+	}
+	manpower=1179
+	buildings_max_level_factor=1.000
+	impassable = yes
+	state_category=wasteland
+	history={
+		owner = ZHO
+		add_core_of = ZHO
+		buildings = {
+			infrastructure = 0
+		}
+		#victory_points = { 0 5 }
+	}
+}
+

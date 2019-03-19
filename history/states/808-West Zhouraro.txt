@@ -3,20 +3,27 @@ state={
 	id=808
 	name="STATE_808"
 
-	history={
+	history= {
 		owner = ZHO
 		add_core_of = ZHO
-		buildings = {
-			infrastructure = 1
-
+		victory_points = {
+			12910 5
 		}
-
+		victory_points = {
+			5225 5
+		}
+		victory_points = {
+			2219 5
+		}
+		buildings = {
+			infrastructure = 5
+		}
 	}
 
 	provinces={
 		2219 5211 5225 7567 8186 8220 8249 10925 12910 
 	}
 	state_category = rural
-	manpower=100
+	manpower=489852
 	buildings_max_level_factor=1.000
 }

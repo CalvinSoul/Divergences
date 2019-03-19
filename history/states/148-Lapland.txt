@@ -10,6 +10,7 @@ state={
 	history={
 		owner = SCA
 		add_core_of = SCA
+		add_core_of = FIN
 		buildings = {
 			infrastructure = 2
 

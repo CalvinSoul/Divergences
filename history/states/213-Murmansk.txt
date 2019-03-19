@@ -10,7 +10,9 @@ state={
 	}
 
 	history={
-		owner = RUS
+		owner = SCA
+		add_core_of = SCA
+		add_core_of = FIN
 		victory_points = {
 			3134 5 
 		}

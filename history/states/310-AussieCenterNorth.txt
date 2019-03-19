@@ -1,0 +1,21 @@
+
+state={
+	id=310
+	name="STATE_310"
+	provinces={
+		1454 1478 1514 2139 4441 4462 4487 5206 7481 10979 12311 12326 12915 12936 12957 
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+
+	state_category = rural
+
+	history={
+		owner = JER
+		add_core_of = JER
+		buildings = {
+			infrastructure = 5
+		}
+		#victory_points = { 0 5 }
+	}
+}

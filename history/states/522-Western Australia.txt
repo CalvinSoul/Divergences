@@ -3,30 +3,30 @@ state={
 	id=522
 	name="STATE_522"
 
-	history={
+	history= {
 		owner = VER
-		buildings = {
-			infrastructure = 5
-			industrial_complex = 1
-			air_base = 1
-			1652 = {
-				naval_base = 1
-				coastal_bunker = 1
-
-			}
-
+		add_core_of = VER
+		victory_points = {
+			1652 30
 		}
 		victory_points = {
-			1652 3 
+			7453 25
 		}
-		add_core_of = VER
-
+		victory_points = {
+			10949 5
+		}
+		victory_points = {
+			8130 5
+		}
+		buildings = {
+			infrastructure = 5
+		}
 	}
 
 	provinces={
 		1526 1540 1652 2157 4630 5175 7453 7579 7608 8130 8228 8243 10949 10983 10997 11011 
 	}
-	manpower=367200
+	manpower=3131639
 	buildings_max_level_factor=1.000
 	state_category=rural
 }

@@ -9,7 +9,8 @@ state=
 	
 	history=
 	{
-		owner = SCA
+		owner = SCO
+		add_core_of = SCO
 		add_core_of = SCA
 		victory_points = { 12674 1 }
 		buildings = {

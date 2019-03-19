@@ -1,18 +1,23 @@
+
 state={
 	id=882
 	name="STATE_882"
-	provinces={
-		1557 4560 4632 5198 7610 10460 10487 10941 12411 12424 12934 12949 
-	}
-	state_category = rural
-	manpower=100
-	buildings_max_level_factor=1.000
-	history={
+
+	history= {
 		owner = ZHO
 		add_core_of = ZHO
+		victory_points = {
+			10460 5
+		}
 		buildings = {
 			infrastructure = 5
 		}
-		#victory_points = { 0 5 }
 	}
+
+	provinces={
+		1557 4560 4632 5198 7610 10460 10475 10487 12411 12424 12949 
+	}
+	manpower=165886
+	buildings_max_level_factor=1.000
+	state_category=rural
 }

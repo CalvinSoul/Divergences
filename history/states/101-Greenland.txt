@@ -8,8 +8,9 @@ state=
 	
 	history=
 	{
-		owner = ANG
-		add_core_of = ANG
+		owner = SCO
+		add_core_of = SCO
+		add_core_of = SCA
 		buildings = {
 			infrastructure = 1
 			12512 ={

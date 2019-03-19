@@ -6,37 +6,33 @@ state={
 		tungsten=24.000
 	}
 
-	history={
+	history= {
 		owner = ZHO
 		add_core_of = ZHO
+		victory_points = {
+			7564 5
+		}
+		victory_points = {
+			7522 5
+		}
+		victory_points = {
+			1472 5
+		}
+		victory_points = {
+			7592 5
+		}
+		victory_points = {
+			2116 5
+		}
 		buildings = {
 			infrastructure = 5
-			industrial_complex = 1
-			air_base = 1
-			7564 = {
-				naval_base = 2
-				coastal_bunker = 1
-
-			}
-			7566 = {
-				naval_base = 1
-
-			}
-
 		}
-		victory_points = {
-			7564 5 
-		}
-		victory_points = {
-			7566 1 
-		}
-
 	}
 
 	provinces={
-		1472 1570 2116 2163 4481 4502 4517 4530 4546 5227 7522 7535 7564 7592 7651 7666 10430 10445 10458 10977 11006 12308 12451 
+		1472 1570 2116 2163 4481 4502 4517 4530 4546 5227 7522 7535 7564 7592 7651 7666 10430 10445 10458 10941 10977 11006 12308 12451 12934 
 	}
-	manpower=916800
+	manpower=808847
 	buildings_max_level_factor=1.000
 	state_category=town
 }

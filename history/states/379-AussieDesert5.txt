@@ -1,21 +1,20 @@
 
 state={
-	id=881
-	name="STATE_881"
+	id=379
+	name="STATE_379"
 
 	history={
-		owner = ZHO
-		add_core_of = ZHO
+		owner = VER
+		add_core_of = VER
 		buildings = {
 			infrastructure = 0
-
 		}
 	}
 	impassable = yes
 	provinces={
-		2205 2221 8206 10991 13170 13171 
+		5138 7623 12906 13131 13172 
 	}
-	manpower=9526
+	manpower=11237
 	buildings_max_level_factor=1.000
 	state_category=wasteland
 }
