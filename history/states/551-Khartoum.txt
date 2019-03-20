@@ -7,28 +7,23 @@ state={
 		owner = EGY
 		add_core_of = EGY
 		buildings = {
-			infrastructure = 2
-			industrial_complex = 1
-			air_base = 2
-			12725 = {
-				naval_base = 3
-
-			}
-
+			infrastructure = 5
 		}
 		victory_points = {
-			12806 3 
+			12836 5
 		}
 		victory_points = {
-			12725 1 
+			2046 5
 		}
-
+		victory_points = {
+			12725 5
+		}
 	}
 
 	provinces={
 		2003 2046 4138 4963 7989 8105 10745 10902 12725 12796 12836 
 	}
-	manpower=1993507
+	manpower=1366906
 	buildings_max_level_factor=1.000
 	state_category=rural
 }

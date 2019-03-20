@@ -5,13 +5,19 @@ state={
 		1155 4073 9947 12049 
 	}
 	state_category = rural
-	manpower=100
+	manpower=213385
 	buildings_max_level_factor=1.000
 	history={
 		owner = ICZ
+		add_core_of = EGY
 		buildings = {
-			infrastructure = 3
-
+			infrastructure = 5
+		}
+		victory_points = {
+			12049 25
+		}
+		victory_points = {
+			4073 5
 		}
 	}
 }

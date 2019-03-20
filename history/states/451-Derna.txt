@@ -2,25 +2,22 @@
 state={
 	id=451
 	name="STATE_451"
-	manpower = 45628
+	manpower = 251074
 	
 	state_category = wasteland
 
 	history={
 		owner = EGY
 		add_core_of = EGY
-		
 		victory_points = {
-			1130 5 
+			7082 5
+		}
+		victory_points = {
+			1130 5
 		}
 		buildings = {
-			infrastructure = 2
-			air_base = 4
-			1130 = {
-				naval_base = 6
-			}
+			infrastructure = 5
 		}
-
 	}
 
 	provinces={

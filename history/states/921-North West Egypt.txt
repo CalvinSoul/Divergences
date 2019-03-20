@@ -12,6 +12,6 @@ state={
 		}
 	}
 	state_category=wasteland
-	manpower=0
+	manpower=42817
 	buildings_max_level_factor=1.000
 }
