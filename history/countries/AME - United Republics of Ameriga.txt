@@ -1,0 +1,64 @@
+capital = 493
+
+oob = "Default_1936"
+
+# Starting tech
+set_technology = {
+	
+
+}
+
+set_convoys = 50
+
+
+set_politics = {
+
+	parties = {
+		blanquism = { 
+			popularity = 0
+		}
+		egalitarianism = {
+			popularity = 0
+		}
+		libertarianism = {
+			popularity = 0
+		}
+		progressivism = { 
+			popularity = 0
+		}
+		commercialism = { 
+			popularity = 0
+		}
+		conservativism = { 
+			popularity = 0
+		}
+		paternalism = { 
+			popularity = 0
+		}
+		reactionism = { 
+			popularity = 0
+		}
+		ultra_nationalism = { 
+			popularity = 100
+		}
+		hierarchism = { 
+			popularity = 0
+		}
+	}
+	
+	ruling_party = ultra_nationalism
+	last_election = "1936.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+create_country_leader = {
+	
+	name = "Miguel Alvarado"
+	picture = "Portrait_AME_Miguel_Alvarado.dds"
+	expire = "1965.1.1"
+	ideology = ultra_nationalism_subtype
+	traits = {
+		#
+	}
+}

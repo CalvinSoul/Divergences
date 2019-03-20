@@ -3,7 +3,8 @@
 #############
 AAR = "countries/Afro Arcadia.txt"
 ATH = "countries/Athesia.txt"
-ADS = "countries/Afrique du Sud.txt"	
+ADS = "countries/Afrique du Sud.txt"
+ADG = "countries/Andagoya.txt"	
 AFG = "countries/Afganistan.txt"	
 ALB = "countries/Albania.txt"	
 AMA = "countries/Amazonia.txt"	
