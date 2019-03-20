@@ -905,7 +905,7 @@
  STATE_895:0 "Huelva"
  #STATE_896:0 ""
  STATE_897:0 "Limousin"
- #STATE_898:0 ""
+ STATE_898:0 "Auvergne"
  STATE_899:0 "Bourgogne"
  STATE_900:0 "Garonne"
  STATE_901:0 "Groningen"

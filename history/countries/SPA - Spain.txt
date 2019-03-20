@@ -66,3 +66,14 @@ create_country_leader = {
 		target = NAZ
 		autonomous_state = autonomy_4
 		freedom_level = 0.5
+		}
+	set_autonomy = {
+		target = HAW
+		autonomous_state = autonomy_4
+		freedom_level = 0.5
+	}
+	set_autonomy = {
+		target = CUB
+		autonomous_state = autonomy_4
+		freedom_level = 0.5
+	}
