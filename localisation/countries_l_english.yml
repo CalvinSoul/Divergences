@@ -42,10 +42,21 @@
  CAR_paternalism:0 "Republic of Carthage"
  CHI_paternalism:0 "Heavenly Kingdom"
  COR_paternalism:0 "Duchy of Courland"
+ 
+ CUB_blanquism:0 "People's Republic of Cuba"
+ CUB_egalitarianism:0 "People's Republics of Cuba"
+ CUB_libertarianism:0 "Republic of Cuba"
+ CUB_progressivism:0 "Viceroyalty of Cuba"
+ CUB_commercialism:0 "Viceroyalty of Cuba"
+ CUB_conservativism:0 "Viceroyalty of Cuba"
  CUB_paternalism:0 "Viceroyalty of Cuba"
+ CUB_reactionism:0 "Viceroyalty of Cuba"
+ CUB_ultra_nationalism:0 "Cuban National State"
+ CUB_hierarchism:0 "Viceroyalty of Cuba"
+ 
  DAN_paternalism:0 "Confederation of the Danube"
  EEN_paternalism:0 "Eendrachtsland Republic"
- EGY_paternalism:0 "Kingdom of Egypt"
+ EGY_paternalism:0 "Sultanate of Egypt"
  ETH_paternalism:0 "Ethiopian Empire"
  FIN_paternalism:0 "Kingdom of Finland"
  GAA_paternalism:0 "German Afrikan Authority"
@@ -65,7 +76,18 @@
 
  GRE_paternalism:0 "Helenic Republic"
  HAN_paternalism:0 "Département of Hanoi"
- HAW_paternalism:0 "Viceroyalty of Hawai"
+
+ HAW_blanquism:0 "People's Republic of Hawaii"
+ HAW_egalitarianism:0 "People's Republics of Hawaii"
+ HAW_libertarianism:0 "Republic of Hawaii"
+ HAW_progressivism:0 "Viceroyalty of Hawaii"
+ HAW_commercialism:0 "Viceroyalty of Hawaii"
+ HAW_conservativism:0 "Viceroyalty of Hawaii"
+ HAW_paternalism:0 "Viceroyalty of Hawaii"
+ HAW_reactionism:0 "Kingdom of Hawai’i"
+ HAW_ultra_nationalism:0 "Hawai’i”
+ HAW_hierarchism:0 "Viceroyalty of Hawaii"
+
  HIN_paternalism:0 "Republic of Hindustan"
  HUN_progressivism:0 "Republic of Hungary"
  ICZ_market_liberal:0 "International Canal Zone"
@@ -83,8 +105,8 @@
  ITA_commercialism:0 "Republic of Italy"
  ITA_conservativism:0 "Republic of Italy"
  ITA_paternalism:0 "Most Serene Republic of Italy"
- ITA_reactionism:0 "Admiralty of Italy"
- ITA_ultra_nationalism:0 "Most Serene State of Venice"
+ ITA_reactionism:0 "Most Serene Republic of Italy"
+ ITA_ultra_nationalism:0 "Most Serene State of Italy"
  ITA_hierarchism:0 "Kingdom of Italy"
 
  PDM_blanquism:0 "Commune of Alba"
@@ -93,7 +115,7 @@
  PDM_progressivism:0 "Republic of Alba"
  PDM_commercialism:0 "Republic of Alba"
  PDM_conservativism:0 "Republic of Alba"
- PDM_paternalism:0 "Republic fo Alba"
+ PDM_paternalism:0 "Republic of Alba"
  PDM_reactionism:0 "Duchy of Piedmont"
  PDM_ultra_nationalism:0 "State of Alba"
  PDM_hierarchism:0 "Kingdom of Piedmont"
@@ -112,6 +134,7 @@
  MNT_commercialism:0 "Republic of Montenegro"
  MON_paternalism:0 "Dzunghar Khanate"
  NAP_paternalism:0 "Kingdom of Naples"
+ 
  NAZ_blanquism:0 "People's Republic of Nueva Azores"
  NAZ_egalitarianism:0 "People's Republic of Nueva Azores"
  NAZ_libertarianism:0 "Republic of Nueva Azores"
@@ -134,9 +157,9 @@
  NAV_ultra_nationalism:0 "Basque State"
  NAV_hierarchism:0 "Kingdom of Navarre"
 
-
  NEP_paternalism:0 "Tibetan Empire"
  OCC_blanquism:0 "Occitanian Commune"
+ OCC_egalitarianism:0 "Occitanian People's Republic"
  POR_paternalism:0 "Kingdom of Portugal"
  PAL_paternalism:0 "Protectorate of the Levant"
  PAP_reactionism:0 "Papal State"
@@ -188,9 +211,20 @@
  SHA_ultra_nationalism:0 "Valhalla Afrika Staat"
  SIK_paternalism:0 "Sikh Empire"
  SLV_paternalism:0 "Slovakian Free State"
- SPA_progressivism:0 "Kingdom of Spain"
+ 
+ SPA_blanquism:0 "People's Republic of Spain"
+ SPA_egalitarianism:0 "People's Republic of Spain"
+ SPA_libertarianism:0 "Spanish Republic"
+ SPA_progressivism:0 "Kingdom of Spain”
+ SPA_commercialism:0 "Kingdom of Spain"
+ SPA_conservativism:0 "Kingdom of Spain"
+ SPA_paternalism:0 "Kingdom of Spain"
+ SPA_reactionism:0 "Kingdom of Spain"
+ SPA_ultra_nationalism:0 "Spain”
+ SPA_hierarchism:0 "Kingdom of Spain"
+
  STP_paternalism:0 "Turkic Confederation"
- TAR_paternalism:0 "Tartarstan"
+ TAR_paternalism:0 "Tatarstan"
  TAW_hierarchism:0 "Incan Empire"
  TCA_paternalism:0 "Transcaucasian Federative Republic"
  TEL_paternalism:0 "Telegu Confederation"
