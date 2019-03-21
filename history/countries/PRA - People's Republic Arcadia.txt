@@ -182,6 +182,41 @@ create_navy_leader = {
 	picture = "Ange_Hachette.tga"
 	traits = { }
 	skill = 1
+	attack_skill = 1
+	defense_skill = 1
+	maneuvering_skill = 1
+	coordination_skill = 1
 }
+create_navy_leader = {
+	name = "Aaron Mossé"
+	picture = "Aaron_Mosse.tga"
+	traits = { }
+	skill = 1
+	attack_skill = 1
+	defense_skill = 1
+	maneuvering_skill = 1
+	coordination_skill = 1
+}
+create_navy_leader = {
+	name = " Gabriel Gaumont"
+	picture = "Gabriel_Gaumont.tga"
+	traits = { }
+	skill = 1
+	attack_skill = 1
+	defense_skill = 1
+	maneuvering_skill = 1
+	coordination_skill = 1
+}
+create_navy_leader = {
+	name = "Davy Riqueti"
+	picture = "Davy_Riqueti.tga"
+	traits = { }
+	skill = 1
+	attack_skill = 1
+	defense_skill = 1
+	maneuvering_skill = 1
+	coordination_skill = 1
+}
+
 
 

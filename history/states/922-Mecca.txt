@@ -1,0 +1,27 @@
+state={
+	id=922
+	name="STATE_922"
+	provinces={
+		1920 1923 2090 5006 5037 8073 10786 12883 
+	}
+	history={
+		owner = ARB
+		add_core_of = ARB
+		victory_points = {
+			12883 5 
+		}
+		victory_points = {
+			5037 30
+		}
+		victory_points = {
+			8073 5
+		}
+		buildings = {
+			infrastructure = 5
+		}
+	}
+
+	state_category=pastoral
+	manpower=1549326
+	buildings_max_level_factor=1.000
+}

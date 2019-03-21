@@ -1,0 +1,20 @@
+state={
+	id=928
+	name="STATE_928"
+	provinces={
+		10904 
+	}
+	history={
+		owner = ARB
+		add_core_of = ARB
+		victory_points = {
+			10904 5
+		}
+		buildings = {
+			infrastructure = 5
+		}
+	}
+	state_category=rural
+	manpower=145729
+	buildings_max_level_factor=1.000
+}

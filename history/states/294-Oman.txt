@@ -2,33 +2,34 @@
 state={
 	id=294
 	name="STATE_294"
-	resources={
-		oil=2.000
-	}
 
 	history={
 		owner = ARB
 		add_core_of = ARB
 		buildings = {
-			infrastructure = 2
-			arms_factory = 1
-			industrial_complex = 1
-			10760 = {
-				naval_base = 3
-
-			}
-
+			infrastructure = 5
 		}
 		victory_points = {
-			10760 3 
+			4993 5 
 		}
-
+		victory_points = {
+			5049 5 
+		}
+		victory_points = {
+			10760 5 
+		}
+		victory_points = {
+			8020 5 
+		}
+		victory_points = {
+			2130 5 
+		}
 	}
 
 	provinces={
-		1947 2018 2048 4993 5049 7960 8002 8020 10760 10904 
+		1947 2018 2059 2103 4993 5049 8002 8020 10760 
 	}
-	manpower=369000
+	manpower=538263
 	buildings_max_level_factor=1.000
 	state_category=rural
 }

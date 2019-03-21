@@ -2,35 +2,23 @@
 state={
 	id=658
 	name="STATE_658"
-	resources={
-		oil=5.000
-	}
 
 	history={
 		owner = ARB
 		add_core_of = ARB
 		victory_points = {
-			7960 1 
+			7960 5
 		}
 		buildings = {
-			infrastructure = 2
-			7960 = {
-				naval_base = 3
-
-			}
-			8051 = {
-				naval_base = 2
-
-			}
-
+			infrastructure = 5
 		}
 
 	}
 
 	provinces={
-		4932 8051 8108 
+		2048 4932 7960 8108 
 	}
-	manpower=220000
+	manpower=82552
 	buildings_max_level_factor=1.000
 	state_category=pastoral
 }

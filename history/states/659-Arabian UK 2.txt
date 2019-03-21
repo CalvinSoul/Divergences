@@ -7,28 +7,21 @@ state={
 		owner = ARB
 		add_core_of = ARB
 		victory_points = {
-			5074 1 
+			2029 5 
+		}
+		victory_points = {
+			12821 5
 		}
 		buildings = {
-			infrastructure = 3
-			air_base = 4
-			5074 = {
-				naval_base = 3
-
-			}
-			8000 = {
-				naval_base = 1
-
-			}
-
+			infrastructure = 5
 		}
 
 	}
 
 	provinces={
-		2029 2059 2103 4924 4976 12821 12894 13079 
+		2029 4924 4976 12821 12894 13079 
 	}
-	manpower=891505
+	manpower=1124784
 	buildings_max_level_factor=1.000
 	state_category=pastoral
 }

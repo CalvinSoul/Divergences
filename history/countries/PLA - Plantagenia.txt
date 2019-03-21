@@ -217,6 +217,28 @@ create_corps_commander = {
 	planning_skill = 1
 	logistics_skill = 1
 }
+create_corps_commander = {
+	name = "Vincent Allais"
+	desc = ""
+	picture = "Vincent_Allais.dds"
+	traits = {}
+	skill = 1
+	attack_skill = 1
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 1
+}
+create_corps_commander = {
+	name = "Matthieu Lagarde"
+	desc = ""
+	picture = "Matthieu_Lagarde.dds"
+	traits = {}
+	skill = 1
+	attack_skill = 1
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 1
+}
 create_navy_leader = {
 	name = "Jean-Charles De Verley"
 	picture = "Jean-Charles_De_Verley.dds"
@@ -230,6 +252,16 @@ create_navy_leader = {
 create_navy_leader = {
 	name = "Auguste Martin"
 	picture = "Auguste_Martin.dds"
+	traits = { }
+	skill = 1
+	attack_skill = 1
+	defense_skill = 1
+	maneuvering_skill = 1
+	coordination_skill = 1
+}
+create_navy_leader = {
+	name = "Benoît Balzac"
+	picture = "Benoit_Balzac.dds"
 	traits = { }
 	skill = 1
 	attack_skill = 1
