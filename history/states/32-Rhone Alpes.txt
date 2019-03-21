@@ -17,7 +17,6 @@ state={
 		victory_points = {
 			3768 1 
 		}
-		add_core_of = PAP
 
 	}
 

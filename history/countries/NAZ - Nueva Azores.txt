@@ -1,4 +1,4 @@
-﻿capital = 1
+﻿capital = 1814
 
 oob = "Default_1936"
 
@@ -15,16 +15,16 @@ set_politics = {
 
 	parties = {
 		blanquism = { 
-			popularity = 10
+			popularity = 15
 		}
 		egalitarianism = {
-			popularity = 10
+			popularity = 5
 		}
 		libertarianism = {
 			popularity = 10
 		}
 		progressivism = { 
-			popularity = 10
+			popularity = 20
 		}
 		commercialism = { 
 			popularity = 10
@@ -39,17 +39,17 @@ set_politics = {
 			popularity = 10
 		}
 		ultra_nationalism = { 
-			popularity = 10
+			popularity = 8
 		}
 		hierarchism = { 
-			popularity = 10
+			popularity = 2
 		}
 	}
 	
-	ruling_party = paternalism
+	ruling_party = progressivism
 	last_election = "1936.1.1"
 	election_frequency = 48
-	elections_allowed = no
+	elections_allowed = yes
 }
 
 create_country_leader = {
@@ -62,3 +62,15 @@ create_country_leader = {
 		#
 	}
 }
+
+create_country_leader = {
+	
+	name = "César Espinoza"
+	picture = "Cesar_Espinoza.tga"
+	expire = "1965.1.1"
+	ideology = progressivism_subtype
+	traits = {
+		#
+	}
+}
+
