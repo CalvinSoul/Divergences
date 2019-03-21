@@ -259,7 +259,7 @@ ai_will_do = {
 focus = { 
 id = SHA_thegreatpurge
 icon = GFX_focus_valhalla2
-x = 17
+x = 16
 y = 5
 cost = 5
 available_if_capitulated = yes 
@@ -316,7 +316,7 @@ ai_will_do = {
 focus = { 
 id = SHA_crackdownonthetribes
 icon = GFX_goal_unknown
-x = 17
+x = 16
 y = 6
 cost = 5
 available_if_capitulated = yes 
@@ -344,7 +344,7 @@ ai_will_do = {
 focus = { 
 id = SHA_newblood
 icon = GFX_goal_unknown
-x = 7
+x = 9
 y = 8
 cost = 5
 available_if_capitulated = yes 
@@ -394,7 +394,7 @@ ai_will_do = {
 focus = { 
 id = SHA_theloyalfew
 icon = GFX_goal_unknown
-x = 16
+x = 15
 y = 8
 cost = 5
 available_if_capitulated = yes 
@@ -419,7 +419,7 @@ ai_will_do = {
 focus = { 
 id = SHA_aliberalmarket
 icon = GFX_goal_unknown
-x = 7
+x = 9
 y = 9
 cost = 5
 available_if_capitulated = yes 
@@ -466,7 +466,7 @@ ai_will_do = {
 focus = { 
 id = SHA_nationalizevalhalla
 icon = GFX_goal_unknown
-x = 16
+x = 15
 y = 9
 cost = 5
 available_if_capitulated = yes 
@@ -497,10 +497,10 @@ focus = {
 id = SHA_morerightstothekingdoms
 icon = GFX_goal_unknown
 x = 9
-y = 11
+y = 10
 cost = 5
 available_if_capitulated = yes 
-prerequisite = { focus = SHA_aliberalmarket focus = SHA_keepwipmonopolyceowipincharge focus = SHA_theoldguard } 
+prerequisite = { focus = SHA_aliberalmarket } 
 ai_will_do = { 
  factor = 1
  } 
@@ -520,12 +520,12 @@ ai_will_do = {
 focus = { 
 id = SHA_newreasurrancetreaties
 icon = GFX_goal_unknown
-x = 13
-y = 11
+x = 12
+y = 10
 cost = 5
 available_if_capitulated = yes 
-prerequisite = { focus = SHA_keepwipmonopolyceowipincharge focus = SHA_nationalizevalhalla } 
-mutually_exclusive = { focus = SHA_morerightstothekingdoms focus = SHA_ }ai_will_do = { 
+prerequisite = { focus = SHA_keepwipmonopolyceowipincharge } 
+ai_will_do = { 
  factor = 1
  } 
 
@@ -544,12 +544,11 @@ mutually_exclusive = { focus = SHA_morerightstothekingdoms focus = SHA_ }ai_will
 focus = { 
 id = SHA_dissolvealltreaties
 icon = GFX_goal_unknown
-x = 17
-y = 11
+x = 15
+y = 10
 cost = 5
 available_if_capitulated = yes 
-prerequisite = { focus = SHA_nationalizevalhalla } 
-mutually_exclusive = { focus = SHA_newreasurrancetreaties } 
+prerequisite = { focus = SHA_nationalizevalhalla }  
 ai_will_do = { 
  factor = 1
  } 
@@ -559,5 +558,261 @@ modify_global_flag = {
     value = 1
 }
 
+}
+
+
+#Focus fo go with angloisia
+focus = { 
+id = SHA_angloisia
+icon = GFX_goal_unknown
+x = 10
+y = 12
+cost = 5
+available_if_capitulated = yes 
+prerequisite = { focus = SHA_morerightstothekingdoms focus = SHA_newreasurrancetreaties }
+mutually_exclusive = { focus = SHA_burgundy }
+ ai_will_do = { 
+ factor = 1
+ } 
+
+ completion_reward = {
+
+ 
+ } 
+
+}
+
+#Focus fo establish a parliment
+focus = { 
+id = SHA_parliment
+icon = GFX_goal_unknown
+x = 8
+y = 13
+cost = 5
+available_if_capitulated = yes 
+prerequisite = { focus = SHA_angloisia }
+ ai_will_do = { 
+ factor = 1
+ } 
+
+ completion_reward = {
+
+ } 
+
+}
+
+#Focus fo native representation
+focus = { 
+id = SHA_nativerepresentation
+icon = GFX_goal_unknown
+x = 8
+y = 14
+cost = 5
+available_if_capitulated = yes 
+prerequisite = { focus = SHA_parliment }
+ ai_will_do = { 
+ factor = 1
+ } 
+
+ completion_reward = {
+
+ } 
+
+}
+
+
+#Focus fo a democratic valhalla
+focus = { 
+id = SHA_democratic valhalla
+icon = GFX_goal_unknown
+x = 8
+y = 15
+cost = 5
+available_if_capitulated = yes 
+prerequisite = { focus = SHA_nativerepresentation }
+ ai_will_do = { 
+ factor = 1
+ } 
+
+ completion_reward = {
+
+ } 
+
+}
+
+#Focus fo anglois land
+focus = { 
+id = SHA_angloisland
+icon = GFX_goal_unknown
+x = 10
+y = 13
+cost = 5
+available_if_capitulated = yes 
+prerequisite = { focus = SHA_angloisia }
+ ai_will_do = { 
+ factor = 1
+ } 
+
+ completion_reward = {
+
+ } 
+
+}
+
+#Focus fo develop it
+focus = { 
+id = SHA_developit
+icon = GFX_goal_unknown
+x = 10
+y = 14
+cost = 5
+available_if_capitulated = yes 
+prerequisite = { focus = SHA_angloisland }
+ ai_will_do = { 
+ factor = 1
+ } 
+
+ completion_reward = {
+
+ } 
+
+}
+
+#Focus fo land for the pepole
+focus = { 
+id = SHA_landforpepole
+icon = GFX_goal_unknown
+x = 10
+y = 15
+cost = 5
+available_if_capitulated = yes 
+prerequisite = { focus = SHA_developit }
+ ai_will_do = { 
+ factor = 1
+ } 
+
+ completion_reward = {
+
+ } 
+
+}
+
+#Focus fo go with burgundy
+focus = { 
+id = SHA_burgundy
+icon = GFX_goal_unknown
+x = 14
+y = 12
+cost = 5
+available_if_capitulated = yes 
+prerequisite = { focus = SHA_dissolvealltreaties focus = SHA_newreasurrancetreaties }
+ai_will_do = { 
+ factor = 1
+ } 
+
+ completion_reward = {
+
+ 
+ } 
+
+}
+
+#Focus fo burgundian land
+focus = { 
+id = SHA_burgundianland
+icon = GFX_goal_unknown
+x = 14
+y = 13
+cost = 5
+available_if_capitulated = yes 
+prerequisite = { focus = SHA_burgundy }
+ai_will_do = { 
+ factor = 1
+ } 
+
+ completion_reward = {
+
+ 
+ } 
+
+}
+
+#Focus fo millitarize it
+focus = { 
+id = SHA_millitarizeit
+icon = GFX_goal_unknown
+x = 13
+y = 14
+cost = 5
+available_if_capitulated = yes 
+prerequisite = { focus = SHA_burgundianland }
+ai_will_do = { 
+ factor = 1
+ } 
+
+ completion_reward = {
+
+ 
+ } 
+
+}
+
+#Focus fo exploit it
+focus = { 
+id = SHA_exploitit
+icon = GFX_goal_unknown
+x = 15
+y = 14
+cost = 5
+available_if_capitulated = yes 
+prerequisite = { focus = SHA_burgundianland }
+ai_will_do = { 
+ factor = 1
+ } 
+
+ completion_reward = {
+
+ 
+ } 
+
+}
+
+#Focus fo establish einheri
+focus = { 
+id = SHA_einheri
+icon = GFX_goal_unknown
+x = 17
+y = 13
+cost = 5
+available_if_capitulated = yes 
+prerequisite = { focus = SHA_burgundy focus = SHA_dissolvealltreaties }
+ai_will_do = { 
+ factor = 1
+ } 
+
+ completion_reward = {
+
+ 
+ } 
+
+}
+
+#Focus fo total surveilance 
+focus = { 
+id = SHA_surveilance
+icon = GFX_goal_unknown
+x = 17
+y = 14
+cost = 5
+available_if_capitulated = yes 
+prerequisite = { focus = SHA_einheri }
+ai_will_do = { 
+ factor = 1
+ } 
+
+ completion_reward = {
+
+ 
+ } 
 
 }
