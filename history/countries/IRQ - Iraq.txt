@@ -54,8 +54,8 @@ set_politics = {
 
 create_country_leader = {
 	
-	name = "The Invisible Man"
-	picture = "gfx//leaders//Invisible_Man.tga"
+	name = "Salāh ad-Dīn II"
+	picture = "Salah_ad_Din.tga"
 	expire = "1965.1.1"
 	ideology = paternalism_subtype
 	traits = {

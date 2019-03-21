@@ -13,6 +13,9 @@ state={
 		add_core_of = QSA
 		buildings = {
 			infrastructure = 5
+			610 {
+				naval_base = 5 #Deepwater Port
+			}
 		}
 		victory_points = {
 			768 25

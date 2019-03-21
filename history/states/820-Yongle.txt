@@ -7,7 +7,12 @@ state={
 		owner = QIN
 		buildings = {
 			infrastructure = 5
-
+			11859 = {
+				naval_base = 5 #Deepwater Port
+			}
+			9814 = {
+				naval_base = 5 #Deepwater Port
+			}
 		}
 		add_core_of = QIN
 		add_core_of = QYO

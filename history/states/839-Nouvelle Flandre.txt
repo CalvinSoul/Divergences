@@ -12,6 +12,9 @@ state={
 		add_core_of = SEP
 		buildings = {
 			infrastructure = 5
+			3878 = {
+				naval_base = 5 #Deepwater Port
+			}
 		}
 		victory_points = {
 			3878 50

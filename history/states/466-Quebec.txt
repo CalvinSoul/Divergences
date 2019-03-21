@@ -11,6 +11,9 @@ state={
 		add_core_of = VIN
 		buildings = {
 			infrastructure = 5
+			10715 = {
+				naval_base = 5 #Deepwater Port
+			}
 		}
 		victory_points = { 4769 5 }
 		victory_points = { 7683 5 }

@@ -22,3 +22,4 @@ NDefines.NMilitary.FIELD_MARSHAL_DIVISIONS_CAP = 36			-- how many divisions a fi
 NDefines.NMilitary.FIELD_MARSHAL_ARMIES_CAP = 5
 
 NDefines.NFocus.FOCUS_POINT_DAYS = 1
+NDefines.NBuildings.MAX_SHARED_SLOTS = 50

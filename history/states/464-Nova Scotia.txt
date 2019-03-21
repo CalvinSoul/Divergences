@@ -16,7 +16,7 @@ state={
 			7361 5
 		}
 
-victory_points = {
+		victory_points = {
 			7304 5
 		}
 		victory_points = {
@@ -24,6 +24,12 @@ victory_points = {
 		}
 		buildings = {
 			infrastructure = 5
+			4430 = {
+				naval_base = 5 #Deepwater Port
+			}
+			7361 = {
+				naval_base = 5 #Deepwater Port
+			}
 		}
 	}
 

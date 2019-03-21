@@ -9,6 +9,9 @@ state={
 		add_core_of = QDO
 		buildings = {
 			infrastructure = 5
+			10183 = {
+				naval_base = 5 #Deepwater Port
+			}
 		}
 		victory_points = {
 			3513 25

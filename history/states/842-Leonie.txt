@@ -10,6 +10,12 @@ state={
 		buildings = {
 			infrastructure = 5
 			industrial_complex = 3
+			1163 = {
+				naval_base = 5 #Deepwater Port
+			}
+			1132 = {
+				naval_base = 5 #Deepwater Port
+			}
 		}
 		victory_points = {
 			1132 5
