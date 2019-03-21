@@ -85,7 +85,7 @@
  HAW_conservativism:0 "Viceroyalty of Hawaii"
  HAW_paternalism:0 "Viceroyalty of Hawaii"
  HAW_reactionism:0 "Kingdom of Hawai’i"
- HAW_ultra_nationalism:0 "Hawai’i”
+ HAW_ultra_nationalism:0 "Hawai’i"
  HAW_hierarchism:0 "Viceroyalty of Hawaii"
 
  HIN_paternalism:0 "Republic of Hindustan"
@@ -215,12 +215,12 @@
  SPA_blanquism:0 "People's Republic of Spain"
  SPA_egalitarianism:0 "People's Republic of Spain"
  SPA_libertarianism:0 "Spanish Republic"
- SPA_progressivism:0 "Kingdom of Spain”
+ SPA_progressivism:0 "Kingdom of Spain"
  SPA_commercialism:0 "Kingdom of Spain"
  SPA_conservativism:0 "Kingdom of Spain"
  SPA_paternalism:0 "Kingdom of Spain"
  SPA_reactionism:0 "Kingdom of Spain"
- SPA_ultra_nationalism:0 "Spain”
+ SPA_ultra_nationalism:0 "Spain"
  SPA_hierarchism:0 "Kingdom of Spain"
 
  STP_paternalism:0 "Turkic Confederation"
