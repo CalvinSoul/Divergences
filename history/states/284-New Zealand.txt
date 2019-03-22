@@ -26,7 +26,11 @@ state={
 		victory_points = {
 			4543 5 
 		}
+		victory_points = {
+			4718 10
+		}
 		add_core_of = NAZ
+		add_core_of = MAO
 	}
 
 	provinces={

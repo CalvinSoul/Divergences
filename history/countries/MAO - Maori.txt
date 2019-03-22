@@ -1,0 +1,64 @@
+﻿capital = 284
+
+oob = "Default_1936"
+
+# Starting tech
+set_technology = {
+	
+
+}
+
+set_convoys = 50
+
+
+set_politics = {
+
+	parties = {
+		blanquism = { 
+			popularity = 0
+		}
+		egalitarianism = {
+			popularity = 1
+		}
+		libertarianism = {
+			popularity = 3
+		}
+		progressivism = { 
+			popularity = 9
+		}
+		commercialism = { 
+			popularity = 4
+		}
+		conservativism = { 
+			popularity = 11
+		}
+		paternalism = { 
+			popularity = 52
+		}
+		reactionism = { 
+			popularity = 13
+		}
+		ultra_nationalism = { 
+			popularity = 7
+		}
+		hierarchism = { 
+			popularity = 0
+		}
+	}
+	
+	ruling_party = paternalism
+	last_election = "1936.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+create_country_leader = {
+	
+	name = "Te Rata Mahuta"
+	picture = "Potatau.pga"
+	expire = "1965.1.1"
+	ideology = paternalism_subtype
+	traits = {
+		#
+	}
+}
