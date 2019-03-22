@@ -161,7 +161,17 @@
  HAW_ultra_nationalism:0 "Hawai’i"
  HAW_hierarchism:0 "Viceroyalty of Hawaii"
 
+ HIN_blanquism:0 ""
+ HIN_egalitarianism:0 "Republic of Hindustan"
+ HIN_libertarianism:0 "Republic of Hindustan"
+ HIN_progressivism:0 "Republic of Hindustan"
+ HIN_commercialism:0 "Republic of Hindustan"
+ HIN_conservativism:0 "Republic of Hindustan"
  HIN_paternalism:0 "Republic of Hindustan"
+ HIN_reactionism:0 "Empire of Hindustan"
+ HIN_ultra_nationalism:0 "National State of Hindustan"
+ HIN_hierarchism:0 "Islamic State of Hindustan"
+
  HUN_progressivism:0 "Republic of Hungary"
  ICZ_commercialism:0 "International Canal Zone"
 
@@ -215,7 +225,17 @@
  PDM_ultra_nationalism:0 "State of Alba"
  PDM_hierarchism:0 "Kingdom of Piedmont"
 
- JAP_conservativism:0 "Japanese Empire"
+ JAP_blanquism:0 "People's Republic of Japan"
+ JAP_egalitarianism:0 "Republic of Japan"
+ JAP_libertarianism:0 "Republic of Japan"
+ JAP_progressivism:0 "Empire of Great Japan"
+ JAP_commercialism:0 "Empire of Great Japan"
+ JAP_conservativism:0 "Empire of Great Japan"
+ JAP_paternalism:0 "Empire of Great Japan"
+ JAP_reactionism:0 "Empire of Great Japan"
+ JAP_ultra_nationalism:0 "Empire of Great Japan"
+ JAP_hierarchism:0 "Empire of Great Japan"
+
  JER_conservativism:0 "Département of Nouveau Jersey"
  KHE_paternalism:0 "Khemer Empire"
 
@@ -231,7 +251,19 @@
  KUR_hierarchism:0 "Kurdish State"
 
  LIT_conservativism:0 "Kingdom of Lithuania"
- LIV_paternalism:0 "Kindom of Livonia"
+
+ LIV_blanquism:0 "Livonian Worker's Republic"
+ LIV_egalitarianism:0 "Republic of Livonia"
+ LIV_libertarianism:0 "Republic of Livonia"
+ LIV_progressivism:0 "Kingdom of Livonia"
+ LIV_commercialism:0 "Kingdom of Livonia"
+ LIV_conservativism:0 "Kingdom of Livonia"
+ LIV_paternalism:0 "Kingdom of Livonia"
+ LIV_reactionism:0 "Kingdom of Livonia"
+ LIV_ultra_nationalism:0 "Kingdom of Livonia"
+ LIV_hierarchism:0 "Kingdom of Livonia"
+
+
  LOT_paternalism:0 "Lotharingian Republic"
  LUS_conservativism:0 "Republic of Lusitania"
  MGH_paternalism:0 "Maghrebi Confederation"
@@ -369,7 +401,18 @@
  SEP_commercialism:0 "Septiman Republic"
  SER_conservativism:0 "Kingdom of Serbia"
  SHA_ultra_nationalism:0 "Valhalla Afrika Staat"
+
+ SIK_blanquism:0 "Sikh Republic"
+ SIK_egalitarianism:0 "Sikh Republic"
+ SIK_libertarianism:0 "Sikh Republic"
+ SIK_progressivism:0 "Sikh Empire"
+ SIK_commercialism:0 "Sikh Empire"
+ SIK_conservativism:0 "Sikh Empire"
  SIK_paternalism:0 "Sikh Empire"
+ SIK_reactionism:0 "Sikh Empire"
+ SIK_ultra_nationalism:0 "Sikh Empire"
+ SIK_hierarchism:0 "Sikh Empire"
+
  SLV_paternalism:0 "Slovakian Free State"
  
  SPA_blanquism:0 "People's Republic of Spain"
@@ -423,7 +466,18 @@
 
  VER_progressivism:0 "Republic of Verland"
  VIN_progressivism:0 "Republic of Vinland"
- ZHO_conservativism:0 "Confederation of Zhourao"
+
+ ZHO_blanquism:0 "Revolutionary Republic of Zhourao"
+ ZHO_egalitarianism:0 "Republic of Zhourao"
+ ZHO_libertarianism:0 "Republic of Zhourao"
+ ZHO_progressivism:0 "Kingdom of Zhourao"
+ ZHO_commercialism:0 "Kingdom of Zhourao"
+ ZHO_conservativism:0 "Kingdom of Zhourao"
+ ZHO_paternalism:0 "Kingdom of Zhourao"
+ ZHO_reactionism:0 "Kingdom of Zhourao"
+ ZHO_ultra_nationalism:0 "Kingdom of Zhourao"
+ ZHO_hierarchism:0 "Kingdom of Zhourao"
+
  ZUL_libertarianism:0 "isiZulu"
  XHO_libertarianism:0 "isiXhosa"
 

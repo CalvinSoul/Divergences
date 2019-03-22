@@ -46,7 +46,7 @@ set_politics = {
 		}
 	}
 	
-	ruling_party = conservativism
+	ruling_party = commercialism
 	last_election = "1936.1.1"
 	election_frequency = 48
 	elections_allowed = no
@@ -54,7 +54,27 @@ set_politics = {
 
 create_country_leader = {
 	
-	name = "Makuhito"
+	name = "Makuhito I"
+	picture = "Portrait_JAP_Makuhito.dds"
+	expire = "1965.1.1"
+	ideology = progressivism_subtype
+	traits = {
+		#
+	}
+}
+create_country_leader = {
+	
+	name = "Makuhito I"
+	picture = "Portrait_JAP_Makuhito.dds"
+	expire = "1965.1.1"
+	ideology = commercialism_subtype
+	traits = {
+		#
+	}
+}
+create_country_leader = {
+	
+	name = "Makuhito I"
 	picture = "Portrait_JAP_Makuhito.dds"
 	expire = "1965.1.1"
 	ideology = conservativism_subtype
@@ -62,4 +82,43 @@ create_country_leader = {
 		#
 	}
 }
-
+create_country_leader = {
+	
+	name = "Makuhito I"
+	picture = "Portrait_JAP_Makuhito.dds"
+	expire = "1965.1.1"
+	ideology = paternalism_subtype
+	traits = {
+		#
+	}
+}
+create_country_leader = {
+	
+	name = "Makuhito I"
+	picture = "Portrait_JAP_Makuhito.dds"
+	expire = "1965.1.1"
+	ideology = reactionism_subtype
+	traits = {
+		#
+	}
+}
+create_country_leader = {
+	
+	name = "Makuhito I"
+	picture = "Portrait_JAP_Makuhito.dds"
+	expire = "1965.1.1"
+	ideology = ultra_nationalism_subtype
+	traits = {
+		#
+	}
+}
+create_country_leader = {
+	
+	name = "Makuhito I"
+	picture = "Portrait_JAP_Makuhito.dds"
+	expire = "1965.1.1"
+	ideology = hierarchism_subtype
+	traits = {
+		#
+	}
+}

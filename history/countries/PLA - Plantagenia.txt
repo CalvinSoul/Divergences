@@ -155,7 +155,7 @@ create_country_leader = {
 	name = "Judicael II"
 	picture = "Portrait_PLA_Judicael_II.dds"
 	expire = "1965.1.1"
-	ideology = absolute_monarchism_subtyp
+	ideology = absolute_monarchism_subtype
 	traits = {}
 }
 create_country_leader = {
