@@ -46,7 +46,7 @@ set_politics = {
 		}
 	}
 	
-	ruling_party = paternalism
+	ruling_party = libertarianism
 	last_election = "1936.1.1"
 	election_frequency = 48
 	elections_allowed = no
@@ -54,10 +54,10 @@ set_politics = {
 
 create_country_leader = {
 	
-	name = "The Invisible Man"
-	picture = "gfx//leaders//Invisible_Man.tga"
+	name = "Viktor Ahlund"
+	picture = "Viktor_Ahlund.tga"
 	expire = "1965.1.1"
-	ideology = paternalism_subtype
+	ideology = libertarianism_subtype
 	traits = {
 		#
 	}

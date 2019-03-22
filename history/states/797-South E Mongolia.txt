@@ -8,8 +8,8 @@ state={
 	manpower=100
 	buildings_max_level_factor=1.000
 	history={
-		owner = MON
-		add_core_of = MON
+		owner = DZU
+		add_core_of = DZU
 		buildings = {
 			infrastructure = 4
 
