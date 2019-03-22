@@ -7,16 +7,23 @@ state={
 		owner = IRQ
 		add_core_of = IRQ
 		buildings = {
-			infrastructure = 3
-
+			infrastructure = 5
 		}
-
+		victory_points = {
+			829 5 
+		}
+		victory_points = {
+			5050 5 
+		}
+		victory_points = {
+			9816 5 
+		}
 	}
 
 	provinces={
 		829 4943 5050 5098 9816 10774 12773 
 	}
-	manpower=780278
+	manpower=1186209
 	buildings_max_level_factor=1.000
 	state_category=rural
 }

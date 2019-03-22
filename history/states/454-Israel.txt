@@ -8,27 +8,25 @@ state={
 		add_core_of = EGY
 		buildings = {
 			infrastructure = 5
-			industrial_complex = 1
-			air_base = 2
-			4206 = {
-				naval_base = 3
-
-			}
-
+		}
+		victory_points = {
+			4088 1 
+		}
+		victory_points = {
+			4206 1 
 		}
 		victory_points = {
 			1086 1 
 		}
 		victory_points = {
-			4206 1 
+			7107 1 
 		}
-
 	}
 
 	provinces={
 		1 1015 1086 1201 4088 4206 7107 7176 11970 
 	}
-	manpower=933142
+	manpower=876496
 	buildings_max_level_factor=1.000
 	state_category=rural
 }

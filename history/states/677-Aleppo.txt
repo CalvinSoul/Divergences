@@ -6,19 +6,29 @@ state={
 	history={
 		owner = ARA
 		victory_points = {
-			12473 1 
+			1056 5
+		}
+		victory_points = {
+			1088 5
+		}
+		victory_points = {
+			12029 5
+		}
+		victory_points = {
+			7140 5
+		}
+		victory_points = {
+			12473 25 
 		}
 		buildings = {
-			infrastructure = 3
-
+			infrastructure = 5
 		}
-
 	}
 
 	provinces={
 		1056 1088 7140 7671 10087 12029 12473 
 	}
-	manpower=1325594
+	manpower=1961562
 	buildings_max_level_factor=1.000
 	state_category=town
 }

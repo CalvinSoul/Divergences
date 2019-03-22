@@ -6,25 +6,26 @@ state={
 	history={
 		owner = ARA
 		victory_points = {
+			1065 5 
+		}
+		victory_points = {
 			792 5 
 		}
-		buildings = {
-			infrastructure = 4
-			industrial_complex = 1
-			air_base = 5
-			792 = {
-				naval_base = 3
-
-			}
-
+		victory_points = {
+			11919 5 
 		}
-
+		victory_points = {
+			1108 5 
+		}
+		buildings = {
+			infrastructure = 5
+		}
 	}
 
 	provinces={
 		792 1065 1108 11919 
 	}
-	manpower=1104000
+	manpower=925039
 	buildings_max_level_factor=1.000
 	state_category=town
 }

@@ -10,29 +10,32 @@ state={
 		owner = IRQ
 		add_core_of = IRQ
 		victory_points = {
-			2097 5 
+			2097 50 
 		}
 		victory_points = {
-			2089 1 
+			10876 5 
+		}
+		victory_points = {
+			78 5 
+		}
+		victory_points = {
+			12726 5 
+		}
+		victory_points = {
+			2089 25 
+		}
+		victory_points = {
+			2004 5 
 		}
 		buildings = {
 			infrastructure = 5
-			arms_factory = 1
-			industrial_complex = 2
-			air_base = 4
-			2089 = {
-				naval_base = 1
-
-			}
-
 		}
-
 	}
 
 	provinces={
 		78 2004 2089 2097 7977 7994 8001 10876 12046 12726 12855 
 	}
-	manpower=2044165
+	manpower=3212778
 	buildings_max_level_factor=1.000
 	state_category=town
 }
