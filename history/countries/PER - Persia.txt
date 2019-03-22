@@ -15,38 +15,38 @@ set_politics = {
 
 	parties = {
 		blanquism = { 
-			popularity = 10
+			popularity = 1
 		}
 		egalitarianism = {
-			popularity = 10
+			popularity = 1
 		}
 		libertarianism = {
-			popularity = 10
+			popularity = 2
 		}
 		progressivism = { 
 			popularity = 10
 		}
 		commercialism = { 
-			popularity = 10
+			popularity = 11
 		}
 		conservativism = { 
-			popularity = 10
+			popularity = 14
 		}
 		paternalism = { 
-			popularity = 10
+			popularity = 5
 		}
 		reactionism = { 
-			popularity = 10
+			popularity = 30
 		}
 		ultra_nationalism = { 
-			popularity = 10
+			popularity = 16
 		}
 		hierarchism = { 
 			popularity = 10
 		}
 	}
 	
-	ruling_party = paternalism
+	ruling_party = reactionism
 	last_election = "1936.1.1"
 	election_frequency = 48
 	elections_allowed = no
@@ -54,10 +54,70 @@ set_politics = {
 
 create_country_leader = {
 	
-	name = "The Invisible Man"
-	picture = "gfx//leaders//Invisible_Man.tga"
+	name = "Zaki Khan"
+	picture = "Zaki.tga"
+	expire = "1965.1.1"
+	ideology = progressivism_subtype
+	traits = {
+		#
+	}
+}
+create_country_leader = {
+	
+	name = "Zaki Khan"
+	picture = "Zaki.tga"
+	expire = "1965.1.1"
+	ideology = commercialism_subtype
+	traits = {
+		#
+	}
+}
+create_country_leader = {
+	
+	name = "Zaki Khan"
+	picture = "Zaki.tga"
+	expire = "1965.1.1"
+	ideology = conservativism_subtype
+	traits = {
+		#
+	}
+}
+create_country_leader = {
+	
+	name = "Zaki Khan"
+	picture = "Zaki.tga"
 	expire = "1965.1.1"
 	ideology = paternalism_subtype
+	traits = {
+		#
+	}
+}
+create_country_leader = {
+	
+	name = "Zaki Khan"
+	picture = "Zaki.tga"
+	expire = "1965.1.1"
+	ideology = reactionism_subtype
+	traits = {
+		#
+	}
+}
+create_country_leader = {
+	
+	name = "Zaki Khan"
+	picture = "Zaki.tga"
+	expire = "1965.1.1"
+	ideology = ultra_nationalism_subtype
+	traits = {
+		#
+	}
+}
+create_country_leader = {
+	
+	name = "Zaki Khan"
+	picture = "Zaki.tga"
+	expire = "1965.1.1"
+	ideology = hierarchism_subtype
 	traits = {
 		#
 	}

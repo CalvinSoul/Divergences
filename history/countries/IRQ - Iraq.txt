@@ -15,38 +15,38 @@ set_politics = {
 
 	parties = {
 		blanquism = { 
-			popularity = 10
+			popularity = 6
 		}
 		egalitarianism = {
-			popularity = 10
+			popularity = 4
 		}
 		libertarianism = {
-			popularity = 10
+			popularity = 8
 		}
 		progressivism = { 
-			popularity = 10
+			popularity = 12
 		}
 		commercialism = { 
 			popularity = 10
 		}
 		conservativism = { 
-			popularity = 10
+			popularity = 25
 		}
 		paternalism = { 
 			popularity = 10
 		}
 		reactionism = { 
-			popularity = 10
+			popularity = 5
 		}
 		ultra_nationalism = { 
-			popularity = 10
+			popularity = 15
 		}
 		hierarchism = { 
-			popularity = 10
+			popularity = 5
 		}
 	}
 	
-	ruling_party = paternalism
+	ruling_party = conservativism
 	last_election = "1936.1.1"
 	election_frequency = 48
 	elections_allowed = no
@@ -57,7 +57,7 @@ create_country_leader = {
 	name = "Salāh ad-Dīn II"
 	picture = "Salah_ad_Din.tga"
 	expire = "1965.1.1"
-	ideology = paternalism_subtype
+	ideology = conservativism_subtype
 	traits = {
 		#
 	}

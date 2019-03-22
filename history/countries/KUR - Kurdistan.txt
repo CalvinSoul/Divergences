@@ -15,16 +15,16 @@ set_politics = {
 
 	parties = {
 		blanquism = { 
-			popularity = 10
+			popularity = 5
 		}
 		egalitarianism = {
-			popularity = 10
+			popularity = 8
 		}
 		libertarianism = {
-			popularity = 10
+			popularity = 12
 		}
 		progressivism = { 
-			popularity = 10
+			popularity = 25
 		}
 		commercialism = { 
 			popularity = 10
@@ -36,17 +36,17 @@ set_politics = {
 			popularity = 10
 		}
 		reactionism = { 
-			popularity = 10
+			popularity = 15
 		}
 		ultra_nationalism = { 
-			popularity = 10
+			popularity = 5
 		}
 		hierarchism = { 
-			popularity = 10
+			popularity = 0
 		}
 	}
 	
-	ruling_party = paternalism
+	ruling_party = progressivism
 	last_election = "1936.1.1"
 	election_frequency = 48
 	elections_allowed = no
@@ -54,10 +54,10 @@ set_politics = {
 
 create_country_leader = {
 	
-	name = "The Invisible Man"
-	picture = "gfx//leaders//Invisible_Man.tga"
+	name = "Çeko Karsaz"
+	picture = "Ceko_Karsaz.tga"
 	expire = "1965.1.1"
-	ideology = paternalism_subtype
+	ideology = progressivism_subtype
 	traits = {
 		#
 	}

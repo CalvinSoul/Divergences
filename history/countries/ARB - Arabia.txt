@@ -15,34 +15,34 @@ set_politics = {
 
 	parties = {
 		blanquism = { 
-			popularity = 10
+			popularity = 0
 		}
 		egalitarianism = {
-			popularity = 10
+			popularity = 8
 		}
 		libertarianism = {
-			popularity = 10
+			popularity = 0
 		}
 		progressivism = { 
 			popularity = 10
 		}
 		commercialism = { 
-			popularity = 10
+			popularity = 7
 		}
 		conservativism = { 
-			popularity = 10
+			popularity = 15
 		}
 		paternalism = { 
-			popularity = 10
+			popularity = 34
 		}
 		reactionism = { 
-			popularity = 10
+			popularity = 20
 		}
 		ultra_nationalism = { 
-			popularity = 10
+			popularity = 2
 		}
 		hierarchism = { 
-			popularity = 10
+			popularity = 6
 		}
 	}
 	

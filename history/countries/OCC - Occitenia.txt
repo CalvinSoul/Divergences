@@ -54,8 +54,8 @@ set_politics = {
 
 create_country_leader = {
 	
-	name = "The Invisible Man"
-	picture = "gfx//leaders//Invisible_Man.tga"
+	name = "Javert Dufort"
+	picture = "Javert_Dufort.tga"
 	expire = "1965.1.1"
 	ideology = plebiscial_subtype
 	traits = {
