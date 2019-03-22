@@ -26,7 +26,17 @@
  AFG_ultra_nationalism:0 "Durrani Empire"
  AFG_hierarchism:0 "Durrani Empire"
 
+ ALB_blanquism:0 "Albanian Revolutionary State"
+ ALB_egalitarianism:0 "Republic of Albania"
+ ALB_libertarianism:0 "Republic of Albania"
+ ALB_progressivism:0 "Kingdom of Albania"
+ ALB_commercialism:0 "Kingdom of Albania"
+ ALB_conservativism:0 "Kingdom of Albania"
  ALB_paternalism:0 "Kingdom of Albania"
+ ALB_reactionism:0 "Kingdom of Albania"
+ ALB_ultra_nationalism:0 "Kingdom of Albania"
+ ALB_hierarchism:0 "Kingdom of Albania"
+
  AMA_commercialism:0 "Amazonian Federation"
 
  AME_blanquism:0 "People's Republics of Ameriga"
@@ -59,7 +69,18 @@
 
  BEO_reactionism:0 "Kingdom of Beornia"
  BRG_hierarchism:0 "Burgundy Imperium"
- BUL_paternalism:0 "Kingdom of Bulgaria"
+
+ BUL_blanquism:0 "People's Republic of Bulgaria"
+ BUL_egalitarianism:0 "Republic of Bulgaria"
+ BUL_libertarianism:0 "Republic of Bulgaria"
+ BUL_progressivism:0 "Tsardom of Bulgaria"
+ BUL_commercialism:0 "Tsardom of Bulgaria"
+ BUL_conservativism:0 "Tsardom of Bulgaria"
+ BUL_paternalism:0 "Tsardom of Bulgaria"
+ BUL_reactionism:0 "Tsardom of Bulgaria"
+ BUL_ultra_nationalism:0 "Tsardom of Bulgaria"
+ BUL_hierarchism:0 "Tsardom of Bulgaria"
+
  CAR_paternalism:0 "Republic of Carthage"
  CHI_paternalism:0 "Heavenly Kingdom"
  COR_paternalism:0 "Duchy of Courland"
@@ -319,7 +340,17 @@
  RHE_commercialism:0 "Republic of Westphalia"
  ROM_paternalism:0 "Kindom of Romania"
  RUS_paternalism:0 "Russian Reformation Union"
+
+ RUT_blanquism:0 "Revolutionary Republic of Ruthenia""
+ RUT_egalitarianism:0 "Republic of Ruthenia""
+ RUT_libertarianism:0 "Republic of Ruthenia"
+ RUT_progressivism:0 "Kingdom of Ruthenia"
+ RUT_commercialism:0 "Kingdom of Ruthenia"
+ RUT_conservativism:0 "Kingdom of Ruthenia"
  RUT_paternalism:0 "Kingdom of Ruthenia"
+ RUT_reactionism:0 "Kingdom of Ruthenia"
+ RUT_ultra_nationalism:0 "Kingdom of Ruthenia"
+ RUT_hierarchism:0 "Kingdom of Ruthenia"
 
  SCA_blanquism:0 "Scandinavia Worker's Republic"
  SCA_egalitarianism:0 "Federal Republic of Scandinavia"
