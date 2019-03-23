@@ -1,0 +1,4 @@
+
+GRA_AME = {
+    color = rgb { 37 185 234 }
+    color_ui = rgb { 255 73 121 }
