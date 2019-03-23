@@ -2,29 +2,29 @@
 state={
 	id=324
 	name="STATE_324"
-	manpower = 450000
-	
-	
-	state_category = town
-	
 	resources={
-		tungsten=2 # was: 2
+		tungsten=2.000
 	}
 
 	history={
-		owner = NEP
-		add_core_of = NEP
+		owner = TIB
+		add_core_of = TIB
 		buildings = {
 			infrastructure = 1
 			arms_factory = 1
-			industrial_complex = 2 
+			industrial_complex = 2
+
 		}
 		victory_points = {
 			8010 3 
 		}
+
 	}
 
 	provinces={
 		8010 12860 
 	}
+	manpower=450000
+	buildings_max_level_factor=1.000
+	state_category=town
 }

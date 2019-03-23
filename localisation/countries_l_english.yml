@@ -82,7 +82,18 @@
  BUL_hierarchism:0 "Tsardom of Bulgaria"
 
  CAR_paternalism:0 "Republic of Carthage"
- CHI_paternalism:0 "Heavenly Kingdom"
+
+ CHI_blanquism:0 "People's Republic of China"
+ CHI_egalitarianism:0 "Republic of China"
+ CHI_libertarianism:0 "Republic of China"
+ CHI_progressivism:0 "Heavenly Kingdom of Great Peace"
+ CHI_commercialism:0 "Heavenly Kingdom of Great Peace"
+ CHI_conservativism:0 "Heavenly Kingdom of Great Peace"
+ CHI_paternalism:0 "Heavenly Kingdom of Great Peace"
+ CHI_reactionism:0 "Heavenly Kingdom of Great Peace"
+ CHI_ultra_nationalism:0 "Heavenly Kingdom of Great Peace"
+ CHI_hierarchism:0 "Heavenly Kingdom of Great Peace"
+
  COR_paternalism:0 "Duchy of Courland"
  
  CUB_blanquism:0 "People's Republic of Cuba"
@@ -268,7 +279,18 @@
  LUS_conservativism:0 "Republic of Lusitania"
  MGH_paternalism:0 "Maghrebi Confederation"
  MAC_conservativism:0 "Kingdom of Macedonia"
- MAR_paternalism:0 "Marathia"
+
+ MAR_blanquism:0 "Maratha Worker's Republic"
+ MAR_egalitarianism:0 "Maratha Republic"
+ MAR_libertarianism:0 "Maratha Republic"
+ MAR_progressivism:0 "Maratha Republic"
+ MAR_commercialism:0 "Maratha Republic"
+ MAR_conservativism:0 "Maratha Republic"
+ MAR_paternalism:0 "Maratha Republic"
+ MAR_reactionism:0 "Maratha Empire"
+ MAR_ultra_nationalism:0 "Maratha State"
+ MAR_hierarchism:0 "Maratha Hindu State"
+
  MNT_commercialism:0 "Republic of Montenegro"
 
  DZU_blanquism:0 "Dzunghar People's Republic"
@@ -307,7 +329,17 @@
  NAV_ultra_nationalism:0 "Basque State"
  NAV_hierarchism:0 "Kingdom of Navarre"
 
- NEP_paternalism:0 "Tibetan Empire"
+ NEP_blanquism:0 "People's Republic of Nepal"
+ NEP_egalitarianism:0 "Republic of Nepal"
+ NEP_libertarianism:0 "Republic of Nepal"
+ NEP_progressivism:0 "Kingdom of Nepal"
+ NEP_commercialism:0 "Kingdom of Nepal"
+ NEP_conservativism:0 "Kingdom of Nepal"
+ NEP_paternalism:0 "Kingdom of Nepal"
+ NEP_reactionism:0 "Kingdom of Nepal"
+ NEP_ultra_nationalism:0 "Kingdom of Nepal"
+ NEP_hierarchism:0 "Kingdom of Nepal"
+
  OCC_blanquism:0 "Occitanian Commune"
  OCC_egalitarianism:0 "Occitanian People's Republic"
  POR_paternalism:0 "Kingdom of Portugal"
@@ -448,10 +480,19 @@
  TAR_ultra_nationalism:0 "Khanate of Tatarstan"
  TAR_hierarchism:0 "Khanate of Tatarstan"
 
-
  TAW_hierarchism:0 "Incan Empire"
  TCA_paternalism:0 "Transcaucasian Federative Republic"
- TEL_paternalism:0 "Telegu Confederation"
+
+ TEL_blanquism:0 "Telegu Republic"
+ TEL_egalitarianism:0 "Telegu Republic"
+ TEL_libertarianism:0 "Telegu Republic"
+ TEL_progressivism:0 "Princedom of Hydrabad"
+ TEL_commercialism:0 "Princedom of Hydrabad"
+ TEL_conservativism:0 "Princedom of Hydrabad"
+ TEL_paternalism:0 "Princedom of Hydrabad"
+ TEL_reactionism:0 "Princedom of Hydrabad"
+ TEL_ultra_nationalism:0 "Princedom of Hydrabad"
+ TEL_hierarchism:0 "Princedom of Hydrabad"
 
  TUR_blanquism:0 "Republic of Turkey"
  TUR_egalitarianism:0 "Republic of Turkey"
@@ -463,6 +504,17 @@
  TUR_reactionism:0 "Ottoman Empire"
  TUR_ultra_nationalism:0 "Turkish State"
  TUR_hierarchism:0 "Turkish State"
+
+ TIB_blanquism:0 "People's Republic of Tibet"
+ TIB_egalitarianism:0 "Republic of Tibet"
+ TIB_libertarianism:0 "Republic of Tibet"
+ TIB_progressivism:0 "Empire of Great Tibet"
+ TIB_commercialism:0 "Empire of Great Tibet"
+ TIB_conservativism:0 "Empire of Great Tibet"
+ TIB_paternalism:0 "Empire of Great Tibet"
+ TIB_reactionism:0 "Empire of Great Tibet"
+ TIB_ultra_nationalism:0 "Empire of Great Tibet"
+ TIB_hierarchism:0 "Empire of Great Tibet"
 
  VER_progressivism:0 "Republic of Verland"
  VIN_progressivism:0 "Republic of Vinland"
