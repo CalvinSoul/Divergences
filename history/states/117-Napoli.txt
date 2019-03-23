@@ -2,7 +2,10 @@
 state={
 	id=117
 	name="STATE_117"
-
+	resources={
+		aluminium=16
+		steel=24
+	}
 	history={
 		owner = ARA
 		add_core_of = ARA
