@@ -1,6 +1,9 @@
 state={
 	id=887
 	name="STATE_887"
+	resources={
+		aluminium=15.000
+	}
 	provinces={
 		782 6606 6793 6985 9924 11734 
 	}
@@ -16,4 +19,6 @@ state={
 		}
 		#victory_points = { 0 5 }
 	}
+
+
 }

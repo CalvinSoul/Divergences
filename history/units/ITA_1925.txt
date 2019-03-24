@@ -1,0 +1,360 @@
+﻿##### Division Templates #####
+division_template = {
+	name = "Divisione di Fanteria Italica"
+	
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+		infantry = { x = 2 y = 0 }
+		infantry = { x = 2 y = 1 }
+		infantry = { x = 2 y = 2 }
+	}
+	support = {
+		artillery = { x = 0 y = 0 } 
+	}
+}
+
+division_template = {
+	name = "Schiavoni d'Oltremare"
+	
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 0 y = 3 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+	}
+	priority = 0
+}
+division_template = {
+	name = "Divisione Alpina"
+	regiments = {
+		mountaineers = { x = 0 y = 0 }
+		mountaineers = { x = 0 y = 1 }
+		mountaineers = { x = 0 y = 2 }
+		mountaineers = { x = 0 y = 3 }
+		mountaineers = { x = 1 y = 0 }
+		mountaineers = { x = 1 y = 1 }
+		mountaineers = { x = 1 y = 2 }
+		mountaineers = { x = 2 y = 0 }
+		mountaineers = { x = 2 y = 1 }
+		mountaineers = { x = 2 y = 2 }
+	}
+	support = {
+		artillery = { x = 0 y = 0 }
+	}
+}
+division_template = {
+	name = "Corazzieri della Repubblica"
+	regiments = {
+		cavalry = { x = 0 y = 0 }
+		cavalry = { x = 0 y = 1 }
+		cavalry = { x = 0 y = 2 }
+		cavalry = { x = 0 y = 3 }
+		cavalry = { x = 1 y = 0 }
+		cavalry = { x = 1 y = 1 }
+		cavalry = { x = 1 y = 2 }
+		cavalry = { x = 2 y = 0 }
+	}
+	support = {
+		recon = { x = 0 y = 1 }
+	}
+}
+
+division_template = {
+	name = "Divisione Motorizzata"
+
+	regiments = {
+		light_armor = { x = 0 y = 0 }
+		light_armor = { x = 0 y = 1 }
+		motorized = { x = 1 y = 0 }
+        motorized = { x = 1 y = 1 }
+        motorized = { x = 1 y = 2 }
+	}
+	support = {
+        engineer = { x = 0 y = 0 }
+        artillery = { x = 0 y = 1 }
+		recon = { x = 0 y = 2 }
+	}
+	priority = 2
+}
+
+units = {
+	division = {
+		name = "1. Divisione di Corazzieri"
+		location = 6606
+		division_template = "Corazzieri della Repubblica"
+		start_experience_factor = 0.65
+		start_equipment_factor = 1
+		start_manpower_factor = 1
+	}
+	
+	division = {
+		name = "2. Divisione di Corazzieri"
+		location = 6606
+		division_template = "Corazzieri della Repubblica"
+		start_experience_factor = 0.65
+		start_equipment_factor = 1
+		start_manpower_factor = 1
+	}
+
+	division = {
+		name = "3. Divisione di Corazzieri"
+		location = 9907
+		division_template = "Corazzieri della Repubblica"
+		start_experience_factor = 0.65
+		start_equipment_factor = 1
+		start_manpower_factor = 1
+	}
+
+	division = {
+		name = "4. Divisione di Corazzieri"
+		location = 9907
+		division_template = "Corazzieri della Repubblica"
+		start_experience_factor = 0.65
+		start_equipment_factor = 1
+		start_manpower_factor = 1
+	}
+
+	division = {
+		name = "5. Divisione di Corazzieri"
+		location = 6780
+		division_template = "Corazzieri della Repubblica"
+		start_experience_factor = 0.65
+		start_equipment_factor = 1
+		start_manpower_factor = 1
+	}
+
+	division = {
+		name = "1. Divisione Motorizzata"
+		location = 11584
+		division_template = "Divisione Motorizzata"
+		start_experience_factor = 1
+		start_equipment_factor = 1
+		start_manpower_factor = 1
+	}
+
+	division = {
+		name = "1. Divisione Alpina"
+		location = 778
+		division_template = "Divisione Alpina"
+		start_experience_factor = 1.5
+		start_equipment_factor = 1
+		start_manpower_factor = 1
+	}
+
+	division = {
+		name = "1. Divisione Alpina"
+		location = 778
+		division_template = "Divisione Alpina"
+		start_experience_factor = 1.5
+		start_equipment_factor = 1
+		start_manpower_factor = 1
+	}
+
+	division = {
+		name = "2. Divisione Alpina"
+		location = 778
+		division_template = "Divisione Alpina"
+		start_experience_factor = 1.5
+		start_equipment_factor = 1
+		start_manpower_factor = 1
+	}
+
+	division = {
+		name = "3. Divisione Alpina"
+		location = 778
+		division_template = "Divisione Alpina"
+		start_experience_factor = 1.5
+		start_equipment_factor = 1
+		start_manpower_factor = 1
+	}
+
+	division = {
+		name = "4. Divisione Alpina"
+		location = 3662
+		division_template = "Divisione Alpina"
+		start_experience_factor = 1.5
+		start_equipment_factor = 1
+		start_manpower_factor = 1
+	}
+
+	division = {
+		name = "5. Divisione Alpina"
+		location = 3662
+		division_template = "Divisione Alpina"
+		start_experience_factor = 1.5
+		start_equipment_factor = 1
+		start_manpower_factor = 1
+	}
+
+	division = {
+		name = "6. Divisione Alpina"
+		location = 656
+		division_template = "Divisione Alpina"
+		start_experience_factor = 1.5
+		start_equipment_factor = 1
+		start_manpower_factor = 1
+	}
+
+	division = {
+		name = "7. Divisione Alpina"
+		location = 656
+		division_template = "Divisione Alpina"
+		start_experience_factor = 1.5
+		start_equipment_factor = 1
+		start_manpower_factor = 1
+	}
+
+	division = {
+		name = "1. Veneto Réal"
+		location = 11584
+		division_template = "Divisione di Fanteria Italica"
+		start_experience_factor = 0.5
+		start_equipment_factor = 0.65
+		start_manpower_factor = 1
+	}
+
+	division = {
+		name = "2. Veneto Réal"
+		location = 11584
+		division_template = "Divisione di Fanteria Italica"
+		start_experience_factor = 0.5
+		start_equipment_factor = 0.65
+		start_manpower_factor = 1
+	}
+
+	division = {
+		name = "3. Veneto Réal"
+		location = 11584
+		division_template = "Divisione di Fanteria Italica"
+		start_experience_factor = 0.5
+		start_equipment_factor = 0.65
+		start_manpower_factor = 1
+	}
+
+	division = {
+		name = "4. Veneto Réal"
+		location = 3780
+		division_template = "Divisione di Fanteria Italica"
+		start_experience_factor = 0.5
+		start_equipment_factor = 0.65
+		start_manpower_factor = 1
+	}
+
+	division = {
+		name = "5. Veneto Réal"
+		location = 3780
+		division_template = "Divisione di Fanteria Italica"
+		start_experience_factor = 0.5
+		start_equipment_factor = 0.65
+		start_manpower_factor = 1
+	}
+
+	division = {
+		name = "6. Veneto Réal"
+		location = 3780
+		division_template = "Divisione di Fanteria Italica"
+		start_experience_factor = 0.5
+		start_equipment_factor = 0.65
+		start_manpower_factor = 1
+	}
+
+	division = {
+		name = "7. Veneto Réal"
+		location = 11833
+		division_template = "Divisione di Fanteria Italica"
+		start_experience_factor = 0.5
+		start_equipment_factor = 0.65
+		start_manpower_factor = 1
+	}
+
+	division = {
+		name = "8. Veneto Réal"
+		location = 6626
+		division_template = "Divisione di Fanteria Italica"
+		start_experience_factor = 0.5
+		start_equipment_factor = 0.65
+		start_manpower_factor = 1
+	}
+
+	division = {
+		name = "1. Divisione Schiavoni"
+		location = 3924
+		division_template = "Schiavoni d'Oltremare"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.5
+		start_manpower_factor = 0.75
+	}
+
+	division = {
+		name = "2. Divisione Schiavoni"
+		location = 9940
+		division_template = "Schiavoni d'Oltremare"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.5
+		start_manpower_factor = 0.75
+	}
+
+	division = {
+		name = "3. Divisione Schiavoni"
+		location = 10007
+		division_template = "Schiavoni d'Oltremare"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.5
+		start_manpower_factor = 0.75
+	}
+
+	division = {
+		name = "4. Divisione Schiavoni"
+		location = 7193
+		division_template = "Schiavoni d'Oltremare"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.5
+		start_manpower_factor = 0.75
+	}
+
+	division = {
+		name = "5. Divisione Schiavoni"
+		location = 9833
+		division_template = "Schiavoni d'Oltremare"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.5
+		start_manpower_factor = 0.75
+	}
+
+	division = {
+		name = "6. Divisione Schiavoni"
+		location = 9833
+		division_template = "Schiavoni d'Oltremare"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.5
+		start_manpower_factor = 0.75
+	}
+
+	division = {
+		name = "7. Divisione Schiavoni"
+		location = 8034
+		division_template = "Schiavoni d'Oltremare"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.5
+		start_manpower_factor = 0.75
+	}
+
+	division = {
+		name = "8. Divisione Schiavoni"
+		location = 4948
+		division_template = "Schiavoni d'Oltremare"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.5
+		start_manpower_factor = 0.75
+	}
+}
+
+
+

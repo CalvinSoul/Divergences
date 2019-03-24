@@ -1,11 +1,29 @@
 ﻿capital = 1
 
-oob = "Default_1936"
+oob = "ITA_1925"
 
 # Starting tech
 set_technology = {
-	
-
+	infantry_weapons = 1
+	tech_support = 1		
+	tech_engineers = 1
+	tech_mountaineers = 1
+	motorised_infantry = 1
+	gw_artillery = 1
+	gwtank = 1
+	basic_light_tank = 1
+	early_fighter = 1
+	early_bomber = 1
+	naval_bomber1 = 1
+	early_submarine = 1
+	early_destroyer = 1
+	basic_destroyer = 1
+	early_light_cruiser = 1
+	basic_light_cruiser = 1
+	early_heavy_cruiser = 1
+	early_battleship = 1
+	early_battlecruiser = 1
+	transport = 1
 }
 
 set_convoys = 50
@@ -15,16 +33,16 @@ set_politics = {
 
 	parties = {
 		blanquism = { 
-			popularity = 5
+			popularity = 4
 		}
 		egalitarianism = {
-			popularity = 6
-		}
-		libertarianism = {
 			popularity = 7
 		}
+		libertarianism = {
+			popularity = 10
+		}
 		progressivism = { 
-			popularity = 22
+			popularity = 19
 		}
 		commercialism = { 
 			popularity = 27
@@ -36,10 +54,10 @@ set_politics = {
 			popularity = 3
 		}
 		reactionism = { 
-			popularity = 3
+			popularity = 5
 		}
 		ultra_nationalism = { 
-			popularity = 9
+			popularity = 4
 		}
 		hierarchism = { 
 			popularity = 0
@@ -113,6 +131,17 @@ create_country_leader = {
 	picture = "gfx//leaders/ITA/Zeno_Priuli.tga" 
 	expire = "1965.1.1"
 	ideology = ultra_nationalism_subtype
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	
+	name = "Piero Canali"
+	picture = "gfx//leaders/ITA/Piero_Canali.tga" 
+	expire = "1965.1.1"
+	ideology = plebiscial_subtype
 	traits = {
 		#
 	}
