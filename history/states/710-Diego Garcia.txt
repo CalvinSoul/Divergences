@@ -6,7 +6,7 @@ state={
 	
 	history=
 	{
-		owner = ANG
+		owner = AAS
 		buildings = {
 			infrastructure = 3
 			13019 = {

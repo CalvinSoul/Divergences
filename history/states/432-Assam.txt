@@ -7,7 +7,7 @@ state={
 	}
 
 	history={
-		owner = SPA
+		owner = SAS
 		add_core_of = HIN
 		buildings = {
 			infrastructure = 3

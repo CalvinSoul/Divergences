@@ -8,7 +8,7 @@ state=
 	
 	history=
 	{
-		owner = SPA
+		owner = SAS
 		buildings = {
 			infrastructure = 3
 			4429 = {

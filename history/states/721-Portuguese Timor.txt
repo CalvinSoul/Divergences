@@ -4,7 +4,7 @@ state={
 	name="STATE_721"
 
 	history={
-		owner = ANG
+		owner = AAS
 		add_core_of = IDN
 		buildings = {
 			infrastructure = 3

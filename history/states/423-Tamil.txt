@@ -7,7 +7,7 @@ state={
 	}
 
 	history={
-		owner = ANG
+		owner = AAS
 		buildings = {
 			infrastructure = 5
 			industrial_complex = 1

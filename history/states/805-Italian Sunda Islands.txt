@@ -8,7 +8,7 @@ state={
 	manpower=100
 	buildings_max_level_factor=1.000
 	history={
-		owner = ANG
+		owner = AAS
 		buildings = {
 			infrastructure = 1
 		}

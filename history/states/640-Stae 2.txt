@@ -4,7 +4,7 @@ state={
 	name="STATE_640"
 
 	history={
-		owner = SPA
+		owner = SAS
 		buildings = {
 			infrastructure = 3
 			air_base = 1
