@@ -54,10 +54,70 @@ set_politics = {
 
 create_country_leader = {
 	
-	name = "Duncan Kelly"
-	picture = "Portrait_SCO_Duncan_Kelly.dds"
+	name = "Peder V"
+	picture = "Peder.tga"
+	expire = "1965.1.1"
+	ideology = progressivism_subtype
+	traits = {
+		#
+	}
+}
+create_country_leader = {
+	
+	name = "Peder V"
+	picture = "Peder.tga"
 	expire = "1965.1.1"
 	ideology = commercialism_subtype
+	traits = {
+		#
+	}
+}
+create_country_leader = {
+	
+	name = "Peder V"
+	picture = "Peder.tga"
+	expire = "1965.1.1"
+	ideology = conservativism_subtype
+	traits = {
+		#
+	}
+}
+create_country_leader = {
+	
+	name = "Peder V"
+	picture = "Peder.tga"
+	expire = "1965.1.1"
+	ideology = paternalism_subtype
+	traits = {
+		#
+	}
+}
+create_country_leader = {
+	
+	name = "Peder V"
+	picture = "Peder.tga"
+	expire = "1965.1.1"
+	ideology = reactionism_subtype
+	traits = {
+		#
+	}
+}
+create_country_leader = {
+	
+	name = "Peder V"
+	picture = "Peder.tga"
+	expire = "1965.1.1"
+	ideology = ultra_nationalism_subtype
+	traits = {
+		#
+	}
+}
+create_country_leader = {
+	
+	name = "Peder V"
+	picture = "Peder.tga"
+	expire = "1965.1.1"
+	ideology = hierarchism_subtype
 	traits = {
 		#
 	}

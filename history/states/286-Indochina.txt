@@ -7,7 +7,7 @@ state={
 	}
 
 	history={
-		owner = ANG
+		owner = AAS
 		add_core_of = KHE
 		victory_points = {
 			4401 3 

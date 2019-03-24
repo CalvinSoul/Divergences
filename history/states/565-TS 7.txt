@@ -8,8 +8,8 @@ state={
 	}
 
 	history={
-		owner = RUS
-		add_core_of = RUS
+		owner = DZU
+		add_core_of = DZU
 		buildings = {
 			infrastructure = 1
 
@@ -18,7 +18,7 @@ state={
 	}
 
 	provinces={
-		1666 1761 4762 4795 4868 7759 10583 10654 12506 12538 12575 
+		1761 7759 10583 10654 12506 12575 
 	}
 	manpower=195325
 	buildings_max_level_factor=1.000

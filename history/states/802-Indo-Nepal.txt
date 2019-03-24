@@ -4,7 +4,7 @@ state={
 	name="STATE_802"
 
 	history={
-		owner = NEP
+		owner = HIN
 		add_core_of = NEP
 		add_core_of = HIN
 		buildings = {
@@ -15,9 +15,9 @@ state={
 	}
 
 	provinces={
-		1656 4435 4459 10389 10878 12338 
+		1656 4459 10389 10878 12338 
 	}
-	state_category = rural
 	manpower=100
 	buildings_max_level_factor=1.000
+	state_category=rural
 }

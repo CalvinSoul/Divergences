@@ -2,7 +2,13 @@
 state={
 	id=158
 	name="STATE_158"
+	resources={
+		aluminium=27
+		steel=41
+		chromium=3
+		tungsten=2
 
+	}
 	history={
 		owner = ITA
 		add_core_of = ITA

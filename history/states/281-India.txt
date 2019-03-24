@@ -7,7 +7,7 @@ state={
 	state_category = enclave
 
 	history={
-		owner = ANG
+		owner = AAS
 		buildings = {
 			infrastructure = 3
 			4967 = {

@@ -64,7 +64,7 @@ create_country_leader = {
 }
 create_country_leader = {
 	
-	name = "Bảo Minh I"
+	name = "Bao Minh I"
 	picture = "Bao_Minh.tga"
 	expire = "1965.1.1"
 	ideology = commercialism_subtype
@@ -74,7 +74,7 @@ create_country_leader = {
 }
 create_country_leader = {
 	
-	name = "Bảo Minh I"
+	name = "Bao Minh I"
 	picture = "Bao_Minh.tga"
 	expire = "1965.1.1"
 	ideology = conservativism_subtype
@@ -84,7 +84,7 @@ create_country_leader = {
 }
 create_country_leader = {
 	
-	name = "Bảo Minh I"
+	name = "Bao Minh I"
 	picture = "Bao_Minh.tga"
 	expire = "1965.1.1"
 	ideology = paternalism_subtype
@@ -94,7 +94,7 @@ create_country_leader = {
 }
 create_country_leader = {
 	
-	name = "Bảo Minh I"
+	name = "Bao Minh I"
 	picture = "Bao_Minh.tga"
 	expire = "1965.1.1"
 	ideology = reactionism_subtype
@@ -104,7 +104,7 @@ create_country_leader = {
 }
 create_country_leader = {
 	
-	name = "Bảo Minh I"
+	name = "Bao Minh I"
 	picture = "Bao_Minh.tga"
 	expire = "1965.1.1"
 	ideology = ultra_nationalism_subtype
@@ -114,7 +114,7 @@ create_country_leader = {
 }
 create_country_leader = {
 	
-	name = "Bảo Minh I"
+	name = "Bao Minh I"
 	picture = "Bao_Minh.tga"
 	expire = "1965.1.1"
 	ideology = hierarchism_subtype

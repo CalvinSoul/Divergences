@@ -9,7 +9,7 @@ state={
 	}
 
 	history={
-		owner = ANG
+		owner = AAS
 		add_core_of = IDN
 		victory_points = {
 			4652 1 
