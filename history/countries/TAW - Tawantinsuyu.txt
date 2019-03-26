@@ -51,14 +51,68 @@ set_politics = {
 	election_frequency = 48
 	elections_allowed = no
 }
-
 create_country_leader = {
 	
-	name = "Pachacuti Tawar"
-	picture = "Portrait_TAW_Pachacuti_Tawar.dds"
+	name = "Pachacuti_Tawar"
+	picture = "Pachacuti_Tawar.dds"
+	expire = "1965.1.1"
+	ideology = egalitarianism_subtype
+	traits = {
+		#
+	}
+}
+create_country_leader = {
+	
+	name = "Capac Huallpa"
+	picture = "Capac_Huallpa.tga"
 	expire = "1965.1.1"
 	ideology = imperial_hierarchism_subtype
 	traits = {
 		#
 	}
+}
+
+create_field_marshal = {
+	name = "Killay Sulca"
+	desc = ""
+	picture = "Killay_Sulca.tga"
+	traits = {}
+	skill = 1
+	attack_skill = 1
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 1
+}	
+create_corps_commander = {
+	name = "Kukuri Malqui"
+	desc = ""
+	picture = "Kukuri_Malqui.tga"
+	traits = {}
+	skill = 1
+	attack_skill = 1
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 1
+}
+create_corps_commander = {
+	name = "Rimak Paccsi"
+	desc = ""
+	picture = "Rimak_Paccsi.tga"
+	traits = {}
+	skill = 1
+	attack_skill = 1
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 1
+}
+create_corps_commander = {
+	name = "Koka Quichca"
+	desc = ""
+	picture = "Koka_Quichca.tga"
+	traits = {}
+	skill = 1
+	attack_skill = 1
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 1
 }
