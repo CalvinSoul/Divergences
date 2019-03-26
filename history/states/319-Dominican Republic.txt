@@ -2,37 +2,31 @@
 state={
 	id=319
 	name="STATE_319"
-	resources={
-		chromium=1.000
-	}
 
 	history={
 		owner = SDR
 		add_core_of = SDR
 		buildings = {
-			infrastructure = 4
-			arms_factory = 1
-			industrial_complex = 3
-			air_base = 1
-			7660 = {
-				naval_base = 2
-
-			}
-
+			infrastructure = 5
 		}
 		victory_points = {
-			7660 5 
+			4641 30
 		}
 		victory_points = {
-			4598 1 
+			1594 5 
 		}
-
+		victory_points = {
+			4598 5
+		}
+		victory_points = {
+			7660 5
+		}
 	}
 
 	provinces={
 		1594 1635 4598 4641 7632 7660 10484 
 	}
-	manpower=1256000
+	manpower=2290137
 	buildings_max_level_factor=1.000
 	state_category=town
 }

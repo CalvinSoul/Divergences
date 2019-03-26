@@ -4,15 +4,14 @@ state={
 	provinces={
 		11106 
 	}
-	state_category = rural
-	manpower=100
-	buildings_max_level_factor=1.000
 	history={
 		owner = SPA
-		add_core_of = SPA
+		add_core_of = POL
 		buildings = {
 			infrastructure = 5
-
 		}
 	}
+	state_category = small_island
+	manpower=83192
+	buildings_max_level_factor=1.000
 }
