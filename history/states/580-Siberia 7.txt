@@ -1,10 +1,7 @@
 
 state={
 	id=580
-	name="STATE_580" # Tobolsk
-	manpower = 88126
-	
-	state_category = wasteland
+	name="STATE_580"
 
 	history={
 		owner = RUS
@@ -13,9 +10,13 @@ state={
 			infrastructure = 1
 
 		}
-	}
 
-	provinces={
-		1659 1744 1812 4710 4715 4746 4774 4846 7733 7768 7796 7867 7895 10592 10604 10620 12602 12630 12700 
 	}
+	impassable = yes
+	provinces={
+		1659 1704 1744 1771 1812 1841 1880 4659 4710 4715 4746 4754 4774 4813 4824 4846 7733 7768 7778 7796 7833 7867 7895 10592 10604 10620 10648 10716 10720 12390 12602 12630 12696 12700 
+	}
+	manpower=88126
+	buildings_max_level_factor=1.000
+	state_category=wasteland
 }
