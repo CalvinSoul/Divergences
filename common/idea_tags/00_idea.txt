@@ -13,19 +13,6 @@ idea_categories = {
 		cost = 0
 		removal_cost = -1
 	}
-	
-	national_expenditures = {
-		slot = mobilization_laws
-		slot = taxation_level
-		slot = economy
-		slot = military_budget
-		slot = research_budget
-		slot = special_projects
-		
-		cost = 150
-		removal_cost = 0
-	}
-	
 	government_structure = {
 		slot = prime_minister
 		slot = deputy_minister
@@ -39,7 +26,18 @@ idea_categories = {
 	}
 	economic_policy = {
 		slot = economic_structure
+		slot = industrialization_level
+		slot = literacy_rate
 		slot = trade_laws
+		slot = mobilization_laws
+		slot = women_economy
+		
+		cost = 150
+		removal_cost = 0
+	}
+	national_expenditures = {
+		slot = economy
+		slot = taxation_level
 		slot = union_laws
 		slot = wage_laws
 		slot = welfare_laws
@@ -60,14 +58,13 @@ idea_categories = {
 		removal_cost = 0
 
 	}
-
 	military_staff = {
-		slot = chief_of_staff
 		slot = military_type
+		slot = women_military
+		slot = chief_of_staff
+		slot = chief_of_army
 		slot = chief_of_navy
 		slot = chief_of_air_force
-		slot = military_theorist
-		slot = military_theorist
 		
 		cost = 150
 		removal_cost = 0

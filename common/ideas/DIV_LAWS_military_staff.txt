@@ -1,7 +1,4 @@
 ideas = {
-	chief_of_staff = { 
-		law = yes
-	}
 	military_type = { 
 		law = yes
 		MIL_guerilla = {
@@ -38,7 +35,7 @@ ideas = {
 			available = {}
 			visible = {}
 			modifier = {
-				minimum_training_level = 0.5
+				minimum_training_level = 0.6
 				army_org_factor = 0.1
 				planning_speed = 0.25
 			}
@@ -53,17 +50,78 @@ ideas = {
 			cancel_if_invalid = yes
 			default = no
 		}
+		MIL_colonial = {
+			allowed = {}
+			available = {}
+			visible = {}
+			modifier = {
+				conscription_factor = -0.8
+				minimum_training_level = 0.3
+				supply_consumption_factor = -0.25
+			}
+			cancel_if_invalid = yes
+			default = no
+		}
+	}
+	women_military = { 
+		law = yes
+		wmil_no_participation = {
+			level = 1
+			cost = 100
+			removal_cost = -1
+
+			modifier = {
+				conscription_factor = -0.10
+			}
+		}
+		wmil_auxiliary_roles = {
+			level = 2
+			cost = 100
+			removal_cost = -1
+
+			modifier = {
+				conscription_factor = 0.00
+			}
+			default = yes
+		}
+		wmil_limited_participation = {
+			level = 3
+			cost = 100
+			removal_cost = -1
+
+			modifier = {
+				conscription_factor = 0.10
+			}
+		}
+		wmil_extensive_participation = {
+			level = 4
+			cost = 100
+			removal_cost = -1
+
+			modifier = {
+				conscription_factor = 0.30
+			}
+		}
+		wmil_equal_participation = {
+			level = 5
+			cost = 100
+			removal_cost = -1
+
+			modifier = {
+				conscription_factor = 0.50
+			}
+		}
+	}
+	chief_of_staff = { 
+		law = yes
+	}
+	chief_of_army = { 
+		law = yes
 	}
 	chief_of_navy = { 
 		law = yes
 	}
 	chief_of_air_force = { 
-		law = yes
-	}
-	military_theorist = { 
-		law = yes
-	}
-	military_theorist = { 
 		law = yes
 	}
 }

@@ -251,7 +251,121 @@ spriteTypes = {
 		name = "GFX_idea_very_high_taxation"
 		texturefile = "gfx/interface/ideas/idea_very_high_taxation.dds"
 	}
-
+	spriteType = {
+		name = "GFX_idea_MIL_guard"
+		texturefile = "gfx/interface/ideas/idea_mil_guard.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_MIL_guerilla"
+		texturefile = "gfx/interface/ideas/idea_mil_guerilla.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_MIL_mass"
+		texturefile = "gfx/interface/ideas/idea_mil_mass.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_MIL_professional"
+		texturefile = "gfx/interface/ideas/idea_mil_professional.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_slot_chief_of_staff"
+		texturefile = "gfx/interface/ideas/idea_slot_chief_of_staff.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_slot_chief_of_army"
+		texturefile = "gfx/interface/ideas/idea_slot_chief_of_army.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_slot_chief_of_navy"
+		texturefile = "gfx/interface/ideas/idea_slot_chief_of_navy.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_slot_chief_of_air_force"
+		texturefile = "gfx/interface/ideas/idea_slot_chief_of_airforce.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_lit_1"
+		texturefile = "gfx/interface/ideas/idea_lit_1.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_lit_2"
+		texturefile = "gfx/interface/ideas/idea_lit_2.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_lit_3"
+		texturefile = "gfx/interface/ideas/idea_lit_3.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_lit_4"
+		texturefile = "gfx/interface/ideas/idea_lit_4.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_lit_5"
+		texturefile = "gfx/interface/ideas/idea_lit_5.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_ind_tribal_society"
+		texturefile = "gfx/interface/ideas/idea_ind_tribal_society.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_ind_pre_industrial_society"
+		texturefile = "gfx/interface/ideas/idea_ind_pre_industrial_society.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_ind_outdated_industrial_society"
+		texturefile = "gfx/interface/ideas/idea_ind_outdated_industrial_society.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_ind_modern_society"
+		texturefile = "gfx/interface/ideas/idea_ind_modern_society.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_wec_domestic_duties"
+		texturefile = "gfx/interface/ideas/idea_wec_domestic_duties.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_wec_limited_participation"
+		texturefile = "gfx/interface/ideas/idea_wec_limited_participation.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_wec_extensive_participation"
+		texturefile = "gfx/interface/ideas/idea_wec_extensive_participation.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_wec_full_participation"
+		texturefile = "gfx/interface/ideas/idea_wec_full_participation.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_wmil_no_participation"
+		texturefile = "gfx/interface/ideas/idea_wmil_no_participation.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_wmil_auxiliary_roles"
+		texturefile = "gfx/interface/ideas/idea_wmil_auxiliary_roles.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_wmil_limited_participation"
+		texturefile = "gfx/interface/ideas/idea_wmil_limited_participation.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_wmil_extensive_participation"
+		texturefile = "gfx/interface/ideas/idea_wmil_extensive_participation.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_wmil_equal_participation"
+		texturefile = "gfx/interface/ideas/idea_wmil_equal_participation.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_slot_artillery_manufacturer"
+		texturefile = "gfx/interface/ideas/idea_slot_artillery_manufacturer.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_MIL_colonial"
+		texturefile = "gfx/interface/ideas/idea_mil_colonial.dds"
+	}
+	
+##
+##
 	spriteType = {
 		name = "GFX_PLA_national_assembly"
 		texturefile = "gfx/interface/PLA_national_assembly.dds"

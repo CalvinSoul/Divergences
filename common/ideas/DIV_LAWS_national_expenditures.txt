@@ -1,242 +1,5 @@
 #National Expenditures
 ideas = {
-
-	mobilization_laws = { 
-		law = yes
-
-		disarmed_nation = {			
-			cost = 100
-			removal_cost = -1
-			level = 7
-			available = {
-				custom_trigger_tooltip = {
-    				tooltip = MIL_guard_tt
-					has_idea = MIL_guard
-				}
-			}
-			modifier = {
-				conscription = 0.01
-			}
-			cancel_if_invalid = yes
-		}
-		
-		volunteer_only = {		
-			cost = 100
-			removal_cost = -1
-			level = 6
-			available = {
-				custom_trigger_tooltip = {
-    			tooltip = MIL_guard_prof_tt
-   					OR = {
-						has_idea = MIL_guard
-						has_idea = MIL_professional
-					}
-				}
-			}
-			ai_will_do = {
-   				factor = 1
-   				modifier = {
-					factor = 60 # being disarmed is bad in a wargame yo
-					has_idea = disarmed_nation 
-				}
-			}
-			modifier = {
-				conscription = 0.015
-			}
-			default = yes
-			cancel_if_invalid = yes
-		}
-		
-		limited_conscription = {	
-			cost = 100
-			removal_cost = -1
-			level = 5
-			available = {
-				custom_trigger_tooltip = {
-    			tooltip = MIL_guard_prof_tt	
-   					OR = {
-						has_idea = MIL_guard
-						has_idea = MIL_professional
-					}
-				}
-			}
-			modifier = {
-				conscription = 0.025
-			}
-			ai_will_do = {
-   				factor = 1
-				modifier = {
-					#Prio if low on manpower
-					factor = 20
-					manpower_per_military_factory <  1000
-				}
-			}
-			cancel_if_invalid = yes
-		}
-		
-		extensive_conscription = {
-			available = {
-				custom_trigger_tooltip = {
-    			tooltip =  MIL_guerilla_prof_mass_tt	
-   					OR = {
-						has_idea = MIL_guerilla
-						has_idea = MIL_professional
-						has_idea = MIL_mass
-					}
-				}
-			}
-			ai_will_do = {
-   				factor = 1
-				modifier = {
-					#Prio if low on manpower
-					factor = 20
-					manpower_per_military_factory <  800
-				}
-			}
-			cost = 100
-			removal_cost = -1
-			level = 4
-			modifier = {
-				conscription = 0.05
-				training_time_factor = 0.1
-			}
-			cancel_if_invalid = yes
-		}
-		
-		service_by_requirement = {
-			available = {
-				custom_trigger_tooltip = {
-    				tooltip = MIL_guerilla_mass_tt	
-   					OR = {
-						has_idea = MIL_guerilla
-						has_idea = MIL_mass
-						}
-				}
-			}
-			ai_will_do = {
-   				factor = 1
-				modifier = {
-					#Prio if low on manpower
-					factor = 20
-					manpower_per_military_factory <  700
-				}
-				modifier = {
-					#Lower chance if has decent amount
-					factor = 0.5
-					manpower_per_military_factory >  1000
-				}
-				modifier = {
-					#Block has plenty manpower
-					factor = 0
-					manpower_per_military_factory >  3000
-				}
-			}
-			cost = 100
-			removal_cost = -1
-			level = 3
-			modifier = {
-				conscription = 0.1
-				industrial_capacity_factory = -0.1
-				industrial_capacity_dockyard = -0.1
-				production_speed_buildings_factor = -0.1
-				training_time_factor = 0.2
-			}
-			cancel_if_invalid = yes
-		}
-		
-		all_adults_serve = {
-			available = {
-				custom_trigger_tooltip = {
-    			tooltip = MIL_guerilla_mass_tt			
-   				OR = {
-					has_idea = MIL_guerilla
-					has_idea = MIL_mass
-					}
-				}
-			}
-			ai_will_do = {
-   				factor = 1
-				modifier = {
-					#Prio if low on manpower
-					factor = 20
-					manpower_per_military_factory <  600
-				}
-				modifier = {
-					#Lower chance if has decent amount
-					factor = 0.5
-					manpower_per_military_factory >  1000
-				}
-				modifier = {
-					#Block has plenty manpower
-					factor = 0
-					NOT = { tag = CHI }
-					manpower_per_military_factory >  5000
-				}
-
-				modifier = { # china relies a lot on throwing bodies at the enemy
-					factor = 3
-
-					tag = CHI
-					has_manpower < 200000
-				}
-			}
-			cost = 100
-			removal_cost = -1
-			level = 2
-			modifier = {
-				conscription = 0.2
-				industrial_capacity_factory = -0.3
-				industrial_capacity_dockyard = -0.3
-				production_speed_buildings_factor = -0.3
-				training_time_factor = 0.3
-			}
-			
-			cancel_if_invalid = yes
-		}
-		
-		scraping_the_barrel = {
-			available = {
-				custom_trigger_tooltip = {
-    			tooltip = MIL_guerilla_mass_tt		
-   				OR = {
-					has_idea = MIL_guerilla
-					has_idea = MIL_mass
-					}
-				}
-			}
-			ai_will_do = {
-   				factor = 1
-				modifier = {
-					#Prio if low on manpower
-					factor = 20
-					manpower_per_military_factory <  500
-				}				
-				modifier = {
-					#Lower chance if has decent amount
-					factor = 0.5
-					manpower_per_military_factory >  1000
-				}
-				modifier = {
-					#Block has plenty manpower
-					factor = 0
-					manpower_per_military_factory >  5000
-				}
-			}
-			cost = 100
-			removal_cost = -1
-			level = 1
-
-			modifier = {
-				conscription = 0.3
-				industrial_capacity_factory = -0.4
-				industrial_capacity_dockyard = -0.4
-				production_speed_buildings_factor = -0.4
-				training_time_factor = 0.5
-			}
-			cancel_if_invalid = yes
-		}
-	}
-
 	taxation_level = { 
 		law = yes
 
@@ -283,7 +46,7 @@ ideas = {
 				}
 			}
 			modifier = {
-				consumer_goods_factor = 0.6
+				consumer_goods_factor = 0.625
 			}
 			on_add = {
 				custom_effect_tooltip = tooltip_low_taxation
@@ -311,7 +74,7 @@ ideas = {
 				}
 			}
 			modifier = {
-				consumer_goods_factor = 0.4
+				consumer_goods_factor = 0.45
 			}
 			on_add = {
 				custom_effect_tooltip = tooltip_medium_taxation
@@ -332,7 +95,7 @@ ideas = {
 				
 			}
 			modifier = {
-				consumer_goods_factor = 0.2
+				consumer_goods_factor = 0.275
 			}
 			on_add = {
 				custom_effect_tooltip = tooltip_high_taxation
@@ -359,10 +122,10 @@ ideas = {
 				}
 			}
 			modifier = {
-				consumer_goods_factor = 0.0
+				consumer_goods_factor = 0.1
 			}
 			on_add = {
-					custom_effect_tooltip = tooltip_very_high_taxation
+				#	custom_effect_tooltip = tooltip_very_high_taxation
 				set_variable = {
      			 var = privitization_level
      			 value = 0.0
@@ -373,7 +136,6 @@ ideas = {
 			cancel_if_invalid = no
 		}
 	}
-
 	economy = { 
 		law = yes
 
@@ -383,10 +145,9 @@ ideas = {
 			removal_cost = -1
 			
 			modifier = {
-				production_speed_industrial_complex_factor = 0.3
-				production_speed_arms_factory_factor = -0.3
-				conversion_cost_civ_to_mil_factor= 0.5
-				conversion_cost_mil_to_civ_factor = -0.5
+				production_speed_buildings_factor = 0.1
+				production_speed_arms_factory_factor = -0.2
+				industrial_capacity_factory = -0.5
 			}
 			
 			default = yes
@@ -406,10 +167,9 @@ ideas = {
 			removal_cost = -1
 			
 			modifier = {
-				production_speed_industrial_complex_factor = 0.2
-				production_speed_arms_factory_factor = -0.2
-				conversion_cost_civ_to_mil_factor= 0.25
-				conversion_cost_mil_to_civ_factor = -0.25
+				production_speed_buildings_factor = 0.05
+				production_speed_arms_factory_factor = -0.1
+				industrial_capacity_factory = -0.4
 			}
 			
 			cancel_if_invalid = no
@@ -436,10 +196,7 @@ ideas = {
 			removal_cost = -1
 			
 			modifier = {
-				production_speed_industrial_complex_factor = 0.1
-				production_speed_arms_factory_factor = -0.1
-				conversion_cost_civ_to_mil_factor= 0.1
-				conversion_cost_mil_to_civ_factor = -0.1
+			industrial_capacity_factory = -0.3
 			}
 			
 			cancel_if_invalid = no
@@ -465,10 +222,9 @@ ideas = {
 			removal_cost = -1
 			
 			modifier = {
-				production_speed_industrial_complex_factor = -0.1
-				production_speed_arms_factory_factor = 0.1
-				conversion_cost_mil_to_civ_factor = 0.25
-				conversion_cost_civ_to_mil_factor= -0.25
+				conscription = -0.015
+				production_speed_arms_factory_factor = 0.25
+				industrial_capacity_factory = -0.1
 			}
 			
 			cancel_if_invalid = no
@@ -523,148 +279,263 @@ ideas = {
 			removal_cost = -1
 			
 			modifier = {
-				conscription = -0.03
-				production_speed_industrial_complex_factor = -0.5
-				production_speed_arms_factory_factor = 0.3
-				conversion_cost_mil_to_civ_factor = 0.5
-				conversion_cost_civ_to_mil_factor= -0.5
-				consumer_goods_factor = -0.1
+				conscription = -0.045
+				production_speed_arms_factory_factor = 0.4
+				industrial_capacity_factory = 0.2
 			}
 			
 			cancel_if_invalid = no
 		}
 	}
-	military_budget = {
-		very_small_military_budget = {
-			level = 5
-			cost = 100
-			removal_cost = -1
-			
-			modifier = {
-				consumer_goods_factor = -0.10
-				army_org_factor = -0.1
-				army_morale_factor = -0.25
-				experience_gain_army = -0.1
-				training_time_army_factor = 0.3
-			}
-			cancel_if_invalid = yes
-		}
-		small_military_budget = {
+
+	union_laws = { 
+		law = yes
+		UNI_illegal = {
 			level = 4
 			cost = 100
 			removal_cost = -1
-			
-			modifier = {
-				consumer_goods_factor = -0.05
-				army_org_factor = -0.05
-				army_morale_factor = -0.1
-				experience_gain_army = -0.03
-				training_time_army_factor = 0.1
-			}
+			allowed = {}
+			available = {}
+			visible = {}
 			cancel_if_invalid = yes
+			modifier = {
+				stability_factor = -0.05
+				production_speed_buildings_factor = 0.05
+			}
+			default = no
 		}
-		moderate_military_budget = {
+		UNI_state = {
 			level = 3
 			cost = 100
 			removal_cost = -1
-			
-			modifier = {}
-			default = yes
+			allowed = {}
+			available = {}
+			visible = {}
 			cancel_if_invalid = yes
+			modifier = {
+				stability_factor = 0.02
+				production_speed_buildings_factor = 0.02
+			}
+			default = no
 		}
-		large_military_budget = {
+		UNI_non_socialist = {
 			level = 2
 			cost = 100
 			removal_cost = -1
-			available = { 
-					num_of_civilian_factories_available_for_projects > 0
-			}
-			modifier = {
-				consumer_goods_factor = 0.05
-				army_org_factor = 0.05
-				army_morale_factor = 0.1
-				experience_gain_army = 0.05
-			}
+			allowed = {}
+			available = {}
+			visible = {}
 			cancel_if_invalid = yes
+			modifier = {
+				stability_factor = 0.05
+				production_speed_buildings_factor = -0.02
+			}
+			default = yes
 		}
-		very_large_military_budget = {
+		UNI_all = {
 			level = 1
 			cost = 100
 			removal_cost = -1
-			available = { 
-					num_of_civilian_factories_available_for_projects > 0
-			}
-			modifier = {
-				consumer_goods_factor = 0.1
-				army_org_factor = 0.1
-				army_morale_factor = 0.15
-				experience_gain_army = 0.1
-				training_time_army_factor = -0.05
-			}
+			allowed = {}
+			available = {}
+			visible = {}
 			cancel_if_invalid = yes
+			modifier = {
+				stability_factor = 0.06
+				production_speed_buildings_factor = -0.025
+			}
+			default = no
 		}
 	}
-	research_budget = {
-		very_small_research_budget = {
+	wage_laws = { 
+		law = yes
+		WAG_none = {
 			level = 5
 			cost = 100
 			removal_cost = -1
-			
-			modifier = {
-				consumer_goods_factor = -0.10
-				research_speed_factor = 0.25
-			}
+			allowed = {}
+			available = {}
+			visible = {}
 			cancel_if_invalid = yes
+			modifier = {
+				stability_factor = -0.05
+				production_factory_efficiency_gain_factor = 0.1
+			}
+			default = no
 		}
-		small_research_budget = {
+		WAG_trincket = {
 			level = 4
 			cost = 100
 			removal_cost = -1
-			
-			modifier = {
-				consumer_goods_factor = -0.05
-				research_speed_factor = 0.1
-			}
+			allowed = {}
+			available = {}
+			visible = {}
 			cancel_if_invalid = yes
+			modifier = {
+				stability_factor = -0.02
+				production_factory_efficiency_gain_factor = 0.05
+			}
+			default = no
 		}
-		moderate_research_budget = {
+		WAG_low = {
 			level = 3
 			cost = 100
 			removal_cost = -1
-			
-			modifier = {}
-			default = yes
+			allowed = {}
+			available = {}
+			visible = {}
 			cancel_if_invalid = yes
+			modifier = {
+				stability_factor = 0.04
+				production_factory_efficiency_gain_factor = 0.01
+			}
+			default = yes
 		}
-		large_research_budget = {
+		WAG_acceptable = {
 			level = 2
 			cost = 100
 			removal_cost = -1
-			available = { 
-					num_of_civilian_factories_available_for_projects > 0
-			}
-			modifier = {
-				consumer_goods_factor = 0.05
-				research_speed_factor = -0.05
-			}
+			allowed = {}
+			available = {}
+			visible = {}
 			cancel_if_invalid = yes
+			modifier = {
+				stability_factor = 0.06
+				production_factory_efficiency_gain_factor = -0.05
+			}
+			default = no
 		}
-		very_large_research_budget = { 
+		WAG_good = {
 			level = 1
 			cost = 100
 			removal_cost = -1
-			available = { 
-					num_of_civilian_factories_available_for_projects > 0
-			}
-			modifier = {
-				consumer_goods_factor = 0.1
-				research_speed_factor = -0.1
-			}
+			allowed = {}
+			available = {}
+			visible = {}
 			cancel_if_invalid = yes
+			modifier = {
+				stability_factor = 0.08
+				production_factory_efficiency_gain_factor = -0.1
+			}
+			default = no
 		}
-
 	}
-	special_projects = {
-
+	welfare_laws = { 
+		law = yes
+		WEL_none = {
+			level = 4
+			cost = 100
+			removal_cost = -1
+			allowed = {}
+			available = {}
+			visible = {}
+			cancel_if_invalid = yes
+			modifier = {
+				stability_factor = -0.05
+			}
+			default = no
+		}
+		WEL_limited = {
+			level = 3
+			cost = 100
+			removal_cost = -1
+			allowed = {}
+			available = {}
+			visible = {}
+			cancel_if_invalid = yes
+			modifier = {
+				consumer_goods_factor = 0.04
+			}
+			default = yes
+		}
+		WEL_modest = {
+			level = 2
+			cost = 100
+			removal_cost = -1
+			allowed = {}
+			available = {}
+			visible = {}
+			cancel_if_invalid = yes
+			modifier = {
+				consumer_goods_factor = 0.08
+				stability_factor = 0.05
+			}
+			default = no
+		}
+		WEL_excellent = {
+			level = 1
+			cost = 100
+			removal_cost = -1
+			allowed = {}
+			available = {}
+			visible = {}
+			cancel_if_invalid = yes
+			modifier = {
+				consumer_goods_factor = 0.12
+				stability_factor = 0.10
+			}
+			default = no
+		}
+	}
+	healthcare_laws = { 
+		law = yes
+		HLT_none = {
+			level = 4
+			cost = 100
+			removal_cost = -1
+			allowed = {}
+			available = {}
+			visible = {}
+			cancel_if_invalid = yes
+			modifier = {
+				MONTHLY_POPULATION = -0.2
+				conscription_factor = -0.25
+			}
+			default = no
+		}
+		HLT_private = {
+			level = 3
+			cost = 100
+			removal_cost = -1
+			allowed = {}
+			available = {}
+			visible = {}
+			cancel_if_invalid = yes
+			modifier = {
+				MONTHLY_POPULATION = 0.05
+			}
+			default = yes
+		}
+		HLT_regulated = {
+			level = 2
+			cost = 100
+			removal_cost = -1
+			allowed = {}
+			available = {}
+			visible = {}
+			cancel_if_invalid = yes
+			modifier = {
+				consumer_goods_factor = 0.05
+				MONTHLY_POPULATION = 0.1
+				conscription_factor = 0.1
+			}
+			default = no
+		}
+		HLT_universal = {
+			level = 1
+			cost = 100
+			removal_cost = -1
+			allowed = {}
+			available = {}
+			visible = {}
+			cancel_if_invalid = yes
+			modifier = {
+				consumer_goods_factor = 0.08
+				stability_factor = 0.05
+				MONTHLY_POPULATION = 0.1
+				conscription_factor = 0.1
+			}
+			default = no
+		}
 	}
 }
