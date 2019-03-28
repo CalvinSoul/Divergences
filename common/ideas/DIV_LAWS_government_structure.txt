@@ -199,6 +199,7 @@ ideas = {
 			cancel_if_invalid = yes
 			modifier = {
 				drift_defence_factor =0.25
+				political_power_factor = 0.4
 			}
 			default = no
 		}
@@ -219,6 +220,7 @@ ideas = {
 			cancel_if_invalid = yes
 			modifier = {
 				drift_defence_factor =0.2
+				political_power_factor = 0.3
 			}
 			default = no
 		}
@@ -239,6 +241,7 @@ ideas = {
 			cancel_if_invalid = yes
 			modifier = {
 				drift_defence_factor =0.15
+				political_power_factor = 0.2
 			}
 			default = no
 		}
@@ -259,6 +262,7 @@ ideas = {
 			cancel_if_invalid = yes
 			modifier = {
 				drift_defence_factor =0.1
+				political_power_factor = 0.1
 			}
 			default = yes
 		}
@@ -279,6 +283,7 @@ ideas = {
 			cancel_if_invalid = yes
 			modifier = {
 				drift_defence_factor =-0.1
+				political_power_factor = 0
 			}
 			default = no
 		}

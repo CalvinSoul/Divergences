@@ -4,7 +4,7 @@ state={
 	name="STATE_306" # Cundinamarca
 	manpower = 3667233
 	
-	state_category = city
+	state_category = large_city 
 	
 	history={
 		owner = GRA 

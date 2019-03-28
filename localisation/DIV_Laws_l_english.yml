@@ -103,7 +103,7 @@ UNI_non_socialist:0 "Non-Socialist Unions"
 UNI_all:0 "Protected Unions"
 
 WAG_none:0 "No Minimum Wage"
-WAG_trincket:0 "Trincket Minimum Wage"
+WAG_trincket:0 "Trinket Minimum Wage"
 WAG_low:0 "Low Minimum Wage"
 WAG_acceptable:0 "Acceptable Minimum Wage"
 WAG_good:0 "Good Minimum Wage"

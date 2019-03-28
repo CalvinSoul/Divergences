@@ -3,7 +3,7 @@ state={
 	id=307
 	name="STATE_307" # Miranda
 	
-	state_category = city
+	state_category = town 
 	
 	manpower = 1200856
 	

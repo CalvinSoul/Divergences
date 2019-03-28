@@ -256,6 +256,7 @@ free_license = {
 stability_good_modifier = {
 	industrial_capacity_factory = 0.20
 	industrial_capacity_dockyard = 0.20
+	production_speed_buildings_factor = 0.2
 	consumer_goods_factor = -0.05
 	political_power_factor = 0.1
 }
@@ -264,6 +265,7 @@ stability_good_modifier = {
 stability_bad_modifier = {
 	industrial_capacity_factory = -0.50
 	industrial_capacity_dockyard = -0.50
+	production_speed_buildings_factor = -0.50
 	political_power_factor = -0.2
 }
 

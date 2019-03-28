@@ -4,7 +4,7 @@ state=
 	name="STATE_118"
 	manpower=143258
 	
-	state_category = enclave
+	state_category = rural 
 	history={
 		owner = SPA
 		add_core_of = SPA

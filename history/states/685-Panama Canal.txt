@@ -3,7 +3,7 @@ state={
 	name="STATE_685"
 	manpower = 65551
 	
-	state_category = enclave
+	state_category = pastoral
 
 	history={
 		owner = GRA 

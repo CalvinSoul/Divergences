@@ -4,7 +4,7 @@ state={
 	name="STATE_464"
 	manpower = 1630650
 	
-	state_category = rural
+	state_category = large_town 
 
 	history={
 		owner = VIN

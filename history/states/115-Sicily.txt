@@ -4,7 +4,7 @@ state={
 	name="STATE_115"
 	manpower = 3820498
 	
-	state_category = city
+	state_category = large_city 
 	history={
 		owner = ARA
 		add_core_of = ARA

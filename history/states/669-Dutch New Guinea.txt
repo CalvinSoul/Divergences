@@ -3,7 +3,7 @@ state={
 	name="STATE_669"
 	manpower = 671415
 
-	state_category = pastoral
+	state_category = rural 
 
 	history={
 		owner = JER

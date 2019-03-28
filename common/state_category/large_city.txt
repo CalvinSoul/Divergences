@@ -1,6 +1,6 @@
 state_categories={
 	large_city = {
-		local_building_slots = 12
+		local_building_slots = 24
 	
 		color = { 0 240 0 }
 	}

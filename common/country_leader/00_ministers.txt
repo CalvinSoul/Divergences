@@ -3,119 +3,119 @@
 leader_traits = {		###PUTTING THIS HERE PLS NO UPSET####
 	### Prime Ministers
 	pm_reformer_4 = {
-		political_power_gain = 0.30
+		political_power_gain = 0.50
 		stability_factor = -0.03
 
 		random = no
 	}
 	pm_reformer_3 = {
-		political_power_gain = 0.20
+		political_power_gain = 0.40
 		stability_factor = -0.03
 
 		random = no
 	}
 	pm_reformer_2 = {
-		political_power_gain = 0.10
+		political_power_gain = 0.30
 		stability_factor = -0.03
 
 		random = no
 	}
 	pm_reformer_1 = {
-		political_power_gain = 0.10
+		political_power_gain = 0.30
 		stability_factor = -0.08
 
 		random = no
 	}
 
 	pm_compromiser_4 = {
-		political_power_gain = -0.10
+		political_power_gain = 0.3
 		stability_factor = 0.1
 
 		random = no
 	}
 	pm_compromiser_3 = {
-		political_power_gain = -0.10
+		political_power_gain = 0.25
 		stability_factor = 0.06
 
 		random = no
 	}
 	pm_compromiser_2 = {
-		political_power_gain = -0.10
+		political_power_gain = 0.2
 		stability_factor = 0.03
 
 		random = no
 	}
 	pm_compromiser_1 = {
-		political_power_gain = -0.10
+		political_power_gain = 0.1
 		stability_factor = 0.03
 
 		random = no
 	}
 
 	pm_populist_4 = {
-		political_power_gain = 0.40
+		political_power_gain = 0.80
 		stability_factor = -0.08
 
 		random = no
 	}
 	pm_populist_3 = {
-		political_power_gain = 0.25
+		political_power_gain = 0.60
 		stability_factor = -0.08
 
 		random = no
 	}
 	pm_populist_2 = {
-		political_power_gain = 0.15
+		political_power_gain = 0.40
 		stability_factor = -0.08
 
 		random = no
 	}
 	pm_populist_1 = {
-		political_power_gain = 0.15
+		political_power_gain = 0.40
 		stability_factor = -0.15
 
 		random = no
 	}
 
 	pm_traditionalist_4 = {
-		political_power_gain = -0.25
+		political_power_gain = -0.05
 		stability_factor = 0.2
 
 		random = no
 	}
 	pm_traditionalist_3 = {
-		political_power_gain = -0.25
+		political_power_gain = -0.05
 		stability_factor = 0.14
 
 		random = no
 	}
 	pm_traditionalist_2 = {
-		political_power_gain = -0.25
+		political_power_gain = -0.05
 		stability_factor = 0.08
 
 		random = no
 	}
 	pm_traditionalist_1 = {
-		political_power_gain = -0.40
+		political_power_gain = -0.2
 		stability_factor = 0.08
 
 		random = no
 	}
 
 	pm_autocrat_4 = {
-		political_power_gain = 0.50
+		political_power_gain = 0.80
 		stability_factor = 0.05
 
 		random = no
 	}
 	pm_autocrat_3 = {
-		political_power_gain = 0.25
+		political_power_gain = 0.50
 		stability_factor = -0.05
 
 		random = no
 	}
 	pm_autocrat_2 = {
-		political_power_gain = 0.10
+		political_power_gain = 0.30
 		stability_factor = -0.1
 
 		random = no

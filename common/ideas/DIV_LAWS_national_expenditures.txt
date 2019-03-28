@@ -489,7 +489,7 @@ ideas = {
 			cancel_if_invalid = yes
 			modifier = {
 				MONTHLY_POPULATION = -0.2
-				conscription_factor = -0.25
+				stability_factor = -0.08
 			}
 			default = no
 		}
@@ -502,7 +502,8 @@ ideas = {
 			visible = {}
 			cancel_if_invalid = yes
 			modifier = {
-				MONTHLY_POPULATION = 0.05
+				MONTHLY_POPULATION = 0.0
+				stability_factor = -0.05
 			}
 			default = yes
 		}
@@ -515,9 +516,8 @@ ideas = {
 			visible = {}
 			cancel_if_invalid = yes
 			modifier = {
-				consumer_goods_factor = 0.05
-				MONTHLY_POPULATION = 0.1
-				conscription_factor = 0.1
+				consumer_goods_factor = 0.04
+				MONTHLY_POPULATION = 0.15
 			}
 			default = no
 		}
@@ -532,8 +532,7 @@ ideas = {
 			modifier = {
 				consumer_goods_factor = 0.08
 				stability_factor = 0.05
-				MONTHLY_POPULATION = 0.1
-				conscription_factor = 0.1
+				MONTHLY_POPULATION = 0.20
 			}
 			default = no
 		}

@@ -16,7 +16,7 @@ state={
 	provinces={
 		2947 2976 4695 5239 7901 8962 10585 10721 13167 13168 13187 13188 13189 13190 13191 
 	}
-	state_category = rural
+	state_category = wasteland
 	manpower=17742
 	buildings_max_level_factor=1.000
 }

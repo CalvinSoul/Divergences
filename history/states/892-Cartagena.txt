@@ -4,7 +4,7 @@ state={
 	provinces={
 		1093 3835 10024 10109 11884 
 	}
-	state_category = rural
+	state_category = town 
 	manpower=754072
 	buildings_max_level_factor=1.000
 	history={
