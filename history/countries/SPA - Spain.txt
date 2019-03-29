@@ -64,7 +64,7 @@ create_country_leader = {
 }
 set_autonomy = {
 	target = NAZ
-	autonomous_state = autonomy_4
+	autonomous_state = autonomy_3
 	freedom_level = 0.5
 }
 set_autonomy = {
@@ -124,36 +124,42 @@ NAZ = {
 
 	parties = {
 		blanquism = { 
-			popularity = 15
+			popularity = 2
 		}
 		egalitarianism = {
-			popularity = 5
+			popularity = 6
 		}
 		libertarianism = {
-			popularity = 10
+			popularity = 8
 		}
 		progressivism = { 
-			popularity = 20
+			popularity = 36
 		}
 		commercialism = { 
-			popularity = 10
+			popularity = 14
 		}
 		conservativism = { 
-			popularity = 10
+			popularity = 19
 		}
 		paternalism = { 
 			popularity = 10
 		}
 		reactionism = { 
-			popularity = 10
+			popularity = 4
 		}
 		ultra_nationalism = { 
-			popularity = 8
-		}
-		hierarchism = { 
 			popularity = 2
 		}
+		hierarchism = { 
+			popularity = 1
+		}
 	}
+	
+	ruling_party = progressivism
+	last_election = "1924.1.1"
+	election_frequency = 48
+	elections_allowed = yes
+}
 	
 	ruling_party = progressivism
 	last_election = "1936.1.1"

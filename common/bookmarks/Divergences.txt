@@ -4,14 +4,53 @@ bookmarks = {
 		desc = "DIVERGENCES_DESC"
 		date = 1925.1.1.1
 		picture = "GFX_select_date_1936"
-		default_country = "PAP"
+		default_country = "BRG"
 		default = yes
-		"PAP"={
+		"GER"={
 			history = "GER_DIVERGENCES_DESC"
-			ideology = democracy
+			ideology = paternalism
+			focuses = {
+			}
+		}		
+		"ANG"={
+			history = "ANG_DIVERGENCES_DESC"
+			ideology = conservativism
+			focuses = {
+			}
+		}		
+		"ITA"={
+			history = "ITA_DIVERGENCES_DESC"
+			ideology = commercialism
+			focuses = {
+			}
+		}		
+		"BRG"={
+			history = "BRG_DIVERGENCES_DESC"
+			ideology = hierarchism
 			focuses = {
 			}
 		}
+		"SCA"={
+			history = "SCA_DIVERGENCES_DESC"
+			ideology = libertarianism
+			focuses = {
+			}
+		}		
+		"JAP"={
+			history = "JAP_DIVERGENCES_DESC"
+			ideology = commercialism
+			focuses = {
+			}
+		}	
+		"RUS"={
+			history = "RUS_DIVERGENCES_DESC"
+			ideology = paternalism
+			focuses = {
+			}
+		}
+		"---"={
+			history = "OTHER_DIVERGENCES_DESC"
+		}		
 		effect = {
 			randomize_weather = 12345 # <- Obligatory in every bookmark !
 			#123 = { rain_light = yes }
