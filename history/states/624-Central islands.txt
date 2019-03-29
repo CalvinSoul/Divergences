@@ -5,9 +5,9 @@ state=
 	manpower = 1290672
 	state_category = town
 	
-	history=
-	{
-		owner = JAP
+	history={
+		owner = CHR
+		add_core_of = CHR
 		buildings = {
 			infrastructure = 3
 			industrial_complex = 1

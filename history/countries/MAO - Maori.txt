@@ -55,7 +55,7 @@ set_politics = {
 create_country_leader = {
 	
 	name = "Te Rata Mahuta"
-	picture = "Potatau.pga"
+	picture = "Potatau.tga"
 	expire = "1965.1.1"
 	ideology = paternalism_subtype
 	traits = {

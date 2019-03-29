@@ -5,9 +5,9 @@ state=
 	manpower = 1138724
 	
 	state_category = rural
-	history=
-	{
-		owner = JAP
+	history={
+		owner = CHR
+		add_core_of = CHR
 		buildings = {
 			infrastructure = 3
 		}

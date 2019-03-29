@@ -8,7 +8,8 @@ state={
 	manpower=100
 	buildings_max_level_factor=1.000
 	history={
-		owner = CHI
+		owner = LAN
+		add_core_of = LAN
 		buildings = {
 			infrastructure = 5
 		}

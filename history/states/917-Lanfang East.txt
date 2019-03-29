@@ -1,17 +1,22 @@
+
 state={
 	id=917
 	name="STATE_917"
+
+	history={
+		owner = LAN
+		add_core_of = LAN
+		buildings = {
+			infrastructure = 5
+
+		}
+
+	}
+
 	provinces={
-		2170 2222 7424 8221 10310 
+		2170 2222 7424 8221 10310 12280 
 	}
 	manpower=0
 	buildings_max_level_factor=1.000
 	state_category=town
-	history={
-		owner = CHI
-		add_core_of = CHI
-		buildings = {
-			infrastructure = 5
-		}
-	}
 }
