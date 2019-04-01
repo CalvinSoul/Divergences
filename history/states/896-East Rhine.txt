@@ -1,18 +1,23 @@
+
 state={
 	id=896
 	name="STATE_896"
-	provinces={
-		529 6444 6469 6570 9482 9486 
-	}
-	state_category = rural
-	manpower=100
-	buildings_max_level_factor=1.000
+
 	history={
-		owner = BRG
+		owner = RHE
+		add_core_of = RHE
 		add_core_of = BRG
 		buildings = {
 			infrastructure = 5
+
 		}
-		#victory_points = { 0 5 }
+
 	}
+
+	provinces={
+		529 3512 6444 6469 6570 9482 9486 
+	}
+	manpower=100
+	buildings_max_level_factor=1.000
+	state_category=rural
 }

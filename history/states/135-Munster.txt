@@ -7,20 +7,23 @@ state={
 		owner = IRA
 		add_core_of = IRA
 		buildings = {
-			infrastructure = 6
-			industrial_complex = 3
-
+			infrastructure = 5
 		}
 		victory_points = {
-			7394 1 
+			7394 25
 		}
-
+		victory_points = {
+			6313 5 
+		}
+		victory_points = {
+			11237 5
+		}
 	}
 
 	provinces={
-		303 3396 6289 6313 6405 7394 9284 9310 9405 11237 11267 11334 
+		6289 6313 6405 7394 9284 9310 9405 11237 11267 11334 
 	}
-	manpower=941400
+	manpower=3900669
 	buildings_max_level_factor=1.000
-	state_category=town
+	state_category= city 
 }

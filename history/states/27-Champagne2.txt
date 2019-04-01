@@ -7,8 +7,7 @@ state={
 	}
 
 	history={
-		owner = ANG
-		add_core_of = ANG
+		owner = BRG
 		add_core_of = BRG
 		victory_points = {
 			667 5 
@@ -23,7 +22,7 @@ state={
 	}
 
 	provinces={
-		648 667 3669 3681 9625 9644 11593 11628 11794 
+		648 667 680 3533 3652 3669 3681 6531 9625 9644 11628 11794 
 	}
 	manpower=1370800
 	buildings_max_level_factor=1.000

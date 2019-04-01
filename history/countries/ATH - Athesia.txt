@@ -63,7 +63,7 @@ create_corps_commander = {
 	name = "Enzo Bernero"
 	desc = ""
 	picture = "Enzo_Bernero.dds"
-	traits = {}
+	traits = { political_loyalist_army }
 	skill = 1
 	attack_skill = 1
 	defense_skill = 1
@@ -73,7 +73,7 @@ create_corps_commander = {
 create_navy_leader = {
 	name = "Senesio Caira"
 	picture = "Senesio_Caira.dds"
-	traits = { }
+	traits = { political_loyalist_navy }
 	skill = 1
 }
 

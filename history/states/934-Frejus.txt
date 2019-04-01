@@ -1,0 +1,17 @@
+state={
+	id=934
+	name="STATE_934"
+	provinces={
+		764 3764 3928 3959 6975 
+	}
+	history={
+		owner = OCC
+		add_core_of = OCC
+		buildings = {
+			infrastructure = 5
+		}
+	}
+	state_category=rural
+	manpower=0
+	buildings_max_level_factor=1.000
+}

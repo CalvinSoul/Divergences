@@ -8,13 +8,15 @@ state={
 		add_core_of = BRG
 		buildings = {
 			infrastructure = 5
+
 		}
+
 	}
 
 	provinces={
-		551 680 817 3533 3652 6531 11732 
+		641 698 817 3646 3650 3666 6668 6698 9642 
 	}
-	state_category = rural
 	manpower=100
 	buildings_max_level_factor=1.000
+	state_category=rural
 }

@@ -4,15 +4,14 @@ state=
 	name="STATE_100"
 	manpower = 115870
 	
-	state_category = rural
+	state_category = pastoral
 	
 	
-	history=
-	{
+	history= {
 		owner = SCO
 		add_core_of = SCO
 		add_core_of = SCA
-		victory_points = { 12674 1 }
+		victory_points = { 12674 5 }
 		buildings = {
 			infrastructure = 2
 			12674 ={
@@ -21,7 +20,5 @@ state=
 		}
 
 	}
-	provinces=
-	{
-4861 12674 12689 	}
+	provinces= { 4861 12674 12689 	}
 }

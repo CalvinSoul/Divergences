@@ -2,35 +2,25 @@
 state={
 	id=113
 	name="STATE_113"
-	resources={
-		aluminium=1.000
-		steel=2.000
-	}
 
 	history={
 		owner = IRA
 		add_core_of = IRA
-		victory_points = {
-			11293 5 
-		}
 		buildings = {
-			infrastructure = 7
-			arms_factory = 1
-			industrial_complex = 5
-			air_base = 3
-			11293 = {
-				naval_base = 6
-
-			}
-
+			infrastructure = 5
 		}
-
+		victory_points = {
+			11293 50
+		}
+		victory_points = {
+			3359 5 
+		}
 	}
 
 	provinces={
-		285 3342 7377 11293 
+		285 303 369 3342 3359 7377 11293 
 	}
-	manpower=1357600
+	manpower=3187033
 	buildings_max_level_factor=1.000
 	state_category=city
 }

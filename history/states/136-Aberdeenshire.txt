@@ -2,9 +2,7 @@
 state={
 	id=136
 	name="STATE_136"
-	manpower = 745466
-	
-	state_category = town
+
 	resources={
 		tungsten=4 # was: 6
 		aluminium=3 # was: 4
@@ -17,8 +15,16 @@ state={
 			infrastructure = 6
 			dockyard = 2
 		}
+		victory_points = {
+			3150 5 
+		}
+		victory_points = {
+			11136 25 
+		}
 	}
 
+	manpower = 2162804
+	state_category = city
 	provinces={
 		200 3150 9161 11055 11136 11207 11306 
 	}

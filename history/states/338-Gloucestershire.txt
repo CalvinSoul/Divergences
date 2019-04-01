@@ -2,30 +2,32 @@
 state={
 	id=338
 	name="STATE_338"
-	manpower = 1800615
+	
 	resources={
 		steel=9 # was: 16
 	}
 
-	state_category = city
-
 	history={
 		owner = ANG
 		add_core_of = ANG
-		victory_points = {
-			3369 5 
-		}
 		buildings = {
-			infrastructure = 7
-			arms_factory = 1
-			industrial_complex = 1
-			air_base = 2
+			infrastructure = 5
 			3369 = {
 				naval_base = 2
 			}
 		}
+		victory_points = {
+			3369 25
+		}
+		victory_points = {
+			9484 5 
+		}
+		victory_points = {
+			6351 5 
+		}
 	}
-
+	manpower = 2466842
+	state_category = city
 	provinces={
 		3369 6221 6351 6378 9484 11471 
 	}

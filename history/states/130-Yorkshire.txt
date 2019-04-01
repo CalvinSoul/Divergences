@@ -2,34 +2,28 @@
 state={
 	id=130
 	name="STATE_130"
-	manpower = 4762495
 	
-	state_category = metropolis
-	
-	resources={
-		steel=71 # was: 120
-	}
-
 	history={
 		owner = ANG
 		add_core_of = ANG
-		victory_points = {
-			9379 15 
-		}
-		victory_points = {
-			11297 10 
-		}
 		buildings = {
-			infrastructure = 7
-			arms_factory = 2
-			industrial_complex = 3
-			air_base = 10
+			infrastructure = 5
 			11297 = {
 				naval_base = 5
 			}
 		}
+		victory_points = {
+			9379 5 
+		}
+		victory_points = {
+			11297 25 
+		}
+		victory_points = {
+			9269 5
+		}
 	}
-
+	manpower = 2847193
+	state_category = large_city 
 	provinces={
 		6268 9269 9315 9332 9379 9397 11297 11317 11382 
 	}

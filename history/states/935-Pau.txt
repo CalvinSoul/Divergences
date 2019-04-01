@@ -1,0 +1,18 @@
+state={
+	id=935
+	name="STATE_935"
+	provinces={
+		743 11697 
+	}
+	history={
+		owner = OCC
+		add_core_of = OCC
+		add_core_of = NAV
+		buildings = {
+			infrastructure = 5
+		}
+	}
+	state_category=rural
+	manpower=0
+	buildings_max_level_factor=1.000
+}

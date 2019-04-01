@@ -57,13 +57,13 @@ create_country_leader = {
 	picture = "Severiano_Desir.tga"
 	expire = "1965.1.1"
 	ideology = classical_liberalism_subtype
-	traits = {}
+	traits = { }
 }
 create_corps_commander = {
 	name = "Marcel Chastain"
 	desc = ""
 	picture = "Marcel_Chastain.dds"
-	traits = {}
+	traits = { political_loyalist_army }
 	skill = 1
 	attack_skill = 1
 	defense_skill = 1

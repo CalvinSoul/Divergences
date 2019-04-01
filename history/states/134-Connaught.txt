@@ -5,18 +5,22 @@ state={
 
 	history={
 		owner = IRA
-		buildings = {
-			infrastructure = 6
-
-		}
 		add_core_of = IRA
-
+		buildings = {
+			infrastructure = 5
+		}
+		victory_points = {
+			3396 25
+		}
+		victory_points = {
+			11371 5 
+		}
 	}
 
 	provinces={
-		337 369 9255 9303 9321 9369 11238 11257 11287 11371 
+		3396 9255 9303 9321 9369 11238 11287 11371 
 	}
-	manpower=667100
+	manpower=2181117
 	buildings_max_level_factor=1.000
-	state_category=town
+	state_category=large_town 
 }

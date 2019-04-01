@@ -363,7 +363,103 @@ spriteTypes = {
 		name = "GFX_idea_MIL_colonial"
 		texturefile = "gfx/interface/ideas/idea_mil_colonial.dds"
 	}
-	
+	##Military Trait Memery##
+	spriteType = {
+  		name = "GFX_trait_political_blanquism_army"
+  		texturefile = "gfx/interface/traits/personal/trait_political_blanquism.dds"
+  	}
+   	spriteType = {
+   		name = "GFX_trait_political_egalitarianism_army"
+   		texturefile = "gfx/interface/traits/personal/trait_political_egalitarianism.dds"
+   	}
+   	spriteType = {
+   		name = "GFX_trait_political_libertarianism_army"
+   		texturefile = "gfx/interface/traits/personal/trait_political_libertarianism.dds"
+   	}
+   	spriteType = {
+   		name = "GFX_trait_political_progressivism_army"
+   		texturefile = "gfx/interface/traits/personal/trait_political_progressivism.dds"
+   	}
+   	spriteType = {
+   		name = "GFX_trait_political_commercialism_army"
+   		texturefile = "gfx/interface/traits/personal/trait_political_commercialism.dds"
+   	}
+   	spriteType = {
+   		name = "GFX_trait_political_conservativism_army"
+   		texturefile = "gfx/interface/traits/personal/trait_political_conservativism.dds"
+   	}
+   	spriteType = {
+   		name = "GFX_trait_political_paternalism_army"
+   		texturefile = "gfx/interface/traits/personal/trait_political_paternalism.dds"
+   	}
+   	spriteType = {
+   		name = "GFX_trait_political_reactionism_army"
+   		texturefile = "gfx/interface/traits/personal/trait_political_reactionism.dds"
+   	}
+   	spriteType = {
+   		name = "GFX_trait_political_ultra_nationalism_army"
+   		texturefile = "gfx/interface/traits/personal/trait_political_ultra_nationalism.dds"
+   	}
+   	spriteType = {
+   		name = "GFX_trait_political_hierarchism_army"
+   		texturefile = "gfx/interface/traits/personal/trait_political_hierarchism.dds"
+   	}
+   	spriteType = {
+   		name = "GFX_trait_political_loyalist_army"
+   		texturefile = "gfx/interface/traits/personal/trait_political_loyalist.dds"
+   	}
+   	spriteType = {
+   		name = "GFX_trait_political_opportunist_army"
+   		texturefile = "gfx/interface/traits/personal/trait_political_opportunist.dds"
+   	}
+   	spriteType = {
+  		name = "GFX_trait_political_blanquism_navy"
+  		texturefile = "gfx/interface/traits/personal/trait_political_blanquism.dds"
+  	}
+   	spriteType = {
+   		name = "GFX_trait_political_egalitarianism_navy"
+   		texturefile = "gfx/interface/traits/personal/trait_political_egalitarianism.dds"
+   	}
+   	spriteType = {
+   		name = "GFX_trait_political_libertarianism_navy"
+   		texturefile = "gfx/interface/traits/personal/trait_political_libertarianism.dds"
+   	}
+   	spriteType = {
+   		name = "GFX_trait_political_progressivism_navy"
+   		texturefile = "gfx/interface/traits/personal/trait_political_progressivism.dds"
+   	}
+   	spriteType = {
+   		name = "GFX_trait_political_commercialism_navy"
+   		texturefile = "gfx/interface/traits/personal/trait_political_commercialism.dds"
+   	}
+   	spriteType = {
+   		name = "GFX_trait_political_conservativism_navy"
+   		texturefile = "gfx/interface/traits/personal/trait_political_conservativism.dds"
+   	}
+   	spriteType = {
+   		name = "GFX_trait_political_paternalism_navy"
+   		texturefile = "gfx/interface/traits/personal/trait_political_paternalism.dds"
+   	}
+   	spriteType = {
+   		name = "GFX_trait_political_reactionism_navy"
+   		texturefile = "gfx/interface/traits/personal/trait_political_reactionism.dds"
+   	}
+   	spriteType = {
+   		name = "GFX_trait_political_ultra_nationalism_navy"
+   		texturefile = "gfx/interface/traits/personal/trait_political_ultra_nationalism.dds"
+   	}
+   	spriteType = {
+   		name = "GFX_trait_political_hierarchism_navy"
+   		texturefile = "gfx/interface/traits/personal/trait_political_hierarchism.dds"
+   	}
+   	spriteType = {
+   		name = "GFX_trait_political_loyalist_navy"
+   		texturefile = "gfx/interface/traits/personal/trait_political_loyalist.dds"
+   	}
+   	spriteType = {
+   		name = "GFX_trait_political_opportunist_navy"
+   		texturefile = "gfx/interface/traits/personal/trait_political_opportunist.dds"
+   	}
 ##
 ##
 	spriteType = {
