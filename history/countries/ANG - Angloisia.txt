@@ -69,3 +69,4 @@ set_autonomy = {
 	target = JER
 	autonomous_state = autonomy_4
 	freedom_level = 0.5
+}

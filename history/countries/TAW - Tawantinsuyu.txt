@@ -10,6 +10,35 @@ set_technology = {
 
 set_convoys = 50
 
+add_ideas = {
+	#Gov Structure
+	GEN_pm_generic_autocrat
+	GEN_dm_generic_union_organizer
+	GOV_absolute_monarchy
+	VOT_none
+	PAR_illegal_opposition
+	PRS_state
+	#Economic Structure
+	ECS_state_capitalism
+	ind_outdated_industrial_society
+	lit_5
+	limited_exports
+	extensive_conscription
+	wec_extensive_participation
+	#Expenditures
+	low_economic_mobilisation
+	high_taxation
+	UNI_illegal
+	WAG_acceptable
+	WEL_excellent
+	HLT_universal
+	#Manufacturers 
+	
+	#Military Staff
+	MIL_mass
+	wmil_limited_participation
+	#Other
+}
 
 set_politics = {
 
