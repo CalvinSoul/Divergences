@@ -62,3 +62,73 @@ create_country_leader = {
 		#
 	}
 }
+create_corps_commander = { 
+	name = "Mathive Puèg-Redond"
+	desc = ""
+	picture = "Mathive_Pueg_Redond.tga"
+	traits = {}
+	skill = 1
+	attack_skill = 1
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 1
+}
+create_corps_commander = { 
+	name = "Vitòri Nadal"
+	desc = ""
+	picture = "Vitori_Nadal.tga"
+	traits = {}
+	skill = 1
+	attack_skill = 1
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 1
+}
+
+create_corps_commander = { 
+	name = "Anaïs d'Abbadie"
+	desc = ""
+	picture = "Anias_d_Abbadie.tga"
+	traits = {}
+	skill = 1
+	attack_skill = 1
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 1
+}
+
+create_corps_commander = { 
+	name = "Yon Meràs"
+	desc = ""
+	picture = "Yon_Meras.tga"
+	traits = {}
+	skill = 1
+	attack_skill = 1
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 1
+}
+
+create_corps_commander = { 
+	name = "Teredic Gognon"
+	desc = ""
+	picture = "Teredic_Gognon.tga"
+	traits = {}
+	skill = 1
+	attack_skill = 1
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 1
+}
+
+create_corps_commander = { 
+	name = "Marçau Maysonet"
+	desc = ""
+	picture = "Marcau_Maysonet.tga"
+	traits = {}
+	skill = 1
+	attack_skill = 1
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 1
+}

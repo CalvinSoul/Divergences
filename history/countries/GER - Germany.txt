@@ -55,6 +55,11 @@ set_politics = {
 	elections_allowed = no
 }
 
+create_faction = Faction_GER_Congress
+add_to_faction = GER
+add_to_faction = LIT
+add_to_faction = SLV
+
 create_country_leader = {
 	
 	name = "Sigismund IV"

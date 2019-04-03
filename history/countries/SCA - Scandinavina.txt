@@ -52,6 +52,12 @@ set_politics = {
 	elections_allowed = no
 }
 
+create_faction = Faction_SCA_Socialists
+add_to_faction = SCA
+add_to_faction = PRU
+add_to_faction = POL
+add_to_faction = OCC
+
 create_country_leader = {
 	
 	name = "Viktor Ahlund"

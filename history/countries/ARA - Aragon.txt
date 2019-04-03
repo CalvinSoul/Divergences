@@ -52,6 +52,10 @@ set_politics = {
 	elections_allowed = no
 }
 
+create_faction = Faction_ARA_Med
+add_to_faction = ARA
+add_to_faction = MAC
+
 create_country_leader = {
 	
 	name = "Josep III"

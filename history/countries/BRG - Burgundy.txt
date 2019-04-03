@@ -52,6 +52,8 @@ set_politics = {
 	elections_allowed = no
 }
 
+create_faction = Faction_BRG_Fascists
+add_to_faction = BRG
 
 create_country_leader = {
 	
@@ -102,4 +104,160 @@ create_country_leader = {
 	traits = {
 		#
 	}
+}
+
+create_corps_commander = { #Dutch
+	name = "Daan Tuender"
+	desc = ""
+	picture = "Daan_Tuender.tga"
+	traits = {}
+	skill = 1
+	attack_skill = 1
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 1
+}
+
+create_corps_commander = { #Dutch
+	name = "Kristof Van Overstraeten"
+	desc = ""
+	picture = "Kristof_Van_Overstraeten.tga"
+	traits = {}
+	skill = 1
+	attack_skill = 1
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 1
+}
+
+create_corps_commander = { #Dutch
+	name = "Julien Walravens"
+	desc = ""
+	picture = "Julien_Walravens.tga"
+	traits = {}
+	skill = 1
+	attack_skill = 1
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 1
+}
+
+create_corps_commander = { #Dutch
+	name = "Bas van de Uitvlugt"
+	desc = ""
+	picture = "Bas_van_de_Uitvlugt.tga"
+	traits = {}
+	skill = 1
+	attack_skill = 1
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 1
+}
+
+create_corps_commander = { #Dutch
+	name = "Thijs Avet"
+	desc = ""
+	picture = "Thijs_Avet.tga"
+	traits = {}
+	skill = 1
+	attack_skill = 1
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 1
+}
+
+create_corps_commander = { #German
+	name = "Ewald Reubke"
+	desc = ""
+	picture = "Ewald_Reubke.tga"
+	traits = {}
+	skill = 1
+	attack_skill = 1
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 1
+}
+
+create_corps_commander = { #French
+	name = "Côme Lajoie"
+	desc = ""
+	picture = "Come_Lajoie.tga"
+	traits = {}
+	skill = 1
+	attack_skill = 1
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 1
+}
+
+create_corps_commander = { #French
+	name = "Djeferson Vaugrenard"
+	desc = ""
+	picture = "Djeferson_Vaugrenard.tga"
+	traits = {}
+	skill = 1
+	attack_skill = 1
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 1
+}
+
+create_corps_commander = { #French
+	name = "Valéry Cousteau"
+	desc = ""
+	picture = "Valery_Cousteau.tga"
+	traits = {}
+	skill = 1
+	attack_skill = 1
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 1
+}
+
+create_navy_leader = { #French
+	name = "Armel Baudet"
+	desc = ""
+	picture = "Armel_Baudet.tga"
+	traits = {}
+	skill = 1
+	attack_skill = 1
+	defense_skill = 1
+	maneuvering_skill = 1
+	coordination_skill = 1
+}
+
+create_navy_leader = { #French
+	name = "Timothé Droz"
+	desc = ""
+	picture = "Timothe_Droz.tga"
+	traits = {}
+	skill = 1
+	attack_skill = 1
+	defense_skill = 1
+	maneuvering_skill = 1
+	coordination_skill = 1
+}
+
+create_navy_leader = { #Dutch
+	name = "Martin Verhasselt"
+	desc = ""
+	picture = "Martin_Verhasselt.tga"
+	traits = {}
+	skill = 1
+	attack_skill = 1
+	defense_skill = 1
+	maneuvering_skill = 1
+	coordination_skill = 1
+}
+
+create_navy_leader = { #Dutch
+	name = "Marc Vandevelde"
+	desc = ""
+	picture = "Marc_Vandevelde.tga"
+	traits = {}
+	skill = 1
+	attack_skill = 1
+	defense_skill = 1
+	maneuvering_skill = 1
+	coordination_skill = 1
 }

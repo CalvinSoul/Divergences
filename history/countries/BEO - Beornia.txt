@@ -91,3 +91,69 @@ create_country_leader = {
 		#
 	}
 }
+create_corps_commander = { 
+	name = "Turec Cartwright"
+	desc = ""
+	picture = "Turec_Cartwright.tga"
+	traits = {}
+	skill = 1
+	attack_skill = 1
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 1
+}
+create_corps_commander = { 
+	name = "Ascferth Trinder"
+	desc = ""
+	picture = "Ascferth_Trinder.tga"
+	traits = {}
+	skill = 1
+	attack_skill = 1
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 1
+}
+create_corps_commander = { 
+	name = "Eadmod Steele"
+	desc = ""
+	picture = "Eadmod_Steele.tga"
+	traits = {}
+	skill = 1
+	attack_skill = 1
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 1
+}
+create_corps_commander = { 
+	name = "Eanbald Gage"
+	desc = ""
+	picture = "Eanbald_Gage.tga"
+	traits = {}
+	skill = 1
+	attack_skill = 1
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 1
+}
+create_corps_commander = { 
+	name = "Tidfrith Smythe"
+	desc = ""
+	picture = "Tidfrith_Smythe.tga"
+	traits = {}
+	skill = 1
+	attack_skill = 1
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 1
+}
+create_corps_commander = { 
+	name = "Wighard Tillman"
+	desc = ""
+	picture = "Wighard_Tillman.tga"
+	traits = {}
+	skill = 1
+	attack_skill = 1
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 1
+}

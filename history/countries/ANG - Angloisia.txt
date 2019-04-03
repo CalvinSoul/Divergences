@@ -56,6 +56,12 @@ set_politics = {
 #		target = SCO
 #		autonomous_state = autonomy_2
 #}
+create_faction = Faction_ANG_Grand
+add_to_faction = ANG
+add_to_faction = SPA
+add_to_faction = SAS
+add_to_faction = AAS
+add_to_faction = JER
 
 create_country_leader = {
 	name = "Henri XII"
@@ -70,3 +76,136 @@ set_autonomy = {
 	autonomous_state = autonomy_4
 	freedom_level = 0.5
 }
+create_corps_commander = { #French
+	name = "Eugène Boudreaux" 
+	desc = ""
+	picture = "Eugene_Boudreaux.tga"
+	traits = {}
+	skill = 1
+	attack_skill = 1
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 1
+}
+create_corps_commander = { #French
+	name = "Égide Chastain"
+	desc = ""
+	picture = "Egide_Chastain.tga"
+	traits = {}
+	skill = 1
+	attack_skill = 1
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 1
+}
+create_corps_commander = { #Norman
+	name = "Napoliyoun Lallement"
+	desc = ""
+	picture = "Napoliyoun_Lallement.tga"
+	traits = {}
+	skill = 1
+	attack_skill = 1
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 1
+}
+create_corps_commander = { #French
+	name = "Gaëtan Gavreau"
+	desc = ""
+	picture = "Gaetan_Gavreau.tga"
+	traits = {}
+	skill = 1
+	attack_skill = 1
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 1
+}
+create_corps_commander = { #Norman
+	name = "Étienne Lyon"
+	desc = ""
+	picture = "Etienne_Lyon.tga"
+	traits = {}
+	skill = 1
+	attack_skill = 1
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 1
+}
+create_corps_commander = { #Anglo-Saxon
+	name = "Aelfhun Berger"
+	desc = ""
+	picture = "Aelfhun_Berger.tga"
+	traits = {}
+	skill = 1
+	attack_skill = 1
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 1
+}
+create_corps_commander = { #Norman
+	name = "Victorin de Bellièvre"
+	desc = ""
+	picture = "Victorin_de_Bellievre.tga"
+	traits = {}
+	skill = 1
+	attack_skill = 1
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 1
+}
+create_corps_commander = { #Norman
+	name = "Albéric Taillefer"
+	desc = ""
+	picture = "Alberic_Taillefer.tga"
+	traits = {}
+	skill = 1
+	attack_skill = 1
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 1
+}
+create_corps_commander = { #Norman
+	name = "Fréton Lefebvre"
+	desc = ""
+	picture = "Freton_Lefebvre.tga"
+	traits = {}
+	skill = 1
+	attack_skill = 1
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 1
+}
+create_corps_commander = { #French
+	name = "Edmond Bessette"
+	desc = ""
+	picture = "Edmond_Bessette.tga"
+	traits = {}
+	skill = 1
+	attack_skill = 1
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 1
+}
+create_navy_leader = { #French
+	name = "Jean-Joël Lucroy"
+	desc = ""
+	picture = "Jean_Joel_Lucroy.tga"
+	traits = {}
+	skill = 1
+	attack_skill = 1
+	defense_skill = 1
+	maneuvering_skill = 1
+	coordination_skill = 1
+}
+create_navy_leader = { #French
+	name = "Emmanuel De Saint-Pierre"
+	desc = ""
+	picture = "Emmanuel_Pierre.tga"
+	traits = {}
+	skill = 1
+	attack_skill = 1
+	defense_skill = 1
+	maneuvering_skill = 1
+	coordination_skill = 1
+}
+

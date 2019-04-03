@@ -70,6 +70,12 @@ set_politics = {
 	elections_allowed = no
 }
 
+create_faction = Faction_ITA_Ven
+add_to_faction = ITA
+add_to_faction = MNT
+add_to_faction = ALB
+add_to_faction = GRE
+
 create_country_leader = {
 	
 	name = "Galeazzo Premarin"
