@@ -18,9 +18,9 @@ bookmarks = {
 			focuses = {
 			}
 		}		
-		"ITA"={
-			history = "ITA_DIVERGENCES_DESC"
-			ideology = commercialism
+		"SEP"={
+			history = "SEP_DIVERGENCES_DESC"
+			ideology = ultra_nationalism
 			focuses = {
 			}
 		}		

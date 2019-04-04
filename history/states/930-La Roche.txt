@@ -7,6 +7,9 @@ state={
 	history={
 		owner = ANG
 		add_core_of = ANG
+		victory_points = {
+			3659 5
+		}
 		buildings = {
 			infrastructure = 5
 		}

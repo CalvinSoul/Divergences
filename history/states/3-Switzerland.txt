@@ -7,7 +7,7 @@ state={
 	}
 
 	history={
-		owner = ITA
+		owner = BRG
 		add_core_of = BRG
 		victory_points = {
 			9620 15 

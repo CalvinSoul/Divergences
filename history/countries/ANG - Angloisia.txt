@@ -76,6 +76,12 @@ set_autonomy = {
 	autonomous_state = autonomy_4
 	freedom_level = 0.5
 }
+
+set_autonomy = {
+	target = AAS
+	autonomous_state = autonomy_5
+	freedom_level = 0.5
+}
 create_corps_commander = { #French
 	name = "Eugène Boudreaux" 
 	desc = ""

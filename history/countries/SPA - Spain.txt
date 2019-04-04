@@ -63,6 +63,11 @@ create_country_leader = {
 	}
 }
 set_autonomy = {
+	target = SAS
+	autonomous_state = autonomy_5
+	freedom_level = 0.5
+}
+set_autonomy = {
 	target = NAZ
 	autonomous_state = autonomy_3
 	freedom_level = 0.5

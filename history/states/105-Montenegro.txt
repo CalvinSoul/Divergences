@@ -10,6 +10,9 @@ state={
 	history={
 		owner = MNT
 		add_core_of = MNT
+		victory_points = {
+			9821 5
+		}
 		buildings = {
 			infrastructure = 3
 			industrial_complex = 1
