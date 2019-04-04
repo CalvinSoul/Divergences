@@ -164,12 +164,6 @@ NAZ = {
 	last_election = "1924.1.1"
 	election_frequency = 48
 	elections_allowed = yes
-}
-	
-	ruling_party = progressivism
-	last_election = "1936.1.1"
-	election_frequency = 48
-	elections_allowed = yes
 	}
 }
 HAW = {

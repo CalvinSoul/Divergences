@@ -1,4 +1,4 @@
-﻿capital = 1
+﻿capital = 160
 
 oob = "ITA_1925"
 
@@ -24,7 +24,7 @@ set_technology = {
 	early_battleship = 1
 	early_battlecruiser = 1
 	transport = 1
-}
+	}
 
 set_convoys = 50
 
