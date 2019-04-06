@@ -576,7 +576,10 @@ mutually_exclusive = { focus = SHA_burgundy }
  } 
 
  completion_reward = {
-
+         country_event = {
+           id = SHA_general.4
+           days = 1
+           }
  
  } 
 
@@ -596,7 +599,11 @@ prerequisite = { focus = SHA_angloisia }
  } 
 
  completion_reward = {
-
+         country_event = {
+           id = SHA_general.7
+           days = 1
+           }
+ 
  } 
 
 }
@@ -615,7 +622,11 @@ prerequisite = { focus = SHA_parliment }
  } 
 
  completion_reward = {
-
+         country_event = {
+           id = SHA_general.8
+           days = 1
+     }
+ 
  } 
 
 }
@@ -635,7 +646,11 @@ prerequisite = { focus = SHA_nativerepresentation }
  } 
 
  completion_reward = {
-
+         country_event = {
+           id = SHA_general.9
+           days = 1
+           }
+ 
  } 
 
 }
@@ -654,7 +669,9 @@ prerequisite = { focus = SHA_angloisia }
  } 
 
  completion_reward = {
-
+  add_ideas = {
+      anglois_land
+    }
  } 
 
 }
@@ -673,7 +690,16 @@ prerequisite = { focus = SHA_angloisland }
  } 
 
  completion_reward = {
-
+  add_building_construction = {
+   type = industrial_complex
+   level = 3
+   instant_build = yes
+  }
+  add_building_construction = {
+    type = infrastructure
+    level = 3
+    instant_build = yes
+  }
  } 
 
 }
@@ -692,7 +718,7 @@ prerequisite = { focus = SHA_developit }
  } 
 
  completion_reward = {
-
+  add_stability = 0.10
  } 
 
 }
@@ -711,7 +737,11 @@ ai_will_do = {
  } 
 
  completion_reward = {
-
+          country_event = {
+           id = SHA_general.5
+           days = 1
+           }
+ 
  
  } 
 
@@ -731,7 +761,9 @@ ai_will_do = {
  } 
 
  completion_reward = {
-
+  add_ideas = {
+      burgundian_land
+    }
  
  } 
 
@@ -751,7 +783,16 @@ ai_will_do = {
  } 
 
  completion_reward = {
-
+  add_building_construction = {
+   type = arms_factory
+   level = 3
+   instant_build = yes
+  }
+  add_building_construction = {
+    type = infrastructure
+    level = 3
+    instant_build = yes
+  }
  
  } 
 
@@ -771,8 +812,16 @@ ai_will_do = {
  } 
 
  completion_reward = {
-
- 
+ 545 = {
+  add_resource = {
+    type = tungsten
+    amount = 15
+  }
+ add_resource = {
+    type = chromium
+    amount = 30
+   }
+  }
  } 
 
 }
@@ -791,7 +840,10 @@ ai_will_do = {
  } 
 
  completion_reward = {
-
+        country_event = {
+        id = SHA_general.6
+        days = 1
+        }
  
  } 
 
@@ -811,7 +863,9 @@ ai_will_do = {
  } 
 
  completion_reward = {
-
+  add_ideas = {
+      total_surveilance 
+    }
  
  } 
 
