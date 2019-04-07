@@ -648,6 +648,11 @@ LEU_reactionism:0 "Leeuwin"
 TRA_conservativism:0 "Opstalia"
 NFL_commercialism:0 "Nieuw-Vlaanderen"
 
+ LUN_paternalism:0 "Lunda"
+ KZB_paternalism:0 "Kazembe"
+ EIN_ultra_nationalism:0 "Einheire Valhalla"
+
+
  _blanquism:0 ""
  _egalitarianism:0 ""
  _libertarianism:0 ""

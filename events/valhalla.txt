@@ -1,5 +1,7 @@
 
 add_namespace = shacoup
+add_namespace = SHA_general
+add_namespace = SHA_insurrection
 
 country_event = {
 	id = shacoup.0
@@ -219,5 +221,228 @@ country_event = {
         SHA_native_unrest
         } 
         add_political_power = -50
+    }     
+}
+
+country_event = {
+    id = SHA_general.1
+        title = SHA_general.1.t 
+        desc = SHA_general.1.d 
+    picture = GFX_report_event_election_vote 
+
+    is_triggered_only = yes
+
+    fire_only_once = yes
+
+    mean_time_to_happen = {
+        days = 3
+    }
+
+    option = {
+     name = SHA_general.1.a
+    }     
+}
+
+country_event = {
+    id = SHA_general.2
+        title = SHA_general.2.t 
+        desc = SHA_general.2.d 
+    picture = GFX_report_event_election_vote 
+
+    is_triggered_only = yes
+
+    fire_only_once = yes
+
+    mean_time_to_happen = {
+        days = 3
+    }
+
+    option = {
+     name = SHA_general.2.a
+    }     
+}
+
+country_event = {
+    id = SHA_general.2
+        title = SHA_general.2.t 
+        desc = SHA_general.2.d 
+    picture = GFX_report_event_election_vote 
+
+    is_triggered_only = yes
+
+    fire_only_once = yes
+
+    mean_time_to_happen = {
+        days = 3
+    }
+
+    option = {
+     name = SHA_general.2.a
+    }     
+}
+
+country_event = {
+    id = SHA_general.3
+        title = SHA_general.3.t 
+        desc = SHA_general.3.d 
+    picture = GFX_report_event_election_vote 
+
+    is_triggered_only = yes
+
+    fire_only_once = yes
+
+    mean_time_to_happen = {
+        days = 3
+    }
+
+    option = {
+     name = SHA_general.3.a
+    }     
+}
+
+country_event = {
+    id = SHA_general.4
+        title = SHA_general.4.t 
+        desc = SHA_general.4.d 
+    picture = GFX_report_event_election_vote 
+
+    is_triggered_only = yes
+
+    fire_only_once = yes
+
+    mean_time_to_happen = {
+        days = 3
+    }
+
+    option = {
+     name = SHA_general.4.a
+    }     
+}
+
+country_event = {
+    id = SHA_general.5
+        title = SHA_general.5.t 
+        desc = SHA_general.5.d 
+    picture = GFX_report_event_election_vote 
+
+    is_triggered_only = yes
+
+    fire_only_once = yes
+
+    mean_time_to_happen = {
+        days = 3
+    }
+
+    option = {
+     name = SHA_general.5.a
+    }     
+}
+
+country_event = {
+    id = SHA_general.6
+        title = SHA_general.6.t 
+        desc = SHA_general.6.d 
+    picture = GFX_report_event_election_vote 
+
+    is_triggered_only = yes
+
+    fire_only_once = yes
+
+    mean_time_to_happen = {
+        days = 3
+    }
+
+    option = {
+     name = SHA_general.6.a
+    }     
+}
+
+country_event = {
+    id = SHA_general.7
+        title = SHA_general.7.t 
+        desc = SHA_general.7.d 
+    picture = GFX_report_event_election_vote 
+
+    is_triggered_only = yes
+
+    fire_only_once = yes
+
+    mean_time_to_happen = {
+        days = 3
+    }
+
+    option = {
+     name = SHA_general.7.a
+    }     
+}
+
+country_event = {
+    id = SHA_general.8
+        title = SHA_general.8.t 
+        desc = SHA_general.8.d 
+    picture = GFX_report_event_election_vote 
+
+    is_triggered_only = yes
+
+    fire_only_once = yes
+
+    mean_time_to_happen = {
+        days = 3
+    }
+
+    option = {
+     name = SHA_general.8.a
+    }     
+}
+
+country_event = {
+    id = SHA_general.9
+        title = SHA_general.9.t 
+        desc = SHA_general.9.d 
+    picture = GFX_report_event_election_vote 
+
+    is_triggered_only = yes
+
+    fire_only_once = yes
+
+    mean_time_to_happen = {
+        days = 3
+    }
+
+    option = {
+     name = SHA_general.9.a
+    }     
+}
+
+country_event = {
+    id = SHA_insurrection.1
+        title = SHA_insurrection.1.t 
+        desc = SHA_insurrection.1.d 
+    picture = GFX_report_event_election_vote 
+
+    is_triggered_only = yes
+
+    fire_only_once = yes
+
+    mean_time_to_happen = {
+        days = 3
+    }
+
+    option = {
+     name = SHA_insurrection.1.a
+            EIN = {
+            transfer_state = 545
+            transfer_state = 544
+
+        }
+            LUN = {
+            transfer_state = 295
+
+        }
+
+            KZB = {
+            transfer_state = 780
+
+        }
     }     
 }

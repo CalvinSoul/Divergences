@@ -103,3 +103,49 @@ ideas = {
 	}
 
 }
+
+ideas = {
+	country ={
+     
+       SHA_anglois_land = {
+
+         	allowed = {
+	          always = no
+		    }
+
+			removal_cost = -1
+
+			picture = GFX_idea_very_high_taxation
+			
+			modifier = {
+             MONTHLY_POPULATION = 0.05
+			}
+
+       }
+
+	}
+
+}
+
+ideas = {
+	country ={
+     
+       SHA_burgundian_land = {
+
+         	allowed = {
+	          always = no
+		    }
+
+			removal_cost = -1
+
+			picture = GFX_idea_very_high_taxation
+			
+			modifier = {
+             MONTHLY_POPULATION = 0.05
+			}
+
+       }
+
+	}
+
+}
