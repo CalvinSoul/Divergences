@@ -122,3 +122,102 @@ create_country_leader = {
 		#
 	}
 }
+create_corps_commander = { #Gaelic
+	name = "Raibeart Dunaidh"
+	desc = ""
+	picture = "Raibeart_Dunaidh_Military.tga"
+	traits = {}
+	skill = 1
+	attack_skill = 1
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 1
+}
+create_corps_commander = { #Gaelic
+	name = "Faolan Caileanach"
+	desc = ""
+	picture = "Faolan_Caileanach.tga"
+	traits = {}
+	skill = 1
+	attack_skill = 1
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 1
+}
+create_corps_commander = { #Scandinavian
+	name = "Jannik Riis"
+	desc = ""
+	picture = "Jannik_Riis.tga"
+	traits = {}
+	skill = 1
+	attack_skill = 1
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 1
+}
+create_corps_commander = { #Scandinavian
+	name = "Axel Elkjær"
+	desc = ""
+	picture = "Axel_Elkjaer.tga"
+	traits = {}
+	skill = 1
+	attack_skill = 1
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 1
+}
+create_corps_commander = { #Scandinavian
+	name = "Thorvald Rohde"
+	desc = ""
+	picture = "Thorvald_Rohde.tga"
+	traits = {}
+	skill = 1
+	attack_skill = 1
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 1
+}
+create_corps_commander = { #Gaelic
+	name = "Crìsdean MacEalair"
+	desc = ""
+	picture = "Crisdean_MacEalair.tga"
+	traits = {}
+	skill = 1
+	attack_skill = 1
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 1
+}
+create_corps_commander = { #Gaelic
+	name = "Seaghdh MacIll'Eòin"
+	desc = ""
+	picture = "Seaghdh_MacIll_Eoin.tga"
+	traits = {}
+	skill = 1
+	attack_skill = 1
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 1
+}
+create_corps_commander = { #Scandinavian
+	name = "Søren Christiansen"
+	desc = ""
+	picture = "Soren_Christiansen.tga"
+	traits = {}
+	skill = 1
+	attack_skill = 1
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 1
+}
+create_navy_leader = { #Scandinavian
+	name = "Anker Christensen"
+	desc = ""
+	picture = "Anker_Christensen.tga"
+	traits = {}
+	skill = 1
+	attack_skill = 1
+	defense_skill = 1
+	maneuvering_skill = 1
+	coordination_skill = 1
+}

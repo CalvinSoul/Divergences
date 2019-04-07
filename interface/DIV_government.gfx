@@ -365,101 +365,74 @@ spriteTypes = {
 	}
 	##Military Trait Memery##
 	spriteType = {
-  		name = "GFX_trait_political_blanquism_army"
+  		name = "GFX_trait_political_blanquism"
   		texturefile = "gfx/interface/traits/personal/trait_political_blanquism.dds"
   	}
    	spriteType = {
-   		name = "GFX_trait_political_egalitarianism_army"
+   		name = "GFX_trait_political_egalitarianism"
    		texturefile = "gfx/interface/traits/personal/trait_political_egalitarianism.dds"
    	}
    	spriteType = {
-   		name = "GFX_trait_political_libertarianism_army"
+   		name = "GFX_trait_political_libertarianism"
    		texturefile = "gfx/interface/traits/personal/trait_political_libertarianism.dds"
    	}
    	spriteType = {
-   		name = "GFX_trait_political_progressivism_army"
+   		name = "GFX_trait_political_progressivism"
    		texturefile = "gfx/interface/traits/personal/trait_political_progressivism.dds"
    	}
    	spriteType = {
-   		name = "GFX_trait_political_commercialism_army"
+   		name = "GFX_trait_political_commercialism"
    		texturefile = "gfx/interface/traits/personal/trait_political_commercialism.dds"
    	}
    	spriteType = {
-   		name = "GFX_trait_political_conservativism_army"
+   		name = "GFX_trait_political_conservativism"
    		texturefile = "gfx/interface/traits/personal/trait_political_conservativism.dds"
    	}
    	spriteType = {
-   		name = "GFX_trait_political_paternalism_army"
+   		name = "GFX_trait_political_paternalism"
    		texturefile = "gfx/interface/traits/personal/trait_political_paternalism.dds"
    	}
    	spriteType = {
-   		name = "GFX_trait_political_reactionism_army"
+   		name = "GFX_trait_political_reactionism"
    		texturefile = "gfx/interface/traits/personal/trait_political_reactionism.dds"
    	}
    	spriteType = {
-   		name = "GFX_trait_political_ultra_nationalism_army"
+   		name = "GFX_trait_political_ultra_nationalism"
    		texturefile = "gfx/interface/traits/personal/trait_political_ultra_nationalism.dds"
    	}
    	spriteType = {
-   		name = "GFX_trait_political_hierarchism_army"
+   		name = "GFX_trait_political_hierarchism"
    		texturefile = "gfx/interface/traits/personal/trait_political_hierarchism.dds"
    	}
    	spriteType = {
-   		name = "GFX_trait_political_loyalist_army"
+   		name = "GFX_trait_political_loyalist"
    		texturefile = "gfx/interface/traits/personal/trait_political_loyalist.dds"
    	}
    	spriteType = {
-   		name = "GFX_trait_political_opportunist_army"
+   		name = "GFX_trait_political_opportunist"
    		texturefile = "gfx/interface/traits/personal/trait_political_opportunist.dds"
    	}
    	spriteType = {
-  		name = "GFX_trait_political_blanquism_navy"
-  		texturefile = "gfx/interface/traits/personal/trait_political_blanquism.dds"
-  	}
-   	spriteType = {
-   		name = "GFX_trait_political_egalitarianism_navy"
-   		texturefile = "gfx/interface/traits/personal/trait_political_egalitarianism.dds"
+   		name = "GFX_trait_uninspirational_leader"
+   		texturefile = "gfx/interface/traits/personal/trait_caustic_personality.dds"
    	}
    	spriteType = {
-   		name = "GFX_trait_political_libertarianism_navy"
-   		texturefile = "gfx/interface/traits/personal/trait_political_libertarianism.dds"
+   		name = "GFX_trait_aristocratic_family_army"
+   		texturefile = "gfx/interface/traits/personal/trait_aristocratic_family.dds"
    	}
    	spriteType = {
-   		name = "GFX_trait_political_progressivism_navy"
-   		texturefile = "gfx/interface/traits/personal/trait_political_progressivism.dds"
+   		name = "GFX_trait_commoner_family_army"
+   		texturefile = "gfx/interface/traits/personal/trait_commoner_family.dds"
    	}
    	spriteType = {
-   		name = "GFX_trait_political_commercialism_navy"
-   		texturefile = "gfx/interface/traits/personal/trait_political_commercialism.dds"
+   		name = "GFX_trait_military_family_army"
+   		texturefile = "gfx/interface/traits/personal/trait_military_family.dds"
    	}
    	spriteType = {
-   		name = "GFX_trait_political_conservativism_navy"
-   		texturefile = "gfx/interface/traits/personal/trait_political_conservativism.dds"
+   		name = "GFX_trait_royal_family_army"
+   		texturefile = "gfx/interface/traits/personal/trait_royal_family.dds"
    	}
-   	spriteType = {
-   		name = "GFX_trait_political_paternalism_navy"
-   		texturefile = "gfx/interface/traits/personal/trait_political_paternalism.dds"
-   	}
-   	spriteType = {
-   		name = "GFX_trait_political_reactionism_navy"
-   		texturefile = "gfx/interface/traits/personal/trait_political_reactionism.dds"
-   	}
-   	spriteType = {
-   		name = "GFX_trait_political_ultra_nationalism_navy"
-   		texturefile = "gfx/interface/traits/personal/trait_political_ultra_nationalism.dds"
-   	}
-   	spriteType = {
-   		name = "GFX_trait_political_hierarchism_navy"
-   		texturefile = "gfx/interface/traits/personal/trait_political_hierarchism.dds"
-   	}
-   	spriteType = {
-   		name = "GFX_trait_political_loyalist_navy"
-   		texturefile = "gfx/interface/traits/personal/trait_political_loyalist.dds"
-   	}
-   	spriteType = {
-   		name = "GFX_trait_political_opportunist_navy"
-   		texturefile = "gfx/interface/traits/personal/trait_political_opportunist.dds"
-   	}
+
 ##
 ##
 	spriteType = {

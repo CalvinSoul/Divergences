@@ -68,3 +68,147 @@ create_country_leader = {
 		#
 	}
 }
+
+create_corps_commander = { #Scandinavian
+	name = "Lauritz Thøgersen"
+	desc = ""
+	picture = "Lauritz_Thogersen.tga"
+	traits = {}
+	skill = 1
+	attack_skill = 1
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 1
+}
+create_corps_commander = { #Scandinavian
+	name = "Markus Kjærgaard"
+	desc = ""
+	picture = "Markus_Kaergaard.tga"
+	traits = {}
+	skill = 1
+	attack_skill = 1
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 1
+}
+create_corps_commander = { #Scandinavian
+	name = "Katja Olsen"
+	desc = ""
+	picture = "Katja_Olsen.tga"
+	traits = {}
+	skill = 1
+	attack_skill = 1
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 1
+}
+create_corps_commander = { #Scandinavian
+	name = "Svante Stenbeck"
+	desc = ""
+	picture = "Svante_Stenbeck.tga"
+	traits = {}
+	skill = 1
+	attack_skill = 1
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 1
+}
+create_corps_commander = { #Scandinavian
+	name = "Henrik Toft"
+	desc = ""
+	picture = "Henrik_Toft.tga"
+	traits = {}
+	skill = 1
+	attack_skill = 1
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 1
+}
+create_corps_commander = { #Scandinavian
+	name = "Kathrine Axelsen"
+	desc = ""
+	picture = "Kathrine_Axelsen.tga"
+	traits = {}
+	skill = 1
+	attack_skill = 1
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 1
+}
+create_corps_commander = { #Finnish
+	name = "Osmo Väyrynen"
+	desc = ""
+	picture = "Osmo_Vayrynen.tga"
+	traits = {}
+	skill = 1
+	attack_skill = 1
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 1
+}
+create_corps_commander = { #Scandinavian
+	name = "Jan Kjær"
+	desc = ""
+	picture = "Jan_Kjaer.tga"
+	traits = {}
+	skill = 1
+	attack_skill = 1
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 1
+}
+create_corps_commander = { #Finnish
+	name = "Reijo Järveläinen "
+	desc = ""
+	picture = "Reijo_Jarvelainen.tga"
+	traits = {}
+	skill = 1
+	attack_skill = 1
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 1
+}
+create_corps_commander = { #Scottish/Gaelic Scandy
+	name = "Lukas Morganach"
+	desc = ""
+	picture = "Lukas_Morganach.tga"
+	traits = {}
+	skill = 1
+	attack_skill = 1
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 1
+}
+create_navy_leader = { #Scandinavian
+	name = "Odert Norberg"
+	desc = ""
+	picture = "Odert_Norberg.tga"
+	traits = {}
+	skill = 1
+	attack_skill = 1
+	defense_skill = 1
+	maneuvering_skill = 1
+	coordination_skill = 1
+}
+create_navy_leader = { #Scandinavian
+	name = "Bjørn Ersland"
+	desc = ""
+	picture = "Bjorn_Ersland.tga"
+	traits = {}
+	skill = 1
+	attack_skill = 1
+	defense_skill = 1
+	maneuvering_skill = 1
+	coordination_skill = 1
+}
+create_navy_leader = { #Scottish/Gaelic Scandy
+	name = "Asgall MacMhathain"
+	desc = ""
+	picture = "Asgall_MacMhathain.tga"
+	traits = {}
+	skill = 1
+	attack_skill = 1
+	defense_skill = 1
+	maneuvering_skill = 1
+	coordination_skill = 1
+}
