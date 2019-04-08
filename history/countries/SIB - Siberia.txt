@@ -1,4 +1,4 @@
-﻿capital = 1
+﻿capital = 653
 
 oob = "Default_1936"
 
@@ -8,11 +8,6 @@ set_technology = {
 
 }
 
-add_ideas = {
-	rus_second_smuta
-	rus_house_of_rurikovich
-}
-
 set_convoys = 50
 
 
@@ -20,34 +15,34 @@ set_politics = {
 
 	parties = {
 		blanquism = { 
-			popularity = 11
+			popularity = 10
 		}
 		egalitarianism = {
-			popularity = 3
+			popularity = 10
 		}
 		libertarianism = {
-			popularity = 9
+			popularity = 10
 		}
 		progressivism = { 
 			popularity = 10
 		}
 		commercialism = { 
-			popularity = 9
+			popularity = 10
 		}
 		conservativism = { 
-			popularity = 17
+			popularity = 10
 		}
 		paternalism = { 
-			popularity = 15
+			popularity = 10
 		}
 		reactionism = { 
-			popularity = 26
+			popularity = 10
 		}
 		ultra_nationalism = { 
-			popularity = 0
+			popularity = 10
 		}
 		hierarchism = { 
-			popularity = 0
+			popularity = 10
 		}
 	}
 	
@@ -59,8 +54,8 @@ set_politics = {
 
 create_country_leader = {
 	
-	name = "Smolensk Sobor"
-	picture = "gfx/leaders/RUS/Portrait_RUS_Smolemskiy_Sobor.tga"
+	name = "The Invisible Man"
+	picture = "gfx//leaders//Invisible_Man.tga"
 	expire = "1965.1.1"
 	ideology = paternalism_subtype
 	traits = {
