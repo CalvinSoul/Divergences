@@ -189,4 +189,6 @@ spriteTypes = {
 		name = "GFX_idea_PLA_anm_angloueme_naval"
 		texturefile = "gfx/interface/ideas/PLA/idea_PLA_anm_angloueme_naval.dds"
 	}
+
+	
 }

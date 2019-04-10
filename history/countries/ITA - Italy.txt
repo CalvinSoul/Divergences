@@ -26,7 +26,41 @@ set_technology = {
 	transport = 1
 	}
 
-set_convoys = 50
+set_convoys = 200
+
+add_ideas = {
+	#government structure
+	GEN_pm_generic_reformer
+	GEN_dm_generic_industrialist
+	GOV_republic
+	VOT_wealth
+	PAR_gerrymandering
+	PRS_free
+
+	#economy
+	ECS_free_market_capitalism
+	ind_modern_society
+	lit_5
+	export_focus
+	volunteer_only
+	wec_limited_participation
+
+	#expenditures
+	low_taxation
+	civilian_economy
+	UNI_non_socialist
+	WAG_none
+	WEL_limited
+	HLT_private
+
+	#military
+	MIL_professional
+	wmil_no_participation
+
+	#national spirits
+	ita_unequal_confederation
+	ita_monopolies_control
+}
 
 
 set_politics = {

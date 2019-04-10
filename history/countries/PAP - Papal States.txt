@@ -1,48 +1,86 @@
 ﻿capital = 2
 
-oob = "Default_1936"
+oob = "PAP_1925"
 
 # Starting tech
 set_technology = {
-	
-
+	infantry_weapons = 1
+	tech_support = 1		
+	tech_engineers = 1
+	tech_mountaineers = 1
+	gw_artillery = 1
+	gwtank = 1
+	early_fighter = 1
+	early_destroyer = 1
+	early_light_cruiser = 1
+	early_battleship = 1
+	transport = 1
 }
 
 set_convoys = 50
 
+add_ideas = {
+	#government structure
+	GEN_pm_generic_reformer
+	GEN_dm_generic_industrialist
+	GOV_absolute_monarchy
+	VOT_none
+	PAR_illegal_opposition
+	PRS_censored
+
+	#economy
+	ECS_free_market_capitalism
+	ind_outdated_industrial_society
+	lit_5
+	export_focus
+	disarmed_nation
+	wec_domestic_duties
+
+	#expenditures
+	medium_taxation
+	civilian_economy
+	UNI_state
+	WAG_none
+	WEL_limited
+	HLT_private
+
+	#military
+	MIL_guard
+	wmil_no_participation
+}
 
 set_politics = {
 
 	parties = {
 		blanquism = { 
-			popularity = 10
+			popularity = 0
 		}
 		egalitarianism = {
-			popularity = 10
+			popularity = 3
 		}
 		libertarianism = {
-			popularity = 10
+			popularity = 5
 		}
 		progressivism = { 
-			popularity = 10
+			popularity = 1
 		}
 		commercialism = { 
-			popularity = 10
+			popularity = 0
 		}
 		conservativism = { 
 			popularity = 10
 		}
 		paternalism = { 
-			popularity = 10
+			popularity = 23
 		}
 		reactionism = { 
-			popularity = 10
+			popularity = 56
 		}
 		ultra_nationalism = { 
-			popularity = 10
+			popularity = 1
 		}
 		hierarchism = { 
-			popularity = 10
+			popularity = 1
 		}
 	}
 	

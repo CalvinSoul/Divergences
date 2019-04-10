@@ -1,0 +1,41 @@
+### Italian ideas
+
+ideas = {
+
+	##############
+	# Country ideas
+	##############
+
+	country = {
+		ita_unequal_confederation = {
+			allowed = {
+				always = no
+			}
+
+			modifier = {
+				political_power_cost = 0.35
+				research_speed_factor = 0.02
+				conscription_factor = -0.1
+			}
+			removal_cost = -1
+			picture = ita_unequal_confederation
+		}
+		
+
+		ita_monopolies_control = {
+			allowed = {
+				always = no
+			}
+
+			modifier = {
+				consumer_goods_factor = 0.1
+				industrial_capacity_factory = 0.05
+				line_change_production_efficiency_factor = -0.1
+				production_factory_max_efficiency_factor = 0.05
+			}
+			removal_cost = -1
+			picture = ita_unequal_confederation
+		}
+		
+	}
+}	
