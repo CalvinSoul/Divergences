@@ -15,38 +15,38 @@ set_politics = {
 
 	parties = {
 		blanquism = { 
-			popularity = 10
+			popularity = 2
 		}
 		egalitarianism = {
-			popularity = 10
+			popularity = 6
 		}
 		libertarianism = {
-			popularity = 10
+			popularity = 9
 		}
 		progressivism = { 
-			popularity = 10
+			popularity = 14
 		}
 		commercialism = { 
-			popularity = 10
+			popularity = 36
 		}
 		conservativism = { 
-			popularity = 10
+			popularity = 17
 		}
 		paternalism = { 
-			popularity = 10
+			popularity = 3
 		}
 		reactionism = { 
-			popularity = 10
+			popularity = 2
 		}
 		ultra_nationalism = { 
-			popularity = 10
+			popularity = 6
 		}
 		hierarchism = { 
-			popularity = 10
+			popularity = 5
 		}
 	}
 	
-	ruling_party = conservativism
+	ruling_party = commercialism
 	last_election = "1936.1.1"
 	election_frequency = 48
 	elections_allowed = no
