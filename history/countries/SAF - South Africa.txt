@@ -11,45 +11,24 @@ set_technology = {
 set_convoys = 50
 
 
-set_politics = {
-
-	parties = {
-		blanquism = { 
-			popularity = 0
-		}
-		egalitarianism = {
-			popularity = 0
-		}
-		libertarianism = {
-			popularity = 20
-		}
-		progressivism = { 
-			popularity = 5
-		}
-		commercialism = { 
-			popularity = 5
-		}
-		conservativism = { 
-			popularity = 5
-		}
-		paternalism = { 
-			popularity = 50
-		}
-		reactionism = { 
-			popularity = 0
-		}
-		ultra_nationalism = { 
-			popularity = 10
-		}
-		hierarchism = { 
-			popularity = 5
-		}
-	}
-	
+set_politics = {	
 	ruling_party = paternalism
 	last_election = "1923.5.12"
 	election_frequency = 48
 	elections_allowed = no
+}
+
+set_popularities = {
+    blanquism = 0
+    egalitarianism = 0
+    libertarianism = 20
+    progressivism = 5
+    commercialism = 5
+    conservativism = 5
+    paternalism = 50
+    reactionism = 0
+    ultra_nationalism = 10
+    hierarchism = 5
 }
 
 create_country_leader = {

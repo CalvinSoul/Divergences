@@ -40,45 +40,24 @@ add_ideas = {
 	#Other
 }
 
-set_politics = {
-
-	parties = {
-		blanquism = { 
-			popularity = 4
-		}
-		egalitarianism = {
-			popularity = 5
-		}
-		libertarianism = {
-			popularity = 11
-		}
-		progressivism = { 
-			popularity = 20
-		}
-		commercialism = { 
-			popularity = 14
-		}
-		conservativism = { 
-			popularity = 13
-		}
-		paternalism = { 
-			popularity = 35
-		}
-		reactionism = { 
-			popularity = 4
-		}
-		ultra_nationalism = { 
-			popularity = 8
-		}
-		hierarchism = { 
-			popularity = 0
-		}
-	}
-	
+set_politics = {	
 	ruling_party = paternalism
 	last_election = "1936.1.1"
 	election_frequency = 48
 	elections_allowed = no
+}
+
+set_popularities = {
+    blanquism = 4
+    egalitarianism = 5
+    libertarianism = 11
+    progressivism = 20
+    commercialism = 14
+    conservativism = 13
+    paternalism = 33
+    reactionism = 0
+    ultra_nationalism = 0
+    hierarchism = 0
 }
 
 create_country_leader = {
