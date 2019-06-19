@@ -39,7 +39,7 @@ set_popularities = {
 create_country_leader = {
 	
 	name = "Smolensk Sobor"
-	picture = "gfx/leaders/RUS/Portrait_RUS_Smolemskiy_Sobor.tga"
+	picture = "Portrait_RUS_Smolenskiy_Sobor.tga"
 	expire = "1965.1.1"
 	ideology = paternalism_subtype
 	traits = {

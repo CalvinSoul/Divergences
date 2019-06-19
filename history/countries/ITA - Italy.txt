@@ -165,3 +165,92 @@ create_country_leader = {
 		#
 	}
 }
+###Generals
+create_corps_commander = {
+	name = "Italian Man"
+	desc = ""
+	picture = "ITA_1.tga"
+	traits = { }
+	skill = 1
+	attack_skill = 1
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 1
+}
+create_corps_commander = {
+	name = "Italian Man"
+	desc = ""
+	picture = "ITA_2.tga"
+	traits = { }
+	skill = 1
+	attack_skill = 1
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 1
+}
+create_corps_commander = {
+	name = "Italian Man"
+	desc = ""
+	picture = "ITA_3.tga"
+	traits = { }
+	skill = 1
+	attack_skill = 1
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 1
+}
+create_corps_commander = {
+	name = "Italian Man"
+	desc = ""
+	picture = "ITA_4.tga"
+	traits = { }
+	skill = 1
+	attack_skill = 1
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 1
+}
+create_corps_commander = {
+	name = "Italian Man"
+	desc = ""
+	picture = "ITA_5.tga"
+	traits = { }
+	skill = 1
+	attack_skill = 1
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 1
+}
+create_corps_commander = {
+	name = "Italian Man"
+	desc = ""
+	picture = "ITA_6.tga"
+	traits = { }
+	skill = 1
+	attack_skill = 1
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 1
+}
+create_corps_commander = {
+	name = "Italian Man"
+	desc = ""
+	picture = "ITA_7.tga"
+	traits = { }
+	skill = 1
+	attack_skill = 1
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 1
+}
+create_corps_commander = {
+	name = "Italian Man"
+	desc = ""
+	picture = "ITA_8.tga"
+	traits = { }
+	skill = 1
+	attack_skill = 1
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 1
+}

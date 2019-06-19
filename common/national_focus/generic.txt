@@ -568,6 +568,13 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
+			army_experience = 25
+			add_tech_bonus = {
+				name = land_doc_bonus
+				bonus = 1.0
+				uses = 1
+				category = land_doctrine
+			}
 		}
 	}
 	focus = {
@@ -581,6 +588,11 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
+			add_tech_bonus = {
+				name = motorized_bonus
+				bonus = 2.0
+				technology = motorised_infantry
+			}
 		}
 	}
 	focus = {
