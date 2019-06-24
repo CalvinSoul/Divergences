@@ -16,31 +16,51 @@ add_ideas = {
 set_convoys = 50
 
 
-set_politics = {	
+set_politics = {
+
+	parties = {
+		blanquism = { 
+			popularity = 11
+		}
+		egalitarianism = {
+			popularity = 3
+		}
+		libertarianism = {
+			popularity = 9
+		}
+		progressivism = { 
+			popularity = 10
+		}
+		commercialism = { 
+			popularity = 9
+		}
+		conservativism = { 
+			popularity = 17
+		}
+		paternalism = { 
+			popularity = 15
+		}
+		reactionism = { 
+			popularity = 26
+		}
+		ultra_nationalism = { 
+			popularity = 0
+		}
+		hierarchism = { 
+			popularity = 0
+		}
+	}
+	
 	ruling_party = paternalism
 	last_election = "1936.1.1"
 	election_frequency = 48
 	elections_allowed = no
 }
 
-set_popularities = {
-    blanquism = 11
-    egalitarianism = 3
-    libertarianism = 9
-    progressivism = 10
-    commercialism = 9
-    conservativism = 17
-    paternalism = 15
-    reactionism = 26
-    ultra_nationalism = 0
-    hierarchism = 0
-}
-
 create_country_leader = {
 	
 	name = "Smolensk Sobor"
 	picture = "gfx/leaders/RUS/Portrait_RUS_Smolenskiy_Sobor.tga"
-	picture = "Portrait_RUS_Smolenskiy_Sobor.tga"
 	expire = "1965.1.1"
 	ideology = paternalism_subtype
 	traits = {

@@ -70,23 +70,43 @@ set_variable = { var = current_PLA_assembly_icon_frame value = 0 }
 PLA_recalc_coalition_percentage = yes
 
 set_politics = {
+
+	parties = {
+		blanquism = { 
+			popularity = 11
+		}
+		egalitarianism = {
+			popularity = 4
+		}
+		libertarianism = {
+			popularity = 6
+		}
+		progressivism = { 
+			popularity = 10
+		}
+		commercialism = { 
+			popularity = 8
+		}
+		conservativism = { 
+			popularity = 31
+		}
+		paternalism = { 
+			popularity = 8
+		}
+		reactionism = { 
+			popularity = 4
+		}
+		ultra_nationalism = { 
+			popularity = 5
+		}
+		hierarchism = { 
+			popularity = 13
+		}
+	}
 	ruling_party = conservativism
 	last_election = "1936.1.1"
 	election_frequency = 48
 	elections_allowed = no
-}
-
-set_popularities = {
-    blanquism = 11
-    egalitarianism = 4
-    libertarianism = 6
-    progressivism = 10
-    commercialism = 8
-    conservativism = 31
-    paternalism = 8
-    reactionism = 4
-    ultra_nationalism = 5
-    hierarchism = 13
 }
  create_country_leader = {
 	name = "André Inconnu"

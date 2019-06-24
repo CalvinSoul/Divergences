@@ -63,24 +63,45 @@ add_ideas = {
 }
 
 
-set_politics = {	
+set_politics = {
+
+	parties = {
+		blanquism = { 
+			popularity = 4
+		}
+		egalitarianism = {
+			popularity = 7
+		}
+		libertarianism = {
+			popularity = 10
+		}
+		progressivism = { 
+			popularity = 19
+		}
+		commercialism = { 
+			popularity = 27
+		}
+		conservativism = { 
+			popularity = 18
+		}
+		paternalism = { 
+			popularity = 3
+		}
+		reactionism = { 
+			popularity = 5
+		}
+		ultra_nationalism = { 
+			popularity = 4
+		}
+		hierarchism = { 
+			popularity = 0
+		}
+	}
+	
 	ruling_party = commercialism
 	last_election = "1936.1.1"
 	election_frequency = 48
 	elections_allowed = no
-}
-
-set_popularities = {
-    blanquism = 4
-    egalitarianism = 7
-    libertarianism = 10
-    progressivism = 19
-    commercialism = 27
-    conservativism = 18
-    paternalism = 6
-    reactionism = 5
-    ultra_nationalism = 4
-    hierarchism = 0
 }
 
 create_faction = Faction_ITA_Ven
@@ -164,93 +185,4 @@ create_country_leader = {
 	traits = {
 		#
 	}
-}
-###Generals
-create_corps_commander = {
-	name = "Italian Man"
-	desc = ""
-	picture = "ITA_1.tga"
-	traits = { }
-	skill = 1
-	attack_skill = 1
-	defense_skill = 1
-	planning_skill = 1
-	logistics_skill = 1
-}
-create_corps_commander = {
-	name = "Italian Man"
-	desc = ""
-	picture = "ITA_2.tga"
-	traits = { }
-	skill = 1
-	attack_skill = 1
-	defense_skill = 1
-	planning_skill = 1
-	logistics_skill = 1
-}
-create_corps_commander = {
-	name = "Italian Man"
-	desc = ""
-	picture = "ITA_3.tga"
-	traits = { }
-	skill = 1
-	attack_skill = 1
-	defense_skill = 1
-	planning_skill = 1
-	logistics_skill = 1
-}
-create_corps_commander = {
-	name = "Italian Man"
-	desc = ""
-	picture = "ITA_4.tga"
-	traits = { }
-	skill = 1
-	attack_skill = 1
-	defense_skill = 1
-	planning_skill = 1
-	logistics_skill = 1
-}
-create_corps_commander = {
-	name = "Italian Man"
-	desc = ""
-	picture = "ITA_5.tga"
-	traits = { }
-	skill = 1
-	attack_skill = 1
-	defense_skill = 1
-	planning_skill = 1
-	logistics_skill = 1
-}
-create_corps_commander = {
-	name = "Italian Man"
-	desc = ""
-	picture = "ITA_6.tga"
-	traits = { }
-	skill = 1
-	attack_skill = 1
-	defense_skill = 1
-	planning_skill = 1
-	logistics_skill = 1
-}
-create_corps_commander = {
-	name = "Italian Man"
-	desc = ""
-	picture = "ITA_7.tga"
-	traits = { }
-	skill = 1
-	attack_skill = 1
-	defense_skill = 1
-	planning_skill = 1
-	logistics_skill = 1
-}
-create_corps_commander = {
-	name = "Italian Man"
-	desc = ""
-	picture = "ITA_8.tga"
-	traits = { }
-	skill = 1
-	attack_skill = 1
-	defense_skill = 1
-	planning_skill = 1
-	logistics_skill = 1
 }

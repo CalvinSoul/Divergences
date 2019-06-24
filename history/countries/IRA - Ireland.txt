@@ -11,24 +11,45 @@ set_technology = {
 set_convoys = 50
 
 
-set_politics = {	
+set_politics = {
+
+	parties = {
+		blanquism = { 
+			popularity = 6
+		}
+		egalitarianism = {
+			popularity = 4
+		}
+		libertarianism = {
+			popularity = 10
+		}
+		progressivism = { 
+			popularity = 10
+		}
+		commercialism = { 
+			popularity = 20
+		}
+		conservativism = { 
+			popularity = 32
+		}
+		paternalism = { 
+			popularity = 0
+		}
+		reactionism = { 
+			popularity = 10
+		}
+		ultra_nationalism = { 
+			popularity = 8
+		}
+		hierarchism = { 
+			popularity = 0
+		}
+	}
+	
 	ruling_party = conservativism
 	last_election = "1936.1.1"
 	election_frequency = 48
 	elections_allowed = no
-}
-
-set_popularities = {
-    blanquism = 6
-    egalitarianism = 4
-    libertarianism = 10
-    progressivism = 10
-    commercialism = 20
-    conservativism = 32
-    paternalism = 0
-    reactionism = 10
-    ultra_nationalism = 8
-    hierarchism = 0
 }
 
 create_country_leader = {
