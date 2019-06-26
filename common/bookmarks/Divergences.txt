@@ -50,7 +50,50 @@ bookmarks = {
 		}
 		"---"={
 			history = "OTHER_DIVERGENCES_DESC"
-		}		
+		}
+		"ITA"={
+			minor = yes
+			history = "ITA_DIVERGENCES_DESC"
+			ideology = commercialism
+			focuses = {
+			}
+		"ARA"={
+			minor = yes
+			history = "ITA_DIVERGENCES_DESC"
+			ideology = commercialism
+			focuses = {
+			}
+		}
+		"SPA"={
+			minor = yes
+			history = "ITA_DIVERGENCES_DESC"
+			ideology = progressivism
+			focuses = {
+			}			
+		"DAN"={
+			minor = yes
+			history = "ITA_DIVERGENCES_DESC"
+			ideology = conservativism
+			focuses = {
+			}
+		"PLA"={
+			minor = yes
+			history = "ITA_DIVERGENCES_DESC"
+			ideology = conservativism
+			focuses = {
+			}
+		"CHI"={
+			minor = yes
+			history = "ITA_DIVERGENCES_DESC"
+			ideology = hierarchism
+			focuses = {
+			}
+		"IRQ"={
+			minor = yes
+			history = "ITA_DIVERGENCES_DESC"
+			ideology = conservativism
+			focuses = {
+			}						
 		effect = {
 			randomize_weather = 12345 # <- Obligatory in every bookmark !
 			#123 = { rain_light = yes }
