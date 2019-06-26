@@ -1,0 +1,11 @@
+spriteTypes = {	
+	###RUS Russia Spirits###
+	spriteType = { 
+		name = "GFX_idea_house_of_rurikovich"
+		texturefile = "gfx/interface/ideas/RUS/house_of_rurikovich.dds"
+	}	
+    spriteType = { 
+		name = "GFX_idea_second_smuta"
+		texturefile = "gfx/interface/ideas/RUS/second_smuta.dds"
+	}
+}

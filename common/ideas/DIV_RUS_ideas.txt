@@ -9,28 +9,24 @@ ideas = {
 	country = {
 		rus_second_smuta = {
 			allowed = {
-				always = no
+				original_tag = "RUS"
 			}
-
+			picture = second_smuta
 			modifier = {
 				political_power_cost = 0.50
 				consumer_goods_factor = 0.40
 			}
-			removal_cost = -1
-			picture = second_smuta
 		}
 		
 		rus_house_of_rurikovich = {
 			allowed = {
-				always = no
+				original_tag = "RUS"
 			}
-
+			picture = house_of_rurikovich	
 			modifier = {
 				stability_factor = 0.1
 				political_power_cost = 0.10
-			}
-			removal_cost = -1
-			picture = house_of_rurikovich		
+			}	
 		}
 	}
 }	

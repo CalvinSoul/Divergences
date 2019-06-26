@@ -90,6 +90,8 @@
  BEO_reactionism:0 "Kingdom of Beornia"
  BRG_hierarchism:0 "Burgundy Imperium"
 
+ BOH_paternalism:0 "Kingdom of Bohemia-Elbia"
+
  BUL_blanquism:0 "People's Republic of Bulgaria"
  BUL_egalitarianism:0 "Republic of Bulgaria"
  BUL_libertarianism:0 "Republic of Bulgaria"
@@ -166,7 +168,6 @@
  FIN_paternalism:0 "Kingdom of Finland"
  GAA_paternalism:0 "German Afrikan Authority"
  GCO_paternalism:0 "Federation of Gran Colombia"
- GER_paternalism:0 "German Empire"
  
  GRA_blanquism:0 "People's Republic of Granada"
  GRA_egalitarianism:0 "People's Republic of Granada"

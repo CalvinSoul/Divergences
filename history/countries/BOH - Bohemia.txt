@@ -35,14 +35,13 @@ set_popularities = {
 }
 
 create_faction = Faction_GER_Congress
-add_to_faction = GER
+add_to_faction = BOH
 add_to_faction = LIT
 add_to_faction = SLV
 
 create_country_leader = {
-	
 	name = "Sigismund IV"
-	picture = "Portrait_GER_Sigismund_IV.dds"
+	picture = "Sigismund.dds"
 	expire = "1965.1.1"
 	ideology = paternalism_subtype
 	traits = {

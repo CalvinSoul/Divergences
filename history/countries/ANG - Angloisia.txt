@@ -61,6 +61,26 @@ set_autonomy = {
 	autonomous_state = autonomy_5
 	freedom_level = 0.5
 }
+AAS = {
+   	set_politics = {	
+		ruling_party = paternalism
+		last_election = "1936.1.1"
+		election_frequency = 48
+		elections_allowed = no
+	}
+	set_popularities = {
+   		blanquism = 0
+    	egalitarianism = 0
+    	libertarianism = 0
+    	progressivism = 0
+   		commercialism = 0
+    	conservativism = 0
+    	paternalism = 100
+    	reactionism = 0
+    	ultra_nationalism = 0
+    	hierarchism = 0
+	}
+}
 create_corps_commander = { #French
 	name = "Eugène Boudreaux" 
 	desc = ""

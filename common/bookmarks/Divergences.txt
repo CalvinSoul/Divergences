@@ -6,8 +6,8 @@ bookmarks = {
 		picture = "GFX_select_date_1936"
 		default_country = "BRG"
 		default = yes
-		"GER"={
-			history = "GER_DIVERGENCES_DESC"
+		"BOH"={
+			history = "BOH_DIVERGENCES_DESC"
 			ideology = paternalism
 			focuses = {
 			}
