@@ -1,7 +1,7 @@
 
 state={
 	id=635
-	name="STATE_635"
+	name="STATE_635"  #Islas Jaras
 	resources={
 		chromium=90 # was: 178.000
 	}
@@ -11,7 +11,7 @@ state={
 	history={
 		owner = NAZ
 		victory_points = {
-			4268 1 
+			4268 5
 		}
 		buildings = {
 			infrastructure = 3
@@ -33,6 +33,6 @@ state={
 	provinces={
 		1237 1263 4231 4247 4268 7264 10160 12120 12132 
 	}
-	manpower=51876
+	manpower=78311
 	buildings_max_level_factor=1.000
 }

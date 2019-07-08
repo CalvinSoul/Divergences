@@ -18,17 +18,17 @@ set_politics = {
 	elections_allowed = no
 }
 
-set_popularities = {
-    blanquism = 10
-    egalitarianism = 10
-    libertarianism = 10
-    progressivism = 10
-    commercialism = 10
-    conservativism = 10
+set_popularities = { 
+    blanquism = 3
+    egalitarianism = 6
+    libertarianism = 8
+    progressivism = 26
+    commercialism = 6
+    conservativism = 28
     paternalism = 10
-    reactionism = 10
-    ultra_nationalism = 10
-    hierarchism = 10
+    reactionism = 5
+    ultra_nationalism = 3
+    hierarchism = 5
 }
 
 create_country_leader = {

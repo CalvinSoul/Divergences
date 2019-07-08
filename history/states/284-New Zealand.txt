@@ -1,18 +1,15 @@
 
 state={
 	id=284
-	name="STATE_284" # North Island
-	manpower = 899836
+	name="STATE_284" # North Island Isla Pico
+	manpower = 507806
 	
 	state_category = city
 	
 	history={
 		owner = NAZ
 		buildings = {
-			infrastructure = 6
-			arms_factory = 1
-			industrial_complex = 4
-			air_base = 3
+			infrastructure = 5
 			4543 = {
 				naval_base = 3
 			}
@@ -21,14 +18,24 @@ state={
 			}
 		}
 		victory_points = {
-			1814 10
+			1814 25
 		}
 		victory_points = {
-			4543 5 
+			4543 10
 		}
 		victory_points = {
-			4718 10
+			4718 5
 		}
+		victory_points = {
+			12604 5
+		}
+		victory_points = {
+			7692 5
+		}
+		victory_points = {
+			4748 5
+		}
+
 		add_core_of = NAZ
 		add_core_of = MAO
 	}

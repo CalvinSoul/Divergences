@@ -19,16 +19,16 @@ set_politics = {
 }
 
 set_popularities = {
-    blanquism = 10
-    egalitarianism = 10
-    libertarianism = 10
-    progressivism = 10
-    commercialism = 10
-    conservativism = 10
-    paternalism = 10
+    blanquism = 2
+    egalitarianism = 3
+    libertarianism = 8
+    progressivism = 24
+    commercialism = 7
+    conservativism = 33
+    paternalism = 0
     reactionism = 10
-    ultra_nationalism = 10
-    hierarchism = 10
+    ultra_nationalism = 8
+    hierarchism = 5
 }
 
 create_country_leader = {

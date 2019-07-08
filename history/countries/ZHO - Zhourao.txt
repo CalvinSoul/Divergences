@@ -19,24 +19,23 @@ set_politics = {
 }
 
 set_popularities = {
-    blanquism = 10
-    egalitarianism = 10
-    libertarianism = 10
-    progressivism = 10
-    commercialism = 10
-    conservativism = 10
-    paternalism = 10
-    reactionism = 10
-    ultra_nationalism = 10
-    hierarchism = 10
+    blanquism = 4
+    egalitarianism = 6
+    libertarianism = 13
+    progressivism = 18
+    commercialism = 5
+    conservativism = 32
+    paternalism = 0
+    reactionism = 8
+    ultra_nationalism = 6
+    hierarchism = 8
 }
 
 create_country_leader = {
-	
 	name = "Huang Bao"
 	picture = "Portrait_ZHO_Huang_Bao.dds"
 	expire = "1965.1.1"
-	ideology = conservativism_subtype
+	ideology = classical_conservativism_subtype
 	traits = {
 		#
 	}

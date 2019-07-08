@@ -1,9 +1,9 @@
 state={
 	id=723
-	name="STATE_723"
-	manpower = 547198
+	name="STATE_723" #Isla Nevada
+	manpower = 381058
 	resources={
-		tungsten=4 # was: 6
+		tungsten=4 # was: 6 
 	}
 
 	state_category = rural
@@ -14,16 +14,18 @@ state={
 		add_core_of = NAZ
 		buildings = {
 			infrastructure = 5
-			air_base = 1
 			2197 = {
 				naval_base = 1
 			}
 		}
 		victory_points = {
-			2197 1 
+			2197 5 
 		}
 		victory_points = {
-			2211 1 
+			2211 5 
+		}
+		victory_points = {
+			12632 5
 		}
 	}
 	provinces={
