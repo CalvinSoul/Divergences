@@ -105,16 +105,16 @@
 
  CAR_paternalism:0 "Republic of Carthage"
 
- CHI_blanquism:0 "People's Republic of China"
- CHI_egalitarianism:0 "Republic of China"
- CHI_libertarianism:0 "Republic of China"
- CHI_progressivism:0 "Heavenly Kingdom of Great Peace"
- CHI_commercialism:0 "Heavenly Kingdom of Great Peace"
- CHI_conservativism:0 "Heavenly Kingdom of Great Peace"
- CHI_paternalism:0 "Heavenly Kingdom of Great Peace"
- CHI_reactionism:0 "Heavenly Kingdom of Great Peace"
- CHI_ultra_nationalism:0 "Heavenly Kingdom of Great Peace"
- CHI_hierarchism:0 "Heavenly Kingdom of Great Peace"
+ CHI_blanquism:0 "People's Republic of Cathay"
+ CHI_egalitarianism:0 "Republic of Cathay"
+ CHI_libertarianism:0 "Republic of Cathay"
+ CHI_progressivism:0 "Heavenly Kingdom"
+ CHI_commercialism:0 "Heavenly Kingdom"
+ CHI_conservativism:0 "Heavenly Kingdom"
+ CHI_paternalism:0 "Heavenly Kingdom"
+ CHI_reactionism:0 "Heavenly Kingdom"
+ CHI_ultra_nationalism:0 "Heavenly Kingdom"
+ CHI_hierarchism:0 "Heavenly Kingdom"
 
  CHR_blanquism:0 "Revolutionary Republic of Christiania"
  CHR_egalitarianism:0 "Republic of Christiania"
@@ -142,14 +142,14 @@
  
  DAN_blanquism:0 "People's Republic of Danubia"
  DAN_egalitarianism:0 "Danubian Republic"
- DAN_libertarianism:0 "Danubian Confederation"
- DAN_progressivism:0 "Danubian Confederation"
- DAN_commercialism:0 "Danubian Confederation"
- DAN_conservativism:0 "Danubian Confederation"
- DAN_paternalism:0 "Danubian Confederation"
- DAN_reactionism:0 "Danubian Confederation"
- DAN_ultra_nationalism:0 "Danubian Confederation"
- DAN_hierarchism:0 "Danubian Confederation"
+ DAN_libertarianism:0 "Danubian Federation"
+ DAN_progressivism:0 "Danubian Federation"
+ DAN_commercialism:0 "Danubian Federation"
+ DAN_conservativism:0 "Danubian Federation"
+ DAN_paternalism:0 "Danubian Federation"
+ DAN_reactionism:0 "Danubian Federation"
+ DAN_ultra_nationalism:0 "Danubian Federation"
+ DAN_hierarchism:0 "Danubian Federation"
 
  EEN_paternalism:0 "Eendrachtsland Republic"
 
@@ -453,7 +453,7 @@
  QUI_ultra_nationalism:0 "Republic of Quito"
  QUI_hierarchism:0 "Republic of Quito"
 
- RHE_commercialism:0 "Republic of Westphalia"
+ RHE_commercialism:0 "Rhenish Confederation"
  ROM_paternalism:0 "Kindom of Romania"
 
  RUT_blanquism:0 "Revolutionary Republic of Ruthenia""
@@ -507,7 +507,7 @@
  SIK_ultra_nationalism:0 "Sikh Empire"
  SIK_hierarchism:0 "Sikh Empire"
 
- SLV_paternalism:0 "Slovakian Free State"
+ SLV_paternalism:0 "Principality of Nitra"
  
  SPA_blanquism:0 "People's Republic of Spain"
  SPA_egalitarianism:0 "People's Republic of Spain"

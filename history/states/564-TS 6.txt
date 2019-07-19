@@ -10,8 +10,8 @@ state={
 	}
 
 	history={
-		owner = DZU
-		add_core_of = DZU
+		owner = JAP
+		add_core_of = JAP
 		buildings = {
 			infrastructure = 4
 
@@ -20,7 +20,7 @@ state={
 	}
 
 	provinces={
-		1696 4705 4716 4766 4835 4837 7736 7751 7816 7835 7854 7860 10528 10658 12507 12644 
+		4716 4835 7736 7751 7854 
 	}
 	manpower=370893
 	buildings_max_level_factor=1.000

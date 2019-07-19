@@ -1,14 +1,12 @@
+
 state={
 	id=664
 	name="STATE_664"
-	manpower = 854300
 	resources={
-		steel=13 # was: 20
-		chromium = 3 # was: 4
+		steel=13.000
+		chromium=3.000
 	}
-	
-	state_category = town
-	
+
 	history={
 		owner = HUN
 		add_core_of = HUN
@@ -16,13 +14,18 @@ state={
 		buildings = {
 			infrastructure = 6
 			industrial_complex = 3
+
 		}
 		victory_points = {
 			6573 1 
 		}
+
 	}
-	
+
 	provinces={
-		3565 3716 6561 6573 9537 11679 
+		3565 3581 3716 6561 6573 6586 6604 9537 11679 
 	}
+	manpower=854300
+	buildings_max_level_factor=1.000
+	state_category=town
 }

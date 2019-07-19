@@ -7,8 +7,8 @@ state={
 	}
 
 	history={
-		owner = BRG
-		add_core_of = BRG
+		owner = RHE
+		add_core_of = RHE
 		victory_points = {
 			6469 10 
 		}
@@ -26,7 +26,7 @@ state={
 	}
 
 	provinces={
-		587 3444 3547 9522 11470 11494 
+		587 3423 3547 11494 11560 
 	}
 	manpower=6144743
 	buildings_max_level_factor=1.000
