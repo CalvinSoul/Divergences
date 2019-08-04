@@ -1,4 +1,4 @@
-﻿capital = 46
+﻿capital = 1
 
 oob = "Default_1936"
 
@@ -12,7 +12,7 @@ set_convoys = 50
 
 
 set_politics = {	
-	ruling_party = paternalism
+	ruling_party = conservativism
 	last_election = "1936.1.1"
 	election_frequency = 48
 	elections_allowed = no
@@ -42,8 +42,8 @@ create_country_leader = {
 }
 create_country_leader = {
 	
-	name = "Alexandru III"
-	picture = "Alexandru.tga"
+	name = "Frederik I"
+	picture = "Frederik_Nassau.tga"
 	expire = "1965.1.1"
 	ideology = progressivism_subtype
 	traits = {
@@ -52,8 +52,8 @@ create_country_leader = {
 }
 create_country_leader = {
 	
-	name = "Alexandru III"
-	picture = "Alexandru.tga"
+	name = "Frederik I"
+	picture = "Frederik_Nassau.tga"
 	expire = "1965.1.1"
 	ideology = commercialism_subtype
 	traits = {
@@ -62,8 +62,8 @@ create_country_leader = {
 }
 create_country_leader = {
 	
-	name = "Alexandru III"
-	picture = "Alexandru.tga"
+	name = "Frederik I"
+	picture = "Frederik_Nassau.tga"
 	expire = "1965.1.1"
 	ideology = conservativism_subtype
 	traits = {
@@ -72,8 +72,8 @@ create_country_leader = {
 }
 create_country_leader = {
 	
-	name = "Alexandru III"
-	picture = "Alexandru.tga"
+	name = "Frederik I"
+	picture = "Frederik_Nassau.tga"
 	expire = "1965.1.1"
 	ideology = paternalism_subtype
 	traits = {
@@ -82,8 +82,8 @@ create_country_leader = {
 }
 create_country_leader = {
 	
-	name = "Alexandru III"
-	picture = "Alexandru.tga"
+	name = "Frederik I"
+	picture = "Frederik_Nassau.tga"
 	expire = "1965.1.1"
 	ideology = reactionism_subtype
 	traits = {
@@ -100,15 +100,3 @@ create_country_leader = {
 		#
 	}
 }
-create_country_leader = {
-	
-	name = "Alexandru III"
-	picture = "Alexandru.tga"
-	expire = "1965.1.1"
-	ideology = hierarchism_subtype
-	traits = {
-		#
-	}
-}
-
-

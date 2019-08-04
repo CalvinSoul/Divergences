@@ -31,7 +31,16 @@ set_popularities = {
     hierarchism = 10
 }
 
-
+create_country_leader = {
+	
+	name = "Teodosie Chivu"
+	picture = "Teodosie_Chivu.tga"
+	expire = "1965.1.1"
+	ideology = libertarianism_subtype
+	traits = {
+		#
+	}
+}
 create_country_leader = {
 	
 	name = "Grigore V"
@@ -84,8 +93,8 @@ create_country_leader = {
 }
 create_country_leader = {
 	
-	name = "Grigore V"
-	picture = "Grigore.tga"
+	name = "Constantin Romanescu"
+	picture = "gfx//leaders//ROM//Constantin_Romanescu.tga"
 	expire = "1965.1.1"
 	ideology = ultra_nationalism_subtype
 	traits = {

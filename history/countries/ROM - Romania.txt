@@ -33,11 +33,80 @@ set_popularities = {
 
 create_country_leader = {
 	
-	name = "The Invisible Man"
-	picture = "gfx//leaders//Invisible_Man.tga"
+	name = "Teodosie Chivu"
+	picture = "Teodosie_Chivu.tga"
+	expire = "1965.1.1"
+	ideology = libertarianism_subtype
+	traits = {
+		#
+	}
+}
+create_country_leader = {
+	
+	name = "Princely Council"
+	picture = "Princely_Council.tga"
+	expire = "1965.1.1"
+	ideology = progressivism_subtype
+	traits = {
+		#
+	}
+}
+create_country_leader = {
+	
+	name = "Princely Council"
+	picture = "Princely_Council.tga"
+	expire = "1965.1.1"
+	ideology = commercialism_subtype
+	traits = {
+		#
+	}
+}
+create_country_leader = {
+	
+	name = "Princely Council"
+	picture = "Princely_Council.tga"
+	expire = "1965.1.1"
+	ideology = conservativism_subtype
+	traits = {
+		#
+	}
+}
+create_country_leader = {
+	
+	name = "Princely Council"
+	picture = "Princely_Council.tga"
 	expire = "1965.1.1"
 	ideology = paternalism_subtype
 	traits = {
 		#
 	}
 }
+create_country_leader = {
+	
+	name = "Princely Council"
+	picture = "Princely_Council.tga"
+	expire = "1965.1.1"
+	ideology = reactionism_subtype
+	traits = {
+		#
+	}
+}
+create_country_leader = {
+	
+	name = "Constantin Romanescu"
+	picture = "Constantin_Romanescu.tga"
+	expire = "1965.1.1"
+	ideology = ultra_nationalism_subtype
+	traits = {
+		#
+	}
+}
+create_country_leader = {
+	
+	name = "Princely Council"
+	picture = "Princely_Council.tga"
+	expire = "1965.1.1"
+	ideology = hierarchism_subtype
+	traits = {
+		#
+	}

@@ -454,7 +454,17 @@
  QUI_hierarchism:0 "Republic of Quito"
 
  RHE_commercialism:0 "Rhenish Confederation"
- ROM_paternalism:0 "Kindom of Romania"
+
+ ROM_blanquism:0 "Romanian People's State"
+ ROM_egalitarianism:0 "Romanian Republic"
+ ROM_libertarianism:0 "Romanian Republic"
+ ROM_progressivism:0 "United Principalities of Romania"
+ ROM_commercialism:0 "United Principalities of Romania"
+ ROM_conservativism:0 "United Principalities of Romania"
+ ROM_paternalism:0 "United Principalities of Romania"
+ ROM_reactionism:0 "United Principalities of Romania"
+ ROM_ultra_nationalism:0 "Great Romania"
+ ROM_hierarchism:0 "Great Romania"
 
  RUT_blanquism:0 "Revolutionary Republic of Ruthenia""
  RUT_egalitarianism:0 "Republic of Ruthenia""
@@ -555,6 +565,17 @@
 
  TAW_hierarchism:0 "Incan Empire"
  TCA_paternalism:0 "Transcaucasian Federative Republic"
+
+ TRS_blanquism:0 "People's State of Transylvania"
+ TRS_egalitarianism:0 "Republic of Transylvania"
+ TRS_libertarianism:0 "Republic of Transylvania"
+ TRS_progressivism:0 "Principality of Transylvania"
+ TRS_commercialism:0 "Principality of Transylvania"
+ TRS_conservativism:0 "Principality of Transylvania"
+ TRS_paternalism:0 "Principality of Transylvania"
+ TRS_reactionism:0 "Principality of Transylvania"
+ TRS_ultra_nationalism:0 "Romanian State of Transylvania"
+ TRS_hierarchism:0 "Romanian State of Transylvania"
 
  TEL_blanquism:0 "Telegu Republic"
  TEL_egalitarianism:0 "Telegu Republic"
