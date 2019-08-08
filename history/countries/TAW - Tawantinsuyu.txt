@@ -59,9 +59,20 @@ set_popularities = {
     ultra_nationalism = 9
     hierarchism = 30
 }
+
 create_country_leader = {
 	
-	name = "Pachacuti_Tawar"
+	name = "Hanan Pachacuti Tawar"
+	picture = "Pachacuti_Tawar.dds"
+	expire = "1965.1.1"
+	ideology = blanquism_subtype
+	traits = {
+		#
+	}
+}
+create_country_leader = {
+	
+	name = "Hanan Pachacuti Tawar"
 	picture = "Pachacuti_Tawar.dds"
 	expire = "1965.1.1"
 	ideology = egalitarianism_subtype
@@ -71,8 +82,88 @@ create_country_leader = {
 }
 create_country_leader = {
 	
-	name = "Capac Huallpa"
+	name = "Hanan Pachacuti Tawar"
+	picture = "Pachacuti_Tawar.dds"
+	expire = "1965.1.1"
+	ideology = libertarianism_subtype
+	traits = {
+		#
+	}
+}
+create_country_leader = {
+	
+	name = "Hanan Pachacuti Tawar"
+	picture = "Pachacuti_Tawar.dds"
+	expire = "1965.1.1"
+	ideology = progressivism_subtype
+	traits = {
+		#
+	}
+}
+create_country_leader = {
+	
+	name = "Hanan Capac Huallpa"
 	picture = "Capac_Huallpa.tga"
+	expire = "1965.1.1"
+	ideology = commercialism_subtype
+	traits = {
+		#
+	}
+}
+create_country_leader = {
+	
+	name = "Hanan Capac Huallpa"
+	picture = "Capac_Huallpa.tga"
+	expire = "1965.1.1"
+	ideology = conservativism_subtype
+	traits = {
+		#
+	}
+}
+create_country_leader = {
+	
+	name = "Hanan Capac Huallpa"
+	picture = "Capac_Huallpa.tga"
+	expire = "1965.1.1"
+	ideology = conservativism_subtype
+	traits = {
+		#
+	}
+}
+create_country_leader = {
+	
+	name = "Hanan Capac Huallpa"
+	picture = "Capac_Huallpa.tga"
+	expire = "1965.1.1"
+	ideology = paternalism_subtype
+	traits = {
+		#
+	}
+}
+create_country_leader = {
+	
+	name = "Hanan Capac Huallpa"
+	picture = "Capac_Huallpa.tga"
+	expire = "1965.1.1"
+	ideology = reactionism_subtype
+	traits = {
+		#
+	}
+}
+create_country_leader = {
+	
+	name = "Hanan Kukuri Malqui"
+	picture = "Kukuri_Malqui.tga"
+	expire = "1965.1.1"
+	ideology = ultra_nationalism_subtype
+	traits = {
+		#
+	}
+}
+create_country_leader = {
+	
+	name = "Hanan Kukuri Malqui"
+	picture = "Kukuri_Malqui.tga"
 	expire = "1965.1.1"
 	ideology = imperial_hierarchism_subtype
 	traits = {
@@ -91,8 +182,8 @@ create_field_marshal = {
 	planning_skill = 1
 	logistics_skill = 1
 }	
-create_corps_commander = {
-	name = "Kukuri Malqui"
+create_field_marshal = {
+	name = "Hanan Kukuri Malqui"
 	desc = ""
 	picture = "Kukuri_Malqui.tga"
 	traits = {}
@@ -117,6 +208,17 @@ create_corps_commander = {
 	name = "Koka Quichca"
 	desc = ""
 	picture = "Koka_Quichca.tga"
+	traits = {}
+	skill = 1
+	attack_skill = 1
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 1
+}
+create_corps_commander = {
+	name = "Hanan Capac Huallpa"
+	desc = ""
+	picture = "Capac_Huallpa.tga"
 	traits = {}
 	skill = 1
 	attack_skill = 1

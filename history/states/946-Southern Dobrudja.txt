@@ -1,0 +1,23 @@
+state={
+	id=946
+	name="STATE_946"
+
+	history={
+		owner = BUL
+		add_core_of = BUL
+		add_core_of = ROM
+		add_core_of = WAL
+		buildings = {
+			infrastructure = 5
+		}
+		victory_points = {
+			11597 5 
+		}
+	}
+
+	provinces={
+		9614 11597 
+	}
+	manpower=130766
+	buildings_max_level_factor=1.000
+}

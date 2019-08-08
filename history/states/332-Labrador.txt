@@ -3,24 +3,19 @@ state={
 	id=332
 	name="STATE_332"
 
-	history={
-		owner = VIN
-		add_core_of = VIN
-		buildings = {
-			infrastructure = 1
-			12503 = {
-				naval_base = 1
+	#history={
+	#	owner = VIN
+	#	add_core_of = VIN
+	#	buildings = {
 
-			}
+	#	}
 
-		}
-
-	}
+	#}
 
 	provinces={
-		13180 
+	#	13180
 	}
-	manpower=22179
+	manpower=0
 	buildings_max_level_factor=1.000
 	state_category=wasteland
 }

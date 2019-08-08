@@ -1,0 +1,21 @@
+
+state={
+	id=951
+	name="STATE_951"
+
+	history={
+		owner = BRG
+		add_core_of = BRG
+		buildings = {
+			infrastructure = 5
+
+		}
+
+	}
+
+	provinces={
+		3560 5291 6583 9418 9559 
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+}

@@ -215,7 +215,17 @@
  HIN_ultra_nationalism:0 "National State of Hindustan"
  HIN_hierarchism:0 "Islamic State of Hindustan"
 
+ HUN_blanquism:0 "People's Republic of Carpathia"
+ HUN_egalitarianism:0 "Republic of Hungary"
+ HUN_libertarianism:0 "Republic of Hungary"
  HUN_progressivism:0 "Republic of Hungary"
+ HUN_commercialism:0 "Republic of Hungary"
+ HUN_conservativism:0 "Republic of Hungary"
+ HUN_paternalism:0 "Kingdom of Hungary"
+ HUN_reactionism:0 "Kingdom of Hungary"
+ HUN_ultra_nationalism:0 "Hungarian State"
+ HUN_hierarchism:0 "Hungarian State"
+
  ICZ_commercialism:0 "International Canal Zone"
 
  IDC_blanquism:0 "Republic of Vietnam"
@@ -517,7 +527,16 @@
  SIK_ultra_nationalism:0 "Sikh Empire"
  SIK_hierarchism:0 "Sikh Empire"
 
+ SLV_blanquism:0 "People's Republic of Slovakia"
+ SLV_egalitarianism:0 "Republic of Slovakia"
+ SLV_libertarianism:0 "Republic of Slovakia"
+ SLV_progressivism:0 "Republic of Slovakia"
+ SLV_commercialism:0 "Republic of Slovakia"
+ SLV_conservativism:0 "Principality of Nitra"
  SLV_paternalism:0 "Principality of Nitra"
+ SLV_reactionism:0 "Principality of Nitra"
+ SLV_ultra_nationalism:0 "State of Slovakia"
+ SLV_hierarchism:0 "State of Slovakia"
  
  SPA_blanquism:0 "People's Republic of Spain"
  SPA_egalitarianism:0 "People's Republic of Spain"
@@ -563,7 +582,18 @@
  TAR_ultra_nationalism:0 "Khanate of Tatarstan"
  TAR_hierarchism:0 "Khanate of Tatarstan"
 
+ TAW_blanquism:0 "Andean Worker's Empire"
+ TAW_egalitarianism:0 "Andean Worker's Empire"
+ TAW_libertarianism:0 "Andean Worker's Empire"
+ TAW_progressivism:0 "Incan Worker's Empire"
+ TAW_commercialism:0 "Incan Empire"
+ TAW_conservativism:0 "Incan Empire"
+ TAW_conservativism:0 "Incan Empire"
+ TAW_paternalism:0 "Incan Empire"
+ TAW_reactionism:0 "Incan Empire"
+ TAW_ultra_nationalism:0 "Incan Empire"
  TAW_hierarchism:0 "Incan Empire"
+
  TCA_paternalism:0 "Transcaucasian Federative Republic"
 
  TRS_blanquism:0 "People's State of Transylvania"

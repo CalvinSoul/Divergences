@@ -9,14 +9,21 @@ state={
 	history={
 		owner = TRS
 		add_core_of = TRS
+		add_core_of = ROM
 		buildings = {
-			infrastructure = 4
-			arms_factory = 1
-			industrial_complex = 1
-
+			infrastructure = 5
 		}
 		victory_points = {
-			690 1 
+			9619 5 
+		}
+		victory_points = {
+			676 5 
+		}
+		victory_points = {
+			6679 5 
+		}
+		victory_points = {
+			690 25 
 		}
 
 	}
@@ -24,7 +31,7 @@ state={
 	provinces={
 		676 690 711 3665 3676 3689 6679 6709 9619 9668 9670 11639 
 	}
-	manpower=1622300
+	manpower=2129352
 	buildings_max_level_factor=1.000
 	state_category=town
 }

@@ -1,17 +1,22 @@
+
 state={
 	id=931
 	name="STATE_931"
-	provinces={
-		521 3629 9575 11502 11516 11531 
-	}
+
 	history={
 		owner = BRG
 		add_core_of = BRG
 		buildings = {
 			infrastructure = 5
+
 		}
+
 	}
-	state_category=rural
+
+	provinces={
+		521 3629 11502 11516 
+	}
 	manpower=0
 	buildings_max_level_factor=1.000
+	state_category=rural
 }

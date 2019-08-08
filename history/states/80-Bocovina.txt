@@ -7,18 +7,19 @@ state={
 		owner = MOL
 		add_core_of = MOL
 		add_core_of = POL
+		add_core_of = ROM
 		buildings = {
-			infrastructure = 6
-			arms_factory = 1
-
+			infrastructure = 5
 		}
-
+		victory_points = {
+			9548 5 
+		}
 	}
 
 	provinces={
 		577 3407 9548 
 	}
-	manpower=474600
+	manpower=326797
 	buildings_max_level_factor=1.000
 	state_category=rural
 }

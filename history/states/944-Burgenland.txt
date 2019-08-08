@@ -1,0 +1,22 @@
+state={
+	id=944
+	name="STATE_944"
+
+	history={
+		owner = DAN
+		add_core_of = DAN
+		add_core_of = HUN
+		buildings = {
+			infrastructure = 5
+		}
+		victory_points = {
+			686 5 
+		}
+	}
+
+	provinces={
+		686 3700 11627 
+	}
+	manpower=695429
+	buildings_max_level_factor=1.000
+}

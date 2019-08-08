@@ -1,0 +1,25 @@
+state={
+	id=943
+	name="STATE_943"
+
+	history={
+		owner = SLA
+		add_core_of = SLA
+		add_core_of = SER
+		buildings = {
+			infrastructure = 5
+		}
+		victory_points = {
+			11787 5 
+		}
+		victory_points = {
+			3614 5 
+		}
+	}
+
+	provinces={
+		614 3614 6643 11787 
+	}
+	manpower=437710
+	buildings_max_level_factor=1.000
+}

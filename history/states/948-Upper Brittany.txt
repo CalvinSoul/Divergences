@@ -1,0 +1,18 @@
+state={
+	id=948
+	name="STATE_948"
+
+	history={
+		owner = ANG
+		add_core_of = ANG
+		buildings = {
+			infrastructure = 5
+		}
+	}
+
+	provinces={
+		527 9495 9510 9525 11465 11508 11616 
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+}

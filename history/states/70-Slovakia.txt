@@ -1,7 +1,7 @@
 state={
 	id=70
 	name="STATE_70"
-	manpower = 1230500
+	manpower = 1766404
 	
 	state_category = city
 	
@@ -12,14 +12,17 @@ state={
 	history={
 		owner = SLV
 		add_core_of = SLV
-		victory_points = {
-			9692 10 
-		}
 		buildings = {
 			infrastructure = 5
-			industrial_complex = 3
-			arms_factory = 2
-			air_base = 3
+		}
+		victory_points = {
+			9692 25 
+		}
+		victory_points = {
+			541 30 
+		}
+		victory_points = {
+			3484 5 
 		}
 	}
 
@@ -27,3 +30,4 @@ state={
 		541 3484 3537 9539 9692 11522 11539 
 	}
 }
+	

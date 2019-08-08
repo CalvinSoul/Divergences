@@ -1,0 +1,27 @@
+
+state={
+	id=945
+	name="STATE_945"
+
+	history={
+		owner = SLA
+		add_core_of = SLA
+		add_core_of = ILL
+		add_core_of = SER
+		buildings = {
+			infrastructure = 5
+		}
+		victory_points = {
+			6647 5 
+		}
+		victory_points = {
+			11580 5 
+		}
+	}
+
+	provinces={
+		6647 11577 11580 
+	}
+	manpower=703296
+	buildings_max_level_factor=1.000
+}

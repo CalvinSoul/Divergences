@@ -9,23 +9,30 @@ state={
 	history={
 		owner = HUN
 		add_core_of = HUN
+		buildings = {
+			infrastructure = 5
+		}
+		victory_points = {
+			3670 5 
+		}
+		victory_points = {
+			9676 25 
+		}
+		victory_points = {
+			6703 5 
+		}
 		victory_points = {
 			11610 5 
 		}
-		buildings = {
-			infrastructure = 6
-			industrial_complex = 3
-			arms_factory = 1
-			air_base = 3
-
+		victory_points = {
+			6685 5 
 		}
-
 	}
 
 	provinces={
-		682 701 3670 3680 3683 6685 6703 6720 9608 9624 9643 9676 11610 11663 13125 
+		682 701 3670 3680 3683 6685 6703 6720 9624 9643 9676 11610 11663 13125 
 	}
-	manpower=2197605
+	manpower=3589872
 	buildings_max_level_factor=1.000
 	state_category=city
 }

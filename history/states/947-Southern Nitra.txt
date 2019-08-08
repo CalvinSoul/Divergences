@@ -1,0 +1,22 @@
+state={
+	id=947
+	name="STATE_947"
+
+	history={
+		owner = HUN
+		add_core_of = SLV
+		add_core_of = HUN
+		buildings = {
+			infrastructure = 5
+		}
+		victory_points = {
+			3716 5 
+		}
+	}
+
+	provinces={
+		3716 6561 11679 
+	}
+	manpower=477649
+	buildings_max_level_factor=1.000
+}

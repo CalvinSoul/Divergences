@@ -12,20 +12,20 @@ state={
 		add_core_of = HUN
 		add_core_of = SLV
 		buildings = {
-			infrastructure = 6
-			industrial_complex = 3
-
+			infrastructure = 5
 		}
 		victory_points = {
-			6573 1 
+			6573 25 
 		}
-
+		victory_points = {
+			3581 5 
+		}
 	}
 
 	provinces={
-		3565 3581 3716 6561 6573 6586 6604 9537 11679 
+		3565 3581 6573 6586 6604 9537 
 	}
-	manpower=854300
+	manpower=1168579
 	buildings_max_level_factor=1.000
 	state_category=town
 }

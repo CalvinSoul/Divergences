@@ -6,20 +6,25 @@ state={
 	history={
 		owner = SLA
 		add_core_of = SLA
-		victory_points = {
-			3617 10
-		}
+		add_core_of = SER
 		buildings = {
-			infrastructure = 6
-
+			infrastructure = 5
 		}
-
+		victory_points = {
+			3623 5 
+		}
+		victory_points = {
+			9621 5 
+		}
+		victory_points = {
+			3617 30 
+		}
 	}
 
 	provinces={
-		614 619 3614 3617 3623 6643 9621 11577 11580 11787 
+		619 3617 3623 9608 9621 
 	}
-	manpower=1026200
+	manpower=873384
 	buildings_max_level_factor=1.000
 	state_category=rural
 }

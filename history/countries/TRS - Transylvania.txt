@@ -1,4 +1,4 @@
-﻿capital = 1
+﻿capital = 76
 
 oob = "Default_1936"
 
@@ -12,7 +12,7 @@ set_convoys = 50
 
 
 set_politics = {	
-	ruling_party = conservativism
+	ruling_party = progressivism
 	last_election = "1936.1.1"
 	election_frequency = 48
 	elections_allowed = no
@@ -33,7 +33,7 @@ set_popularities = {
 create_country_leader = {
 	
 	name = "Teodosie Chivu"
-	picture = "Teodosie_Chivu.tga"
+	picture = "gfx//leaders//ROM//Teodosie_Chivu.tga"
 	expire = "1965.1.1"
 	ideology = libertarianism_subtype
 	traits = {
