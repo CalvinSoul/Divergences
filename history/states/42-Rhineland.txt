@@ -2,29 +2,21 @@
 state={
 	id=42
 	name="STATE_42"
-	resources={
-		steel=59.000
-		aluminium=14.000
-	}
 
 	history={
 		owner = BRG
 		add_core_of = BRG
-		victory_points = {
-			11435 10 
-		}
+		victory_points = { 563 5 }
+		victory_points = { 3558 5 }
 		buildings = {
-			infrastructure = 7
-			industrial_complex = 3
-
+			infrastructure = 5
 		}
-
 	}
 
 	provinces={
 		563 3558 11547 
 	}
-	manpower=3027739
+	manpower=1094655
 	buildings_max_level_factor=1.000
 	state_category=metropolis
 }

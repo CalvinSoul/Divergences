@@ -6,16 +6,17 @@ state={
 	history={
 		owner = BRG
 		add_core_of = BRG
+		victory_points = { 6583 25 }
+		victory_points = { 9559 5 }
+		victory_points = { 9418 5 }
 		buildings = {
 			infrastructure = 5
-
 		}
-
 	}
 
 	provinces={
 		3560 5291 6583 9418 9559 
 	}
-	manpower=0
+	manpower=2426952
 	buildings_max_level_factor=1.000
 }

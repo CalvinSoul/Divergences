@@ -2,28 +2,23 @@
 state={
 	id=32
 	name="STATE_32"
-	resources={
-		steel=30.000
-		aluminium=30.000
-	}
 
 	history={
 		owner = OCC
 		add_core_of = OCC
+		victory_points = { 3768 25 }
+		victory_points = { 762 5 }
+		victory_points = { 11713 5 }
+		victory_points = { 9736 5 }
 		buildings = {
-			infrastructure = 4
-
+			infrastructure = 5
 		}
-		victory_points = {
-			3768 1 
-		}
-
 	}
 
 	provinces={
 		762 780 3762 3768 3961 9736 11713 
 	}
-	manpower=1007500
+	manpower=2437580
 	buildings_max_level_factor=1.000
 	state_category=town
 }

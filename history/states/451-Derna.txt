@@ -2,25 +2,20 @@
 state={
 	id=451
 	name="STATE_451"
-	manpower = 251074
-	
-	state_category = rural 
 
-	history={
-		owner = EGY
-		add_core_of = EGY
-		victory_points = {
-			7082 5
-		}
-		victory_points = {
-			1130 5
-		}
-		buildings = {
-			infrastructure = 5
-		}
-	}
+#	history={
+#		owner = EGY
+#		add_core_of = EGY
+#		
+#		buildings = {
+#			infrastructure = 5
+#		}
+#	}
 
 	provinces={
-		1130 1204 4136 4151 7082 9992 10120 12094 
+#		1130 1186 1204 4060 4063 4136 4151 7082 7206 9992 10049 10120 12025 12094 13078 
 	}
+	manpower=0
+	buildings_max_level_factor=1.000
+	state_category=rural
 }

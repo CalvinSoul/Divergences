@@ -15,7 +15,7 @@ state={
 	}
 
 	provinces={
-		421 3414 3583 6485 
+		469 3418 3585 11401 11414 11432 
 	}
 	manpower=820000
 	buildings_max_level_factor=1.000

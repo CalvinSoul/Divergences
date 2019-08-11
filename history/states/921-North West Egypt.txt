@@ -2,16 +2,16 @@ state={
 	id=921
 	name="STATE_921"
 	provinces={
-		992 5078 7117 7148 10127 12033 12091 
+	#	992 5078 7117 7148 10127 12033 12091 
 	}
-	history={
-		owner = EGY
-		add_core_of = EGY
-		buildings = {
-			infrastructure = 5
-		}
-	}
+	#history={
+	#	owner = EGY
+	#	add_core_of = EGY
+	#	buildings = {
+	#		infrastructure = 5
+	#	}
+	#}
 	state_category=wasteland
-	manpower=42817
+	manpower=0
 	buildings_max_level_factor=1.000
 }

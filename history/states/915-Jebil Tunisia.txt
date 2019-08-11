@@ -2,20 +2,19 @@
 state={
 	id=915
 	name="STATE_915"
+	
+#	history={
+#		owner = ARA
+#		add_core_of = MGH
+#		buildings = {
+#			infrastructure = 5
+#		}
+#
+#	}
 	provinces={
-		1105 3987 4992 9983 10082 11935 12000 13145 13179 
+	#	1105 3987 4992 9983 10082 11935 12000 13145 13179 
 	}
-	manpower=161460
-	buildings_max_level_factor=1.000
+	manpower=0
 	state_category=pastoral 
-	history={
-		owner = ARA
-		add_core_of = MGH
-		buildings = {
-			infrastructure = 5
-		}
-		victory_points = {
-			3987 5
-		}
-	}
+	buildings_max_level_factor=1.000
 }

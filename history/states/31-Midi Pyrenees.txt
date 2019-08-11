@@ -6,23 +6,18 @@ state={
 	history={
 		owner = OCC
 		add_core_of = OCC
-		victory_points = {
-			6766 5 
-		}
+		victory_points = { 6917 5 }
+		victory_points = { 3946 5 }
+		victory_points = { 9884 5 }
 		buildings = {
-			infrastructure = 6
-			arms_factory = 1
-			industrial_complex = 1
-			air_base = 2
-
+			infrastructure = 5
 		}
-
 	}
 
 	provinces={
 		3915 3946 6917 6931 9882 9884 
 	}
-	manpower=1825000
+	manpower=1030582
 	buildings_max_level_factor=1.000
 	state_category=city
 }

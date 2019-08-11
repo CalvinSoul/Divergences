@@ -3,12 +3,12 @@ state={
 	id=158
 	name="STATE_158"
 	resources={
-		aluminium=27
-		steel=41
-		chromium=3
-		tungsten=2
-
+		aluminium=27.000
+		steel=41.000
+		chromium=3.000
+		tungsten=2.000
 	}
+
 	history={
 		owner = ITA
 		add_core_of = ITA
@@ -27,7 +27,7 @@ state={
 	}
 
 	provinces={
-		770 771 776 3782 6780 9741 11723 11726 11730 
+		770 771 776 3782 6780 9738 9741 11721 11723 11726 11730 
 	}
 	manpower=2815398
 	buildings_max_level_factor=1.000

@@ -1,24 +1,26 @@
-state=
-{
+
+state={
 	id=69
 	name="STATE_69"
-	manpower = 2830000
-	
-	state_category = town
-	
 	resources={
-		steel=4 # was: 8
+		steel=4.000
 	}
-	
+
 	history={
 		owner = BOH
 		add_core_of = BOH
 		buildings = {
 			infrastructure = 8
 			industrial_complex = 2
+
 		}
+
 	}
-	provinces=
-	{
-424 469 543 557 3418 3585 5283 6470 7857 9555 11401 11414 11432 11525 	}
+
+	provinces={
+		424 543 557 5283 6470 6592 7857 9541 9555 11525 
+	}
+	manpower=2830000
+	buildings_max_level_factor=1.000
+	state_category=town
 }

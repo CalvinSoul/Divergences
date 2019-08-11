@@ -1,0 +1,16 @@
+state={
+	id=958
+	name="STATE_958"
+	history={
+		owner = BOH
+		add_core_of = SCA
+		buildings = {
+			infrastructure = 5
+		}
+	}
+	provinces={
+		6361 
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+}

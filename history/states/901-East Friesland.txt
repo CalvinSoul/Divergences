@@ -6,17 +6,18 @@ state={
 	history={
 		owner = RHE
 		add_core_of = RHE
+		victory_points = { 11318 5 }
+		victory_points = { 9309 5 }
+		victory_points = { 9403 5 }
 		buildings = {
 			infrastructure = 5
-
 		}
-
 	}
 
 	provinces={
 		9309 9363 9403 11318 
 	}
-	manpower=100
+	manpower=510626
 	buildings_max_level_factor=1.000
 	state_category=rural
 }

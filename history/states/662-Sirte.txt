@@ -3,20 +3,18 @@ state={
 	id=662
 	name="STATE_662"
 
-	history={
-		owner = ARA
-		add_core_of = MGH
-		buildings = {
-			infrastructure = 1
-
-		}
-
-	}
+#	history={
+#		owner = ARA
+#		add_core_of = MGH
+#		buildings = {
+#			infrastructure = 1
+#		}
+#	}
 
 	provinces={
-		7136 7194 8069 13073 
+	#	7136 7194 8069 13073 
 	}
-	manpower=22318
+	manpower=0
 	buildings_max_level_factor=1.000
 	state_category=wasteland
 }

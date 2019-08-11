@@ -2,44 +2,28 @@
 state={
 	id=15
 	name="STATE_15"
-	resources={
-		steel=21.000
-	}
 
 	history={
 		owner = ANG
 		add_core_of = ANG
-		victory_points = {
-			9434 5 
-		}
-		victory_points = {
-			6449 15 
-		}
-		victory_points = {
-			11563 5 
-		}
+		victory_points = { 6449 5 }
+		victory_points = { 11535 25 }
+		victory_points = { 553 5 }
+		victory_points = { 3549 5 }
 		buildings = {
-			infrastructure = 7
-			industrial_complex = 2
-			air_base = 6
+			infrastructure =5
 			6449 = {
 				naval_base = 5
 				coastal_bunker = 1
 
 			}
-			485 = {
-				naval_base = 1
-
-			}
-
 		}
-
 	}
 
 	provinces={
 		539 553 3534 3549 3579 6449 6599 9550 9578 11521 11535 
 	}
-	manpower=2332100
+	manpower=2729002
 	buildings_max_level_factor=1.000
 	state_category=city
 }

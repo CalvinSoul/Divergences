@@ -6,17 +6,19 @@ state={
 	history={
 		owner = ANG
 		add_core_of = ANG
+		victory_points = { 3671 25 }
+		victory_points = { 9629 5 }
+		victory_points = { 651 5 }
+		victory_points = { 11596 5 }
 		buildings = {
-			infrastructure = 6
-
+			infrastructure = 5
 		}
-
 	}
 
 	provinces={
 		651 669 3493 3626 3655 3671 6651 6688 9629 11596 11611 11631 11869 
 	}
-	manpower=636400
+	manpower=2085549
 	buildings_max_level_factor=1.000
 	state_category=town
 }

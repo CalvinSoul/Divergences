@@ -1,0 +1,16 @@
+state={
+	id=957
+	name="STATE_957"
+	history={
+		owner = BOH
+		add_core_of = BOH
+		buildings = {
+			infrastructure = 5
+		}
+	}
+	provinces={
+		375 3367 3499 3522 6487 9238 9456 9560 11219 11359 11545 
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+}

@@ -1,0 +1,18 @@
+
+state={
+	id=955
+	name="STATE_955"
+	history={
+		owner = DAN
+		add_core_of = DAN
+		buildings = {
+			infrastructure = 5
+		}
+	}
+	
+	provinces={
+		658 3660 3662 
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+}

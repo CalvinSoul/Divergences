@@ -7,17 +7,16 @@ state={
 		owner = ANG
 		add_core_of = ANG
 		add_core_of = OCC
+		victory_points = { 9737 25 }
 		buildings = {
 			infrastructure = 3
-
 		}
-
 	}
 
 	provinces={
 		6621 9737 11565 
 	}
 	state_category = rural
-	manpower=100
+	manpower=1714506
 	buildings_max_level_factor=1.000
 }

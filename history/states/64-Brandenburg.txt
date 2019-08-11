@@ -2,11 +2,6 @@
 state={
 	id=64
 	name="STATE_64"
-	manpower = 7265029
-	buildings_max_level_factor = 1
-
-	state_category = megalopolis
-
 
 	history={
 		owner = BOH
@@ -25,9 +20,13 @@ state={
 			air_base = 6
 
 		}
+
 	}
 
 	provinces={
-		375 478 3367 3499 3522 6487 6521 9428 9456 9496 9560 11219 11359 11415 11444 11505 
+		478 3207 6441 6521 9428 9496 11415 11444 11505 
 	}
+	manpower=7265029
+	buildings_max_level_factor=1.000
+	state_category=megalopolis
 }

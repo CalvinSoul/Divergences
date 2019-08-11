@@ -2,32 +2,24 @@
 state={
 	id=23
 	name="STATE_23"
-	resources={
-		steel=30.000
-	}
 
 	history={
 		owner = ANG
 		add_core_of = ANG
-		victory_points = {
-			6657 5 
-		}
+		victory_points = { 6657 5 }
+		victory_points = { 11582 5 }
 		buildings = {
-			infrastructure = 6
-			industrial_complex = 1
+			infrastructure = 5
 			6657 = {
 				naval_base = 3
-
 			}
-
 		}
-
 	}
 
 	provinces={
 		595 629 655 6657 9597 11582 
 	}
-	manpower=1603100
+	manpower=135833
 	buildings_max_level_factor=1.000
 	state_category=town
 }

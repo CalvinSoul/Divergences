@@ -3,18 +3,18 @@ state={
 	id=663
 	name="STATE_663"
 
-	history={
-		owner = EGY
-		add_core_of = EGY
-		buildings = {
-			infrastructure = 5
-		}
-	}
+#	history={
+#		owner = EGY
+#		add_core_of = EGY
+#		buildings = {
+#			infrastructure = 5
+#		}
+#	}
 
 	provinces={
-		1062 1186 4060 4063 4133 4200 7063 7076 7139 7206 9977 10049 12025 12079 13078 
+	#	1062 1186 4060 4063 4133 4200 7063 7076 7139 7206 9977 10049 12025 12079 13078 
 	}
-	manpower=18430
+	manpower=0
 	buildings_max_level_factor=1.000
 	state_category=wasteland
 }

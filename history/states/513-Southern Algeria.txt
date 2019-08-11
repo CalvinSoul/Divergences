@@ -8,19 +8,21 @@ state={
 		add_core_of = MGH
 		buildings = {
 			infrastructure = 5
+
 		}
 		victory_points = {
-			12018 5
+			12018 5 
 		}
 		victory_points = {
-			7040 5
+			7040 5 
 		}
 		victory_points = {
-			1126 5
+			1126 5 
 		}
 		victory_points = {
-			12888 5
+			12888 5 
 		}
+
 	}
 
 	provinces={

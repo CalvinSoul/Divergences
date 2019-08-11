@@ -3,21 +3,18 @@ state={
 	id=449
 	name="STATE_449"
 
-	history={
-		owner = ARA
-		add_core_of = MGH
-		buildings = {
-			infrastructure = 5
-		}
-		victory_points = {
-			4047 5
-		}
-	}
+	#history={
+	#	owner = ARA
+	#	add_core_of = MGH
+	#	buildings = {
+	#		infrastructure = 5
+	#	}
+	#}
 
 	provinces={
-		1041 4047 4057 10046 10117 12088 
+	#	1041 4047 4057 7136 7194 8069 10046 10117 12088 13073 
 	}
-	manpower=152391
+	manpower=0
 	buildings_max_level_factor=1.000
 	state_category=rural
 }

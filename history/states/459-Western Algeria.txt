@@ -9,16 +9,18 @@ state={
 		add_core_of = CAR
 		buildings = {
 			infrastructure = 5
+
 		}
 		victory_points = {
-			7132 5
+			7132 5 
 		}
 		victory_points = {
-			1145 25
+			1145 25 
 		}
 		victory_points = {
-			1013 5
+			1013 5 
 		}
+
 	}
 
 	provinces={
@@ -26,5 +28,5 @@ state={
 	}
 	manpower=1818166
 	buildings_max_level_factor=1.000
-	state_category=rural   
+	state_category=rural
 }

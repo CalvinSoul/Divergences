@@ -5,18 +5,20 @@ state={
 
 	history={
 		owner = ANG
-		add_core_of = ANG
+		add_core_of = BRG
+		victory_points = { 3594 5 }
+		victory_points = { 667 5 }
+		victory_points = { 9625 5 }
+		victory_points = { 6644 5 }
 		buildings = {
 			infrastructure = 5
-
 		}
-
 	}
 
 	provinces={
 		667 3594 3681 6644 9607 9609 9625 9644 11576 
 	}
-	manpower=100
+	manpower=1171417
 	buildings_max_level_factor=1.000
 	state_category=rural
 }

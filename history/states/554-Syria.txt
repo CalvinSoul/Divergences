@@ -6,7 +6,7 @@ state={
 	history={
 		owner = ARA
 		victory_points = {
-			4111 5 
+			4111 25 
 		}
 		victory_points = {
 			4486 5 
