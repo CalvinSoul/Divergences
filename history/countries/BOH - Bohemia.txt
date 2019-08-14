@@ -40,8 +40,8 @@ add_to_faction = LIT
 add_to_faction = SLV
 
 create_country_leader = {
-	name = "Sigismund VI"
-	picture = "Sigismund_IV.tga"
+	name = "Sigismund IV"
+	picture = "Portrait_GER_Sigismund_IV.dds"
 	expire = "1965.1.1"
 	ideology = paternalism_subtype
 	traits = {
