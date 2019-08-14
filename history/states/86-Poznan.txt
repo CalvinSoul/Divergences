@@ -6,22 +6,18 @@ state={
 	history={
 		owner = BOH
 		add_core_of = BOH
-		victory_points = {
-			6558 5 
-		}
+		victory_points = { 6558 25 }
+		victory_points = { 3460 5 }
+		victory_points = { 17 5 }
 		buildings = {
-			infrastructure = 6
-			industrial_complex = 1
-			air_base = 3
-
+			infrastructure = 5
 		}
-
 	}
 
 	provinces={
 		17 388 3460 3532 6558 9532 11232 11558 
 	}
-	manpower=2106500
+	manpower=1642484
 	buildings_max_level_factor=1.000
 	state_category=city
 }

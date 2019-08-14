@@ -2,30 +2,23 @@
 state={
 	id=66
 	name="STATE_66"
-	resources={
-		steel=50.000
-		aluminium=16.000
-	}
 
 	history={
 		owner = BOH
 		add_core_of = BOH
-		victory_points = {
-			9570 10 
-		}
+		victory_points = { 9570 25 }
+		victory_points = { 552 5 }
+		victory_points = { 3545 5 }
+		victory_points = { 6485 5 }
 		buildings = {
-			infrastructure = 6
-			industrial_complex = 1
-			air_base = 6
-
+			infrastructure = 5
 		}
-
 	}
 
 	provinces={
 		552 3485 3545 6485 6512 6534 6595 9457 9570 11517 
 	}
-	manpower=3052726
+	manpower=3883826
 	buildings_max_level_factor=1.000
 	state_category=large_city
 }

@@ -1,16 +1,21 @@
 state={
 	id=958
 	name="STATE_958"
+
 	history={
 		owner = BOH
 		add_core_of = SCA
+		victory_points = { 6361 5 }
 		buildings = {
 			infrastructure = 5
 		}
 	}
+
 	provinces={
 		6361 
 	}
-	manpower=0
-	buildings_max_level_factor=1.000
+
+	manpower = 26356
+	buildings_max_level_factor = 1.000
+	state_category = small_island
 }

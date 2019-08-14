@@ -1,16 +1,24 @@
 state={
 	id=957
 	name="STATE_957"
+
 	history={
 		owner = BOH
 		add_core_of = BOH
+		victory_points = { 3522 25 }
+		victory_points = { 11359 5 }
+		victory_points = { 9560 5 }
+		victory_points = { 3499 5 }
 		buildings = {
 			infrastructure = 5
 		}
 	}
+
 	provinces={
 		375 3367 3499 3522 6487 9238 9456 9560 11219 11359 11545 
 	}
-	manpower=0
+
+	manpower=3079197
 	buildings_max_level_factor=1.000
+	state_category = large_city
 }

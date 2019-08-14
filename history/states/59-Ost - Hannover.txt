@@ -2,37 +2,26 @@
 state={
 	id=59
 	name="STATE_59"
-	resources={
-		oil=2.000
-	}
 
 	history={
 		owner = BOH
 		add_core_of = BOH
-		victory_points = {
-			3326 5 
-		}
-		victory_points = {
-			6377 10 
-		}
+		victory_points = { 6377 25 }
+		victory_points = { 3326 25 }
+		victory_points = { 3234 5 }
+		victory_points = { 6349 5 }
+		victory_points = { 6298 5 }
+		victory_points = { 526 5 }
+		victory_points = { 6513 5 }
 		buildings = {
-			infrastructure = 7
-			arms_factory = 2
-			industrial_complex = 1
-			dockyard = 2
-			6325 = {
-				naval_base = 1
-
-			}
-
+			infrastructure = 5
 		}
-
 	}
 
 	provinces={
 		374 526 3234 3271 3326 3395 6218 6263 6298 6325 6349 6377 6513 9264 9375 11402 11468 11493 
 	}
-	manpower=2438286
+	manpower=2639236
 	buildings_max_level_factor=1.000
 	state_category=large_city
 }

@@ -6,18 +6,18 @@ state={
 	history={
 		owner = BOH
 		add_core_of = BOH
+		victory_points = { 11432 5 }
+		victory_points = { 3585 5 }
+		victory_points = { 11401 25 }
 		buildings = {
-			infrastructure = 7
-			arms_factory = 1
-
+			infrastructure = 5
 		}
-
 	}
 
 	provinces={
 		469 3418 3585 11401 11414 11432 
 	}
-	manpower=820000
+	manpower=2083922
 	buildings_max_level_factor=1.000
 	state_category=rural
 }

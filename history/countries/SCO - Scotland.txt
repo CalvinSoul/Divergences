@@ -33,7 +33,7 @@ set_popularities = {
 
 create_country_leader = {
 	
-	name = "Peder V"
+	name = "Christian V"
 	picture = "Peder.tga"
 	expire = "1965.1.1"
 	ideology = progressivism_subtype
@@ -43,7 +43,7 @@ create_country_leader = {
 }
 create_country_leader = {
 	
-	name = "Peder V"
+	name = "Christian V"
 	picture = "Peder.tga"
 	expire = "1965.1.1"
 	ideology = commercialism_subtype
@@ -53,7 +53,7 @@ create_country_leader = {
 }
 create_country_leader = {
 	
-	name = "Peder V"
+	name = "Christian V"
 	picture = "Peder.tga"
 	expire = "1965.1.1"
 	ideology = conservativism_subtype
@@ -63,7 +63,7 @@ create_country_leader = {
 }
 create_country_leader = {
 	
-	name = "Peder V"
+	name = "Christian V"
 	picture = "Peder.tga"
 	expire = "1965.1.1"
 	ideology = paternalism_subtype
@@ -73,7 +73,7 @@ create_country_leader = {
 }
 create_country_leader = {
 	
-	name = "Peder V"
+	name = "Christian V"
 	picture = "Peder.tga"
 	expire = "1965.1.1"
 	ideology = reactionism_subtype
@@ -83,7 +83,7 @@ create_country_leader = {
 }
 create_country_leader = {
 	
-	name = "Peder V"
+	name = "Christian V"
 	picture = "Peder.tga"
 	expire = "1965.1.1"
 	ideology = ultra_nationalism_subtype
@@ -93,7 +93,7 @@ create_country_leader = {
 }
 create_country_leader = {
 	
-	name = "Peder V"
+	name = "Christian V"
 	picture = "Peder.tga"
 	expire = "1965.1.1"
 	ideology = hierarchism_subtype

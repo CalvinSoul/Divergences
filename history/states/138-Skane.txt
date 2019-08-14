@@ -2,9 +2,6 @@
 state={
 	id=138
 	name="STATE_138"
-	manpower = 1047701
-	
-	state_category = city
 
 	history={
 		owner = SCA
@@ -22,15 +19,22 @@ state={
 			11215 = {
 				naval_base = 5
 				coastal_bunker = 3
+
 			}
 			9279 = {
 				naval_base = 5
 				coastal_bunker = 1
+
 			}
+
 		}
+
 	}
 
 	provinces={
 		3307 6120 6345 6412 9279 9300 9362 11160 11215 11327 11376 
 	}
+	manpower=1047701
+	buildings_max_level_factor=1.000
+	state_category=city
 }

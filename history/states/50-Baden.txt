@@ -2,22 +2,18 @@
 state={
 	id=50
 	name="STATE_50"
-	resources={
-		aluminium=6.000
-	}
 
 	history={
 		owner = DAN
 		add_core_of = DAN
-		victory_points = {
-			9517 5 
-		}
+		victory_points = { 9517 25 }
+		victory_points = { 6568 5 }
+		victory_points = { 6542 5 }
+		victory_points = { 11640 5 }
+		victory_points = { 11486 5 }
+		victory_points = { 3690 5 }
 		buildings = {
-			infrastructure = 8
-			arms_factory = 5
-			industrial_complex = 1
-			air_base = 3
-
+			infrastructure = 5
 		}
 
 	}
@@ -25,7 +21,7 @@ state={
 	provinces={
 		519 694 3530 3679 3690 3692 6542 6555 6568 6581 6712 6934 9517 9545 9655 11486 11499 11640 13126 
 	}
-	manpower=5086854
+	manpower=5218395
 	buildings_max_level_factor=1.000
 	state_category=large_city
 }

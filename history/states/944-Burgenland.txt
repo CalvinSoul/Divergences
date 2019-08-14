@@ -6,11 +6,9 @@ state={
 		owner = DAN
 		add_core_of = DAN
 		add_core_of = HUN
+		victory_points = { 686 5 }
 		buildings = {
 			infrastructure = 5
-		}
-		victory_points = {
-			686 5 
 		}
 	}
 
@@ -19,4 +17,5 @@ state={
 	}
 	manpower=695429
 	buildings_max_level_factor=1.000
+	state_category=large_town
 }

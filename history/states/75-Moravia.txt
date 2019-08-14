@@ -2,30 +2,22 @@
 state={
 	id=75
 	name="STATE_75"
-	resources={
-		steel=4.000
-		oil=2.000
-	}
 
 	history={
 		owner = BOH
 		add_core_of = BOH
-		victory_points = {
-			3569 1 
-		}
+		victory_points = { 3569 25 }
+		victory_points = { 6562 5 }
+		victory_points = { 3583 25 }
 		buildings = {
-			infrastructure = 7
-			industrial_complex = 4
-			air_base = 5
-
+			infrastructure = 5
 		}
-
 	}
 
 	provinces={
 		421 569 3414 3553 3569 3583 6562 6576 6590 11511 
 	}
-	manpower=2598400
+	manpower=3368883
 	buildings_max_level_factor=1.000
 	state_category=city
 }

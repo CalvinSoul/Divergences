@@ -6,23 +6,19 @@ state={
 	history={
 		owner = RHE
 		add_core_of = RHE
-		victory_points = {
-			495 5 
-		}
+		victory_points = { 6535 5 }
+		victory_points = { 495 30 }
+		victory_points = { 11431 5 }
+		victory_points = { 405 5 }
 		buildings = {
-			infrastructure = 8
-			arms_factory = 3
-			industrial_complex = 1
-			air_base = 3
-
+			infrastructure = 5
 		}
-
 	}
 
 	provinces={
 		405 495 3355 6535 6622 9509 11346 11431 
 	}
-	manpower=5109333
+	manpower=2790301
 	buildings_max_level_factor=1.000
 	state_category=large_city
 }
