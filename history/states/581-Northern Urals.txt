@@ -12,8 +12,9 @@ state={
 	}
 	impassable = yes
 	history={
-		owner = RUS
+		owner = KZN
 		add_core_of = RUS
+		add_core_of = KZN
 		buildings = {
 			infrastructure = 1
 

@@ -10,8 +10,9 @@ state={
 	}
 
 	history={
-		owner = RUS
+		owner = KZN
 		add_core_of = RUS
+		add_core_of = KZN
 		buildings = {
 			infrastructure = 6
 			arms_factory = 1

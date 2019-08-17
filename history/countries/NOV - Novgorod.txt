@@ -1,4 +1,6 @@
-﻿capital = 195
+﻿capital = 263
+
+set_cosmetic_tag = NOV_RUS
 
 oob = "Default_1936"
 
@@ -33,8 +35,8 @@ set_popularities = {
 
 create_country_leader = {
 	
-	name = "The Invisible Man"
-	picture = "gfx//leaders//Invisible_Man.tga"
+	name = "Negovit Mikulnich"
+	picture = "gfx//leaders//RUS//Portrait_RUS_Negovit_Mikulnich.tga"
 	expire = "1965.1.1"
 	ideology = paternalism_subtype
 	traits = {

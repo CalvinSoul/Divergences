@@ -7,8 +7,9 @@ state={
 	state_category = city
 
 	history={
-		owner = RUS
+		owner = KZN
 		add_core_of = RUS
+		add_core_of = KZN
 		buildings = {
 			infrastructure = 5
 			industrial_complex = 1

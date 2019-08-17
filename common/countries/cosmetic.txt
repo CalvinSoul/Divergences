@@ -2,3 +2,29 @@
 GRA_AME = {
     color = rgb { 37 185 234 }
     color_ui = rgb { 255 73 121 }
+}
+
+NOV_RUS = {
+	color = rgb{ 93	163	103 }
+	color_ui = rgb { 255 73 121 }
+}
+
+KZN_RUS = {
+	color = rgb{ 93	163	103 }
+	color_ui = rgb { 255 73 121 }
+}
+
+SIB_RUS = {
+	color = rgb{ 93	163	103 }
+	color_ui = rgb { 255 73 121 }
+}
+
+KZK_RUS = {
+	color = rgb{ 93	163	103 }
+	color_ui = rgb { 255 73 121 }
+}
+
+KZN_NRC = {
+	color = rgb{ 204 179 135 }
+	color_ui = rgb { 255 73 121 }
+}

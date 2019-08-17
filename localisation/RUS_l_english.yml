@@ -1,5 +1,12 @@
 ﻿l_english:
 
+
+                ###Countries###
+NOV_RUS:0 "Novgorodian Land"
+KZN_RUS:0 "General-Governorhsip of Kazan"
+KZK_RUS:0 "Cossack Host"
+SIB_RUS:0 "Siberian Host"
+
 								###Parties###
 RUS_blanquism_party:0 "Prometheus-R"
 RUS_blanquism_party_long:0 "Prometheus-Radicals \nPrometey-Radicaly"

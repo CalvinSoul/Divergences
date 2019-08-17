@@ -11,8 +11,9 @@ state={
 	}
 	impassable = yes
 	history={
-		owner = RUS
+		owner = NOV
 		add_core_of = RUS
+		add_core_of = NOV
 		buildings = {
 			infrastructure = 1
 			12530 = {
