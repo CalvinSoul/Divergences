@@ -2,36 +2,27 @@
 state={
 	id=110
 	name="STATE_110"
-	resources={
-		aluminium=5.000
-	}
 
-	history={
-		victory_points = {
-			6115 15 
-		}
+	history = {
 		owner = SCA
 		add_core_of = SCA
+		
+		victory_points = { 6310 5 }
+		victory_points = { 3171 5 }
+		victory_points = { 6115 25 }
+		victory_points = { 3021 5 }
+		victory_points = { 14 5 }
+		victory_points = { 9174 5 }
+
 		buildings = {
-			infrastructure = 6
-			arms_factory = 2
-			industrial_complex = 3
-			dockyard = 1
-			air_base = 4
-			6115 = {
-				naval_base = 6
-				coastal_bunker = 3
-
-			}
-
+			infrastructure = 5
 		}
-
 	}
 
 	provinces={
 		14 27 133 144 171 179 3007 3021 3094 3136 3171 6042 6080 6115 6151 6160 6310 9036 9096 9103 9157 9174 9204 11028 11029 11078 11135 11151 11184 
 	}
-	manpower=1410219
+	manpower=2374443
 	buildings_max_level_factor=1.000
 	state_category=city
 }

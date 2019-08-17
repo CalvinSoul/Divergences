@@ -2,26 +2,28 @@
 state={
 	id=150
 	name="STATE_150"
-	resources={
-		steel=3.000
-	}
 
 	history={
 		owner = SCA
 		add_core_of = SCA
 		add_core_of = FIN
+
+		victory_points = { 3122 5 }
+		victory_points = { 3172 5 }
+		victory_points = { 9038 5 }
+		victory_points = { 195 5 }
+		victory_points = { 11065 5 }
+		
 		buildings = {
-			infrastructure = 4
-			industrial_complex = 1
-
+			infrastructure = 5
 		}
-
 	}
 
 	provinces={
 		63 66 132 195 3119 3122 3172 6013 6081 6138 6141 6198 6212 9038 9106 9156 9166 9219 11033 11065 11121 11126 11132 11144 13113 
 	}
-	manpower=611100
+
+	manpower=808174
 	buildings_max_level_factor=1.000
 	state_category=town
 }

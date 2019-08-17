@@ -2,42 +2,24 @@
 state={
 	id=144
 	name="STATE_144"
-	resources={
-		steel=9.000
-		tungsten=15.000
-	}
 
 	history={
 		owner = SCA
 		add_core_of = SCA
 		add_core_of = FIN
+
+		victory_points = { 11125 5 }
+
 		buildings = {
-			infrastructure = 3
-			air_base = 1
-			192 = {
-				naval_base = 3
-
-			}
-			9116 = {
-				naval_base = 3
-
-			}
-			11050 = {
-				naval_base = 2
-
-			}
-
+			infrastructure = 5
 		}
-		victory_points = {
-			192 1 
-		}
-
 	}
 
 	provinces={
 		103 124 167 203 2992 3055 3069 3097 3107 3158 3193 6061 6076 6087 6142 6183 9189 11115 11125 11167 11204 
 	}
-	manpower=355251
+
+	manpower=103048
 	buildings_max_level_factor=1.000
 	state_category=rural
 }

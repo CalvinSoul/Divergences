@@ -6,6 +6,9 @@ state={
 	history={
 		owner = SCA
 		add_core_of = SCA
+		victory_points = {
+			46 5 
+		}
 		buildings = {
 			infrastructure = 5
 
@@ -14,9 +17,9 @@ state={
 	}
 
 	provinces={
-		10 46 113 202 3039 3108 3162 3191 6123 6126 6129 6185 6207 9068 9148 9154 9229 11049 11052 11116 13117 
+		10 46 113 202 3039 3108 3111 3162 3191 6123 6126 6129 6185 6207 9068 9148 9154 9171 9229 11049 11052 11116 11148 11187 13117 
 	}
-	manpower=0
+	manpower=103750
 	buildings_max_level_factor=1.000
 	state_category=pastoral
 }

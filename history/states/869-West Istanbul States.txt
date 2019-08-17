@@ -1,19 +1,22 @@
+
 state={
 	id=869
 	name="STATE_869"
-	provinces={
-		922 6895 
-	}
+
 	history={
-		set_demilitarized_zone = yes
-		owner = ITA
-		add_core_of = GRE
-		add_core_of = TUR
+		owner = BUL
+		add_core_of = BUL
 		buildings = {
 			infrastructure = 5
+
 		}
+
 	}
-	state_category = rural
+
+	provinces={
+		878 893 3908 3937 6923 9862 11813 
+	}
 	manpower=100
 	buildings_max_level_factor=1.000
+	state_category=rural
 }

@@ -6,16 +6,21 @@ state={
 	history={
 		owner = DAN
 		add_core_of = DAN
-		victory_points = { 673 5 }
-		victory_points = { 9630 5 }
-		victory_points = { 6680 5 }
+		victory_points = {
+			673 5 
+		}
+		victory_points = {
+			6680 5 
+		}
 		buildings = {
 			infrastructure = 5
+
 		}
+
 	}
 
 	provinces={
-		671 673 6675 6678 6680 9630 9633 9636 11615 11618 11634 
+		671 673 6678 6680 9633 9636 11618 11634 
 	}
 	manpower=998435
 	buildings_max_level_factor=1.000

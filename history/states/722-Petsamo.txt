@@ -9,14 +9,15 @@ state={
 		buildings = {
 			infrastructure = 0
 		}
-
 	}
 
 	provinces={
 		58 102 111 115 168 190 3059 3093 3098 3105 3183 6055 6114 6118 6130 6136 6152 6204 6216 9032 9047 9066 9083 9095 9135 9139 9170 9175 9227 11037 11058 11113 11118 11173 11198 11206 
 	}
-	manpower=1
+
+	manpower = 38473
 	buildings_max_level_factor=1.000
 	state_category = wasteland
+
 	impassable = yes
 }

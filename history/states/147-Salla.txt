@@ -6,20 +6,17 @@ state={
 	history={
 		owner = SCA
 		add_core_of = SCA
+		victory_points = { 317 5 }
+		victory_points = { 11251 5 }
 		buildings = {
-			infrastructure = 3
-
+			infrastructure = 5
 		}
-		victory_points = {
-			197 1 
-		}
-
 	}
 
 	provinces={
 		317 332 11251 11366 
 	}
-	manpower=4630
+	manpower=992097
 	buildings_max_level_factor=1.000
 	state_category=enclave
 }

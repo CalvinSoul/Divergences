@@ -2,36 +2,25 @@
 state={
 	id=213
 	name="STATE_213"
-	resources={
-		steel=14.000
-		chromium=12.000
-	}
 
 	history={
 		owner = SCA
 		add_core_of = SCA
 		add_core_of = FIN
-		victory_points = {
-			3134 5 
-		}
-		buildings = {
-			infrastructure = 2
-			air_base = 2
-			3134 = {
-				naval_base = 4
-				coastal_bunker = 1
-
-			}
-
-		}
 		add_core_of = RUS
 
+		victory_points = { 3134 5 }
+		victory_points = { 9119 5 }
+
+		buildings = {
+			infrastructure = 5
+		}
 	}
 
 	provinces={
 		15 36 74 86 98 116 142 176 178 3008 3012 3067 3121 3134 3170 3189 6012 6029 6117 6140 6157 6181 6194 9039 9059 9115 9116 9119 9123 9140 9162 9165 9179 9195 9198 9201 9203 9215 9217 11031 11045 11088 11096 11117 11128 11140 11142 11181 11183 11196 
 	}
-	manpower=275751
+	manpower=64846
 	buildings_max_level_factor=1.000
 	state_category=rural
 }

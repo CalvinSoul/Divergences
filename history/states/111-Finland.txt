@@ -7,40 +7,22 @@ state={
 		owner = SCA
 		add_core_of = SCA
 		add_core_of = FIN
-		victory_points = {
-			11105 15 
-		}
-		victory_points = {
-			3083 1 
-		}
-		victory_points = {
-			3137 1 
-		}
+
+		victory_points = { 3137 5 }
+		victory_points = { 9167 5 }
+		victory_points = { 11105 5 }
+		victory_points = { 67 5 }
+
 		buildings = {
-			infrastructure = 6
-			arms_factory = 3
-			industrial_complex = 2
-			dockyard = 1
-			air_base = 5
-			11105 = {
-				naval_base = 5
-				coastal_bunker = 2
-
-			}
-			3083 = {
-				naval_base = 3
-				coastal_bunker = 1
-
-			}
-
+			infrastructure = 5
 		}
-
 	}
 
 	provinces={
 		67 204 3137 3161 6009 6047 6108 6144 6163 9129 9160 9167 11066 11105 11211 13100 13102 13103 13106 13107 
 	}
-	manpower=1670190
+	
+	manpower=858514
 	buildings_max_level_factor=1.000
 	state_category=city
 }

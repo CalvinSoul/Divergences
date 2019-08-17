@@ -5,6 +5,7 @@ state={
 	history={
 		owner = SCA
 		add_core_of = SCA
+		victory_points = { 9089 5 }
 		buildings = {
 			infrastructure = 5
 		}
@@ -14,7 +15,7 @@ state={
 		22 64 76 128 2995 3016 3040 3082 6015 6079 6092 6107 9042 9064 9089 9128 9191 11034 11063 11077 11104 11130 11169 
 	}
 
-	manpower=0
+	manpower=93752
 	state_category=wasteland
 	buildings_max_level_factor=1.000
 }

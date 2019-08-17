@@ -6,27 +6,32 @@ state={
 	history={
 		owner = SCA
 		add_core_of = SCA
-		buildings = {
-			infrastructure = 4
-			arms_factory = 0
-			industrial_complex = 1
-			3022 = {
-				naval_base = 3
-				coastal_bunker = 2
-
-			}
-
+		victory_points = {
+			3022 5 
 		}
 		victory_points = {
-			3022 1 
+			9132 5 
+		}
+		victory_points = {
+			9126 5 
+		}
+		victory_points = {
+			11157 5 
+		}
+		victory_points = {
+			11050 5 
+		}
+		buildings = {
+			infrastructure = 5
+
 		}
 
 	}
 
 	provinces={
-		21 38 44 91 107 173 192 3018 3022 3034 3048 3058 3088 3096 3111 3126 3132 3145 6038 6041 6071 6111 6116 6155 6173 6187 6214 9069 9126 9132 9171 9208 9216 11050 11090 11157 
+		21 38 44 91 107 173 192 3018 3022 3034 3048 3058 3088 3096 3126 3132 3145 6038 6041 6071 6111 6116 6155 6173 6187 6214 9069 9126 9132 9208 9216 11050 11090 11157 
 	}
-	manpower=280271
+	manpower=471118
 	buildings_max_level_factor=1.000
 	state_category=rural
 }
