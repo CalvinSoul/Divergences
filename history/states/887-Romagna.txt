@@ -1,24 +1,27 @@
 state={
 	id=887
 	name="STATE_887"
-	resources={
-		aluminium=15.000
-	}
-	provinces={
-		782 6606 6793 6985 9924 11734 
-	}
-	state_category = rural
-	manpower=1682762
-	buildings_max_level_factor=1.000
+
 	history={
 		owner = ITA
 		add_core_of = ITA
 		add_core_of = PAP
+
+		victory_points = { 6606 25 }
+		victory_points = { 782 5 }
+		victory_points = { 9924 5 }
+		victory_points = { 11734 5 }
+
 		buildings = {
 			infrastructure = 5
 		}
-		#victory_points = { 0 5 }
 	}
 
+	provinces={
+		782 6606 6793 6985 9924 11734 
+	}
 
+	manpower = 1422203
+	state_category = rural
+	buildings_max_level_factor=1.000
 }

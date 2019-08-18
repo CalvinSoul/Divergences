@@ -7,11 +7,12 @@ state={
 		owner = ITA
 		add_core_of = ITA
 		add_core_of = PDM
+
+		victory_points = { 9909 25 }
+
 		buildings = {
 			infrastructure = 5
-
 		}
-
 	}
 
 	provinces={

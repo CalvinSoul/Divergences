@@ -6,20 +6,24 @@ state={
 	history={
 		owner = ITA
 		add_core_of = ITA
-		victory_points = {
-			3780 15 
-		}
+		
+		victory_points = { 9600 5 }
+		victory_points = { 3780 25 }
+		victory_points = { 969 5 }
+		victory_points = { 11568 25 }
+		victory_points = { 3776 5 }
+		victory_points = { 603 5 }
+
 		buildings = {
 			infrastructure = 5
-
 		}
-
 	}
 
 	provinces={
-		603 607 773 969 3641 3776 3780 6661 9584 9600 11568 
+		603 607 773 969 3776 3780 6661 9584 9600 11568 
 	}
-	manpower=5860202
+
+	manpower=4952809
 	buildings_max_level_factor=1.000
 	state_category=metropolis
 }

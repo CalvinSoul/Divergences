@@ -2,8 +2,6 @@
 state={
 	id=247
 	name="STATE_247"
-	manpower = 1331211
-	state_category = town
 
 	history={
 		owner = RUS
@@ -14,10 +12,15 @@ state={
 		buildings = {
 			infrastructure = 5
 			air_base = 2
+
 		}
+
 	}
 
 	provinces={
-		344 3323 6022 6122 6245 6346 9046 9144 9256 11250 
+		344 366 3259 3323 3358 6022 6122 6245 6283 6346 9046 9144 9256 9302 9378 11236 11250 11282 
 	}
+	manpower=1331211
+	buildings_max_level_factor=1.000
+	state_category=town
 }

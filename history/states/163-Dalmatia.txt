@@ -6,6 +6,10 @@ state={
 	history={
 		owner = ITA
 		add_core_of = ITA
+
+		victory_points = { 3943 5 }
+		victory_points = { 11564 5 }
+
 		buildings = {
 			infrastructure = 5
 		}
@@ -14,7 +18,7 @@ state={
 	provinces={
 		591 984 3943 6611 11564 11901 
 	}
-	manpower=547088
+	manpower = 462377
 	buildings_max_level_factor=1.000
 	state_category=enclave
 }
