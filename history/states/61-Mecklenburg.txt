@@ -3,26 +3,18 @@ state={
 	id=61
 	name="STATE_61"
 
-#	history={
-#		owner = BOH
-#		add_core_of = BOH
-#		victory_points = {
-#			321 1 
-#		}
-#		buildings = {
-#			infrastructure = 6
-#			arms_factory = 3
-#			321 = {
-#				naval_base = 6
-#			}
-#			air_base = 3
-#		}
-#	}
+	history={
+		owner = POL
+		add_core_of = POL
+		buildings = {
+			infrastructure = 5
+		}
+	}
 
 	provinces={
-	#	268 293 321 9294 11276 11305 
+		243 3295 3381 6347 
 	}
-	manpower=836353
+	manpower= 1
 	buildings_max_level_factor=1.000
 	state_category=town
 }

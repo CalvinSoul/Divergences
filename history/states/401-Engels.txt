@@ -8,9 +8,8 @@ state={
 	}
 
 	history={
-		owner = KZK
-		add_core_of = KZK
-		add_core_of = RUS
+		owner = STP
+		add_core_of = STP
 		buildings = {
 			infrastructure = 4
 
@@ -19,7 +18,7 @@ state={
 	}
 
 	provinces={
-		410 452 499 3404 3490 3551 6339 6430 6473 6502 6574 6601 9337 9432 9447 9473 9487 9549 9577 11321 11421 11458 11460 11523 11537 
+		410 452 499 3404 3406 3490 3503 3517 3551 6430 6473 6479 6541 6574 6601 9337 9447 9473 9487 9530 9549 9577 11321 11458 11537 11538 
 	}
 	manpower=927795
 	buildings_max_level_factor=1.000

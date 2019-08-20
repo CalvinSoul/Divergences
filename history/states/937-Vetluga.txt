@@ -2,25 +2,27 @@
 state={
 	id=937
 	name="STATE_937"
-	manpower = 3378176
-	
-	state_category = city
 
 	history={
 		owner = KZN
 		add_core_of = RUS
 		add_core_of = KZN
 		victory_points = {
-			11375 10
+			11375 10 
 		}
 		buildings = {
 			infrastructure = 5
 			arms_factory = 2
 			air_base = 1
+
 		}
+
 	}
 
 	provinces={
-		12 256 270 368 3224 3245 3261 3349 3383 6149 6374 9291 9325 9358 9368 11275 11340
+		12 256 270 368 3224 3245 3261 3383 6149 6374 9291 9325 9358 9368 11134 11275 11340 
 	}
+	manpower=3378176
+	buildings_max_level_factor=1.000
+	state_category=city
 }

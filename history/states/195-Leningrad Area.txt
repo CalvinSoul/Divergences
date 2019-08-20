@@ -4,9 +4,9 @@ state={
 	name="STATE_195"
 
 	history={
-		owner = NOV
+		owner = PSK 
 		add_core_of = RUS
-		add_core_of = NOV
+		add_core_of = PSK 
 		victory_points = {
 			3151 30.0 
 		}
@@ -27,7 +27,7 @@ state={
 	}
 
 	provinces={
-		79 149 2332 3060 3151 6174 9150 11068 
+		79 149 3060 3151 6174 9150 11068 
 	}
 	manpower=3750158
 	buildings_max_level_factor=1.000

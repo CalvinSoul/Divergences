@@ -4,10 +4,10 @@ state={
 	name="STATE_241"
 
 	history={
-		owner = RUS
-		add_core_of = RUS
+		owner = BLR
+		add_core_of = BLR
 		victory_points = {
-			11271 5
+			11271 5 
 		}
 		buildings = {
 			infrastructure = 5
@@ -18,7 +18,7 @@ state={
 	}
 
 	provinces={
-		289 371 6233 6354 9247 9371 9396 11230 11271 11325 11383 
+		289 6233 6354 9247 9371 11271 
 	}
 	manpower=943422
 	buildings_max_level_factor=1.000

@@ -4,18 +4,17 @@ state={
 	name="STATE_575"
 
 	history={
-		owner = SIB
-		add_core_of = RUS
-		add_core_of = SIB
+		owner = JAP
+		add_core_of = JAP
 		buildings = {
 			infrastructure = 1
 
 		}
 
 	}
-	impassable = yes
+
 	provinces={
-		1792 4737 7726 7828 
+		1792 4737 7828 
 	}
 	manpower=146494
 	buildings_max_level_factor=1.000

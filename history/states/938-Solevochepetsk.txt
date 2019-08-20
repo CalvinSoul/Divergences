@@ -2,8 +2,6 @@
 state={
 	id=938
 	name="STATE_938"
-	manpower = 137203
-	state_category = wasteland
 
 	history={
 		owner = NOV
@@ -17,6 +15,9 @@ state={
 	}
 
 	provinces={
-		6 99 108 186 3155 6202 7330 11200 
+		3155 7330 11200 
 	}
+	manpower=137203
+	buildings_max_level_factor=1.000
+	state_category=wasteland
 }

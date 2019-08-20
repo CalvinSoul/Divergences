@@ -4,9 +4,8 @@ state={
 	name="STATE_569"
 
 	history={
-		owner = SIB
-		add_core_of = RUS
-		add_core_of = SIB
+		owner = DZU
+		add_core_of = DZU
 		buildings = {
 			infrastructure = 3
 			industrial_complex = 1
@@ -16,7 +15,7 @@ state={
 	}
 
 	provinces={
-		1369 1685 1702 1816 4665 4711 7757 7822 10580 10649 
+		1297 1369 1685 1702 1718 1777 1816 1850 4665 4711 4724 4734 4789 4793 4800 4803 4866 7274 7757 7789 7815 7822 7886 10580 10613 10639 10649 10652 10686 10712 12174 12515 12528 12536 12631 12666 
 	}
 	manpower=1567322
 	buildings_max_level_factor=1.000

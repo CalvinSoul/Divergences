@@ -1,23 +1,25 @@
 
 state={
 	id=351
-	name="STATE_351" # Vologda
-	manpower = 2352100
-	
-	state_category = town
+	name="STATE_351"
 
 	history={
-		owner = RUS
-		add_core_of = RUS
+		owner = NOV
+		add_core_of = NOV
 		victory_points = {
-			11213 10
-		}		
+			11213 10 
+		}
 		buildings = {
 			infrastructure = 3
+
 		}
+
 	}
 
 	provinces={
-		2 81 129 2996 3124 6143 6189 9131 9168 9188 9207 11107 11189 11213 13128 
+		81 129 2996 3124 6189 9131 9168 9207 11107 11189 11213 
 	}
+	manpower=2352100
+	buildings_max_level_factor=1.000
+	state_category=town
 }

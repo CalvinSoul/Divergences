@@ -5,18 +5,18 @@ state={
 	manpower = 45484
 	
 	state_category = wasteland
-	impassable = yes
-	history={
-		owner = SIB
-		add_core_of = RUS
-		add_core_of = SIB
-		buildings = {
-			infrastructure = 1
-		}
-
-	}
+#	impassable = yes
+#	history={
+#		owner = SIB
+#		add_core_of = RUS
+#		add_core_of = SIB
+#		buildings = {
+#			infrastructure = 1
+#		}
+#
+#	}
 
 	provinces={
-		1664 1684 3169 4669 7689 7738 8461 9142 11098 12502 13076
+#		1664 1684 3169 4669 7689 7738 8461 9142 11098 12502 13076
 	}
 }

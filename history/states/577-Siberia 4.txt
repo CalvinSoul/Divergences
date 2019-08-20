@@ -2,23 +2,22 @@
 state={
 	id=577
 	name="STATE_577"
-	resources={
-		oil=13.000
-	}
+#	resources={
+#		oil=13.000
+#	}
+##	history={
+#		owner = SIB
+#		add_core_of = RUS
+#		add_core_of = SIB
+#		buildings = {
+#			infrastructure = 1
+#
+#		}
+#
+#	}
 
-	history={
-		owner = SIB
-		add_core_of = RUS
-		add_core_of = SIB
-		buildings = {
-			infrastructure = 1
-
-		}
-
-	}
-	impassable = yes
 	provinces={
-		1726 1768 1784 1856 4730 4771 4817 6787 7681 7685 7781 7837 7882 10533 10561 10659 10663 10692 12514 12542 12574 12639 12672 
+	#	96 1679 1726 1729 1757 1768 1780 1784 1828 1856 3336 3415 4730 4733 4761 4771 4817 6787 7681 7685 7701 7750 7781 7809 7837 7882 10533 10536 10561 10564 10576 10635 10659 10663 10692 10705 12514 12517 12542 12545 12574 12595 12639 12672 
 	}
 	manpower=29299
 	buildings_max_level_factor=1.000

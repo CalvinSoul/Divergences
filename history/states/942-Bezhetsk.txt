@@ -2,8 +2,6 @@
 state={
 	id=942
 	name="STATE_942"
-	manpower = 1331211
-	state_category = town
 
 	history={
 		owner = NOV
@@ -12,10 +10,15 @@ state={
 		buildings = {
 			infrastructure = 5
 			air_base = 2
+
 		}
+
 	}
 
 	provinces={
-		85 150 3176 3143 6203 11084 11154 
+		150 3143 11084 11154 
 	}
+	manpower=1331211
+	buildings_max_level_factor=1.000
+	state_category=town
 }

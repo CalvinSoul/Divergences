@@ -4,9 +4,8 @@ state={
 	name="STATE_568"
 
 	history={
-		owner = SIB
-		add_core_of = RUS
-		add_core_of = SIB
+		owner = DZU
+		add_core_of = DZU
 		buildings = {
 			infrastructure = 3
 
@@ -16,9 +15,9 @@ state={
 		}
 
 	}
-	impassable = yes
+
 	provinces={
-		4690 4818 10646 12563 12628 
+		4690 4818 10646 12563 12628 12691 
 	}
 	manpower=1726427
 	buildings_max_level_factor=1.000

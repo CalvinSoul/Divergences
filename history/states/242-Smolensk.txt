@@ -2,24 +2,26 @@
 state={
 	id=242
 	name="STATE_242"
-	manpower = 1300028
-	
-	state_category = large_town
 
 	history={
 		owner = RUS
 		add_core_of = RUS
 		victory_points = {
-			306 15
+			306 15 
 		}
 		buildings = {
 			infrastructure = 5
 			industrial_complex = 2
 			air_base = 5
+
 		}
+
 	}
 
 	provinces={
-		306 335 3247 3279 3313 3362 6273 6387 9272 9318 9382 9399 11254 11290 11353 11384 287 3235 6264 6367 6400 11272
+		248 287 306 335 354 3235 3247 3279 3313 3344 3362 6264 6273 6293 6367 6387 6400 9242 9272 9287 9318 9382 9399 11234 11254 11272 11290 11353 11384 
 	}
+	manpower=1300028
+	buildings_max_level_factor=1.000
+	state_category=large_town
 }
