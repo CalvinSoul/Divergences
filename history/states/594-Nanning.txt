@@ -9,7 +9,7 @@ state={
 	}
 
 	history={
-		owner = IDC
+		owner = CHI
 		add_core_of = CHI
 		buildings = {
 			infrastructure = 3
@@ -23,7 +23,7 @@ state={
 	}
 
 	provinces={
-		1018 1625 4077 4085 4628 7137 10459 11926 
+		1018 1172 1469 1625 4077 4085 4121 4177 4628 4656 7137 10004 10459 11926 
 	}
 	manpower=6550000
 	buildings_max_level_factor=1.000

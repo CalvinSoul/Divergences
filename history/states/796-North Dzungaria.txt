@@ -1,19 +1,22 @@
+
 state={
 	id=796
 	name="STATE_796"
-	provinces={
-		1749 1818 1864 4823 4849 7693 7737 12427 
-	}
-	state_category = rural
-	manpower=100
-	buildings_max_level_factor=1.000
+
 	history={
-		owner = STP
-		add_core_of = STP
+		owner = DZU
+		add_core_of = DZU
 		buildings = {
 			infrastructure = 4
 
 		}
 
 	}
+
+	provinces={
+		1749 1779 1818 4823 4849 7693 7737 10531 12427 
+	}
+	manpower=100
+	buildings_max_level_factor=1.000
+	state_category=rural
 }
