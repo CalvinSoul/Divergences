@@ -1,6 +1,7 @@
 ﻿name="Divergences Dev Build"
 path="mod/Divergences"
-user_dir="Divergences"
+version="0.1"
+
 replace_path="history/states"
 replace_path="history/units"
 replace_path="history/countries"
@@ -44,4 +45,4 @@ tags={
 	"Gameplay"
 }
 picture=""
-supported_version="1.7.*.*"
+supported_version="1.8.*.*"
