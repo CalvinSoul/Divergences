@@ -1,0 +1,19 @@
+state={
+	id=962
+	name="STATE_962"
+
+	history={
+		owner = AAS
+
+		buildings = {
+			infrastructure = 5
+		}
+	}
+
+	provinces={
+		1268 1344 4420 7436 8011 8067 8100 10278 10808 12734 
+	}
+
+	manpower=0
+	buildings_max_level_factor=1.000
+}

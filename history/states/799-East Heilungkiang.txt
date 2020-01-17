@@ -4,8 +4,8 @@ state={
 	name="STATE_799"
 
 	history={
-		owner = JAP
-		add_core_of = QNG
+		owner = JSI
+		add_core_of = JSI
 		buildings = {
 			infrastructure = 1
 

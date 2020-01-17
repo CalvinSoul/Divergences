@@ -1,0 +1,20 @@
+state={
+	id=960
+	name="STATE_960"
+
+	history={
+		owner = TEL
+		add_core_of = TEL
+
+		buildings = {
+			infrastructure = 5
+		}
+	}
+
+	provinces={
+		5019 5063 7430 10311 10511 12781 
+	}
+
+	manpower=0
+	buildings_max_level_factor=1.000
+}

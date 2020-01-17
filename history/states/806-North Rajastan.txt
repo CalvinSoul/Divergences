@@ -1,17 +1,22 @@
+
 state={
 	id=806
 	name="STATE_806"
-	provinces={
-		2054 4915 7998 12041 12718 12844 12876 
-	}
-	state_category = rural
-	manpower=100
-	buildings_max_level_factor=1.000
+
 	history={
-		owner = HIN
-		add_core_of = HIN
+		owner = MAR
+		add_core_of = MAR
 		buildings = {
 			infrastructure = 1
+
 		}
+
 	}
+
+	provinces={
+		1061 1190 7020 
+	}
+	manpower=100
+	buildings_max_level_factor=1.000
+	state_category=rural
 }

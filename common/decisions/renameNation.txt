@@ -10,7 +10,7 @@ rename_nation_category = {
 			available = {
 			}
 			remove_effect = {
-
+#			= {set_cosmetic_tag = _NATIVE}
 				AMA = {set_cosmetic_tag = AMA_NATIVE}
 				BEO = {set_cosmetic_tag = BEO_NATIVE}
 				GRA = {set_cosmetic_tag = GRA_NATIVE}
@@ -27,6 +27,43 @@ rename_nation_category = {
 				SEP = {set_cosmetic_tag = SEP_NATIVE}
 				SDR = {set_cosmetic_tag = SDR_NATIVE}
 				PRA = {set_cosmetic_tag = PRA_NATIVE}
+
+				ANG = {set_cosmetic_tag = ANG_NATIVE}
+				ARA = {set_cosmetic_tag = ARA_NATIVE}
+				BRG = {set_cosmetic_tag = BRG_NATIVE}
+				BOH = {set_cosmetic_tag = BOH_NATIVE}
+				DAN = {set_cosmetic_tag = DAN_NATIVE}
+				IRA = {set_cosmetic_tag = IRA_NATIVE}
+				ITA = {set_cosmetic_tag = ITA_NATIVE}
+				OCC = {set_cosmetic_tag = OCC_NATIVE}
+				PAP = {set_cosmetic_tag = PAP_NATIVE}
+				RHE = {set_cosmetic_tag = RHE_NATIVE}
+				SCA = {set_cosmetic_tag = SCA_NATIVE}
+				SCO = {set_cosmetic_tag = SCO_NATIVE}
+				SPA = {set_cosmetic_tag = SPA_NATIVE}
+				NAV = {set_cosmetic_tag = NAV_NATIVE}
+	
+				HUN = {set_cosmetic_tag = HUN_NATIVE}
+				MOL = {set_cosmetic_tag = MOL_NATIVE}
+				SLA = {set_cosmetic_tag = SLA_NATIVE}
+				SLV = {set_cosmetic_tag = SLV_NATIVE}
+				TRS = {set_cosmetic_tag = TRS_NATIVE}
+				WAL = {set_cosmetic_tag = WAL_NATIVE}
+
+				AAS = {set_cosmetic_tag = AAS_NATIVE}
+				CHI = {set_cosmetic_tag = CHI_NATIVE}
+				CHR = {set_cosmetic_tag = CHR_NATIVE}
+				DZU = {set_cosmetic_tag = DZU_NATIVE}
+				IDC = {set_cosmetic_tag = IDC_NATIVE}
+				JAP = {set_cosmetic_tag = JAP_NATIVE}
+				JSI = {set_cosmetic_tag = JSI_NATIVE}
+				NEP = {set_cosmetic_tag = NEP_NATIVE}
+				TIB = {set_cosmetic_tag = TIB_NATIVE}
+				SAS = {set_cosmetic_tag = SAS_NATIVE}
+				STP = {set_cosmetic_tag = STP_NATIVE}
+				
+
+
 			}
 		}
 		english_names = {
@@ -56,6 +93,40 @@ rename_nation_category = {
 				SEP = {drop_cosmetic_tag = SEP_NATIVE}
 				SDR = {drop_cosmetic_tag = SDR_NATIVE}
 				PRA = {drop_cosmetic_tag = PRA_NATIVE}
+
+				ANG = {drop_cosmetic_tag = ANG_NATIVE}
+				ARA = {drop_cosmetic_tag = ARA_NATIVE}
+				BRG = {drop_cosmetic_tag = BRG_NATIVE}
+				BOH = {drop_cosmetic_tag = BOH_NATIVE}
+				DAN = {drop_cosmetic_tag = DAN_NATIVE}
+				IRA = {drop_cosmetic_tag = IRA_NATIVE}
+				ITA = {drop_cosmetic_tag = ITA_NATIVE}
+				OCC = {drop_cosmetic_tag = OCC_NATIVE}
+				PAP = {drop_cosmetic_tag = PAP_NATIVE}
+				RHE = {drop_cosmetic_tag = RHE_NATIVE}
+				SCA = {drop_cosmetic_tag = SCA_NATIVE}
+				SCO = {drop_cosmetic_tag = SCO_NATIVE}
+				SPA = {drop_cosmetic_tag = SPA_NATIVE}
+				NAV = {drop_cosmetic_tag = NAV_NATIVE}
+
+				HUN = {drop_cosmetic_tag = HUN_NATIVE}
+				MOL = {drop_cosmetic_tag = MOL_NATIVE}
+				SLA = {drop_cosmetic_tag = SLA_NATIVE}
+				SLV = {drop_cosmetic_tag = SLV_NATIVE}
+				TRS = {drop_cosmetic_tag = TRS_NATIVE}
+				WAL = {drop_cosmetic_tag = WAL_NATIVE}
+
+				AAS = {drop_cosmetic_tag = AAS_NATIVE}
+				CHI = {drop_cosmetic_tag = CHI_NATIVE}
+				CHR = {drop_cosmetic_tag = CHR_NATIVE}
+				DZU = {drop_cosmetic_tag = DZU_NATIVE}
+				IDC = {drop_cosmetic_tag = IDC_NATIVE}
+				JAP = {drop_cosmetic_tag = JAP_NATIVE}
+				JSI = {drop_cosmetic_tag = JSI_NATIVE}
+				NEP = {drop_cosmetic_tag = NEP_NATIVE}
+				TIB = {drop_cosmetic_tag = TIB_NATIVE}
+				SAS = {drop_cosmetic_tag = SAS_NATIVE}
+				STP = {drop_cosmetic_tag = STP_NATIVE}
 			}
 		}
 }
