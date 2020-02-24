@@ -6,10 +6,13 @@ state={
 	history={
 		owner = VIN
 		add_core_of = VIN
-		add_core_of = IRI
+		add_core_of = ADA
 		buildings = {
 			infrastructure = 5
 
+		}
+		victory_points = {
+			10599 10
 		}
 		victory_points = {
 			709 5 

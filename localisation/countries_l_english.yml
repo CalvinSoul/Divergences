@@ -2,6 +2,17 @@
  AAR_commercialism:0 "Afro-Arcadian Republic"
  ATH_commercialism:0 "Athesian Republic"
  
+ ADA_blanquism:0 "Adawak Confederacy"
+ ADA_egalitarianism:0 "Adawak Confederacy"
+ ADA_libertarianism:0 "Adawak Confederacy"
+ ADA_progressivism:0 "Adawak Confederacy"
+ ADA_commercialism:0 "Adawak Confederacy"
+ ADA_conservativism:0 "Adawak Confederacy"
+ ADA_paternalism:0 "Adawak Confederacy"
+ ADA_reactionism:0 "Adawak Confederacy"
+ ADA_ultra_nationalism:0 "Adawak Confederacy"
+ ADA_hierarchism:0 "Adawak Confederacy"
+
  ADG_blanquism:0 "People's Republic of Andgoya"
  ADG_egalitarianism:0 "People's Republic of Andagoya"
  ADG_libertarianism:0 "People's Republic of Andagoya"
@@ -254,7 +265,8 @@
 
  ILL_paternalism:0 "Kingdom of Illyria"
  IRA_conservativism:0 "Republic of Ireland"
- IRI_progressivism:0 "Iriquois Federation"
+
+ IRI_progressivism:0 "Langhauserne Confederacy"
 
  IRQ_blanquism:0 "Mashriqi People's Republic"
  IRQ_egalitarianism:0 "Mashriqi Federation"
@@ -807,6 +819,17 @@ NFL_commercialism:0 "Nieuw-Vlaanderen"
  SIB_reactionism:0 "Siberian State"
  SIB_ultra_nationalism:0 "Siberian State"
  SIB_hierarchism:0 "Siberian State"
+
+ WAB_blanquism:0 "Wabanaki Confederacy"
+ WAB_egalitarianism:0 "Wabanaki Confederacy"
+ WAB_libertarianism:0 "Wabanaki Confederacy"
+ WAB_progressivism:0 "Wabanaki Confederacy"
+ WAB_commercialism:0 "Wabanaki Confederacy"
+ WAB_conservativism:0 "Wabanaki Confederacy"
+ WAB_paternalism:0 "Wabanaki Confederacy"
+ WAB_reactionism:0 "Wabanaki Confederacy"
+ WAB_ultra_nationalism:0 "Wabanaki Confederacy"
+ WAB_hierarchism:0 "Wabanaki Confederacy"
 
  _blanquism:0 ""
  _egalitarianism:0 ""

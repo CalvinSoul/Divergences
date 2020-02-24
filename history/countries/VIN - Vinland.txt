@@ -71,3 +71,145 @@ create_country_leader = {
 		#
 	}
 }
+create_country_leader = {
+	
+	name = "Onangwatgo Klausen"
+	picture = "Onangwatgo_Klausen.tga"
+	expire = "1965.1.1"
+	ideology = libertarianism_subtype
+	traits = {
+		#
+	}
+}
+create_country_leader = {
+	
+	name = "Mikael Vestergaard"
+	picture = "Mikael_Vestergaard.tga"
+	expire = "1965.1.1"
+	ideology = conservativism_subtype
+	traits = {
+		#
+	}
+}
+create_country_leader = {
+	
+	name = "Oskar Brix"
+	picture = "Oskar_Brix.tga"
+	expire = "1965.1.1"
+	ideology = commercialism_subtype
+	traits = {
+		#
+	}
+}
+
+create_field_marshal = {
+	name = "Niklas Overgaard"
+	desc = ""
+	picture = "Niklas_Overgaard.tga"
+	traits = {}
+	skill = 1
+	attack_skill = 1
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 1
+}
+create_field_marshal = {
+	name = "Sven Drakenberg"
+	desc = ""
+	picture = "Sven_Drakenberg.tga"
+	traits = {}
+	skill = 1
+	attack_skill = 1
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 1
+}
+create_corps_commander = {
+	name = "Aleksander Aarrestad"
+	desc = ""
+	picture = "Aleksander_Aarrestad.tga"
+	traits = {}
+	skill = 1
+	attack_skill = 1
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 1
+}	
+create_corps_commander = {
+	name = "Henrik Midthun"
+	desc = ""
+	picture = "Henrik_Midthun.tga"
+	traits = {}
+	skill = 1
+	attack_skill = 1
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 1
+}	
+create_corps_commander = {
+	name = "Stig Gregersen"
+	desc = ""
+	picture = "Stig_Gregersen.tga"
+	traits = {}
+	skill = 1
+	attack_skill = 1
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 1
+}	
+create_corps_commander = {
+	name = "Eric Öberg"
+	desc = ""
+	picture = "Eric_Oberg.tga"
+	traits = {}
+	skill = 1
+	attack_skill = 1
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 1
+}	
+create_corps_commander = {
+	name = "Mikkel Haestad"
+	desc = ""
+	picture = "Mikkel_Haestad.tga"
+	traits = {}
+	skill = 1
+	attack_skill = 1
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 1
+}	
+create_navy_leader = {
+	name = "Chris Hviid"
+	desc = ""
+	picture = "Chris_Hviid.tga"
+	traits = {}
+	skill = 1
+	attack_skill = 1
+	defense_skill = 1
+	maneuvering_skill = 1
+	coordination_skill = 1
+}
+create_navy_leader = {
+	name = "Alexander Iversen"
+	desc = ""
+	picture = "Alexander_Iversen.tga"
+	traits = {}
+	skill = 1
+	attack_skill = 1
+	defense_skill = 1
+	maneuvering_skill = 1
+	coordination_skill = 1
+}
+
+create_navy_leader = {
+	name = "Kresten Pihl"
+	desc = ""
+	picture = "Kresten_Pihl.tga"
+	traits = {}
+	skill = 1
+	attack_skill = 1
+	defense_skill = 1
+	maneuvering_skill = 1
+	coordination_skill = 1
+}

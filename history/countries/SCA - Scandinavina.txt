@@ -191,3 +191,14 @@ create_navy_leader = { #Scottish/Gaelic Scandy
 	maneuvering_skill = 1
 	coordination_skill = 1
 }
+create_navy_leader = { #Scandinavian
+	name = "Jørn Fisker"
+	desc = ""
+	picture = "Jorn_Fisker .tga"
+	traits = {}
+	skill = 1
+	attack_skill = 1
+	defense_skill = 1
+	maneuvering_skill = 1
+	coordination_skill = 1
+}

@@ -1,0 +1,46 @@
+﻿capital = 1
+
+oob = "Default_1936"
+
+# Starting tech
+set_technology = {
+	
+
+}
+
+set_convoys = 50
+
+
+set_politics = {
+
+set_popularities = {
+    blanquism = 6
+    egalitarianism = 4
+    libertarianism = 22
+    progressivism = 34
+    commercialism = 16
+    conservativism = 14
+    paternalism = 4
+    reactionism = 0
+    ultra_nationalism = 0
+    hierarchism = 0
+}
+
+	
+	ruling_party = conservativism 
+	last_election = "1936.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+create_country_leader = {
+	
+	name = "Medweganoonind" ## "Who is Heard Spoken To"
+	picture = "Medweganoonind.tga"
+	expire = "1965.1.1"
+	ideology = conservativism_subtype
+	traits = {
+		#
+	}
+}
+

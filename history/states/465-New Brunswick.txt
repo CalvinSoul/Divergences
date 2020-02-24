@@ -6,6 +6,7 @@ state={
 	history={
 		owner = VIN
 		add_core_of = VIN
+		add_core_of = WAB
 		buildings = {
 			infrastructure = 5
 			4422 = {

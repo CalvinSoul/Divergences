@@ -6,6 +6,7 @@ state={
 	history={
 		owner = VIN
 		add_core_of = VIN
+		add_core_of = ADA
 		buildings = {
 			infrastructure = 5
 			industrial_complex = 1
