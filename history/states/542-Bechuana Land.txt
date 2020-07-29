@@ -11,12 +11,16 @@ state={
 		add_core_of = VRY
 		buildings = {
 			infrastructure = 5
+
 		}
-		victory_points = { 8214 5 }
+		victory_points = {
+			8214 5 
+		}
+
 	}
 
 	provinces={
-		1580 8214 10525 12940 12963 
+		1580 8214 10525 12940 12963 13213 
 	}
 	manpower=100
 	buildings_max_level_factor=1.000
