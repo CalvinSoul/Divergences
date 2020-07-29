@@ -51,7 +51,7 @@ technologies = {
 			research_cost_coeff = 1
 		}
 		research_cost = 1.0
-		start_year = 1907
+		start_year = 1918
 		folder = {
 			name = support_folder
 			position = { x = 0 y = @1918 }
@@ -94,7 +94,7 @@ technologies = {
 		}
 
 		research_cost = 2
-		start_year = 1925
+		start_year = 1936
 		folder = {
 			name = support_folder
 			position = { x = 0 y = @1936 }
@@ -115,21 +115,21 @@ technologies = {
 			
 			modifier = {
 				factor = 1.2
-				date > "1926.1.1"
+				date > "1937.1.1"
 			}
 			
 			modifier = {
 				factor = 2
-				date > "1927.1.1"
+				date > "1938.1.1"
 			}
 			
 			modifier = {
 				factor = 2
-				date > "1928.1.1"
+				date > "1939.1.1"
 			}
 			modifier = {
 				factor = 10
-				date > "1929.1.1"
+				date > "1940.1.1"
 			}
 		}
 	}
@@ -152,7 +152,7 @@ technologies = {
 		}
 
 		research_cost = 1.5
-		start_year = 1928
+		start_year = 1939
 		folder = {
 			name = support_folder
 			position = { x = 0 y = @1939 }
@@ -168,17 +168,17 @@ technologies = {
 			
 			modifier = {
 				factor = 1.2
-				date > "1929.1.1"
+				date > "1940.1.1"
 			}
 			
 			modifier = {
 				factor = 2
-				date > "1930.1.1"
+				date > "1941.1.1"
 			}
 			
 			modifier = {
 				factor = 2
-				date > "1931.1.1"
+				date > "1942.1.1"
 			}
 		}
 	}
@@ -198,7 +198,7 @@ technologies = {
 		}		
 
 		research_cost = 1.5
-		start_year = 1931
+		start_year = 1942
 		folder = {
 			name = support_folder
 			position = { x = 0 y = @1942 }
@@ -214,17 +214,17 @@ technologies = {
 			
 			modifier = {
 				factor = 1.2
-				date > "1932.1.1"
+				date > "1943.1.1"
 			}
 			
 			modifier = {
 				factor = 2
-				date > "1933.1.1"
+				date > "1944.1.1"
 			}
 			
 			modifier = {
 				factor = 2
-				date > "1934.1.1"
+				date > "1945.1.1"
 			}
 		}
 	}
@@ -240,7 +240,7 @@ technologies = {
 		}
 
 		research_cost = 1.5
-		start_year = 1934
+		start_year = 1945
 		folder = {
 			name = support_folder
 			position = { x = 0 y = @1945 }
@@ -256,17 +256,17 @@ technologies = {
 			
 			modifier = {
 				factor = 1.2
-				date > "1935.1.1"
+				date > "1946.1.1"
 			}
 			
 			modifier = {
 				factor = 2
-				date > "1936.1.1"
+				date > "1947.1.1"
 			}
 			
 			modifier = {
 				factor = 2
-				date > "1937.1.1"
+				date > "1948.1.1"
 			}
 		}
 	}	
@@ -275,6 +275,9 @@ technologies = {
 
 		enable_subunits = {
 			recon
+			mot_recon
+			armored_car_recon
+			light_tank_recon
 		}
 		
 		path = {
@@ -283,7 +286,7 @@ technologies = {
 		}
 
 		research_cost = 2
-		start_year = 1925
+		start_year = 1936
 		folder = {
 			name = support_folder
 			position = { x = 2 y = @1936 }
@@ -304,28 +307,28 @@ technologies = {
 			
 			modifier = {
 				factor = 1.2
-				date > "1926.1.1"
+				date > "1937.1.1"
 			}
 			
 			modifier = {
 				factor = 2
-				date > "1927.1.1"
+				date > "1938.1.1"
 			}
 			
 			modifier = {
 				factor = 2
-				date > "1928.1.1"
+				date > "1939.1.1"
 			}
 			modifier = {
 				factor = 10
-				date > "1929.1.1"
+				date > "1940.1.1"
 			}
 		}
 	}
 	
 	tech_recon2 = {
 
-		recon = {
+		category_recon = {
 			recon = 2
 		}
 		
@@ -335,7 +338,7 @@ technologies = {
 		}
 
 		research_cost = 1.5
-		start_year = 1928
+		start_year = 1939
 		folder = {
 			name = support_folder
 			position = { x = 2 y = @1939 }
@@ -351,24 +354,24 @@ technologies = {
 			
 			modifier = {
 				factor = 1.2
-				date > "1929.1.1"
+				date > "1940.1.1"
 			}
 			
 			modifier = {
 				factor = 2
-				date > "1930.1.1"
+				date > "1941.1.1"
 			}
 			
 			modifier = {
 				factor = 2
-				date > "1931.1.1"
+				date > "1942.1.1"
 			}
 		}
 	}
 	
 	tech_recon3 = {
 
-		recon = {
+		category_recon = {
 			recon = 2
 		}
 		path = {
@@ -377,7 +380,7 @@ technologies = {
 		}
 
 		research_cost = 1.5
-		start_year = 1931
+		start_year = 1942
 		folder = {
 			name = support_folder
 			position = { x = 2 y = @1942 }
@@ -393,28 +396,28 @@ technologies = {
 			
 			modifier = {
 				factor = 1.2
-				date > "1932.1.1"
+				date > "1943.1.1"
 			}
 			
 			modifier = {
 				factor = 2
-				date > "1933.1.1"
+				date > "1944.1.1"
 			}
 			
 			modifier = {
 				factor = 2
-				date > "1934.1.1"
+				date > "1945.1.1"
 			}
 		}
 	}
 	tech_recon4 = {
 
-		recon = {
+		category_recon = {
 			recon = 2
 		}
 
 		research_cost = 1.5
-		start_year = 1934
+		start_year = 1945
 		folder = {
 			name = support_folder
 			position = { x = 2 y = @1945 }
@@ -430,17 +433,17 @@ technologies = {
 			
 			modifier = {
 				factor = 1.2
-				date > "1935.1.1"
+				date > "1946.1.1"
 			}
 			
 			modifier = {
 				factor = 2
-				date > "1936.1.1"
+				date > "1947.1.1"
 			}
 			
 			modifier = {
 				factor = 2
-				date > "1937.1.1"
+				date > "1948.1.1"
 			}
 		}
 	}
@@ -457,7 +460,7 @@ technologies = {
 		}
 
 		research_cost = 2
-		start_year = 1925
+		start_year = 1936
 		folder = {
 			name = support_folder
 			position = { x = 4 y = @1936 }
@@ -524,7 +527,7 @@ technologies = {
 		}
 
 		research_cost = 1.5
-		start_year = 1928
+		start_year = 1939
 		folder = {
 			name = support_folder
 			position = { x = 4 y = @1939 }
@@ -556,7 +559,7 @@ technologies = {
 		}
 
 		research_cost = 1.5
-		start_year = 1931
+		start_year = 1942
 		folder = {
 			name = support_folder
 			position = { x = 4 y = @1942 }
@@ -583,7 +586,7 @@ technologies = {
 		}
 
 		research_cost = 1.5
-		start_year = 1934
+		start_year = 1945
 		folder = {
 			name = support_folder
 			position = { x = 4 y = @1945 }
@@ -616,7 +619,7 @@ technologies = {
 		}
 
 		research_cost = 2
-		start_year = 1925
+		start_year = 1936
 		folder = {
 			name = support_folder
 			position = { x = 6 y = @1936 }
@@ -632,17 +635,17 @@ technologies = {
 			
 			modifier = {
 				factor = 1.2
-				date > "1926.1.1"
+				date > "1937.1.1"
 			}
 			
 			modifier = {
 				factor = 1.2
-				date > "1927.1.1"
+				date > "1938.1.1"
 			}
 			
 			modifier = {
 				factor = 1.2
-				date > "1928.1.1"
+				date > "1939.1.1"
 			}
 		}
 	}
@@ -661,7 +664,7 @@ technologies = {
 		}
 
 		research_cost = 1.5
-		start_year = 1928
+		start_year = 1939
 		folder = {
 			name = support_folder
 			position = { x = 6 y = @1939 }
@@ -677,17 +680,17 @@ technologies = {
 			
 			modifier = {
 				factor = 1.2
-				date > "1929.1.1"
+				date > "1940.1.1"
 			}
 			
 			modifier = {
 				factor = 1.2
-				date > "1930.1.1"
+				date > "1941.1.1"
 			}
 			
 			modifier = {
 				factor = 1.2
-				date > "1931.1.1"
+				date > "1942.1.1"
 			}
 		}
 	}
@@ -704,7 +707,7 @@ technologies = {
 		}
 
 		research_cost = 1.5
-		start_year = 1931
+		start_year = 1942
 		folder = {
 			name = support_folder
 			position = { x = 6 y = @1942 }
@@ -720,17 +723,17 @@ technologies = {
 			
 			modifier = {
 				factor = 1.2
-				date > "1932.1.1"
+				date > "1943.1.1"
 			}
 			
 			modifier = {
 				factor = 1.2
-				date > "1933.1.1"
+				date > "1944.1.1"
 			}
 			
 			modifier = {
 				factor = 1.2
-				date > "1934.1.1"
+				date > "1945.1.1"
 			}
 		}
 	}
@@ -742,7 +745,7 @@ technologies = {
 		}
 
 		research_cost = 1.5
-		start_year = 1934
+		start_year = 1945
 		folder = {
 			name = support_folder
 			position = { x = 6 y = @1945 }
@@ -758,17 +761,17 @@ technologies = {
 			
 			modifier = {
 				factor = 1.2
-				date > "1935.1.1"
+				date > "1946.1.1"
 			}
 			
 			modifier = {
 				factor = 1.2
-				date > "1936.1.1"
+				date > "1947.1.1"
 			}
 			
 			modifier = {
 				factor = 1.2
-				date > "1937.1.1"
+				date > "1948.1.1"
 			}
 		}
 	}
@@ -789,7 +792,7 @@ technologies = {
 		}
 
 		research_cost = 2
-		start_year = 1925
+		start_year = 1936
 		folder = {
 			name = support_folder
 			position = { x = 8 y = @1936 }
@@ -806,17 +809,17 @@ technologies = {
 			
 			modifier = {
 				factor = 1.2
-				date > "1926.1.1"
+				date > "1937.1.1"
 			}
 			
 			modifier = {
 				factor = 1.2
-				date > "1927.1.1"
+				date > "1938.1.1"
 			}
 			
 			modifier = {
 				factor = 1.2
-				date > "1928.1.1"
+				date > "1939.1.1"
 			}
 		}
 	}
@@ -834,7 +837,7 @@ technologies = {
 		}
 
 		research_cost = 1.5
-		start_year = 1928
+		start_year = 1939
 		folder = {
 			name = support_folder
 			position = { x = 8 y = @1939 }
@@ -851,17 +854,17 @@ technologies = {
 			
 			modifier = {
 				factor = 1.2
-				date > "1929.1.1"
+				date > "1940.1.1"
 			}
 			
 			modifier = {
 				factor = 1.2
-				date > "1930.1.1"
+				date > "1941.1.1"
 			}
 			
 			modifier = {
 				factor = 1.2
-				date > "1931.1.1"
+				date > "1942.1.1"
 			}
 		}
 	}
@@ -878,7 +881,7 @@ technologies = {
 		}
 
 		research_cost = 1.5
-		start_year = 1931
+		start_year = 1942
 		folder = {
 			name = support_folder
 			position = { x = 8 y = @1942 }
@@ -895,17 +898,17 @@ technologies = {
 			
 			modifier = {
 				factor = 1.2
-				date > "1932.1.1"
+				date > "1943.1.1"
 			}
 			
 			modifier = {
 				factor = 1.2
-				date > "1933.1.1"
+				date > "1944.1.1"
 			}
 			
 			modifier = {
 				factor = 1.2
-				date > "1934.1.1"
+				date > "1945.1.1"
 			}
 		}
 	}
@@ -917,7 +920,7 @@ technologies = {
 		}
 
 		research_cost = 1.5
-		start_year = 1934
+		start_year = 1945
 		folder = {
 			name = support_folder
 			position = { x = 8 y = @1945 }
@@ -934,17 +937,17 @@ technologies = {
 			
 			modifier = {
 				factor = 1.2
-				date > "1935.1.1"
+				date > "1946.1.1"
 			}
 			
 			modifier = {
 				factor = 1.2
-				date > "1936.1.1"
+				date > "1947.1.1"
 			}
 			
 			modifier = {
 				factor = 1.2
-				date > "1937.1.1"
+				date > "1948.1.1"
 			}
 		}
 	}
@@ -965,7 +968,7 @@ technologies = {
 		}
 
 		research_cost = 2
-		start_year = 1925
+		start_year = 1936
 		folder = {
 			name = support_folder
 			position = { x = 10 y = @1936 }
@@ -982,21 +985,21 @@ technologies = {
 			
 			modifier = {
 				factor = 1.2
-				date > "1926.1.1"
+				date > "1937.1.1"
 			}
 			
 			modifier = {
 				factor = 1.2
-				date > "1927.1.1"
+				date > "1938.1.1"
 			}
 			
 			modifier = {
 				factor = 1.2
-				date > "1928.1.1"
+				date > "1939.1.1"
 			}
 			modifier = {
 				factor = 5
-				date > "1929.1.1"
+				date > "1940.1.1"
 			}
 		}
 	}
@@ -1015,7 +1018,7 @@ technologies = {
 		}
 
 		research_cost = 1.5
-		start_year = 1928
+		start_year = 1939
 		folder = {
 			name = support_folder
 			position = { x = 10 y = @1939 }
@@ -1032,17 +1035,17 @@ technologies = {
 			
 			modifier = {
 				factor = 1.2
-				date > "1929.1.1"
+				date > "1940.1.1"
 			}
 			
 			modifier = {
 				factor = 2
-				date > "1930.1.1"
+				date > "1941.1.1"
 			}
 			
 			modifier = {
 				factor = 2
-				date > "1931.1.1"
+				date > "1942.1.1"
 			}
 
 			modifier = {
@@ -1064,7 +1067,7 @@ technologies = {
 		}
 
 		research_cost = 1.5
-		start_year = 1931
+		start_year = 1942
 		folder = {
 			name = support_folder
 			position = { x = 10 y = @1942 }
@@ -1081,17 +1084,17 @@ technologies = {
 			
 			modifier = {
 				factor = 1.2
-				date > "1932.1.1"
+				date > "1943.1.1"
 			}
 			
 			modifier = {
 				factor = 2
-				date > "1933.1.1"
+				date > "1944.1.1"
 			}
 			
 			modifier = {
 				factor = 2
-				date > "1934.1.1"
+				date > "1945.1.1"
 			}
 		}
 	}
@@ -1103,7 +1106,7 @@ technologies = {
 		}
 
 		research_cost = 1.5
-		start_year = 1934
+		start_year = 1945
 		folder = {
 			name = support_folder
 			position = { x = 10 y = @1945 }
@@ -1120,17 +1123,17 @@ technologies = {
 			
 			modifier = {
 				factor = 1.2
-				date > "1935.1.1"
+				date > "1946.1.1"
 			}
 			
 			modifier = {
 				factor = 2
-				date > "1936.1.1"
+				date > "1947.1.1"
 			}
 			
 			modifier = {
 				factor = 2
-				date > "1937.1.1"
+				date > "1948.1.1"
 			}
 		}
 	}
@@ -1153,7 +1156,7 @@ technologies = {
 		}
 
 		research_cost = 2
-		start_year = 1925
+		start_year = 1936
 		folder = {
 			name = support_folder
 			position = { x = 12 y = @1936 }
@@ -1171,7 +1174,7 @@ technologies = {
 			modifier = {
 				factor = 5
 				is_major = yes
-				date > "1929.1.1"
+				date > "1940.1.1"
 			}
 		}
 	}
@@ -1189,7 +1192,7 @@ technologies = {
 		}
 
 		research_cost = 1.5
-		start_year = 1928
+		start_year = 1939
 		folder = {
 			name = support_folder
 			position = { x = 12 y = @1939 }
@@ -1206,17 +1209,17 @@ technologies = {
 			
 			modifier = {
 				factor = 1.2
-				date > "1926.1.1"
+				date > "1937.1.1"
 			}
 			
 			modifier = {
 				factor = 1.2
-				date > "1927.1.1"
+				date > "1938.1.1"
 			}
 			
 			modifier = {
 				factor = 1.2
-				date > "1928.1.1"
+				date > "1939.1.1"
 			}
 		}
 	}
@@ -1232,7 +1235,7 @@ technologies = {
 		}
 
 		research_cost = 1.5
-		start_year = 1931
+		start_year = 1942
 		folder = {
 			name = support_folder
 			position = { x = 12 y = @1942 }
@@ -1249,17 +1252,17 @@ technologies = {
 			
 			modifier = {
 				factor = 1.2
-				date > "1932.1.1"
+				date > "1943.1.1"
 			}
 			
 			modifier = {
 				factor = 1.2
-				date > "1933.1.1"
+				date > "1944.1.1"
 			}
 			
 			modifier = {
 				factor = 1.2
-				date > "1934.1.1"
+				date > "1945.1.1"
 			}
 		}
 	}
@@ -1270,7 +1273,7 @@ technologies = {
 		}
 
 		research_cost = 1.5
-		start_year = 1934
+		start_year = 1945
 		folder = {
 			name = support_folder
 			position = { x = 12 y = @1945 }
@@ -1287,17 +1290,17 @@ technologies = {
 			
 			modifier = {
 				factor = 1.2
-				date > "1935.1.1"
+				date > "1946.1.1"
 			}
 			
 			modifier = {
 				factor = 1.2
-				date > "1936.1.1"
+				date > "1947.1.1"
 			}
 			
 			modifier = {
 				factor = 1.2
-				date > "1937.1.1"
+				date > "1948.1.1"
 			}
 		}
 	}

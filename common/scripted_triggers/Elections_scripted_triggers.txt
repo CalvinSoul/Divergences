@@ -22,3 +22,9 @@ can_lose_unity = {
 		}
 	}
 }
+
+can_lose_democracy_support = {
+	communism < 0.18
+	fascism < 0.18
+	democratic > 0.65
+}

@@ -1,4 +1,6 @@
 on_actions = {
+
+	
 	#Root is exile
 	#From is new host
 	#FromFrom is old host
@@ -68,69 +70,6 @@ on_actions = {
 				}
 
 				unit_leader_event = { id = mtg_exile_leader_added.1 }
-			}
-		}
-	}
-
-	on_startup = {
-		effect = {
-			# Game Rules - Decolonization
-			if = {
-				limit = {
-					has_game_rule = {
-						rule = americas_colonization_status
-						option = AMERICAS_DECOLONIZED
-					}
-				}
-			}
-			if = {
-				limit = {
-					has_game_rule = {
-						rule = africa_colonization_status
-						option = AFRICA_DECOLONIZED
-					}
-				}
-			}
-			if = {
-				limit = {
-					has_game_rule = {
-						rule = asia_colonization_status
-						option = ASIA_DECOLONIZED
-					}
-				}
-			}
-			# Game Rules - Fragmentation
-			if = {
-				limit = {
-					has_game_rule = {
-						rule = eng_fragmentation_status
-						option = ENG_FRAGMENTED
-					}
-				}
-			}
-			if = {
-				limit = {
-					has_game_rule = {
-						rule = yug_fragmentation_status
-						option = YUG_FRAGMENTED
-					}
-				}
-			}
-			if = {
-				limit = {
-					has_game_rule = {
-						rule = sov_fragmentation_status
-						option = SOV_FRAGMENTED
-					}
-				}
-			}
-			if = {
-				limit = {
-					has_game_rule = {
-						rule = raj_fragmentation_status
-						option = RAJ_FRAGMENTED
-					}
-				}
 			}
 		}
 	}

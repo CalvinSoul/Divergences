@@ -172,7 +172,7 @@ leader_traits = {		###PUTTING THIS HERE PLS NO UPSET####
 	}
 	dm_popular_figure = {
 		stability_factor = 0.05
-		partisan_effect = 0.3
+	#	partisan_effect = 0.3
 		political_power_gain = -0.05
 
 		random = no
@@ -180,7 +180,7 @@ leader_traits = {		###PUTTING THIS HERE PLS NO UPSET####
 	dm_terrorizing_figure = {
 		stability_factor = -0.03
 		political_power_gain = 0.05
-		enemy_partisan_effect = -0.3
+	#	enemy_partisan_effect = -0.3
 
 		random = no
 	}

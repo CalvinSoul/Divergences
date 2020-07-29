@@ -55,7 +55,7 @@ leader_traits = {		###PUTTING THIS HERE PLS NO UPSET####
 
 	cia = {
 		random = no
-		enemy_partisan_effect = -0.5
+	#	enemy_partisan_effect = -0.5
 		foreign_subversive_activites = -0.50
 		subversive_activites_upkeep = -0.50
 		lend_lease_tension = -1
@@ -106,11 +106,11 @@ leader_traits = {		###PUTTING THIS HERE PLS NO UPSET####
 	hates_democracy = {
 		random = no
 		ai_focus_aggressive_factor = 0.25
-		conservativism_drift = -0.10
-		market_liberal_drift = -0.10
-		social_liberal_drift = -0.10
-		progressivism_drift = -0.10
-		paternalism_drift = -0.10
+#		conservativism_drift = -0.10
+	#	market_liberal_drift = -0.10
+	#	social_liberal_drift = -0.10
+#		progressivism_drift = -0.10
+#		paternalism_drift = -0.10
 		
 		ai_will_do = {
 			factor = 1

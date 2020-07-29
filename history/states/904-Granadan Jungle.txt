@@ -2,17 +2,17 @@ state={
 	id=904
 	name="STATE_904"
 	provinces={
-		13236 
+		 
 	}
 	state_category = wasteland
-	manpower=17236
+	manpower=0
 	buildings_max_level_factor=1.000
-	history={
-		owner = GRA
-		buildings = {
-			infrastructure = 0
-		}
+	#history={
+	#	owner = GRA
+	#	buildings = {
+	#		infrastructure = 0
+	#	}
 		#victory_points = { 0 5 }
-	}
+#	}
 	impassable = yes
 }

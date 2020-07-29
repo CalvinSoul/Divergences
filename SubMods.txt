@@ -1,5 +1,0 @@
-Improved Division Designer by CRO-TGN.
-
-I swore there were some others I forgot
-
-Interface for States borrowed from Hearts of Oak

@@ -5,6 +5,9 @@ technologies = {
 		enable_equipments = {
 			gw_tank_equipment
 		}
+		enable_subunits = {
+			light_armor
+		}
 
 		on_research_complete = {
 			limit = {
@@ -43,7 +46,7 @@ technologies = {
 		}
 		
 		research_cost = 2
-		start_year = 1907
+		start_year = 1918
 		folder = {
 			name = armour_folder
 			position = { x = 0 y = 0 }
@@ -59,17 +62,17 @@ technologies = {
 			
 			modifier = {
 				factor = 1.2
-				date > "1926.1.1"
+				date > "1937.1.1"
 			}
 			
 			modifier = {
 				factor = 1.2
-				date > "1927.1.1"
+				date > "1938.1.1"
 			}
 			
 			modifier = {
 				factor = 1.2
-				date > "1928.1.1"
+				date > "1939.1.1"
 			}
 		}
 		
@@ -83,6 +86,9 @@ technologies = {
 
 		enable_equipments = {
 			light_tank_equipment_1 
+		}
+		enable_subunits = {
+			light_armor
 		}
 
 		on_research_complete = {
@@ -117,7 +123,7 @@ technologies = {
 		}
 		
 		research_cost = 2
-		start_year = 1923
+		start_year = 1934
 		folder = {
 			name = armour_folder
 			position = { x = -4 y = 2 }
@@ -139,17 +145,17 @@ technologies = {
 			
 			modifier = {
 				factor = 1.1
-				date > "1926.1.1"
+				date > "1937.1.1"
 			}
 			
 			modifier = {
 				factor = 1.1
-				date > "1927.1.1"
+				date > "1938.1.1"
 			}
 			
 			modifier = {
 				factor = 1.1
-				date > "1928.1.1"
+				date > "1939.1.1"
 			}
 		}
 		
@@ -164,9 +170,12 @@ technologies = {
 		enable_equipments = {
 			light_tank_destroyer_equipment_1
 		}
+		enable_subunits = {
+			light_tank_destroyer_brigade
+		}
 	
 		research_cost = 0.5
-		start_year = 1923
+		start_year = 1934
 		
 		ai_will_do = {
 			factor = 0.5
@@ -217,9 +226,12 @@ technologies = {
 		enable_equipments = {
 			light_tank_artillery_equipment_1
 		}
+		enable_subunits = {
+			light_sp_artillery_brigade
+		}
 	
 		research_cost = 0.5
-		start_year = 1923
+		start_year = 1934
 		
 		ai_will_do = {
 			factor = 0.25
@@ -247,9 +259,12 @@ technologies = {
 		enable_equipments = {
 			light_tank_aa_equipment_1
 		}
+		enable_subunits = {
+			light_sp_anti_air_brigade
+		}
 	
 		research_cost = 0.5
-		start_year = 1923
+		start_year = 1934
 		
 		ai_will_do = {
 			factor = 0
@@ -294,7 +309,7 @@ technologies = {
 		}
 		
 		research_cost = 2
-		start_year = 1925
+		start_year = 1936
 		
 		folder = {
 			name = armour_folder
@@ -331,17 +346,17 @@ technologies = {
 			
 			modifier = {
 				factor = 1.1
-				date > "1926.1.1"
+				date > "1937.1.1"
 			}
 			
 			modifier = {
 				factor = 1.1
-				date > "1927.1.1"
+				date > "1938.1.1"
 			}
 			
 			modifier = {
 				factor = 1.1
-				date > "1928.1.1"
+				date > "1939.1.1"
 			}
 		}
 		
@@ -358,7 +373,7 @@ technologies = {
 		}
 	
 		research_cost = 0.5
-		start_year = 1925
+		start_year = 1936
 		
 		ai_will_do = {
 			factor = 0
@@ -405,7 +420,7 @@ technologies = {
 		}
 	
 		research_cost = 0.5
-		start_year = 1925
+		start_year = 1936
 		
 		ai_will_do = {
 			factor = 0
@@ -437,7 +452,7 @@ technologies = {
 		}
 	
 		research_cost = 0.5
-		start_year = 1925
+		start_year = 1936
 		
 		ai_will_do = {
 			factor = 0
@@ -477,7 +492,7 @@ technologies = {
 		}
 		
 		research_cost = 2
-		start_year = 1929
+		start_year = 1940
 		
 		folder = {
 			name = armour_folder
@@ -500,8 +515,7 @@ technologies = {
 			}
 			modifier = {
 				not = {
-					any_state = {
-						is_controlled_by = ROOT
+					any_controlled_state = {
 						is_coastal = yes
 					}
 				}
@@ -522,7 +536,7 @@ technologies = {
 		}
 		
 		research_cost = 2
-		start_year = 1931
+		start_year = 1942
 		
 		folder = {
 			name = armour_folder
@@ -545,8 +559,7 @@ technologies = {
 			}
 			modifier = {
 				not = {
-					any_state = {
-						is_controlled_by = ROOT
+					any_controlled_state = {
 						is_coastal = yes
 					}
 				}
@@ -567,7 +580,7 @@ technologies = {
 		}	
 		
 		research_cost = 2
-		start_year = 1930
+		start_year = 1941
 		
 		folder = {
 			name = armour_folder
@@ -589,17 +602,17 @@ technologies = {
 			
 			modifier = {
 				factor = 1.1
-				date > "1931.1.1"
+				date > "1942.1.1"
 			}
 			
 			modifier = {
 				factor = 1.1
-				date > "1932.1.1"
+				date > "1943.1.1"
 			}
 			
 			modifier = {
 				factor = 1.1
-				date > "1933.1.1"
+				date > "1944.1.1"
 			}
 		}
 		
@@ -616,7 +629,7 @@ technologies = {
 		}
 	
 		research_cost = 0.5
-		start_year = 1930
+		start_year = 1941
 		
 		ai_will_do = {
 			factor = 0
@@ -651,7 +664,7 @@ technologies = {
 		}
 	
 		research_cost = 0.5
-		start_year = 1930
+		start_year = 1941
 	
 		ai_will_do = {
 			factor = 0.1
@@ -669,7 +682,7 @@ technologies = {
 		}
 	
 		research_cost = 0.5
-		start_year = 1930
+		start_year = 1941
 		
 		ai_will_do = {
 			factor = 0
@@ -685,6 +698,10 @@ technologies = {
 		enable_equipments = {
 			medium_tank_equipment_1 
 		}
+
+		enable_subunits = {
+			medium_armor
+		}
 		
 		path = {
 			leads_to_tech = improved_medium_tank 
@@ -692,7 +709,7 @@ technologies = {
 		}
 		
 		research_cost = 2
-		start_year = 1928
+		start_year = 1939
 
 		folder = {
 			name = armour_folder
@@ -715,7 +732,7 @@ technologies = {
 					tag = JAP
 					num_of_military_factories < 50
 				}
-				date > "1927.1.1"
+				date > "1938.1.1"
 			}
 			modifier = {
 				tag = SOV
@@ -723,17 +740,17 @@ technologies = {
 			}
 			modifier = {
 				factor = 1.1
-				date > "1929.1.1"
+				date > "1940.1.1"
 			}
 			
 			modifier = {
 				factor = 1.1
-				date > "1930.1.1"
+				date > "1941.1.1"
 			}
 			
 			modifier = {
 				factor = 1.1
-				date > "1931.1.1"
+				date > "1942.1.1"
 			}
 			
 			modifier = {
@@ -754,9 +771,13 @@ technologies = {
 		enable_equipments = {
 			medium_tank_destroyer_equipment_1
 		}
+
+		enable_subunits = {
+			medium_tank_destroyer_brigade
+		}
 	
 		research_cost = 0.5
-		start_year = 1928
+		start_year = 1939
 
 		
 		ai_will_do = {
@@ -789,17 +810,17 @@ technologies = {
 			
 			modifier = {
 				factor = 1.1
-				date > "1929.1.1"
+				date > "1940.1.1"
 			}
 			
 			modifier = {
 				factor = 1.1
-				date > "1930.1.1"
+				date > "1941.1.1"
 			}
 			
 			modifier = {
 				factor = 1.1
-				date > "1931.1.1"
+				date > "1942.1.1"
 			}
 		}
 		
@@ -813,9 +834,13 @@ technologies = {
 		enable_equipments = {
 			medium_tank_artillery_equipment_1
 		}
+
+		enable_subunits = {
+			medium_sp_artillery_brigade
+		}
 	
 		research_cost = 0.5
-		start_year = 1928
+		start_year = 1939
 		
 		ai_will_do = {
 			factor = 1
@@ -831,17 +856,17 @@ technologies = {
 			
 			modifier = {
 				factor = 1.1
-				date > "1929.1.1"
+				date > "1940.1.1"
 			}
 			
 			modifier = {
 				factor = 1.1
-				date > "1930.1.1"
+				date > "1941.1.1"
 			}
 			
 			modifier = {
 				factor = 1.1
-				date > "1931.1.1"
+				date > "1942.1.1"
 			}
 			modifier = {
 				factor = 100
@@ -859,9 +884,13 @@ technologies = {
 		enable_equipments = {
 			medium_tank_aa_equipment_1
 		}
+
+		enable_subunits = {
+			medium_sp_anti_air_brigade
+		}
 	
 		research_cost = 0.5
-		start_year = 1928
+		start_year = 1939
 		
 		ai_will_do = {
 			factor = 1
@@ -901,7 +930,7 @@ technologies = {
 		}
 		
 		research_cost = 2
-		start_year = 1930
+		start_year = 1941
 		
 		folder = {
 			name = armour_folder
@@ -926,7 +955,7 @@ technologies = {
 				}
 			}
 			modifier = {
-				date < "1930.1.1"
+				date < "1941.1.1"
 				factor = 0.3
 			}
 			modifier = {
@@ -941,17 +970,17 @@ technologies = {
 			
 			modifier = {
 				factor = 1.1
-				date > "1931.1.1"
+				date > "1942.1.1"
 			}
 			
 			modifier = {
 				factor = 1.1
-				date > "1932.1.1"
+				date > "1943.1.1"
 			}
 			
 			modifier = {
 				factor = 1.1
-				date > "1933.1.1"
+				date > "1944.1.1"
 			}
 		}
 		
@@ -968,7 +997,7 @@ technologies = {
 		}
 	
 		research_cost = 0.5
-		start_year = 1930
+		start_year = 1941
 
 		ai_will_do = {
 			factor = 0
@@ -1005,17 +1034,17 @@ technologies = {
 			
 			modifier = {
 				factor = 1.1
-				date > "1931.1.1"
+				date > "1942.1.1"
 			}
 			
 			modifier = {
 				factor = 1.1
-				date > "1932.1.1"
+				date > "1943.1.1"
 			}
 			
 			modifier = {
 				factor = 1.1
-				date > "1933.1.1"
+				date > "1944.1.1"
 			}
 		}
 		
@@ -1031,7 +1060,7 @@ technologies = {
 		}
 	
 		research_cost = 0.5
-		start_year = 1930
+		start_year = 1941
 		
 		ai_will_do = {
 			factor = 1
@@ -1050,17 +1079,17 @@ technologies = {
 			}
 			modifier = {
 				factor = 1.1
-				date > "1931.1.1"
+				date > "1942.1.1"
 			}
 			
 			modifier = {
 				factor = 1.1
-				date > "1932.1.1"
+				date > "1943.1.1"
 			}
 			
 			modifier = {
 				factor = 1.1
-				date > "1933.1.1"
+				date > "1944.1.1"
 			}
 		}
 		
@@ -1076,7 +1105,7 @@ technologies = {
 		}
 	
 		research_cost = 0.5
-		start_year = 1930
+		start_year = 1941
 		
 		ai_will_do = {
 			factor = 1
@@ -1116,7 +1145,7 @@ technologies = {
 		}
 		
 		research_cost = 2
-		start_year = 1932
+		start_year = 1943
 		
 		folder = {
 			name = armour_folder
@@ -1135,17 +1164,17 @@ technologies = {
 			
 			modifier = {
 				factor = 1.2
-				date > "1933.1.1"
+				date > "1944.1.1"
 			}
 			
 			modifier = {
 				factor = 1.2
-				date > "1934.1.1"
+				date > "1945.1.1"
 			}
 			
 			modifier = {
 				factor = 1.2
-				date > "1935.1.1"
+				date > "1946.1.1"
 			}
 		}
 		
@@ -1162,7 +1191,7 @@ technologies = {
 		}
 	
 		research_cost = 0.5
-		start_year = 1932
+		start_year = 1943
 		
 		ai_will_do = {
 			factor = 1
@@ -1198,17 +1227,17 @@ technologies = {
 			
 			modifier = {
 				factor = 1.1
-				date > "1933.1.1"
+				date > "1944.1.1"
 			}
 			
 			modifier = {
 				factor = 1.1
-				date > "1934.1.1"
+				date > "1945.1.1"
 			}
 			
 			modifier = {
 				factor = 1.1
-				date > "1935.1.1"
+				date > "1946.1.1"
 			}
 		}
 		
@@ -1224,7 +1253,7 @@ technologies = {
 		}
 	
 		research_cost = 0.5
-		start_year = 1932
+		start_year = 1943
 		
 		ai_will_do = {
 			factor = 1
@@ -1244,17 +1273,17 @@ technologies = {
 			
 			modifier = {
 				factor = 1.1
-				date > "1933.1.1"
+				date > "1944.1.1"
 			}
 			
 			modifier = {
 				factor = 1.1
-				date > "1934.1.1"
+				date > "1945.1.1"
 			}
 			
 			modifier = {
 				factor = 1.1
-				date > "1935.1.1"
+				date > "1946.1.1"
 			}
 		}
 		
@@ -1270,7 +1299,7 @@ technologies = {
 		}
 	
 		research_cost = 0.5
-		start_year = 1932
+		start_year = 1943
 		
 		ai_will_do = {
 			factor = 0
@@ -1295,9 +1324,12 @@ technologies = {
 		enable_equipments = {
 			modern_tank_equipment_1
 		}	
+		enable_subunits = {
+			modern_armor
+		}
 		
 		research_cost = 2.5
-		start_year = 1934
+		start_year = 1945
 		
 		folder = {
 			name = armour_folder
@@ -1315,17 +1347,17 @@ technologies = {
 			
 			modifier = {
 				factor = 2
-				date > "1935.1.1"
+				date > "1946.1.1"
 			}
 			
 			modifier = {
 				factor = 2
-				date > "1936.1.1"
+				date > "1947.1.1"
 			}
 			
 			modifier = {
 				factor = 2
-				date > "1937.1.1"
+				date > "1948.1.1"
 			}
 		}
 		
@@ -1340,26 +1372,30 @@ technologies = {
 		enable_equipments = {
 			modern_tank_destroyer_equipment_1
 		}
+
+		enable_subunits = {
+			modern_tank_destroyer_brigade
+		}
 	
 		research_cost = 0.5
-		start_year = 1934
+		start_year = 1945
 		
 		ai_will_do = {
 			factor = 1
 			
 			modifier = {
 				factor = 2
-				date > "1935.1.1"
+				date > "1946.1.1"
 			}
 			
 			modifier = {
 				factor = 2
-				date > "1936.1.1"
+				date > "1947.1.1"
 			}
 			
 			modifier = {
 				factor = 2
-				date > "1937.1.1"
+				date > "1948.1.1"
 			}
 		}
 		
@@ -1373,26 +1409,30 @@ technologies = {
 		enable_equipments = {
 			modern_tank_artillery_equipment_1
 		}
+
+		enable_subunits = {
+			modern_sp_artillery_brigade
+		}
 	
 		research_cost = 0.5
-		start_year = 1934
+		start_year = 1945
 		
 		ai_will_do = {
 			factor = 1
 			
 			modifier = {
 				factor = 2
-				date > "1935.1.1"
+				date > "1946.1.1"
 			}
 			
 			modifier = {
 				factor = 2
-				date > "1936.1.1"
+				date > "1947.1.1"
 			}
 			
 			modifier = {
 				factor = 2
-				date > "1937.1.1"
+				date > "1948.1.1"
 			}
 		}
 		
@@ -1406,9 +1446,13 @@ technologies = {
 		enable_equipments = {
 			modern_tank_aa_equipment_1
 		}
+
+		enable_subunits = {
+			modern_sp_anti_air_brigade
+		}
 	
 		research_cost = 0.5
-		start_year = 1934
+		start_year = 1945
 		
 		ai_will_do = {
 			factor = 0
@@ -1423,6 +1467,10 @@ technologies = {
 
 		enable_equipments = {
 			heavy_tank_equipment_1 
+		}
+
+		enable_subunits = {
+			heavy_armor
 		}
 
 		on_research_complete = {
@@ -1457,7 +1505,7 @@ technologies = {
 		}
 		
 		research_cost = 2
-		start_year = 1923
+		start_year = 1934
 		
 		folder = {
 			name = armour_folder
@@ -1475,17 +1523,17 @@ technologies = {
 			
 			modifier = {
 				factor = 1.2
-				date > "1926.1.1"
+				date > "1937.1.1"
 			}
 			
 			modifier = {
 				factor = 1.2
-				date > "1927.1.1"
+				date > "1938.1.1"
 			}
 			
 			modifier = {
 				factor = 1.2
-				date > "1928.1.1"
+				date > "1939.1.1"
 			}
 			modifier = {
 				tag = FRA
@@ -1516,9 +1564,13 @@ technologies = {
 		enable_equipments = {
 			heavy_tank_destroyer_equipment_1
 		}
+
+		enable_subunits = {
+			heavy_tank_destroyer_brigade
+		}
 	
 		research_cost = 0.5
-		start_year = 1923
+		start_year = 1934
 
 		ai_will_do = {
 			factor = 0
@@ -1543,9 +1595,13 @@ technologies = {
 		enable_equipments = {
 			heavy_tank_artillery_equipment_1
 		}
+
+		enable_subunits = {
+			heavy_sp_artillery_brigade
+		}
 	
 		research_cost = 0.5
-		start_year = 1923
+		start_year = 1934
 		
 		ai_will_do = {
 			factor = 0
@@ -1571,9 +1627,12 @@ technologies = {
 		enable_equipments = {
 			heavy_tank_aa_equipment_1
 		}
+		enable_subunits = {
+			heavy_sp_anti_air_brigade
+		}
 	
 		research_cost = 0.5
-		start_year = 1923
+		start_year = 1934
 		
 		ai_will_do = {
 			factor = 0
@@ -1614,7 +1673,7 @@ technologies = {
 		}
 		
 		research_cost = 2.5
-		start_year = 1930
+		start_year = 1941
 		
 		folder = {
 			name = armour_folder
@@ -1636,17 +1695,17 @@ technologies = {
 			}
 			modifier = {
 				factor = 1.2
-				date > "1931.1.1"
+				date > "1942.1.1"
 			}
 			
 			modifier = {
 				factor = 1.2
-				date > "1932.1.1"
+				date > "1943.1.1"
 			}
 			
 			modifier = {
 				factor = 1.2
-				date > "1933.1.1"
+				date > "1944.1.1"
 			}
 			modifier = {
 				factor = 0
@@ -1670,7 +1729,7 @@ technologies = {
 		}
 	
 		research_cost = 0.5
-		start_year = 1930
+		start_year = 1941
 		
 		ai_will_do = {
 			factor = 0
@@ -1697,7 +1756,7 @@ technologies = {
 		}
 	
 		research_cost = 0.5
-		start_year = 1930
+		start_year = 1941
 		
 		ai_will_do = {
 			factor = 0
@@ -1725,7 +1784,7 @@ technologies = {
 		}
 	
 		research_cost = 0.5
-		start_year = 1930
+		start_year = 1941
 		
 		ai_will_do = {
 			factor = 0
@@ -1761,7 +1820,7 @@ technologies = {
 		}
 		
 		research_cost = 2.5
-		start_year = 1932
+		start_year = 1943
 		
 		folder = {
 			name = armour_folder
@@ -1779,17 +1838,17 @@ technologies = {
 			
 			modifier = {
 				factor = 1.2
-				date > "1933.1.1"
+				date > "1944.1.1"
 			}
 			
 			modifier = {
 				factor = 1.2
-				date > "1934.1.1"
+				date > "1945.1.1"
 			}
 			
 			modifier = {
 				factor = 1.2
-				date > "1935.1.1"
+				date > "1946.1.1"
 			}
 		}
 		
@@ -1806,7 +1865,7 @@ technologies = {
 		}
 	
 		research_cost = 0.5
-		start_year = 1932
+		start_year = 1943
 		
 		ai_will_do = {
 			factor = 0
@@ -1833,7 +1892,7 @@ technologies = {
 		}
 	
 		research_cost = 0.5
-		start_year = 1932
+		start_year = 1943
 		
 		ai_will_do = {
 			factor = 0
@@ -1860,7 +1919,7 @@ technologies = {
 		}
 	
 		research_cost = 0.5
-		start_year = 1932
+		start_year = 1943
 		
 		ai_will_do = {
 			factor = 0
@@ -1885,9 +1944,13 @@ technologies = {
 		enable_equipments = {
 			super_heavy_tank_equipment_1
 		}
+
+		enable_subunits = {
+			super_heavy_armor
+		}
 	
 		research_cost = 2.5
-		start_year = 1932
+		start_year = 1943
 		folder = {
 			name = armour_folder
 			position = { x = 8 y = 10 }
@@ -1914,9 +1977,13 @@ technologies = {
 		enable_equipments = {
 			super_heavy_tank_destroyer_equipment_1
 		}
+
+		enable_subunits = {
+			super_heavy_tank_destroyer_brigade
+		}
 	
 		research_cost = 0.5
-		start_year = 1932
+		start_year = 1943
 		
 		ai_will_do = {
 			factor = 0
@@ -1932,9 +1999,13 @@ technologies = {
 		enable_equipments = {
 			super_heavy_tank_artillery_equipment_1
 		}
+
+		enable_subunits = {
+			super_heavy_sp_artillery_brigade
+		}
 	
 		research_cost = 0.5
-		start_year = 1932
+		start_year = 1943
 		
 		ai_will_do = {
 			factor = 0
@@ -1950,9 +2021,12 @@ technologies = {
 		enable_equipments = {
 			super_heavy_tank_aa_equipment_1
 		}
+		enable_subunits = {
+			super_heavy_sp_anti_air_brigade
+		}
 	
 		research_cost = 0.5
-		start_year = 1932
+		start_year = 1943
 		
 		ai_will_do = {
 			factor = 0

@@ -1,4 +1,6 @@
 version="0.1"
+
+
 tags={
 	"Alternative History"
 	"National Focuses"
@@ -7,4 +9,4 @@ tags={
 	"Gameplay"
 }
 name="Divergences"
-supported_version="1.8.*.*"
+supported_version="1.9.*.*"

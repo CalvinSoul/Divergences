@@ -24,9 +24,10 @@
 #	num_parents_needed = -1 # integer, -1 means "all"
 #	gui_row = -1 # integer, starts at 0, -1 means auto
 #	gui_column = -1 # integer, starts at 0, -1 means auto
-#	allowed = trigger # scope is an unit leader
+#	allowed = trigger # scope is a unit leader
 #	prerequisites = trigger # scope is an unit leader
 #	gain_xp = trigger # scope is a combatant
+#	gain_xp_leader = trigger # scope is a unit leader. ROOT is country you are from and FROM is any target nationality for agents
 #	gain_xp_on_spotting = 0 # integer
 #	modifier = { } # list of modifiers
 #	non_shared_modifier = {} #
@@ -51,186 +52,7 @@
 #}
 leader_traits = {
 
-##################
-#Political Traits#
-#################
-###Land###
-	political_opportunist = {
-		type = all
-		trait_type = personality_trait
-		modifier = {}
-		new_commander_weight = {
-			factor = 0  # Scripted starting leaders only
-		}
-	}
-
-	political_loyalist = {
-		type = all
-		trait_type = personality_trait
-		modifier = {}
-		new_commander_weight = {
-			factor = 1000  # Scripted starting leaders only
-		}
-	}
 	
-	political_blanquism = {
-		type = all
-		trait_type = personality_trait
-		modifier = {}
-		new_commander_weight = {
-			factor = 0  # Scripted starting leaders only
-		}
-	}
-	
-	political_egalitarianism = {
-		type = all
-		trait_type = personality_trait
-		modifier = {}
-		new_commander_weight = {
-			factor = 0  # Scripted starting leaders only
-		}
-	}
-	
-	political_libertarianism = {
-		type = all
-		trait_type = personality_trait
-		modifier = {}
-		new_commander_weight = {
-			factor = 0  # Scripted starting leaders only
-		}
-	}
-	
-	political_progressivism = {
-		type = all
-		trait_type = personality_trait
-		modifier = {}
-		new_commander_weight = {
-			factor = 0  # Scripted starting leaders only
-		}
-	}
-	
-	political_commercialism = {
-		type = all
-		trait_type = personality_trait
-		modifier = {}
-		new_commander_weight = {
-			factor = 0  # Scripted starting leaders only
-		}
-	}
-	
-	political_conservativism = {
-		type = all
-		trait_type = personality_trait
-		modifier = {}
-		new_commander_weight = {
-			factor = 0  # Scripted starting leaders only
-		}
-	}
-	
-	political_paternalism = {
-		type = all
-		trait_type = personality_trait
-		modifier = {}
-		new_commander_weight = {
-			factor = 0  # Scripted starting leaders only
-		}
-	}
-	
-	political_reactionism = {
-		type = all
-		trait_type = personality_trait
-		modifier = {}
-		new_commander_weight = {
-			factor = 0  # Scripted starting leaders only
-		}
-	}
-	
-	political_ultra_nationalism = {
-		type = all
-		trait_type = personality_trait
-		modifier = {}
-		new_commander_weight = {
-			factor = 0  # Scripted starting leaders only
-		}
-	}
-	
-	political_hierarchism = {
-		type = all
-		trait_type = personality_trait
-		modifier = {}
-		new_commander_weight = {
-			factor = 0  # Scripted starting leaders only
-		}
-	}
-	###Land Family Traits
-	royal_family_army = {
-		type = land
-		trait_type = personality_trait
-		modifier = {
-			
-		}
-		non_shared_modifier = {
-			promote_cost_factor = -0.5
-			experience_gain_factor = -0.25
-		}
-		new_commander_weight = {
-			factor = 0  # Scripted starting leaders only
-		}
-	}
-	aristocratic_family_army = {
-		type = land
-		trait_type = personality_trait
-		modifier = {
-			
-		}
-		non_shared_modifier = {
-			promote_cost_factor = -0.25
-			experience_gain_factor = -0.1
-		}
-		new_commander_weight = {
-			factor = 0  # Scripted starting leaders only
-		}
-	}
-	military_family_army = {
-		type = land
-		trait_type = personality_trait
-		modifier = {
-			planning_speed = 0.1
-		}
-		non_shared_modifier = {
-			promote_cost_factor = -0.1
-		}
-		new_commander_weight = {
-			factor = 0  # Scripted starting leaders only
-		}
-	}
-	commoner_family_army = {
-		type = land
-		trait_type = personality_trait
-		modifier = {
-			
-		}
-		non_shared_modifier = {
-			experience_gain_factor = 0.1
-		}
-		new_commander_weight = {
-			factor = 0  # Scripted starting leaders only
-		}
-	}
-
-	#Naval Traits
-	naval_lineage = { 
-		type = navy
-		trait_type = personality_trait
-		
-		modifier = {
-			naval_retreat_chance = -0.25
-			ships_at_battle_start = 0.25
-		}
-		ai_will_do = {
-			factor = 1
-		}
-	}
 ##################################
 # Common Traits
 ##################################
@@ -244,9 +66,6 @@ leader_traits = {
 		
 		non_shared_modifier = {
 			experience_gain_factor = -0.25
-		}
-		new_commander_weight = {
-			factor = 0  # Scripted starting leaders only
 		}
 	}
 	
@@ -275,7 +94,7 @@ leader_traits = {
 	}
 	
 	politically_connected = { 
-		type = all
+		type = { land navy }
 		trait_type = personality_trait
 		
 		non_shared_modifier = {
@@ -288,7 +107,7 @@ leader_traits = {
 	}
 
 	war_hero = { 
-		type = all
+		type = { land navy }
 		trait_type = personality_trait
 		
 		non_shared_modifier = {
@@ -302,6 +121,18 @@ leader_traits = {
 		attack_skill_factor = 1
 		planning_skill_factor = 1
 	}
+	
+	career_officer = { 
+		type = land
+		trait_type = personality_trait
+		
+		non_shared_modifier = {
+			promote_cost_factor = -0.25
+		}
+		
+		planning_skill_factor = 1
+		logistics_skill_factor = 1
+	}
 
 	trait_cautious = { 
 		type = land
@@ -311,6 +142,17 @@ leader_traits = {
 			planning_speed = -0.20
 			wounded_chance_factor = -0.5
 		}
+		
+		
+		new_commander_weight = {
+			factor = 1
+			
+			modifier = {
+				has_trait = trait_reckless
+				factor = 0 
+			}
+		}
+		
 		
 		defense_skill_factor = 1
 		logistics_skill_factor = 1
@@ -323,6 +165,15 @@ leader_traits = {
 		modifier = {
 			planning_speed = 0.20
 			wounded_chance_factor = 0.5  # +50% chance to get wounded
+		}
+		
+		new_commander_weight = {
+			factor = 1
+			
+			modifier = {
+				has_trait = trait_cautious
+				factor = 0 
+			}
 		}
 		
 		attack_skill_factor = 1
@@ -356,19 +207,19 @@ leader_traits = {
 		logistics_skill_factor = 1
 	}
 
-#	bearer_of_artillery = {
-#		type = corps_commander
-#		
-#		trait_type = personality_trait
-#		
-#		modifier = {
-#			army_artillery_attack_factor = 0.15
-#		}
-#		
-#		new_commander_weight = {
-#			factor = 0
-#		}
-#	}
+	bearer_of_artillery = {
+		type = corps_commander
+		
+		trait_type = personality_trait
+		
+		modifier = {
+			army_artillery_attack_factor = 0.15
+		}
+		
+		new_commander_weight = {
+			factor = 0
+		}
+	}
 	
 	infantry_officer = { 
 		type = land
@@ -406,27 +257,7 @@ leader_traits = {
 		attack_skill_factor = 1
 		planning_skill_factor = 1
 	}
-
-	inspirational_leader = { 
-		type = land
-		trait_type = personality_trait
-
-		modifier = {
-			army_morale_factor = 0.10
-		}
-		
-	}
-	uninspirational_leader = { 
-		type = land
-		trait_type = personality_trait
-
-		modifier = {
-			army_morale_factor = -0.10
-		}
-		
-	}
-
-
+	
 ##################################
 # Field Marshal traits.
 ##################################
@@ -439,7 +270,7 @@ leader_traits = {
 		cost = 1000
 		
 		field_marshal_modifier = {
-			supply_consumption_factor = -0.20
+			supply_consumption_factor = -0.15
 		}
 		enable_ability = extra_suplies
 		ai_will_do = {
@@ -457,7 +288,7 @@ leader_traits = {
 		}
 		cost = 1000
 		field_marshal_modifier = {
-			org_loss_when_moving = -0.50
+			org_loss_when_moving = -0.30
 		}
 		
 		attack_skill = 1
@@ -496,7 +327,7 @@ leader_traits = {
 		}
 		cost = 1000
 		field_marshal_modifier = {
-			planning_speed = 0.10
+			planning_speed = 0.25
 		}
 		
 		ai_will_do = {
@@ -564,7 +395,8 @@ leader_traits = {
 			has_trait = brilliant_strategist
 		}
 		cost = 1000
-		modifier = {
+		field_marshal_modifier = {
+			breakthrough_factor = 0.10
 		}
 		custom_effect_tooltip = INCREASED_ASSAULT_AND_SHOCK_CHANCE
 		ai_will_do = {
@@ -594,6 +426,23 @@ leader_traits = {
 		gui_row = 7
 	}
 
+	inspirational_leader = { 
+		type = field_marshal
+		gain_xp = {
+			always = no # not gainable
+		}
+		cost = 1000
+		field_marshal_modifier = {
+			army_morale_factor = 0.10
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+		trait_type = assignable_trait
+		gui_row = 8
+	}
+
 	expert_delegator = { 
 		type = field_marshal
 		gain_xp = {
@@ -612,6 +461,8 @@ leader_traits = {
 		parent = skilled_staffer
 		gui_row = 15
 	}
+
+
 ##################################
 # Corps Commander traits.
 ##################################
@@ -649,9 +500,9 @@ leader_traits = {
 		
 		cost = 1000
 		modifier = {
-			cavalry_attack_factor = 0.15
-			motorized_attack_factor = 0.15
-			mechanized_attack_factor = 0.15
+			cavalry_attack_factor = 0.10
+			motorized_attack_factor = 0.10
+			mechanized_attack_factor = 0.10
 		}
 		
 		ai_will_do = {
@@ -672,7 +523,7 @@ leader_traits = {
 		
 		cost = 1000
 		modifier = {
-			army_infantry_defence_factor = 0.15
+			army_infantry_defence_factor = 0.10
 		}
 		
 		ai_will_do = {
@@ -749,7 +600,7 @@ leader_traits = {
 		}
 		cost = 1000
 		modifier = {
-			terrain_penalty_reduction = 0.5
+			terrain_penalty_reduction = 0.30
 			acclimatization_cold_climate_gain_factor = 0.1
 			acclimatization_hot_climate_gain_factor = 0.1
 		}
@@ -781,7 +632,7 @@ leader_traits = {
 		}
 
 		modifier = {
-			acclimatization_cold_climate_gain_factor = 0.2
+			acclimatization_cold_climate_gain_factor = 0.40
 		}
 		
 		ai_will_do = {
@@ -806,7 +657,7 @@ leader_traits = {
 		cost = 700
 		modifier = {
 			river = {
-				attack = 0.1
+				attack = 0.05
 			}
 			fort = {
                 attack = 0.1
@@ -856,7 +707,7 @@ leader_traits = {
 		}
 		cost = 700
 		modifier = {
-			out_of_supply_factor = -0.5
+			out_of_supply_factor = -0.25
 		}
 		
 		ai_will_do = {
@@ -1032,7 +883,7 @@ leader_traits = {
 	}
 	
 ##################################
-# Corps Commander assignabme traits.
+# Corps Commander assignable traits.
 ##################################
 
 
@@ -1043,7 +894,7 @@ leader_traits = {
 		}
 		cost = 1000
 		modifier = {
-			army_armor_defence_factor = 0.15 
+			army_armor_defence_factor = 0.10 
 		}
 		
 		custom_effect_tooltip = INCREASED_BLITZ_AND_ENCIRCLEMENT_CHANCE
@@ -1096,8 +947,8 @@ leader_traits = {
 		}
 		cost = 500
 		modifier = {
-			cavalry_attack_factor = 0.10
-			cavalry_defence_factor = 0.15
+			#cavalry_attack_factor = 0.10
+			cavalry_defence_factor = 0.10
 		}
 		
 		ai_will_do = {
@@ -1124,7 +975,7 @@ leader_traits = {
 		cost = 700
 		modifier = {
 			fort = {
-				attack = 0.2
+				attack = 0.15
 			}
 		}
 		enable_ability = siege_artillery
@@ -1168,7 +1019,7 @@ leader_traits = {
 		}
 		cost = 500
 		modifier = {
-			army_infantry_attack_factor = 0.15
+			army_infantry_attack_factor = 0.10
 		}
 		
 		ai_will_do = {
@@ -1189,7 +1040,7 @@ leader_traits = {
 		}
 		cost = 500
 		modifier = {
-			max_dig_in = 10
+			max_dig_in = 5
 			recon_factor_while_entrenched = 0.25
 		}
 		
@@ -1368,7 +1219,7 @@ leader_traits = {
 		}
 		cost = 500
 		modifier = {
-			dig_in_speed_factor = 0.25
+			dig_in_speed_factor = 0.5
 		}
 		
 		ai_will_do = {
@@ -1498,9 +1349,11 @@ leader_traits = {
 	ironside = {
 		type = navy
 		gain_xp = {
-			capital_ship > 0.0
-			opponent = {
+			OR = {
 				capital_ship > 0.0
+				opponent = {
+					capital_ship > 0.0
+				}
 			}
 		}
 		custom_gain_xp_trigger_tooltip = IRONSIDE_TRIGGER_TT
@@ -1545,7 +1398,7 @@ leader_traits = {
 	silent_hunter = { 
 		type = navy
 		modifier = {
-			naval_torpedo_reveal_chance_factor = -0.20
+			naval_torpedo_reveal_chance_factor = -0.15
 		}
 
 		ai_will_do = {
@@ -2144,6 +1997,18 @@ leader_traits = {
 			factor = 1
 		}
 	}
+	navy_career_officer = { 
+		type = navy
+		trait_type = personality_trait
+		
+		modifier = {
+			experience_gain_factor = 0.1	
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
 	battleship_adherent = { 
 		type = navy
 		trait_type = personality_trait
@@ -2194,6 +2059,19 @@ leader_traits = {
 			factor = 1
 		}
 	}
+	naval_lineage = { 
+		type = navy
+		trait_type = personality_trait
+		
+		modifier = {
+			naval_retreat_chance = -0.25
+			ships_at_battle_start = 0.25
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
 ##################################
 # status traits
 ##################################
@@ -2214,6 +2092,16 @@ leader_traits = {
 		
 		non_shared_modifier = {
 			skill_bonus_factor = -0.5
+			cannot_use_abilities = 1
+		}
+	}
+
+	reassigned = { 
+		type = all
+		trait_type = status_trait
+		
+		non_shared_modifier = {
+			skill_bonus_factor = -1
 			cannot_use_abilities = 1
 		}
 	}
@@ -2312,32 +2200,298 @@ leader_traits = {
 		}
 	}
 
-	#############
-	#Dumb Traits#
-	#############
-	#navy_career_officer = { 
-	#	type = navy
-	#	trait_type = personality_trait
-	#	
-	#	modifier = {
-	#		experience_gain_factor = 0.1	
-	#	}
-	#	
-	#	ai_will_do = {
-	#		factor = 1
-	#	}
-	#}
-	#career_officer = { 
-	#	type = land
-	#	trait_type = personality_trait
-	#	
-	#	non_shared_modifier = {
-	#		promote_cost_factor = -0.25
-	#	}
-	#	
-	#	planning_skill_factor = 1
-	#	logistics_skill_factor = 1
-	#}
+	trait_SPA_nationalist_sympathies = {
+
+		type = all
+		trait_type = personality_trait
+
+		new_commander_weight = {
+			factor = 0
+		}
+	}
+
+	trait_SPA_falangist_loyalties = {
+
+		type = all
+		trait_type = personality_trait
+
+		new_commander_weight = {
+			factor = 0
+		}
+	}
+
+	trait_SPA_carlist_loyalties = {
+
+		type = all
+		trait_type = personality_trait
+
+		new_commander_weight = {
+			factor = 0
+		}
+	}
+
+	trait_SPR_republican_loyalties = {
+
+		type = all
+		trait_type = personality_trait
+
+		new_commander_weight = {
+			factor = 0
+		}
+	}
+
+	trait_SPR_stalinist_loyalties = {
+
+		type = all
+		trait_type = personality_trait
+
+		new_commander_weight = {
+			factor = 0
+		}
+	}
+
+	trait_SPR_anti_stalinist_loyalties = {
+
+		type = all
+		trait_type = personality_trait
+
+		new_commander_weight = {
+			factor = 0
+		}
+	}
+
+##################################
+# operative traits
+##################################
+
+	operative_commando = {
+		type = operative
+		trait_type = basic_trait
+
+		new_commander_weight = {
+			base = 1
+			modifier = {
+				set_temp_variable = {
+					trait_chance = FROM.modifier@commando_trait_chance_factor
+				}
+				add_to_temp_variable = {
+					var = trait_chance
+					value = 1
+				}
+				factor = trait_chance
+			}
+
+			modifier = {
+				factor = 0.2
+				FROM = {
+					NOT = { has_done_agency_upgrade = upgrade_commando_training }
+				}
+			}
+		}
+
+		cost = 600
+		gain_xp_leader = {
+			ROOT = {
+				has_done_agency_upgrade = upgrade_commando_training
+			}
+		}
+
+		modifier = {
+			own_operative_detection_chance_factor = -0.1
+			target_sabotage_factor = 0.25
+			target_sabotage_risk = -0.25
+			operation_capture_cipher_outcome = 0.25
+			operation_capture_cipher_risk = -0.25
+		}
+	}
+
+	operative_seducer = {
+		type = operative
+		trait_type = personality_trait
+
+		#new_commander_weight = {
+		#}
+
+		modifier = { 
+			operation_infiltrate_outcome = 0.25
+			operation_infiltrate_risk = -0.25
+			own_operative_detection_chance_factor = -0.2
+		}
+	}
+
+	operative_infiltrator = {
+		type = operative
+		trait_type = basic_trait
+
+		new_commander_weight = {
+			factor = 0.5
+		}
+
+		cost = 400
+		gain_xp_leader = {
+			OR = {
+				operative_leader_operation = operation_rescue_operative
+				operative_leader_operation = operation_infiltrate_civilian
+				operative_leader_operation = operation_infiltrate_armed_forces_army
+				operative_leader_operation = operation_infiltrate_armed_forces_navy
+				operative_leader_operation = operation_infiltrate_armed_forces_airforce
+				operative_leader_operation = operation_make_resistance_contacts
+			}
+		}
+
+		modifier = { 
+			operation_infiltrate_outcome = 0.25
+			operation_infiltrate_risk = -0.25
+		}
+	}
+
+	operative_master_interrogator = {
+		type = operative
+		trait_type = basic_trait
+
+		#new_commander_weight = {
+		#}
+
+		cost = 400
+		gain_xp_leader = {
+			OR = {
+				operative_leader_mission = root_out_resistance
+				operative_leader_mission = counter_intelligence
+			}
+		}
+
+		modifier = {
+			intelligence_agency_defense = 0.2
+		}
+	}
+
+	operative_linguist = {
+		type = operative
+		trait_type = basic_trait
+
+		#new_commander_weight = {
+		#}
+
+		cost = 400
+		gain_xp_leader = {
+			NOT = { operative_leader_mission = no_mission }
+			NOT = { has_nationality = FROM }
+		}
+
+		modifier = {
+			# something good
+		}
+	}
+
+	operative_double_agent = {
+		type = operative
+		trait_type = personality_trait
+
+		new_commander_weight = {
+			factor = 0 # only from events
+		}
+
+		modifier = {
+			# something good
+		}
+	}
+
+	operative_tough = {
+		type = operative
+		trait_type = personality_trait
+
+		#new_commander_weight = {
+		#}
+
+		modifier = {
+			enemy_operative_intel_extraction_rate = -0.5
+		}
+	}
+
+	operative_safe_cracker = {
+		type = operative
+		trait_type = personality_trait
+
+		new_commander_weight = {
+			factor = 0.5
+		}
+
+		modifier = {
+			operation_capture_cipher_outcome = 0.25
+			operation_steal_tech_risk = -0.25
+			operation_steal_tech_outcome = 0.25
+		}
+	}
+
+	operative_well_groomed = {
+		type = operative
+		trait_type = basic_trait
+
+		#new_commander_weight = {
+		#}
+
+		cost = 400
+		gain_xp_leader = {
+			OR = {
+				operative_leader_mission = diplomatic_pressure
+				operative_leader_mission = control_trade
+			}
+		}
+
+		modifier = {
+			control_trade_mission_factor = 0.2
+			diplomatic_pressure_mission_factor = 0.2
+		}
+	}
+
+	operative_natural_orator = {
+		type = operative
+		trait_type = basic_trait
+
+		gain_xp_leader = {
+			OR = {
+				operative_leader_mission = propaganda
+				operative_leader_mission = boost_ideology
+			}
+		}
+		
+		cost = 400
+		modifier = {
+			operation_coup_government_risk = -0.25
+			operation_coup_government_cost = -0.25
+			boost_ideology_mission_factor = 0.2
+		}
+	}
+
+	operative_escape_artist = {
+		type = operative
+		trait_type = basic_trait
+		#gained through script when successfully executing an escape operation
+		modifier = {
+			operation_rescue_operative_risk = -0.1
+			operation_rescue_operative_cost = -0.1
+		}
+	}
+
+	operative_demolition_expert = {
+		type = operative
+		trait_type = basic_trait
+
+		cost = 400
+		gain_xp_leader = {
+			OR = {
+				operative_leader_operation = operation_targeted_sabotage_industry
+				operative_leader_operation = operation_targeted_sabotage_infrastructure
+				operative_leader_operation = operation_targeted_sabotage_resources
+			}
+		}
+
+		modifier = {
+			target_sabotage_factor = 0.25
+			target_sabotage_cost = -0.25
+			boost_resistance_factor = 0.25
+		}
+	}
+
 
 }
-

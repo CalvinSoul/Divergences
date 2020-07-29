@@ -28,7 +28,7 @@ technologies = {
 		}		
 
 		research_cost = 1.5
-		start_year = 1907
+		start_year = 1918
 		folder = {
 			name = infantry_folder
 			position = { x = 0 y = -1 }
@@ -55,7 +55,7 @@ technologies = {
 		}		
 
 		research_cost = 1.5
-		start_year = 1925
+		start_year = 1936
 		folder = {
 			name = infantry_folder
 			position = { x = 0 y = @1936 }
@@ -73,14 +73,14 @@ technologies = {
 				tag = CHI
 				
 				OR = {
-					date > "1926.1.1"
+					date > "1937.1.1"
 					JAP = { is_ai = no }
 				}
 			}
 			
 			modifier = {
 				factor = 10
-				date > "1925.1.3"
+				date > "1936.1.3"
 			}
 		}
 	}	
@@ -112,7 +112,7 @@ technologies = {
 		}		
 
 		research_cost = 1.5
-		start_year = 1927
+		start_year = 1938
 		folder = {
 			name = infantry_folder
 			position = { x = 0 y = @1938 }
@@ -141,7 +141,7 @@ technologies = {
 
 			modifier = {
 				factor = 5
-				date > "1928.1.1"
+				date > "1939.1.1"
 			}
 		}
 	}
@@ -162,7 +162,7 @@ technologies = {
 		}		
 
 		research_cost = 2
-		start_year = 1928
+		start_year = 1939
 		folder = {
 			name = infantry_folder
 			position = { x = 0 y = @1939 }
@@ -177,7 +177,7 @@ technologies = {
 						
 			modifier = {
 				factor = 10
-				date > "1928.1.1"
+				date > "1939.1.1"
 			}
 			modifier = {
 				num_of_military_factories < 50
@@ -187,9 +187,9 @@ technologies = {
 				factor = 0
 				tag = SOV
 				OR = {
-					date < "1933.1.1" # stock up on lots of rifles, we got the manpower
+					date < "1944.1.1" # stock up on lots of rifles, we got the manpower
 					AND = {
-						date > "1932.1.1"
+						date > "1943.1.1"
 						surrender_progress < 0.1 # if we arent losing badly its ok
 					}
 				}				
@@ -223,7 +223,7 @@ technologies = {
 		}
 
 		research_cost = 2
-		start_year = 1929
+		start_year = 1940
 		folder = {
 			name = infantry_folder
 			position = { x = 0 y = @1940 }
@@ -238,17 +238,17 @@ technologies = {
 			
 			modifier = {
 				factor = 2
-				date > "1929.1.6"
+				date > "1940.1.6"
 			}
 			
 			modifier = {
 				factor = 2
-				date > "1930.1.1"
+				date > "1941.1.1"
 			}
 			
 			modifier = {
 				factor = 5
-				date > "1931.1.1"
+				date > "1942.1.1"
 			}
 		}
 	}
@@ -266,7 +266,7 @@ technologies = {
 		}
 
 		research_cost = 1.5
-		start_year = 1931
+		start_year = 1942
 		folder = {
 			name = infantry_folder
 			position = { x = 2 y = @1942 }
@@ -281,17 +281,17 @@ technologies = {
 			
 			modifier = {
 				factor = 2
-				date > "1931.1.6"
+				date > "1942.1.6"
 			}
 			
 			modifier = {
 				factor = 2
-				date > "1932.1.1"
+				date > "1943.1.1"
 			}
 			
 			modifier = {
 				factor = 2
-				date > "1933.1.1"
+				date > "1944.1.1"
 			}
 		}
 	}
@@ -304,7 +304,7 @@ technologies = {
 		}
 		
 		research_cost = 1.5
-		start_year = 1932
+		start_year = 1943
 		folder = {
 			name = infantry_folder
 			position = { x = 2 y = @1943 }
@@ -319,17 +319,17 @@ technologies = {
 			
 			modifier = {
 				factor = 2
-				date > "1932.1.6"
+				date > "1943.1.6"
 			}
 			
 			modifier = {
 				factor = 2
-				date > "1933.1.1"
+				date > "1944.1.1"
 			}
 			
 			modifier = {
 				factor = 2
-				date > "1934.1.1"
+				date > "1945.1.1"
 			}
 		}
 	}
@@ -346,7 +346,7 @@ technologies = {
 		}
 
 		research_cost = 2
-		start_year = 1931
+		start_year = 1942
 		folder = {
 			name = infantry_folder
 			position = { x = 0 y = @1942 }
@@ -397,7 +397,7 @@ technologies = {
 		}		
 
 		research_cost = 1.5
-		start_year = 1933
+		start_year = 1944
 		folder = {
 			name = infantry_folder
 			position = { x = 0 y = @1944 }
@@ -412,17 +412,17 @@ technologies = {
 			
 			modifier = {
 				factor = 2
-				date > "1933.1.6"
+				date > "1944.1.6"
 			}
 			
 			modifier = {
 				factor = 2
-				date > "1934.1.1"
+				date > "1945.1.1"
 			}
 			
 			modifier = {
 				factor = 2
-				date > "1935.1.1"
+				date > "1946.1.1"
 			}
 		}
 	}
@@ -439,10 +439,10 @@ technologies = {
 		}
 
 		research_cost = 2
-		start_year = 1925
+		start_year = 1936
 		folder = {
 			name = infantry_folder
-			position = { x = 1 y = @1936 }
+			position = { x = 2 y = @1936 }
 		}
 		
 		on_research_complete = {
@@ -494,10 +494,10 @@ technologies = {
 		}
 
 		research_cost = 1.5
-		start_year = 1928
+		start_year = 1939
 		folder = {
 			name = infantry_folder
-			position = { x = 1 y = @1939 }
+			position = { x = 2 y = @1939 }
 		}
 		
 		categories = {
@@ -532,10 +532,10 @@ technologies = {
 		
 
 		research_cost = 2.0
-		start_year = 1932
+		start_year = 1943
 		folder = {
 			name = infantry_folder
-			position = { x = 1 y = @1943 }
+			position = { x = 2 y = @1943 }
 		}
 		
 		categories = {
@@ -586,10 +586,10 @@ technologies = {
 		}
 
 		research_cost = 2
-		start_year = 1925
+		start_year = 1936
 		folder = {
 			name = infantry_folder
-			position = { x = 1 y = @1936 }
+			position = { x = 3 y = @1936 }
 		}
 		
 		categories = {
@@ -624,10 +624,10 @@ technologies = {
 		
 
 		research_cost = 1.5
-		start_year = 1928
+		start_year = 1939
 		folder = {
 			name = infantry_folder
-			position = { x = 1 y = @1939 }
+			position = { x = 3 y = @1939 }
 		}
 		
 		categories = {
@@ -656,10 +656,10 @@ technologies = {
 		}
 
 		research_cost = 2.0
-		start_year = 1932
+		start_year = 1943
 		folder = {
 			name = infantry_folder
-			position = { x = 1 y = @1943 }
+			position = { x = 3 y = @1943 }
 		}
 		
 		categories = {
@@ -705,10 +705,10 @@ technologies = {
 		}
 
 		research_cost = 2
-		start_year = 1925
+		start_year = 1936
 		folder = {
 			name = infantry_folder
-			position = { x = 1 y = @1936 }
+			position = { x = 5 y = @1936 }
 		}
 		
 		categories = {
@@ -734,10 +734,10 @@ technologies = {
 
 
 		research_cost = 1.5
-		start_year = 1928
+		start_year = 1939
 		folder = {
 			name = infantry_folder
-			position = { x = 1 y = @1939 }
+			position = { x = 5 y = @1939 }
 		}
 		
 		categories = {
@@ -756,10 +756,10 @@ technologies = {
 		}
 
 		research_cost = 2.0
-		start_year = 1932
+		start_year = 1943
 		folder = {
 			name = infantry_folder
-			position = { x = 1 y = @1943 }
+			position = { x = 5 y = @1943 }
 		}
 		
 		categories = {
@@ -797,10 +797,10 @@ technologies = {
 		}
 
 		research_cost = 2
-		start_year = 1927
+		start_year = 1938
 		folder = {
 			name = infantry_folder
-			position = { x = 2 y = @1938 }
+			position = { x = 4 y = @1938 }
 		}
 		
 		categories = {
@@ -833,10 +833,10 @@ technologies = {
 		}
 
 		research_cost = 2
-		start_year = 1929
+		start_year = 1940
 		folder = {
 			name = infantry_folder
-			position = { x = 1 y = @1940 }
+			position = { x = 3 y = @1940 }
 		}
 		
 		categories = {
@@ -864,10 +864,10 @@ technologies = {
 		}
 
 		research_cost = 2
-		start_year = 1929
+		start_year = 1940
 		folder = {
 			name = infantry_folder
-			position = { x = 3 y = @1940 }
+			position = { x = 5 y = @1940 }
 		}
 		
 		categories = {
@@ -898,10 +898,10 @@ technologies = {
 		}
 
 		research_cost = 2
-		start_year = 1931
+		start_year = 1942
 		folder = {
 			name = infantry_folder
-			position = { x = 1 y = @1942 }
+			position = { x = 3 y = @1942 }
 		}
 		
 		categories = {
@@ -931,10 +931,10 @@ technologies = {
 		}
 
 		research_cost = 2
-		start_year = 1931
+		start_year = 1942
 		folder = {
 			name = infantry_folder
-			position = { x = 3 y = @1942 }
+			position = { x = 5 y = @1942 }
 		}
 		
 		categories = {
@@ -960,10 +960,10 @@ technologies = {
 		special_forces_no_supply_grace = 48
 
 		research_cost = 2
-		start_year = 1933
+		start_year = 1944
 		folder = {
 			name = infantry_folder
-			position = { x = 2 y = @1944 }
+			position = { x = 4 y = @1944 }
 		}
 		
 		categories = {
@@ -1047,7 +1047,7 @@ technologies = {
 		}
 
 		research_cost = 2.5
-		start_year = 1932
+		start_year = 1943
 		folder = {
 			name = infantry_folder
 			position = { x = 0 y = @1943 }
@@ -1062,22 +1062,22 @@ technologies = {
 			
 			modifier = {
 				factor = 2
-				date > "1931.1.9"
+				date > "1942.1.9"
 			}
 			
 			modifier = {
 				factor = 2
-				date > "1932.1.1"
+				date > "1943.1.1"
 			}
 			
 			modifier = {
 				factor = 5
-				date > "1932.1.6"
+				date > "1943.1.6"
 			}
 			
 			modifier = {
 				factor = 5
-				date > "1935.1.1"
+				date > "1946.1.1"
 			}
 		}
 	}
@@ -1087,7 +1087,7 @@ technologies = {
 		land_night_attack = 0.15	
 
 		research_cost = 2
-		start_year = 1935
+		start_year = 1946
 		folder = {
 			name = infantry_folder
 			position = { x = 0 y = @1946 }
@@ -1102,17 +1102,17 @@ technologies = {
 			
 			modifier = {
 				factor = 2
-				date > "1934.1.9"
+				date > "1945.1.9"
 			}
 			
 			modifier = {
 				factor = 2
-				date > "1935.1.1"
+				date > "1946.1.1"
 			}
 			
 			modifier = {
 				factor = 5
-				date > "1935.1.6"
+				date > "1946.1.6"
 			}
 		}
 	}
@@ -1162,7 +1162,7 @@ technologies = {
 		}
 
 		research_cost = 1.5
-		start_year = 1907
+		start_year = 1918
 		folder = {
 			name = infantry_folder
 			position = { x = 0 y = @1918 }
@@ -1189,17 +1189,17 @@ technologies = {
 			}
 			modifier = {
 				factor = 2
-				date > "1926.1.1"
+				date > "1937.1.1"
 			}
 			
 			modifier = {
 				factor = 2
-				date > "1927.1.1"
+				date > "1938.1.1"
 			}
 			
 			modifier = {
 				factor = 2
-				date > "1928.1.1"
+				date > "1939.1.1"
 			}
 			modifier = {
 				has_war = yes
@@ -1253,7 +1253,7 @@ technologies = {
 		}
 
 		research_cost = 1.5
-		start_year = 1927
+		start_year = 1938
 		folder = {
 			name = infantry_folder
 			position = { x = 0 y = @1938 }
@@ -1281,22 +1281,22 @@ technologies = {
 			}
 			modifier = {
 				factor = 2
-				date > "1927.1.6"
+				date > "1938.1.6"
 			}
 			
 			modifier = {
 				factor = 2
-				date > "1928.1.1"
+				date > "1939.1.1"
 			}
 			
 			modifier = {
 				factor = 2
-				date > "1929.1.1"
+				date > "1940.1.1"
 			}
 			
 			modifier = {
 				factor = 2
-				date > "1930.1.1"
+				date > "1941.1.1"
 			}
 			modifier = {
 				has_war = yes
@@ -1350,7 +1350,7 @@ technologies = {
 		}
 		
 		research_cost = 1.5
-		start_year = 1929
+		start_year = 1940
 		folder = {
 			name = infantry_folder
 			position = { x = 0 y = @1940 }
@@ -1365,22 +1365,22 @@ technologies = {
 			
 			modifier = {
 				factor = 2
-				date > "1929.1.6"
+				date > "1940.1.6"
 			}
 			
 			modifier = {
 				factor = 2
-				date > "1930.1.1"
+				date > "1941.1.1"
 			}
 			
 			modifier = {
 				factor = 2
-				date > "1931.1.1"
+				date > "1942.1.1"
 			}
 			
 			modifier = {
 				factor = 2
-				date > "1932.1.1"
+				date > "1943.1.1"
 			}
 			modifier = {
 				has_war = yes
@@ -1429,7 +1429,7 @@ technologies = {
 		}
 		
 		research_cost = 1.5
-		start_year = 1931
+		start_year = 1942
 		folder = {
 			name = infantry_folder
 			position = { x = 0 y = @1942 }
@@ -1444,22 +1444,22 @@ technologies = {
 			
 			modifier = {
 				factor = 2
-				date > "1931.1.6"
+				date > "1942.1.6"
 			}
 			
 			modifier = {
 				factor = 2
-				date > "1932.1.1"
+				date > "1943.1.1"
 			}
 			
 			modifier = {
 				factor = 2
-				date > "1933.1.1"
+				date > "1944.1.1"
 			}
 			
 			modifier = {
 				factor = 2
-				date > "1934.1.1"
+				date > "1945.1.1"
 			}
 			modifier = {
 				has_war = yes
@@ -1495,8 +1495,13 @@ technologies = {
 			research_cost_coeff = 1
 		}
 
+		path = {
+			leads_to_tech = armored_car1
+			research_cost_coeff = 1
+		}
+
 		research_cost = 2
-		start_year = 1925
+		start_year = 1936
 		folder = {
 			name = infantry_folder
 			position = { x = 0 y = @1936 }
@@ -1521,17 +1526,17 @@ technologies = {
 			
 			modifier = {
 				factor = 2
-				date > "1926.1.1"
+				date > "1937.1.1"
 			}
 			
 			modifier = {
 				factor = 2
-				date > "1927.1.1"
+				date > "1938.1.1"
 			}
 			
 			modifier = {
 				factor = 2
-				date > "1928.1.1"
+				date > "1939.1.1"
 			}
 			modifier = {
 				is_major = no
@@ -1549,7 +1554,7 @@ technologies = {
 		}
 	
 		research_cost = 1.5
-		start_year = 1928
+		start_year = 1939
 		
 		ai_will_do = {
 			factor = 1
@@ -1565,6 +1570,189 @@ technologies = {
 		}
 	}
 	
+	armored_car1 = {
+
+		enable_subunits = {
+			armored_car
+		}
+
+		enable_equipments = {
+			gw_armored_car_equipment
+		}
+		allow_branch = { has_dlc = "La Resistance" }
+		path = {
+			leads_to_tech = armored_car2
+			research_cost_coeff = 1
+		}
+
+		research_cost = 2
+		start_year = 1914
+		folder = {
+			name = infantry_folder
+			position = { x = 4 y = @1936 }
+		}
+		
+		categories = {
+			motorized_equipment
+			armor
+		}
+		
+		ai_will_do = {
+			factor = 1
+			
+			modifier = {
+				factor = 2
+				date > "1937.1.1"
+			}
+			
+			modifier = {
+				factor = 2
+				date > "1938.1.1"
+			}
+			
+			modifier = {
+				factor = 2
+				date > "1939.1.1"
+			}
+			modifier = {
+				is_major = no
+				factor = 0.5
+			}
+		}
+	}
+
+	armored_car2 = {
+
+		enable_equipments = {
+			armored_car_equipment_1
+		}
+		
+		path = {
+			leads_to_tech = armored_car3
+			research_cost_coeff = 1
+		}
+
+		research_cost = 2
+		start_year = 1940
+		folder = {
+			name = infantry_folder
+			position = { x = 4 y = @1940 }
+		}
+		
+		categories = {
+			motorized_equipment
+			armor
+		}
+		
+		ai_will_do = {
+			factor = 1
+			
+			modifier = {
+				factor = 2
+				date > "1937.1.1"
+			}
+			
+			modifier = {
+				factor = 2
+				date > "1938.1.1"
+			}
+			
+			modifier = {
+				factor = 2
+				date > "1939.1.1"
+			}
+			modifier = {
+				is_major = no
+				factor = 0.5
+			}
+		}
+	}
+
+	armored_car3 = {
+
+		enable_equipments = {
+			armored_car_equipment_2
+		}
+
+		research_cost = 2
+		start_year = 1942
+		folder = {
+			name = infantry_folder
+			position = { x = 4 y = @1942 }
+		}
+		
+		categories = {
+			motorized_equipment
+			armor
+		}
+		
+		sub_technologies = {
+			armored_car_at_upgrade
+		}
+
+		ai_will_do = {
+			factor = 1
+			
+			modifier = {
+				factor = 2
+				date > "1937.1.1"
+			}
+			
+			modifier = {
+				factor = 2
+				date > "1938.1.1"
+			}
+			
+			modifier = {
+				factor = 2
+				date > "1939.1.1"
+			}
+			modifier = {
+				is_major = no
+				factor = 0.5
+			}
+		}
+	}
+
+	armored_car_at_upgrade = {
+
+		enable_equipments = {
+			armored_car_at_equipment
+		}
+
+		research_cost = 1
+		start_year = 1942
+		sub_tech_index = 1
+		
+		categories = {
+			motorized_equipment
+			armor
+		}
+
+		ai_will_do = {
+			factor = 1
+			
+			modifier = {
+				factor = 2
+				date > "1937.1.1"
+			}
+			
+			modifier = {
+				factor = 2
+				date > "1938.1.1"
+			}
+			
+			modifier = {
+				factor = 2
+				date > "1939.1.1"
+			}
+			modifier = {
+				is_major = no
+				factor = 0.5
+			}
+		}
+	}
+
 	mechanised_infantry = {
 
 		enable_equipments = {
@@ -1598,7 +1786,7 @@ technologies = {
 		}
 
 		research_cost = 2
-		start_year = 1929
+		start_year = 1940
 		folder = {
 			name = infantry_folder
 			position = { x = 0 y = @1940 }
@@ -1639,7 +1827,7 @@ technologies = {
 		}
 
 		research_cost = 2
-		start_year = 1930
+		start_year = 1941
 		folder = {
 			name = infantry_folder
 			position = { x = 2 y = @1941 }
@@ -1670,7 +1858,7 @@ technologies = {
 		
 
 		research_cost = 2
-		start_year = 1932
+		start_year = 1943
 		folder = {
 			name = infantry_folder
 			position = { x = 2 y = @1943 }
@@ -1700,7 +1888,7 @@ technologies = {
 		}
 
 		research_cost = 2
-		start_year = 1931
+		start_year = 1942
 		folder = {
 			name = infantry_folder
 			position = { x = 0 y = @1942 }
@@ -1729,7 +1917,7 @@ technologies = {
 		}
 
 		research_cost = 3
-		start_year = 1933
+		start_year = 1944
 		folder = {
 			name = infantry_folder
 			position = { x = 0 y = @1944 }
@@ -1754,7 +1942,7 @@ technologies = {
 		}
 
 		research_cost = 1
-		start_year = 1925
+		start_year = 1936
 
 		enable_subunits = {
 			bicycle_battalion
