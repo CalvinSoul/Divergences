@@ -2,16 +2,12 @@ state={
 	id=765
 	name="STATE_765"
 	provinces={
-		5188 8157 8211 8225 8240 10924 10938 10996 13195 
+
 	}
 	state_category = rural
 	manpower= 100
 	buildings_max_level_factor=1.000
 	history={
-		owner = TAW
-		add_core_of = TAW
-		buildings = {
-			infrastructure = 1
-		}
+
 	}
 }

@@ -16,7 +16,7 @@ KZN_RUS = {
 
 SIB_RUS = {
 	color = rgb{ 93	163	103 }
-	color_ui = rgb { 255 73 121 }
+	color_ui = rgb { 255 73  121 }
 }
 
 KZK_RUS = {
