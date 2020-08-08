@@ -15,6 +15,7 @@ state={
 		4883 4950 10030 10872 12799 
 	}
 
-	manpower=0
+	manpower=1
 	buildings_max_level_factor=1.000
+	state_category=town
 }

@@ -13,8 +13,9 @@ state={
 		victory_points = {
 			12642 25
 		}
+		
 	}
-	provinces={
+	provinces={ 
 		1809 4723 4760 4814 4830 4871 7780 11772 12570 12642 
 	}
 	manpower=439735

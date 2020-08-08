@@ -14,6 +14,7 @@ state={
 		1268 1344 4420 7436 8011 8067 8100 10278 10808 12734 
 	}
 
-	manpower=0
+	manpower=1
 	buildings_max_level_factor=1.000
+	state_category=town
 }
