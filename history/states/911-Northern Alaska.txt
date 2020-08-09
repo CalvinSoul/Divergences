@@ -1,21 +1,22 @@
+
 state={
 	id=911
 	name="STATE_911"
 
-	state_category = wasteland
-	
-	history = {
+	history={
 		owner = JAP
 		add_core_of = JAP
 		buildings = {
 			infrastructure = 0
+
 		}
+
 	}
-	impassable = yes
 
 	provinces={
-		1830 1872 3606 4678 7855 7869 7891 10703 13069 
+		1799 1830 1872 3606 7855 7869 7891 10548 12508 13069 
 	}
 	manpower=100
 	buildings_max_level_factor=1.000
+	state_category=wasteland
 }

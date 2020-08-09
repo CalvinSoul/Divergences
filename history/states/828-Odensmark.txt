@@ -8,15 +8,15 @@ state={
 		add_core_of = VIN
 		buildings = {
 			infrastructure = 5
-		}
-	}
 
-	impassable = yes
+		}
+
+	}
 
 	provinces={
-		2947 2976 4695 5239 7901 8962 10585 10721 13167 13168 13187 13188 13189 13190 13191 
+		2947 2976 4695 5239 8962 10585 10721 13167 13168 13187 13188 13189 13190 13191 
 	}
-	state_category = wasteland
 	manpower=17742
 	buildings_max_level_factor=1.000
+	state_category=wasteland
 }

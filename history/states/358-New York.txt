@@ -2,7 +2,7 @@
 state={
 	id=358
 	name="STATE_358"
-	
+
 	history={
 		owner = SEP
 		add_core_of = SEP
@@ -17,9 +17,9 @@ state={
 	}
 
 	provinces={
-		1436 3702 6717 9708 9721 11650 11680 11722 
+		1436 6717 6916 9708 9721 9754 11650 11722 
 	}
 	manpower=1115132
 	buildings_max_level_factor=1.000
-	state_category=town 
+	state_category=town
 }

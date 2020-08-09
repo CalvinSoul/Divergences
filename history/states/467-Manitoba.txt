@@ -8,14 +8,19 @@ state={
 		add_core_of = VIN
 		buildings = {
 			infrastructure = 5
+
 		}
-		victory_points = { 4872 5 }
-		victory_points = { 3721 5 }
+		victory_points = {
+			4872 5 
+		}
+		victory_points = {
+			3721 5 
+		}
 
 	}
 
 	provinces={
-		3481 3721 4218 4872 5119 10656 12593 12636 12663 12688 13163 
+		3481 3721 4218 4790 4872 5119 7782 10656 12145 12593 12636 12663 12682 12688 13163 
 	}
 	manpower=344752
 	buildings_max_level_factor=1.000

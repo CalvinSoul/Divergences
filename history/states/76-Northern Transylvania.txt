@@ -9,9 +9,10 @@ state={
 		add_core_of = ROM
 		buildings = {
 			infrastructure = 5
+
 		}
 		victory_points = {
-			6711 30
+			6711 30 
 		}
 		victory_points = {
 			9672 5 
@@ -19,10 +20,11 @@ state={
 		victory_points = {
 			11622 5 
 		}
+
 	}
 
 	provinces={
-		693 727 3694 6711 6714 6731 9672 9685 9704 11622 11676 
+		693 727 3694 6711 6714 6731 9672 9685 11622 
 	}
 	manpower=1368410
 	buildings_max_level_factor=1.000

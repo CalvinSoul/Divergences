@@ -10,15 +10,21 @@ state={
 		add_claim_by = SEP
 		buildings = {
 			infrastructure = 5
+
 		}
-		victory_points = { 4287 5 }
-		victory_points = { 1619 5 }
+		victory_points = {
+			4287 5 
+		}
+		victory_points = {
+			1619 5 
+		}
+
 	}
 
 	provinces={
-		1282 1338 1619 4287 4342 10247 12221 
+		1282 1338 1619 4287 4342 10247 10318 12459 
 	}
-	state_category = town
 	manpower=755269
 	buildings_max_level_factor=1.000
+	state_category=town
 }

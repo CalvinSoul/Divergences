@@ -1,12 +1,8 @@
+
 state={
 	id=830
 	name="STATE_830"
-	provinces={
-		4741 4857 4860 12572 12585 
-	}
-	state_category = pastoral 
-	manpower=74506
-	buildings_max_level_factor=1.000
+
 	history={
 		owner = QIN
 		add_core_of = QIN
@@ -16,7 +12,15 @@ state={
 
 		}
 		victory_points = {
-			4860 5
+			4860 5 
 		}
+
 	}
+
+	provinces={
+		1851 4741 4857 4860 12572 12585 
+	}
+	manpower=74506
+	buildings_max_level_factor=1.000
+	state_category=pastoral
 }

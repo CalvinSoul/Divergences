@@ -8,21 +8,22 @@ state={
 		add_core_of = LUS
 		buildings = {
 			infrastructure = 5
+
 		}
 		victory_points = {
-			4975 5
+			4975 5 
 		}
 		victory_points = {
-			12791 5
+			12791 5 
 		}
 		victory_points = {
-			10894 5
+			10894 5 
 		}
 
 	}
 
 	provinces={
-		1954 3867 3883 4975 5038 8070 10740 10894 12791 
+		1954 1972 3867 3883 4975 5038 8070 10740 10894 10914 12684 
 	}
 	manpower=498753
 	buildings_max_level_factor=1.000

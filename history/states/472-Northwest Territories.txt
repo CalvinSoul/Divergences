@@ -8,12 +8,13 @@ state={
 		add_core_of = VIN
 		buildings = {
 			infrastructure = 5
+
 		}
+
 	}
-	impassable = yes
 
 	provinces={
-		2407 4272 7696 7830 7858 8653 10527 13075 13192 
+		2407 4272 7696 7830 7901 8653 10527 10703 13075 13192 
 	}
 	manpower=19960
 	buildings_max_level_factor=1.000

@@ -8,10 +8,10 @@ From;To;Type;Through;start_x;start_y;stop_x;stop_y;adjacency_rule_name;Comment
 5388;803;sea;1155;-1;-1;-1;-1;SUEZ_CANAL;Suez
 299;211;sea;2282;-1;-1;-1;-1;;Småland-Öland
 6345;6287;sea;2382;-1;-1;-1;-1;;Skåne-Sjaelland
-3260;3325;;2408;-1;-1;-1;-1;;Sjaelland-Fyn
-3260;3374;;2408;-1;-1;2973;1625;;Sjaelland-SdFyn
-3277;3325;;2408;-1;-1;-1;-1;;Fyn-Jylland
-11251;3325;;2408;2956;1628;2960;1629;;Fyn-SdrJylland
+3260;3325;;2408;-1;-1;-1;-1;;Sjaelland-Fyn#Changed
+3260;3374;;2408;-1;-1;-1;-1;;Sjaelland-SdFyn#Changed
+3277;3325;;2408;-1;-1;-1;-1;;Fyn-Jylland#Changed
+11251;3325;;2408;-1;-1;-1;-1;;Fyn-SdrJylland#Changed
 83;185;sea;1885;-1;-1;-1;-1;;Estonia-Ösel
 185;6201;sea;1885;-1;-1;-1;-1;;Ösel-Dagö
 83;6201;sea;1660;-1;-1;-1;-1;;Dagö-Estonia
@@ -62,23 +62,23 @@ From;To;Type;Through;start_x;start_y;stop_x;stop_y;adjacency_rule_name;Comment
 11985;1025;sea;7932;-1;-1;-1;-1;;Japan-Kyushu
 4094;7212;sea;8791;-1;-1;-1;-1;;Shikoku-Chugoku
 9965;7072;sea;8791;-1;-1;-1;-1;;Shikoku-Kansai
-1399;1515;sea;220;-1;-1;-1;-1;;Kurils 1
+1399;1515;sea;8893;-1;-1;-1;-1;;Kurils 1#changed
 1515;13037;sea;5614;-1;-1;-1;-1;;Kurils 2
 13037;4646;sea;4465;-1;-1;-1;-1;;Kurils-Hokkaido
 9952;1117;sea;2658;-1;-1;-1;-1;;Niigata-Sado
 10092;7046;sea;8791;-1;-1;-1;-1;;Kyushu-Shikoku
 4198;12032;sea;8472;-1;-1;-1;-1;;Kanoya-Yokushima
 11948;1177;sea;2708;-1;-1;-1;-1;;Jeju-Korea
-10124;1123;sea;8499;-1;-1;-1;-1;;Okinawa 1
-1123;7115;sea;8318;-1;-1;-1;-1;;Okinawa 2
+11932;1123;sea;8525;-1;-1;-1;-1;;Okinawa 1#Modified
+10124;7115;sea;8499;-1;-1;-1;-1;;Okinawa 2#Modified
 3995;13024;sea;2855;-1;-1;-1;-1;;Saipan-Tinian
-1135;13090;sea;6471;-1;-1;-1;-1;;Amlia-Unalaska
+1135;13090;sea;2700;-1;-1;-1;-1;;Amlia-Unalaska
 13090;10694;sea;6064;-1;-1;-1;-1;;Unalaska-Unimak
-10048;7195;sea;8384;-1;-1;-1;-1;;Hawaii-Maui
-7195;4180;sea;8410;-1;-1;-1;-1;;Maui-Honolulu
-4180;7112;sea;5339;-1;-1;-1;-1;;Honolulu-Kauai
-12148;10188;sea;8660;-1;-1;-1;-1;;Tahiti-Raiatea
-7290;13080;sea;9081;-1;-1;-1;-1;;Samoan Islands
+10048;7195;sea;5339;-1;-1;-1;-1;;Hawaii-Maui#changed
+7195;4180;sea;5339;-1;-1;-1;-1;;Maui-Honolulu#changed
+4180;7112;sea;5339;-1;-1;-1;-1;;Honolulu-Kauai#changed
+12148;10188;sea;2352;-1;-1;-1;-1;;Tahiti-Raiatea#changed
+7290;13080;sea;9081;-1;-1;-1;-1;;Samoan Islands#changed
 4286;12159;sea;8289;-1;-1;-1;-1;;Fiji-Sanua Levu
 13055;13056;sea;8419;-1;-1;-1;-1;;Nukufetau-Funafuti
 13056;13057;sea;8419;-1;-1;-1;-1;;Funafuti-Nukulaelae
@@ -112,9 +112,9 @@ From;To;Type;Through;start_x;start_y;stop_x;stop_y;adjacency_rule_name;Comment
 9833;11829;sea;5412;-1;-1;-1;-1;;Bosphorus
 9680;6741;sea;8282;-1;-1;-1;-1;;Kerch Strait
 9859;3962;sea;5946;-1;-1;-1;-1;;Tsugaru Strait
-10011;7110;sea;2708;4825;1219;-1;-1;;Tushima-Kyushu
+10011;7110;sea;2708;-1;-1;-1;-1;;Tushima-Kyushu#Changed
 4160;1070;sea;5244;-1;-1;-1;-1;;Hainan-Strait
-1712;12147;sea;8978;-1;-1;-1;-1;;Quebec-Strait
+3691;12147;sea;8978;-1;-1;-1;-1;;Quebec-Strait
 3691;7813;sea;6261;-1;-1;-1;-1;;Cold Ass-Strait
 7259;1393;sea;5257;-1;-1;-1;-1;;Vancouver-Strait
 11047;198;sea;8370;-1;-1;-1;-1;;Barents-Strait
@@ -125,25 +125,30 @@ From;To;Type;Through;start_x;start_y;stop_x;stop_y;adjacency_rule_name;Comment
 6062;6205;sea;3590;-1;-1;-1;-1;;West Scottish-Strait
 8435;6550;sea;7452;-1;-1;-1;-1;;Aegan Isle-Strait
 7304;4360;sea;8614;-1;-1;-1;-1;;New Foundland-Strait
+3422;6449;sea;2871;-1;-1;-1;-1;;Channel islands#Added
+1091;12068;sea;5322;-1;-1;-1;-1;;Hoko#Added
+7145;1167;sea;2684;-1;-1;-1;-1;;Oki Islands#Added
 5407;5382;;-1;-1;-1;-1;-1;GIBRALTAR_STRAIT;Gibraltar North
 5407;2400;;-1;-1;-1;-1;-1;GIBRALTAR_STRAIT;Gibraltar South
 2455;2506;;-1;-1;-1;-1;-1;DANISH_BELTS_STRAIT;Øresund
 5412;7678;;-1;-1;-1;-1;-1;BOSPHORUS_STRAIT;Bosphorus
-10825;1991;impassable;-1;-1;-1;-1;-1;;Himalayas
 10825;8029;impassable;-1;-1;-1;-1;-1;;Himalayas
-10910;1991;impassable;-1;-1;-1;-1;-1;;Himalayas
 10910;12807;impassable;-1;-1;-1;-1;-1;;Himalayas
 12730;2098;impassable;-1;-1;-1;-1;-1;;Himalayas
 12730;5018;impassable;-1;-1;-1;-1;-1;;Himalayas
 10810;5018;impassable;-1;-1;-1;-1;-1;;Himalayas
 1996;5018;impassable;-1;-1;-1;-1;-1;;Himalayas
 1996;8041;impassable;-1;-1;-1;-1;-1;;Himalayas
+10810;8041;impassable;-1;-1;-1;-1;-1;;Himalayas
 1996;5102;impassable;-1;-1;-1;-1;-1;;Himalayas
 4318;5102;impassable;-1;-1;-1;-1;-1;;Himalayas
 1898;8029;impassable;-1;-1;-1;-1;-1;;Himalayas
 1898;1961;impassable;-1;-1;-1;-1;-1;;Himalayas
 3989;1961;impassable;-1;-1;-1;-1;-1;;Himalayas
 1129;1961;impassable;-1;-1;-1;-1;-1;;Himalayas
+7374;8029;impassable;-1;-1;-1;-1;-1;;Himalayas#nmmp
+12784;10825;impassable;-1;-1;-1;-1;-1;;Himalayas#nmmp
+12784;10910;impassable;-1;-1;-1;-1;-1;;Himalayas#nmmp
 4558;10826;impassable;-1;-1;-1;-1;-1;;peshawar mountains
 4558;12653;impassable;-1;-1;-1;-1;-1;;peshawar mountains
 4558;7519;impassable;-1;-1;-1;-1;-1;;peshawar mountains
@@ -159,6 +164,7 @@ From;To;Type;Through;start_x;start_y;stop_x;stop_y;adjacency_rule_name;Comment
 8044;5064;impassable;-1;-1;-1;-1;-1;;peshawar mountains
 12805;7519;impassable;-1;-1;-1;-1;-1;;stalinabad mountains
 12805;5087;impassable;-1;-1;-1;-1;-1;;stalinabad mountains
+4923;5087;impassable;-1;-1;-1;-1;-1;;stalinabad mountains#nmmp
 12805;1766;impassable;-1;-1;-1;-1;-1;;stalinabad mountains
 10417;7519;impassable;-1;-1;-1;-1;-1;;stalinabad mountains
 10417;12653;impassable;-1;-1;-1;-1;-1;;stalinabad mountains
@@ -169,54 +175,12 @@ From;To;Type;Through;start_x;start_y;stop_x;stop_y;adjacency_rule_name;Comment
 12370;1766;impassable;-1;-1;-1;-1;-1;;pamir mountains
 12370;12119;impassable;-1;-1;-1;-1;-1;;pamir mountains
 5062;12119;impassable;-1;-1;-1;-1;-1;;pamir mountains
+4923;1766;impassable;-1;-1;-1;-1;-1;;pamir mountains#nmmp
+5062;1766;impassable;-1;-1;-1;-1;-1;;pamir mountains#nmmp
+1703;4768;impassable;-1;-1;-1;-1;-1;;pamir mountains#nmmp
 5062;4828;impassable;-1;-1;-1;-1;-1;;pamir mountains
 4768;4828;impassable;-1;-1;-1;-1;-1;;pamir mountains
 4391;4828;impassable;-1;-1;-1;-1;-1;;pamir mountains
 4391;1703;impassable;-1;-1;-1;-1;-1;;pamir mountains
 4391;12526;impassable;-1;-1;-1;-1;-1;;pamir mountains
-3314;6336;sea;2752;2885;1578;2890;1581;;Afsluitdijk
-7570;8235;impassable;-1;-1;-1;-1;-1;;new guinea mountains
-10990;8250;impassable;-1;-1;-1;-1;-1;;new guinea mountains
-7570;8250;impassable;-1;-1;-1;-1;-1;;new guinea mountains
-2129;11018;impassable;-1;-1;-1;-1;-1;;new guinea mountains
-11018;10954;impassable;-1;-1;-1;-1;-1;;new guinea mountains
-12428;10954;impassable;-1;-1;-1;-1;-1;;new guinea mountains
-8161;5118;impassable;-1;-1;-1;-1;-1;;chile mountains
-8161;5169;impassable;-1;-1;-1;-1;-1;;chile mountains
-5169;2199;impassable;-1;-1;-1;-1;-1;;chile mountains
-8192;8251;impassable;-1;-1;-1;-1;-1;;chile mountains
-8251;2215;impassable;-1;-1;-1;-1;-1;;chile mountains
-2215;8229;impassable;-1;-1;-1;-1;-1;;chile mountains
-650;10992;impassable;-1;-1;-1;-1;-1;;chile mountains
-12928;8194;impassable;-1;-1;-1;-1;-1;;chile mountains
-12914;12928;impassable;-1;-1;-1;-1;-1;;chile mountains
-12928;5192;impassable;-1;-1;-1;-1;-1;;chile mountains
-8253;5192;impassable;-1;-1;-1;-1;-1;;chile mountains
-5192;8195;impassable;-1;-1;-1;-1;-1;;chile mountains
-5171;8195;impassable;-1;-1;-1;-1;-1;;chile mountains
-8229;10992;impassable;-1;-1;-1;-1;-1;;chile mountains
-11838;9884;impassable;-1;-1;-1;-1;-1;;pyranees mountains
-9884;915;impassable;-1;-1;-1;-1;-1;;pyranees mountains
-9882;915;impassable;-1;-1;-1;-1;-1;;pyranees mountains
-9882;899;impassable;-1;-1;-1;-1;-1;;pyranees mountains
-3898;897;impassable;-1;-1;-1;-1;-1;;pyranees mountains
-3898;6865;impassable;-1;-1;-1;-1;-1;;pyranees mountains
-3898;11779;impassable;-1;-1;-1;-1;-1;;pyranees mountains
-6635;3641;impassable;-1;-1;-1;-1;-1;;alpes
-3612;611;impassable;-1;-1;-1;-1;-1;;alpes
-3612;11570;impassable;-1;-1;-1;-1;-1;;alpes
-9587;11570;impassable;-1;-1;-1;-1;-1;;alpes
-11604;636;impassable;-1;-1;-1;-1;-1;;alpes
-9620;9618;impassable;-1;-1;-1;-1;-1;;alpes
-3662;6661;impassable;-1;-1;-1;-1;-1;;alpes
-3662;11587;impassable;-1;-1;-1;-1;-1;;alpes
-3660;11587;impassable;-1;-1;-1;-1;-1;;alpes
-11587;6675;impassable;-1;-1;-1;-1;-1;;alpes
-6680;3660;impassable;-1;-1;-1;-1;-1;;alpes
-6678;3660;impassable;-1;-1;-1;-1;-1;;alpes
-6673;3657;impassable;-1;-1;-1;-1;-1;;alpes
-6673;9613;impassable;-1;-1;-1;-1;-1;;alpes
-9618;11604;impassable;-1;-1;-1;-1;-1;;alpes
-6673;11595;impassable;-1;-1;-1;-1;-1;;alpes
-
 -1;-1;;-1;-1;-1;-1;-1;-1

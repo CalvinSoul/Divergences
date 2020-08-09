@@ -8,19 +8,21 @@ state={
 		add_core_of = EGY
 		buildings = {
 			infrastructure = 5
+
 		}
 		victory_points = {
-			10099 5
+			10099 5 
 		}
 		victory_points = {
-			4161 5
+			4161 5 
 		}
+
 	}
 
 	provinces={
-		1112 4161 10002 10099 11922 11979 12073 
+		1112 1155 4161 10002 10099 11922 11979 12073 
 	}
 	manpower=114219
 	buildings_max_level_factor=1.000
-	state_category=pastoral 
+	state_category=pastoral
 }

@@ -8,14 +8,18 @@ state={
 		add_core_of = VIN
 		buildings = {
 			infrastructure = 5
+
 		}
-		victory_points = { 7877 5 }
+		victory_points = {
+			7877 5 
+		}
+
 	}
 
 	provinces={
-		1752 1767 1836 4772 6722 7877 7880 10685 10706 12566 
+		1767 1836 4772 6722 7877 7880 10685 10706 12566 
 	}
-	state_category = rural
 	manpower=137499
 	buildings_max_level_factor=1.000
+	state_category=rural
 }

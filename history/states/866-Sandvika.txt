@@ -1,19 +1,26 @@
+
 state={
 	id=866
 	name="STATE_866"
-	provinces={
-		602 777 6510 7366 9467 9480 10718 12278 12582 
-	}
-	state_category = pastoral 
-	manpower=79838
-	buildings_max_level_factor=1.000
+
 	history={
 		owner = VIN
 		add_core_of = VIN
 		add_core_of = ADA
 		buildings = {
 			infrastructure = 5
+
 		}
-		victory_points = { 777 5 }
+		victory_points = {
+			777 5 
+		}
+
 	}
+
+	provinces={
+		602 777 1299 1782 4869 6510 7366 9467 9480 10718 12278 12582 
+	}
+	manpower=79838
+	buildings_max_level_factor=1.000
+	state_category=pastoral
 }

@@ -12,11 +12,12 @@ state={
 		}
 
 	}
-	impassable = yes
+
 	provinces={
-		1080 1977 4068 4910 5069 7156 9957 10126 12002 12889 
+		1080 1977 4068 4910 5069 7156 9957 10126 10745 10902 12002 12889 
 	}
 	manpower=194350
 	buildings_max_level_factor=1.000
 	state_category=wasteland
+       impassable = yes
 }

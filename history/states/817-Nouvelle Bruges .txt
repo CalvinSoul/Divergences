@@ -7,6 +7,7 @@ state={
 		owner = SEP
 		buildings = {
 			infrastructure = 5
+
 		}
 		add_core_of = SEP
 		victory_points = {
@@ -18,12 +19,13 @@ state={
 		victory_points = {
 			4445 25 
 		}
+
 	}
 
 	provinces={
-		718 908 3806 4445 7629 9675 10381 11665 13158 
+		908 3806 4445 7629 9675 10381 11665 13158 
 	}
-	state_category = city 
 	manpower=2399711
 	buildings_max_level_factor=1.000
+	state_category=city
 }

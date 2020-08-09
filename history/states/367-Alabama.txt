@@ -10,23 +10,27 @@ state={
 			infrastructure = 5
 			industrial_complex = 3
 			10520 = {
-				naval_base = 5 #Deepwater Port
+				naval_base = 5
+
 			}
+
 		}
 		victory_points = {
-			10380 25
+			10380 25 
 		}
 		victory_points = {
-			10520 5
+			10520 5 
 		}
 		victory_points = {
-			860 5
+			860 5 
 		}
+
 	}
+
 	provinces={
-		492 860 4594 7640 9996 10352 10380 10520 11509 11942 
+		492 860 4594 7422 7640 10352 10380 10520 11509 11942 
 	}
 	manpower=1777794
 	buildings_max_level_factor=1.000
-	state_category=town 
+	state_category=town
 }

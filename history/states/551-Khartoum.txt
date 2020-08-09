@@ -8,22 +8,24 @@ state={
 		add_core_of = EGY
 		buildings = {
 			infrastructure = 5
+
 		}
 		victory_points = {
-			12836 5
+			12836 5 
 		}
 		victory_points = {
-			2046 5
+			2046 5 
 		}
 		victory_points = {
-			12725 5
+			12725 5 
 		}
+
 	}
 
 	provinces={
-		2003 2046 4138 4963 7989 8105 10745 10902 12725 12796 12836 
+		2003 2046 4963 7989 8105 12725 12796 
 	}
 	manpower=1366906
 	buildings_max_level_factor=1.000
-	state_category=town 
+	state_category=town
 }

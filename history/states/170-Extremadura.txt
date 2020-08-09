@@ -8,19 +8,21 @@ state={
 		add_core_of = SPA
 		buildings = {
 			infrastructure = 5
+
 		}
 		victory_points = {
-			6866 5
+			6866 5 
 		}
 		victory_points = {
-			931 5
+			931 5 
 		}
+
 	}
 
 	provinces={
-		931 985 6866 6902 9839 9877 9917 9925 11780 
+		931 985 6866 6902 9839 9877 9917 9925 11780 13230 
 	}
 	manpower=765810
 	buildings_max_level_factor=1.000
-	state_category=town 
+	state_category=town
 }

@@ -8,16 +8,18 @@ state={
 		add_core_of = SEP
 		buildings = {
 			infrastructure = 5
+
 		}
 		victory_points = {
 			6872 5 
 		}
+
 	}
 
 	provinces={
-		702 847 862 880 3697 3850 3880 6872 6885 6899 9804 9836 11817 12405 
+		702 847 880 3697 3850 3880 6872 6885 6899 9804 9836 11817 12405 
 	}
 	manpower=586151
 	buildings_max_level_factor=1.000
-	state_category=rural 
+	state_category=rural
 }

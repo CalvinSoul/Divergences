@@ -95,7 +95,7 @@ on_daily = {
       set_variable = {
         var = economic_growth_level_display
         value = economic_growth_level
-      }
+      } 
       divide_variable = {
          economic_growth_level_display = 100
        }

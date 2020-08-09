@@ -8,13 +8,15 @@ state={
 		add_core_of = VIN
 		buildings = {
 			infrastructure = 5
+
 		}
+
 	}
 
 	provinces={
-		1788 1848 1870 3719 3769 4759 4790 4863 7883 10611 10709 12145 12603 12685 
+		1752 1788 1848 1870 3719 3769 4759 4863 7883 10611 10709 12603 12685 
 	}
 	manpower=93145
 	buildings_max_level_factor=1.000
-	state_category=pastoral 
+	state_category=pastoral
 }

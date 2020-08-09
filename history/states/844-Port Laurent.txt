@@ -1,19 +1,26 @@
+
 state={
 	id=844
 	name="STATE_844"
-	provinces={
-		3687 6705 6707 9662 11648 11800 
-	}
-	state_category = rural 
-	manpower=485771
-	buildings_max_level_factor=1.000
+
 	history={
 		owner = VIN
 		add_core_of = SEP
 		add_core_of = IRI
 		buildings = {
 			infrastructure = 5
+
 		}
-		victory_points = { 3687 5 }
+		victory_points = {
+			3687 5 
+		}
+
 	}
+
+	provinces={
+		3687 6705 6707 9662 11648 
+	}
+	manpower=485771
+	buildings_max_level_factor=1.000
+	state_category=rural
 }

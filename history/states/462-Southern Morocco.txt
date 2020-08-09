@@ -8,26 +8,27 @@ state={
 		add_core_of = MGH
 		buildings = {
 			infrastructure = 5
+
 		}
 		victory_points = {
-			1102 5
+			1102 5 
 		}
 		victory_points = {
-			7203 5
+			7203 5 
 		}
 		victory_points = {
-			12857 5
+			12857 5 
 		}
 		victory_points = {
-			10107 5
+			10107 5 
 		}
 
 	}
 
 	provinces={
-		1102 1152 1207 1958 1989 4022 4108 4920 5046 7203 8038 8046 8111 10107 12857 
+		1102 1152 1207 1989 4022 4108 4920 5046 7203 8038 8046 8111 10107 12857 
 	}
 	manpower=748845
 	buildings_max_level_factor=1.000
-	state_category=rural 
+	state_category=rural
 }

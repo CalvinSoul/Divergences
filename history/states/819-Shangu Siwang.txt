@@ -7,18 +7,20 @@ state={
 		owner = QIN
 		buildings = {
 			infrastructure = 5
+
 		}
 		add_core_of = QIN
 		add_core_of = QYO
 		victory_points = {
-			986 25
+			986 25 
 		}
+
 	}
 
 	provinces={
-		986 3784 3840 4518 6861 6881 9637 9911 11876 
+		941 986 3784 3840 4518 6861 6876 6881 9637 9911 11763 11876 
 	}
-	state_category = large_city 
 	manpower=2377042
 	buildings_max_level_factor=1.000
+	state_category=large_city
 }

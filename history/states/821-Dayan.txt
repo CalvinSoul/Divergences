@@ -1,26 +1,32 @@
+
 state={
 	id=821
 	name="STATE_821"
-	provinces={
-		710 766 1432 1601 4521 4607 4736 7827 10159 10422 11698 12399 
-	}
-	state_category = town 
-	manpower=1305342
-	buildings_max_level_factor=1.000
-		history={
+
+	history={
 		owner = QIN
 		add_core_of = QIN
 		add_core_of = QDA
 		buildings = {
 			infrastructure = 5
+
 		}
 		victory_points = {
-			710 5
+			710 5 
 		}
 		victory_points = {
-			4736 5
+			4736 5 
 		}
 		victory_points = {
-			4521 5
+			4521 5 
 		}
+
+	}
+
+	provinces={
+		710 1432 1601 1862 4521 4607 4736 7827 10159 10422 11698 12134 12399 
+	}
+	manpower=1305342
+	buildings_max_level_factor=1.000
+	state_category=town
 }

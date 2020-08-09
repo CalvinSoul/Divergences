@@ -1,12 +1,8 @@
+
 state={
 	id=858
 	name="STATE_858"
-	provinces={
-		505 3471 3644 6482 6665 10151 11495 11733 
-	}
-	state_category = rural
-	manpower=633299
-	buildings_max_level_factor=1.000
+
 	history={
 		owner = QIN
 		add_core_of = QIN
@@ -14,11 +10,21 @@ state={
 		buildings = {
 			infrastructure = 5
 			11495 = {
-				naval_base = 5 #Deepwater Port
+				naval_base = 5
+
 			}
+
 		}
 		victory_points = {
-			11733 5
+			11733 5 
 		}
+
 	}
+
+	provinces={
+		505 3471 3644 4331 4347 6482 6665 10151 11733 
+	}
+	manpower=633299
+	buildings_max_level_factor=1.000
+	state_category=rural
 }
